@@ -93,11 +93,14 @@
       <a href="#apie">Apie</a>
       <a class="btn" href="#kontaktai">Susisiekti</a>
     </nav>
-    <div class="langs in-nav" role="group" aria-label="Kalba">
-      <a href="/" hreflang="lt" lang="lt" title="Lietuvių" class="is-current" aria-current="page">LT</a>
-      <a href="/en/" hreflang="en" lang="en" title="English">EN</a>
-      <a href="/it/" hreflang="it" lang="it" title="Italiano">IT</a>
-    </div>
+    <details class="lang-menu">
+      <summary aria-label="Kalba: Lietuvių">LT<svg viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4"/></svg></summary>
+      <div class="lang-list" role="group" aria-label="Kalba">
+        <a href="/" hreflang="lt" lang="lt" class="is-current" aria-current="page"><b>LT</b>Lietuvių</a>
+        <a href="/en/" hreflang="en" lang="en"><b>EN</b>English</a>
+        <a href="/it/" hreflang="it" lang="it"><b>IT</b>Italiano</a>
+      </div>
+    </details>
     <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Meniu">
       <span></span><span></span><span></span>
     </button>

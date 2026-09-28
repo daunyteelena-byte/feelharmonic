@@ -59,6 +59,20 @@ var CONFIG = {
     });
   }
 
+  /* ---------- kalbų sąrašas antraštėje: užsidaro spustelėjus šalia ar Escape ---------- */
+  var langMenu = document.querySelector(".lang-menu");
+  if (langMenu) {
+    document.addEventListener("click", function (e) {
+      if (langMenu.open && !langMenu.contains(e.target)) langMenu.open = false;
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && langMenu.open) {
+        langMenu.open = false;
+        langMenu.querySelector("summary").focus();
+      }
+    });
+  }
+
   /* ---------- navigacijos būsena slenkant ---------- */
   var nav = document.getElementById("nav");
   if (nav) {

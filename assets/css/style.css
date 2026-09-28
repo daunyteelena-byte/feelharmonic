@@ -451,6 +451,34 @@ footer li{margin-bottom:7px}
   .langs.in-nav a{padding:6px 5px;font-size:11px;letter-spacing:.06em}
 }
 
+/* antraštėje — išskleidžiamas sąrašas: matosi tik esama kalba */
+.lang-menu{position:relative;flex:none;margin-left:4px}
+@media(min-width:1020px){.lang-menu{margin-left:10px}}
+.lang-menu summary{
+  list-style:none;cursor:pointer;display:flex;align-items:center;gap:7px;
+  font-family:var(--sans);font-size:12px;letter-spacing:.14em;text-transform:uppercase;
+  padding:6px 9px;line-height:1;color:var(--gold-lt);
+  border:1px solid rgba(206,142,52,.45);transition:border-color .2s ease;
+}
+.lang-menu summary::-webkit-details-marker{display:none}
+.lang-menu summary:hover,.lang-menu[open] summary{border-color:var(--gold)}
+.lang-menu summary svg{width:9px;height:6px;fill:none;stroke:currentColor;stroke-width:1.4;transition:transform .2s ease}
+.lang-menu[open] summary svg{transform:rotate(180deg)}
+.lang-list{
+  position:absolute;right:0;top:calc(100% + 8px);min-width:150px;z-index:50;
+  background:var(--teal);border:1px solid rgba(206,142,52,.35);
+  box-shadow:0 12px 30px rgba(0,0,0,.28);padding:6px 0;
+}
+.lang-list a{
+  display:flex;gap:12px;align-items:baseline;padding:9px 16px;
+  font-family:var(--sans);font-size:14px;text-decoration:none;color:rgba(255,255,255,.82);
+}
+.lang-list a b{font-weight:400;font-size:11px;letter-spacing:.14em;color:rgba(255,255,255,.5);width:20px}
+.lang-list a:hover{color:var(--gold-lt);background:rgba(255,255,255,.05)}
+.lang-list a.is-current{color:var(--gold-lt)}
+.lang-list a.is-current b{color:var(--gold-lt)}
+@media(max-width:620px){.lang-menu{margin-left:0}.lang-menu summary{padding:6px 7px;font-size:11px;letter-spacing:.06em}}
+
 .langs.in-footer{margin-top:4px;padding-left:0}
 .langs.in-footer a{padding-left:0;padding-right:14px}
 .langs.in-footer a.is-current{border-color:transparent;text-decoration:underline;text-underline-offset:4px}

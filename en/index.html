@@ -93,11 +93,14 @@
       <a href="#apie">About</a>
       <a class="btn" href="#kontaktai">Get in touch</a>
     </nav>
-    <div class="langs in-nav" role="group" aria-label="Language">
-      <a href="/" hreflang="lt" lang="lt" title="Lietuvių">LT</a>
-      <a href="/en/" hreflang="en" lang="en" title="English" class="is-current" aria-current="page">EN</a>
-      <a href="/it/" hreflang="it" lang="it" title="Italiano">IT</a>
-    </div>
+    <details class="lang-menu">
+      <summary aria-label="Language: English">EN<svg viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4"/></svg></summary>
+      <div class="lang-list" role="group" aria-label="Language">
+        <a href="/" hreflang="lt" lang="lt"><b>LT</b>Lietuvių</a>
+        <a href="/en/" hreflang="en" lang="en" class="is-current" aria-current="page"><b>EN</b>English</a>
+        <a href="/it/" hreflang="it" lang="it"><b>IT</b>Italiano</a>
+      </div>
+    </details>
     <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Menu">
       <span></span><span></span><span></span>
     </button>

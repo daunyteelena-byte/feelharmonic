@@ -114,6 +114,21 @@ def langbar(lang, cls, aria):
     return "\n    ".join(out)
 
 
+def langmenu(lang, aria):
+    """Antrastes kalbu pasirinkimas: rodoma tik esama kalba, kitos -- paspaudus."""
+    out = ['<details class="lang-menu">',
+           '  <summary aria-label="%s: %s">%s<svg viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4"/></svg></summary>'
+           % (attr(aria), attr(LANG_NAME[lang]), LANG_SHORT[lang]),
+           '  <div class="lang-list" role="group" aria-label="%s">' % attr(aria)]
+    for code in LANGS:
+        cur = ' class="is-current" aria-current="page"' if code == lang else ""
+        out.append('    <a href="%s" hreflang="%s" lang="%s"%s><b>%s</b>%s</a>'
+                   % (HREF[code], code, code, cur, LANG_SHORT[code], LANG_NAME[code]))
+    out.append("  </div>")
+    out.append("</details>")
+    return "\n    ".join(out)
+
+
 def head(lang, c):
     b = BASE[lang]
     m = c["meta"]
@@ -188,7 +203,7 @@ def header(lang, c):
 """ % {"skip": c["skip"], "mark": MARK, "nav": nav, "mob": mob, "cta": c["navCta"],
        "navaria": attr(c["navAria"]), "mobaria": attr(c["menuAria"]),
        "menuaria": attr(c["menuBtnAria"]),
-       "langs": langbar(lang, "in-nav", c["langAria"]),
+       "langs": langmenu(lang, c["langAria"]),
        "langsmob": langbar(lang, "in-mobile", c["langAria"])}
 
 
