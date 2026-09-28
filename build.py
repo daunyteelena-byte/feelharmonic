@@ -43,24 +43,46 @@ EMAIL = "info@feelharmonic.lt"
 MOTTO = '<p class="motto reveal">Let it come!</p>'
 
 MARK = """<svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <symbol id="mark" viewBox="0 0 100 100">
+<symbol id="mark" viewBox="0 0 100 100">
     <g class="mark">
-      <g class="ray">
-        <line x1="50" y1="2"  x2="50" y2="98"/>
-        <line x1="12" y1="50" x2="88" y2="50"/>
-        <line x1="24" y1="24" x2="76" y2="76"/>
-        <line x1="76" y1="24" x2="24" y2="76"/>
-        <line x1="34" y1="14" x2="66" y2="86"/>
-        <line x1="66" y1="14" x2="34" y2="86"/>
-        <line x1="16" y1="34" x2="84" y2="66"/>
-        <line x1="84" y1="34" x2="16" y2="66"/>
+      <g class="beam">
+        <polygon points="50.95,45.80 50.00,0.00 49.05,45.80"/>
+        <polygon points="49.05,54.20 50.00,100.00 50.95,54.20"/>
+        <polygon points="54.20,50.95 91.00,50.00 54.20,49.05"/>
+        <polygon points="45.80,49.05 9.00,50.00 45.80,50.95"/>
+        <polygon points="53.64,47.70 81.82,18.18 52.30,46.36"/>
+        <polygon points="52.30,53.64 81.82,81.82 53.64,52.30"/>
+        <polygon points="46.36,52.30 18.18,81.82 47.70,53.64"/>
+        <polygon points="47.70,46.36 18.18,18.18 46.36,47.70"/>
+        <polygon points="52.48,46.48 63.78,16.74 50.73,45.76"/>
+        <polygon points="50.73,54.24 63.78,83.26 52.48,53.52"/>
+        <polygon points="47.52,53.52 36.22,83.26 49.27,54.24"/>
+        <polygon points="49.27,45.76 36.22,16.74 47.52,46.48"/>
+        <polygon points="54.24,49.27 85.11,35.46 53.52,47.52"/>
+        <polygon points="53.52,52.48 85.11,64.54 54.24,50.73"/>
+        <polygon points="45.76,50.73 14.89,64.54 46.48,52.48"/>
+        <polygon points="46.48,47.52 14.89,35.46 45.76,49.27"/>
       </g>
       <path class="tri" d="M50 22 L76 74 L24 74 Z"/>
+      <circle class="dot" cx="50" cy="50" r="6.6"/>
+      <circle class="dot" cx="34" cy="20" r="3.0"/>
+      <circle class="dot" cx="58" cy="17" r="1.0"/>
+      <circle class="dot" cx="20" cy="33" r="1.8"/>
+      <circle class="dot" cx="74" cy="35" r="1.3"/>
+      <circle class="dot" cx="76" cy="63" r="2.2"/>
+      <circle class="dot" cx="53" cy="79" r="2.6"/>
+    </g>
+  </symbol>
+<symbol id="mark-sm" viewBox="0 0 100 100">
+    <g class="mark-sm">
+      <g class="ray">
+        <line x1="50" y1="8"  x2="50" y2="92"/>
+        <line x1="16" y1="50" x2="84" y2="50"/>
+        <line x1="26" y1="26" x2="74" y2="74"/>
+        <line x1="74" y1="26" x2="26" y2="74"/>
+      </g>
+      <path class="tri" d="M50 26 L74 72 L26 72 Z"/>
       <circle class="dot" cx="50" cy="50" r="6.4"/>
-      <circle class="dot" cx="34" cy="22" r="2.6"/>
-      <circle class="dot" cx="72" cy="34" r="1.8"/>
-      <circle class="dot" cx="70" cy="70" r="2.4"/>
-      <circle class="dot" cx="26" cy="60" r="1.6"/>
     </g>
   </symbol>
 </svg>"""
@@ -143,7 +165,7 @@ def header(lang, c):
 <header id="nav">
   <div class="in">
     <a class="brand" href="#top">
-      <svg><use href="#mark"/></svg>
+      <svg><use href="#mark-sm"/></svg>
       <b>FeelHarmonic</b>
     </a>
     <nav class="main" aria-label="%(navaria)s">
@@ -740,7 +762,7 @@ def footer(lang, c):
     <div class="cols">
       <div>
         <div class="fbrand">
-          <svg aria-hidden="true"><use href="#mark"/></svg>
+          <svg aria-hidden="true"><use href="#mark-sm"/></svg>
           <div><b>FeelHarmonic</b><span class="tg">Let it come!</span></div>
         </div>
         <p style="max-width:34ch;margin:0 0 18px">%(about)s</p>
