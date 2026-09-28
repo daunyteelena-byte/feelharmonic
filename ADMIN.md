@@ -4,7 +4,7 @@
 naršyklėje, GitHub svetainėje. Kompiuteryje nieko diegti nereikia.
 
 Puslapis: **https://www.feelharmonic.lt/**
-Kodas: **https://github.com/tomlebedev-cloud/feelharmonic**
+Kodas: **https://github.com/daunyteelena-byte/feelharmonic**
 
 ---
 
@@ -33,7 +33,7 @@ atsukti atgal per 30 sekundžių — kaip tai padaryti, parašyta pačiame gale.
 
 ## 1. Pakeisti tekstą arba kainą
 
-1. Atsidaryk https://github.com/tomlebedev-cloud/feelharmonic
+1. Atsidaryk https://github.com/daunyteelena-byte/feelharmonic
 2. Spustelėk aplanką **`turinys`**, tada failą **`lt.json`**
    (jei keiti anglišką puslapį — `en.json`, itališką — `it.json`)
 3. Viršuje dešinėje spustelėk **pieštuko ikonėlę** (Edit this file)
@@ -55,7 +55,7 @@ atsukti atgal per 30 sekundžių — kaip tai padaryti, parašyta pačiame gale.
 Po poros minučių atnaujink puslapį naršyklėje — pakeitimas jau ten.
 
 **Jei pakeitimas neatsirado:** greičiausiai netyčia ištrinta kabutė arba
-kablelis. Eik į https://github.com/tomlebedev-cloud/feelharmonic/actions —
+kablelis. Eik į https://github.com/daunyteelena-byte/feelharmonic/actions —
 jei viršutinėje eilutėje raudonas kryželis, paskutinis pakeitimas nepraėjo.
 Gyvas puslapis tuo metu lieka toks, koks buvo, tad nieko baisaus: atsuk
 pakeitimą atgal (žr. 6 skyrių) ir pabandyk iš naujo.
@@ -106,7 +106,7 @@ Nuotraukos bendros visoms trims kalboms — įkelti reikia tik kartą.
 
 Kaip įkelti:
 
-1. Eik į https://github.com/tomlebedev-cloud/feelharmonic/tree/main/assets/img
+1. Eik į https://github.com/daunyteelena-byte/feelharmonic/tree/main/assets/img
 2. Spustelėk **Add file → Upload files**
 3. Nutempk nuotrauką (pavadinimas turi sutapti su lentele aukščiau)
 4. Apačioje **Commit changes**
@@ -184,7 +184,7 @@ Būtinai išsiųsk sau testinę užklausą — Formspree pirmą kartą paprašo 
 
 Nieko baisaus neatsitiko. Kiekvienas išsaugojimas įsimintas, grąžinti galima taip:
 
-1. Eik į https://github.com/tomlebedev-cloud/feelharmonic/commits/main
+1. Eik į https://github.com/daunyteelena-byte/feelharmonic/commits/main
 2. Rask paskutinį savo pakeitimą (viršuje)
 3. Spustelėk jį, tada viršuje dešinėje **⋯ → Revert**
 4. **Commit changes**

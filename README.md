@@ -66,7 +66,7 @@ Jei nenori naudoti `gh`, sukurk tuščią repozitoriją per github.com (pavadini
 **be** README) ir paleisk:
 
 ```bash
-git remote add origin https://github.com/tomlebedev-cloud/feelharmonic.git
+git remote add origin https://github.com/daunyteelena-byte/feelharmonic.git
 git push -u origin main
 ```
 
@@ -81,7 +81,7 @@ GitHub → repozitorija `feelharmonic` → **Settings** → **Pages**:
 - **Save**
 
 Po 1–2 min. svetainė bus adresu:
-`https://tomlebedev-cloud.github.io/feelharmonic/`
+`https://daunyteelena-byte.github.io/feelharmonic/`
 
 Prijungus domeną (žr. 5 skyrių) tas adresas persiunčia į `https://www.feelharmonic.lt/`.
 
@@ -131,7 +131,7 @@ be jo GitHub nežino, kurią repozitoriją rodyti tuo adresu.
 | A | `@` | `185.199.109.153` |
 | A | `@` | `185.199.110.153` |
 | A | `@` | `185.199.111.153` |
-| CNAME | `www` | `tomlebedev-cloud.github.io` |
+| CNAME | `www` | `daunyteelena-byte.github.io` |
 
 MX ir TXT įrašų, kuriuos Hostingeris sukūrė paštui, **liesti negalima** — jie nesusiję su puslapiu.
 
@@ -157,7 +157,7 @@ tada GitHub Pages paskelbia puslapį. Iš viso ~2 min.
 
 Sugadinus JSON (pamiršta kabutė ar kablelis) veiksmas nulūžta, o gyvas puslapis
 lieka nepakitęs. Būseną matyti čia:
-https://github.com/tomlebedev-cloud/feelharmonic/actions
+https://github.com/daunyteelena-byte/feelharmonic/actions
 
 ---
 

@@ -138,7 +138,7 @@ ant `<html>`), todėl be JS turinys matomas iš karto.
 
 GitHub Pages, šaka `main`, aplankas `/` (root).
 Adresas: https://www.feelharmonic.lt/ (senasis
-https://tomlebedev-cloud.github.io/feelharmonic/ persiunčia į jį).
+https://daunyteelena-byte.github.io/feelharmonic/ persiunčia į jį).
 
 Failas `.nojekyll` išjungia Jekyll apdorojimą.
 Nuorodos į CSS, JS ir nuotraukas reliatyvios (`en/` ir `it/` puslapiuose —
@@ -156,7 +156,7 @@ veiksmas, kuris perkuria HTML — tada iš viso užtrunka ~2 min.
 `www.feelharmonic.lt`; šakninį domeną GitHub persiunčia pats.
 
 - DNS Hostingerio zonoje: keturi A įrašai į `185.199.108–111.153` ir
-  `CNAME www` į `tomlebedev-cloud.github.io.` MX ir TXT įrašai priklauso
+  `CNAME www` į `daunyteelena-byte.github.io.` MX ir TXT įrašai priklauso
   paštui — jų liesti negalima.
 - Repozitorijos šaknyje `CNAME` su eilute `www.feelharmonic.lt`.
   **Trinti negalima.** Jei domenas įrašomas per GitHub sąsają, GitHub šį failą
