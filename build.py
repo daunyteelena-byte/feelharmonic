@@ -196,8 +196,8 @@ def header(lang, c):
 </header>
 
 <nav class="mobile-nav" id="mobile-nav" aria-label="%(mobaria)s">
-  %(mob)s
   <a class="btn solid" href="#kontaktai">%(cta)s</a>
+  %(mob)s
   %(langsmob)s
 </nav>
 """ % {"skip": c["skip"], "mark": MARK, "nav": nav, "mob": mob, "cta": c["navCta"],
