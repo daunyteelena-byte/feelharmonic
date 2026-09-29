@@ -284,8 +284,13 @@ body.no-scroll{overflow:hidden}
   background:none;border:0;cursor:pointer;font-family:var(--sans);
   font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-lt);
 }
-.clip-toggle::after{content:"+";font-size:18px;line-height:1;transition:transform .2s ease}
-.clip-toggle[aria-expanded="true"]::after{transform:rotate(45deg)}
+/* rodyklė: žemyn — išskleisti, aukštyn — suskleisti */
+.clip-toggle::after{
+  content:"";width:7px;height:7px;margin-left:2px;
+  border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;
+  transform:translateY(-2px) rotate(45deg);transition:transform .2s ease;
+}
+.clip-toggle[aria-expanded="true"]::after{transform:translateY(2px) rotate(-135deg)}
 .clip-toggle[hidden]{display:none}
 .clip-acts{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
 @media(max-width:520px){.clip-acts .btn{width:100%}}
