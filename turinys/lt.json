@@ -143,7 +143,10 @@
         "closing": "Po renginio galima įsigyti knygelę „33 įkvėpimai“ tiesiai iš autorės.",
         "meta": "2026 m. liepos 2 d. · Nidos kultūros centras „Agila“",
         "buyLabel": "Įsigyti knygelę",
-        "buySubject": "Knygelė „33 įkvėpimai“"
+        "buySubject": "Knygelė „33 įkvėpimai“",
+        "bookLabel": "Užsakyti renginį",
+        "bookOption": "Terapinis ar sąmoningumo renginys",
+        "bookMessage": "Norėčiau užsakyti renginį „33 įkvėpimai“."
       }
     ],
     "slots": [

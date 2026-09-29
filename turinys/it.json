@@ -143,7 +143,10 @@
         "closing": "Dopo l’evento è possibile acquistare il libro «33 įkvėpimai» direttamente dall’autrice.",
         "meta": "2 luglio 2026 · Centro culturale di Nida «Agila»",
         "buyLabel": "Acquista il libro",
-        "buySubject": "Libro «33 įkvėpimai»"
+        "buySubject": "Libro «33 įkvėpimai»",
+        "bookLabel": "Prenota l’evento",
+        "bookOption": "Evento terapeutico o di consapevolezza",
+        "bookMessage": "Vorrei prenotare l’evento «33 įkvėpimai»."
       }
     ],
     "slots": [

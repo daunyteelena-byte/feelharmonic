@@ -293,10 +293,17 @@ def video_item(base, v):
                       'data-more="%s" data-less="%s">%s</button>'
                       % (attr(v["moreLabel"]), attr(v["lessLabel"]), v["moreLabel"]))
         # "Įsigyti" — atidaro laišką su paruošta tema (kol nėra el. parduotuvės)
+        # „Užsakyti renginį“ — veda į kontaktų formą ir iš anksto parenka temą
         buy = ""
+        acts = []
+        if v.get("bookLabel"):
+            acts.append('<a class="btn solid" href="#kontaktai" data-book-option="%s" data-book-message="%s">%s</a>'
+                        % (attr(v["bookOption"]), attr(v["bookMessage"]), v["bookLabel"]))
         if v.get("buyLabel"):
-            buy = ('\n          <a class="btn clip-buy" href="mailto:%s?subject=%s">%s</a>'
-                   % (EMAIL, urllib.parse.quote(v["buySubject"]), v["buyLabel"]))
+            acts.append('<a class="btn" href="mailto:%s?subject=%s">%s</a>'
+                        % (EMAIL, urllib.parse.quote(v["buySubject"]), v["buyLabel"]))
+        if acts:
+            buy = '\n          <div class="clip-acts">\n            %s\n          </div>' % "\n            ".join(acts)
         sub = '\n          <span class="clip-sub">%s</span>' % v["subtitle"] if v.get("subtitle") else ""
         lead = '\n          <span class="clip-lead">%s</span>' % v["lead"] if v.get("lead") else ""
         return """<figure class="clip">

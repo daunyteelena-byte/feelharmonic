@@ -87,6 +87,19 @@ var CONFIG = {
     });
   });
 
+  /* ---------- „Užsakyti renginį“: kontaktų formoje parenka temą ir žinutę ---------- */
+  Array.prototype.forEach.call(document.querySelectorAll("[data-book-option]"), function (a) {
+    a.addEventListener("click", function () {
+      var sel = document.getElementById("k");
+      var msg = document.getElementById("z");
+      var opt = a.getAttribute("data-book-option");
+      if (sel) Array.prototype.forEach.call(sel.options, function (o) {
+        if (o.text === opt) sel.value = o.value;
+      });
+      if (msg && !msg.value.trim()) msg.value = a.getAttribute("data-book-message") + "\n";
+    });
+  });
+
   /* ---------- navigacijos būsena slenkant ---------- */
   var nav = document.getElementById("nav");
   if (nav) {

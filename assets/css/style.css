@@ -287,7 +287,8 @@ body.no-scroll{overflow:hidden}
 .clip-toggle::after{content:"+";font-size:18px;line-height:1;transition:transform .2s ease}
 .clip-toggle[aria-expanded="true"]::after{transform:rotate(45deg)}
 .clip-toggle[hidden]{display:none}
-.clip-buy{justify-self:start;margin-top:8px}
+.clip-acts{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
+@media(max-width:520px){.clip-acts .btn{width:100%}}
 .clip-meta:empty{display:none}
 .slot-dark{
   border:1px dashed rgba(206,142,52,.45);color:rgba(226,169,79,.9);
