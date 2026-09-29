@@ -73,6 +73,20 @@ var CONFIG = {
     });
   }
 
+  /* ---------- vaizdo įrašo aprašymas: išblunkantis, „Skaityti daugiau“ ---------- */
+  Array.prototype.forEach.call(document.querySelectorAll(".clip-toggle"), function (btn) {
+    var text = btn.previousElementSibling;
+    if (!text || !text.classList.contains("clip-text")) return;
+    text.classList.add("is-collapsed");
+    btn.hidden = false;
+    btn.addEventListener("click", function () {
+      var open = text.classList.toggle("is-collapsed") === false;
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+      btn.textContent = open ? btn.getAttribute("data-less") : btn.getAttribute("data-more");
+      if (!open) btn.closest(".clip").scrollIntoView({ block: "nearest" });
+    });
+  });
+
   /* ---------- navigacijos būsena slenkant ---------- */
   var nav = document.getElementById("nav");
   if (nav) {

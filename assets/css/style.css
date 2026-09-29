@@ -267,18 +267,26 @@ body.no-scroll{overflow:hidden}
 .clip-meta{font-size:13px;letter-spacing:.06em;color:rgba(255,255,255,.55)}
 .clip-sub{font-size:15px;color:rgba(255,255,255,.82);margin-top:-4px}
 .clip-lead{font-family:var(--serif);font-style:italic;font-size:19px;color:var(--gold-lt)}
-.clip-more summary{
-  cursor:pointer;list-style:none;display:inline-flex;align-items:center;gap:8px;
+/* aprašymas: suskleistas išblunka apačioje, „Skaityti daugiau“ išskleidžia */
+.clip-text p{margin:0}
+.clip-text p + p{margin-top:14px}
+.clip-text .clip-note,.clip-text p{font-size:16px;line-height:1.6;color:rgba(255,255,255,.72)}
+.clip-text dl{margin:18px 0 0;display:grid;gap:12px}
+.clip-text dt{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.55)}
+.clip-text dd{margin:2px 0 0;font-size:16px;line-height:1.55;color:rgba(255,255,255,.86)}
+.clip-text .clip-closing{margin-top:18px;font-style:italic}
+.clip-text.is-collapsed{
+  max-height:230px;overflow:hidden;
+  -webkit-mask-image:linear-gradient(#000 35%,transparent);mask-image:linear-gradient(#000 35%,transparent);
+}
+.clip-toggle{
+  justify-self:start;display:inline-flex;align-items:center;gap:8px;padding:4px 0;
+  background:none;border:0;cursor:pointer;font-family:var(--sans);
   font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-lt);
 }
-.clip-more summary::-webkit-details-marker{display:none}
-.clip-more summary::after{content:"+";font-size:18px;line-height:1;transition:transform .2s ease}
-.clip-more[open] summary::after{transform:rotate(45deg)}
-.clip-more p{margin:14px 0 0;font-size:16px;line-height:1.6;color:rgba(255,255,255,.72)}
-.clip-more dl{margin:18px 0 0;display:grid;gap:12px}
-.clip-more dt{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.55)}
-.clip-more dd{margin:2px 0 0;font-size:16px;line-height:1.55;color:rgba(255,255,255,.86)}
-.clip-more .clip-closing{font-style:italic}
+.clip-toggle::after{content:"+";font-size:18px;line-height:1;transition:transform .2s ease}
+.clip-toggle[aria-expanded="true"]::after{transform:rotate(45deg)}
+.clip-toggle[hidden]{display:none}
 .clip-buy{justify-self:start;margin-top:8px}
 .clip-meta:empty{display:none}
 .slot-dark{

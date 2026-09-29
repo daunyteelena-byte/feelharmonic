@@ -276,18 +276,22 @@ def services(lang, c):
 
 def video_item(base, v):
     if "file" in v:
+        # Visas aprašymas matomas iš karto, bet apačioje išblunka; mygtukas
+        # „Skaityti daugiau“ jį išskleidžia (be JS tekstas rodomas visas).
         more = ""
         if v.get("more") or v.get("facts") or v.get("closing"):
             paras = "".join("\n            <p>%s</p>" % x for x in v.get("more", []))
             facts = "".join("\n              <dt>%s</dt><dd>%s</dd>" % (f["k"], f["v"])
                             for f in v.get("facts", []))
-            more = """
-          <details class="clip-more">
-            <summary>%s</summary>%s
+            more = """%s
             <dl>%s
             </dl>
-            <p class="clip-closing">%s</p>
-          </details>""" % (v["moreLabel"], paras, facts, v.get("closing", ""))
+            <p class="clip-closing">%s</p>""" % (paras, facts, v.get("closing", ""))
+        toggle = ""
+        if more:
+            toggle = ('\n          <button class="clip-toggle" type="button" aria-expanded="false" hidden '
+                      'data-more="%s" data-less="%s">%s</button>'
+                      % (attr(v["moreLabel"]), attr(v["lessLabel"]), v["moreLabel"]))
         # "Įsigyti" — atidaro laišką su paruošta tema (kol nėra el. parduotuvės)
         buy = ""
         if v.get("buyLabel"):
@@ -302,12 +306,15 @@ def video_item(base, v):
         <figcaption>
           <span class="clip-cat">%(cat)s</span>
           <b>%(title)s</b>%(sub)s%(lead)s
-          <span class="clip-note">%(note)s</span>%(more)s
+          <div class="clip-text">
+            <p class="clip-note">%(note)s</p>%(more)s
+          </div>%(toggle)s
           <span class="clip-meta">%(meta)s</span>%(buy)s
         </figcaption>
       </figure>""" % {"b": base, "file": attr(v["file"]), "poster": attr(v["poster"]),
                       "cat": v["cat"], "title": attr(v["title"]), "note": v["note"],
-                      "sub": sub, "lead": lead, "more": more, "meta": v.get("meta", ""),
+                      "sub": sub, "lead": lead, "more": more, "toggle": toggle,
+                      "meta": v.get("meta", ""),
                       "buy": buy}
     return ('<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/%s" '
             'title="%s" loading="lazy" allowfullscreen '
@@ -322,7 +329,7 @@ def media(lang, c):
     # Įrašas su "id" — YouTube; su "file" — vaizdo failas iš assets/video/
     # (vertikalus, su viršeliu "poster", kategorija "cat", aprašymu "note",
     # data bei vieta "meta"). Neprivalomi: "subtitle", "lead", o "more",
-    # "facts" ir "closing" atsiskleidžia paspaudus "moreLabel".
+    # "facts" ir "closing" rodomi išblunkantys, kol paspaudžiamas "moreLabel".
     videos = m.get("videos") or []
     if videos:
         slots = "\n      ".join(video_item(BASE[lang], v) for v in videos)
