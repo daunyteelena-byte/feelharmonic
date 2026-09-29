@@ -113,8 +113,7 @@
     "cardNote": "Vaizdo klipas Lietuvos nacionalinio radijo ir televizijos mediatekoje.",
     "videos": [
       {
-        "file": "assets/video/poezija-kvepavimas-ninah-sol.mp4",
-        "poster": "assets/video/poezija-kvepavimas-ninah-sol.jpg",
+        "youtube": "BWi5LPweDFg",
         "cat": "Sąmoningumo terapinės praktikos",
         "title": "„33 įkvėpimai“",
         "subtitle": "Poezijos, muzikos ir sąmoningo kvėpavimo terapija",

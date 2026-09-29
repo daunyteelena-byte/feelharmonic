@@ -285,7 +285,7 @@ def services(lang, c):
 
 
 def video_item(base, v):
-    if "file" in v:
+    if "file" in v or "youtube" in v:
         # Visas aprašymas matomas iš karto, bet apačioje išblunka; mygtukas
         # „Skaityti daugiau“ jį išskleidžia (be JS tekstas rodomas visas).
         more = ""
@@ -317,12 +317,19 @@ def video_item(base, v):
                            v["buyLabel"]))
         if acts:
             buy = '\n          <div class="clip-acts">\n            %s\n          </div>' % "\n            ".join(acts)
+        if "youtube" in v:
+            player = ('<div class="clip-yt"><iframe src="https://www.youtube-nocookie.com/embed/%s?rel=0" '
+                      'title="%s" loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" '
+                      'allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">'
+                      '</iframe></div>' % (attr(v["youtube"]), attr(v["title"])))
+        else:
+            player = ('<video controls playsinline preload="none" poster="%s%s" aria-label="%s">\n'
+                      '          <source src="%s%s" type="video/mp4">\n        </video>'
+                      % (base, attr(v["poster"]), attr(v["title"]), base, attr(v["file"])))
         sub = '\n          <span class="clip-sub">%s</span>' % v["subtitle"] if v.get("subtitle") else ""
         lead = '\n          <span class="clip-lead">%s</span>' % v["lead"] if v.get("lead") else ""
         return """<figure class="clip">
-        <video controls playsinline preload="none" poster="%(b)s%(poster)s" aria-label="%(title)s">
-          <source src="%(b)s%(file)s" type="video/mp4">
-        </video>
+        %(player)s
         <figcaption>
           <span class="clip-cat">%(cat)s</span>
           <b>%(title)s</b>%(sub)s%(lead)s
@@ -331,8 +338,7 @@ def video_item(base, v):
           </div>%(toggle)s
           <span class="clip-meta">%(meta)s</span>%(buy)s
         </figcaption>
-      </figure>""" % {"b": base, "file": attr(v["file"]), "poster": attr(v["poster"]),
-                      "cat": v["cat"], "title": attr(v["title"]), "note": v["note"],
+      </figure>""" % {"player": player, "cat": v["cat"], "title": attr(v["title"]), "note": v["note"],
                       "sub": sub, "lead": lead, "more": more, "toggle": toggle,
                       "meta": v.get("meta", ""),
                       "buy": buy}
@@ -346,8 +352,9 @@ def media(lang, c):
     m = c["media"]
     # Kai JSON faile atsiranda "videos" sąrašas, vietoj tuščių vietų rodomi
     # tikri įrašai. Kol sąrašas tuščias arba jo nėra — rodomos vietos.
-    # Įrašas su "id" — YouTube; su "file" — vaizdo failas iš assets/video/
-    # (vertikalus, su viršeliu "poster", kategorija "cat", aprašymu "note",
+    # Įrašas su "id" — paprastas YouTube (16:9) be aprašymo; su "youtube" —
+    # vertikalus YouTube Short'as, o su "file" — vaizdo failas iš assets/video/
+    # (su viršeliu "poster"). Abu pastarieji rodomi su kategorija "cat", aprašymu "note",
     # data bei vieta "meta"). Neprivalomi: "subtitle", "lead", o "more",
     # "facts" ir "closing" rodomi išblunkantys, kol paspaudžiamas "moreLabel".
     videos = m.get("videos") or []

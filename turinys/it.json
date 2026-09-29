@@ -113,8 +113,7 @@
     "cardNote": "Videoclip nell'archivio della radiotelevisione nazionale lituana.",
     "videos": [
       {
-        "file": "assets/video/poezija-kvepavimas-ninah-sol.mp4",
-        "poster": "assets/video/poezija-kvepavimas-ninah-sol.jpg",
+        "youtube": "BWi5LPweDFg",
         "cat": "Pratiche terapeutiche di consapevolezza",
         "title": "«33 įkvėpimai»",
         "subtitle": "Terapia di poesia, musica e respiro consapevole",
