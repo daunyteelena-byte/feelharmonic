@@ -153,6 +153,7 @@
           "Address or parcel locker to send to: ",
           "",
           "────────── ✨ ──────────",
+          "",
           "Amount: whatever the book is worth to you",
           "Recipient: {name}",
           "Account no. (IBAN): {iban}",
