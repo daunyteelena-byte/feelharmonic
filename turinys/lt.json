@@ -152,7 +152,7 @@
           "Vardas, pavardė: ",
           "Adresas arba paštomatas, į kurį siųsti: ",
           "",
-          "───────────────── ✨ ─────────────────",
+          "───────── ✨ ─────────",
           "Suma: kiek knyga Jums verta",
           "Gavėjas: {name}",
           "Sąskaitos nr.: {iban}",
