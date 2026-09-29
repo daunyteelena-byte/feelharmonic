@@ -13,6 +13,9 @@ on:
     paths:
       - "turinys/**"
       - "build.py"
+      # CSS ir JS nuorodose yra ?v=<parašas> — pakeitus juos, puslapius reikia perkurti
+      - "assets/css/**"
+      - "assets/js/**"
       - ".github/workflows/build.yml"
   workflow_dispatch:
 

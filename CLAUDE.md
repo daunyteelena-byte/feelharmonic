@@ -10,7 +10,8 @@ programavimo) — `ADMIN.md`. Neužbaigti darbai — `TODO.md`.
 
 - **Prieš bet kokį darbą:** `git pull`. GitHub Actions botas ir redagavimai
   tiesiai GitHub svetainėje rašo į tą pačią `main` šaką.
-- **Po push, kuris keitė `turinys/**` arba `build.py`,** botas po ~1 min. įkelia
+- **Po push, kuris keitė `turinys/**`, `build.py`, `assets/css/**` ar
+  `assets/js/**`,** botas po ~1 min. įkelia
   savo commitą („Puslapiai perkurti is turinio failu“). Todėl prieš kitą push
   vėl `git pull`, kitaip push bus atmestas.
 - Commitinti mažais, prasmingais žingsniais, žinutes rašyti lietuviškai.
@@ -22,8 +23,8 @@ programavimo) — `ADMIN.md`. Neužbaigti darbai — `TODO.md`.
 ## Naršyklės podėlis
 
 CSS ir JS nuorodos turi `?v=<turinio parašas>` (`ver()` faile `build.py`).
-Pakeitus `style.css` ar `main.js`, būtina paleisti `python build.py`, kad
-parašas atsinaujintų — kitaip lankytojai iki 10 min. matys seną stilių.
+Pakeitus `style.css` ar `main.js`, paleisti `python build.py`, kad parašas
+atsinaujintų (GitHub botas tai padaro ir pats, bet tik po ~1 min.).
 
 ## Ko negalima
 
