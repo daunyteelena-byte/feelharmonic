@@ -283,9 +283,11 @@ def video_item(base, v):
           <span class="clip-cat">%(cat)s</span>
           <b>%(title)s</b>
           <span class="clip-note">%(note)s</span>
+          <span class="clip-meta">%(meta)s</span>
         </figcaption>
       </figure>""" % {"b": base, "file": attr(v["file"]), "poster": attr(v["poster"]),
-                      "cat": v["cat"], "title": v["title"], "note": v["note"]}
+                      "cat": v["cat"], "title": v["title"], "note": v["note"],
+                      "meta": v.get("meta", "")}
     return ('<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/%s" '
             'title="%s" loading="lazy" allowfullscreen '
             'allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture"></iframe></div>'
@@ -297,7 +299,8 @@ def media(lang, c):
     # Kai JSON faile atsiranda "videos" sąrašas, vietoj tuščių vietų rodomi
     # tikri įrašai. Kol sąrašas tuščias arba jo nėra — rodomos vietos.
     # Įrašas su "id" — YouTube; su "file" — vaizdo failas iš assets/video/
-    # (vertikalus, su viršeliu "poster", kategorija "cat" ir aprašymu "note").
+    # (vertikalus, su viršeliu "poster", kategorija "cat", aprašymu "note" ir
+    # data bei vieta "meta").
     videos = m.get("videos") or []
     if videos:
         slots = "\n      ".join(video_item(BASE[lang], v) for v in videos)
