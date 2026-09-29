@@ -21,12 +21,19 @@ JSON laukuose leidžiamas paprastas HTML (<em>, <b>, <span class="fill">...</spa
 todel tekstas neekranuojamas.
 """
 
+import hashlib
 import urllib.parse
 import json
 import pathlib
 import datetime
 
 ROOT = pathlib.Path(__file__).resolve().parent
+
+
+def ver(rel):
+    """Trumpas failo turinio parašas: ?v=... pasikeičia tik pakeitus failą,
+    todėl naršyklė iškart pasiima naują CSS/JS, o ne seną iš podėlio."""
+    return hashlib.sha1((ROOT / rel).read_bytes()).hexdigest()[:8]
 CONTENT = ROOT / "turinys"
 
 SITE = "https://www.feelharmonic.lt"
@@ -160,12 +167,12 @@ def head(lang, c):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap">
-<link rel="stylesheet" href="%(b)sassets/css/style.css">
+<link rel="stylesheet" href="%(b)sassets/css/style.css?v=%(cssv)s">
 </head>
 <body>
 """ % {"lang": lang, "title": attr(m["title"]), "desc": attr(m["description"]),
        "ogdesc": attr(m["ogDescription"]), "site": SITE, "href": HREF[lang],
-       "alts": alts, "locale": LOCALE[lang], "b": b}
+       "alts": alts, "locale": LOCALE[lang], "b": b, "cssv": ver("assets/css/style.css")}
 
 
 def header(lang, c):
@@ -907,7 +914,7 @@ def page(lang, c):
         studio(lang, c), gallery(lang, c), about(lang, c), quotes(lang, c), faq(lang, c),
         patreon(lang, c), cta(lang, c), contact(lang, c),
         footer(lang, c), jsonld(lang, c),
-        '\n<script src="%sassets/js/main.js"></script>\n</body>\n</html>\n' % BASE[lang],
+        '\n<script src="%sassets/js/main.js?v=%s"></script>\n</body>\n</html>\n' % (BASE[lang], ver("assets/js/main.js")),
     ])
 
 

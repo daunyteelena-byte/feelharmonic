@@ -19,6 +19,12 @@ programavimo) — `ADMIN.md`. Neužbaigti darbai — `TODO.md`.
   `it/index.html`, `sitemap.xml`) spręsti ne ranka: paimti bet kurią versiją ir
   paleisti `python build.py`.
 
+## Naršyklės podėlis
+
+CSS ir JS nuorodos turi `?v=<turinio parašas>` (`ver()` faile `build.py`).
+Pakeitus `style.css` ar `main.js`, būtina paleisti `python build.py`, kad
+parašas atsinaujintų — kitaip lankytojai iki 10 min. matys seną stilių.
+
 ## Ko negalima
 
 - Ranka redaguoti `index.html`, `en/index.html`, `it/index.html`, `sitemap.xml` —
