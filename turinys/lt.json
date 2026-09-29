@@ -154,9 +154,10 @@
           "",
           "—",
           "Donacija",
+          "Suma: kiek knyga Jums verta",
           "Gavėjas: {name}",
           "Sąskaitos nr.: {iban}",
-          "Mokėjimo paskirtis: Donacija už knygelę „33 įkvėpimai“"
+          "Mokėjimo paskirtis: Už knygą „33 įkvėpimai“"
         ],
         "bookLabel": "Užsakyti renginį",
         "bookOption": "Terapinis ar sąmoningumo renginys",

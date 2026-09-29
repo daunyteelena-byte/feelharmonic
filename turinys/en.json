@@ -154,9 +154,10 @@
           "",
           "—",
           "Donation",
+          "Amount: whatever the book is worth to you",
           "Recipient: {name}",
           "Account no. (IBAN): {iban}",
-          "Payment reference: Donation for the book “33 įkvėpimai”"
+          "Payment reference: For the book “33 įkvėpimai”"
         ],
         "bookLabel": "Book the event",
         "bookOption": "Therapeutic or mindfulness event",

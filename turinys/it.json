@@ -154,9 +154,10 @@
           "",
           "—",
           "Donazione",
+          "Importo: quanto il libro vale per Lei",
           "Beneficiario: {name}",
           "Numero di conto (IBAN): {iban}",
-          "Causale: Donazione per il libro «33 įkvėpimai»"
+          "Causale: Per il libro «33 įkvėpimai»"
         ],
         "bookLabel": "Prenota l’evento",
         "bookOption": "Evento terapeutico o di consapevolezza",
