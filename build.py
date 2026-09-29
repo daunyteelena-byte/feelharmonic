@@ -21,6 +21,7 @@ JSON laukuose leidžiamas paprastas HTML (<em>, <b>, <span class="fill">...</spa
 todel tekstas neekranuojamas.
 """
 
+import urllib.parse
 import json
 import pathlib
 import datetime
@@ -275,19 +276,39 @@ def services(lang, c):
 
 def video_item(base, v):
     if "file" in v:
+        more = ""
+        if v.get("more") or v.get("facts") or v.get("closing"):
+            paras = "".join("\n            <p>%s</p>" % x for x in v.get("more", []))
+            facts = "".join("\n              <dt>%s</dt><dd>%s</dd>" % (f["k"], f["v"])
+                            for f in v.get("facts", []))
+            more = """
+          <details class="clip-more">
+            <summary>%s</summary>%s
+            <dl>%s
+            </dl>
+            <p class="clip-closing">%s</p>
+          </details>""" % (v["moreLabel"], paras, facts, v.get("closing", ""))
+        # "Įsigyti" — atidaro laišką su paruošta tema (kol nėra el. parduotuvės)
+        buy = ""
+        if v.get("buyLabel"):
+            buy = ('\n          <a class="btn clip-buy" href="mailto:%s?subject=%s">%s</a>'
+                   % (EMAIL, urllib.parse.quote(v["buySubject"]), v["buyLabel"]))
+        sub = '\n          <span class="clip-sub">%s</span>' % v["subtitle"] if v.get("subtitle") else ""
+        lead = '\n          <span class="clip-lead">%s</span>' % v["lead"] if v.get("lead") else ""
         return """<figure class="clip">
         <video controls playsinline preload="none" poster="%(b)s%(poster)s" aria-label="%(title)s">
           <source src="%(b)s%(file)s" type="video/mp4">
         </video>
         <figcaption>
           <span class="clip-cat">%(cat)s</span>
-          <b>%(title)s</b>
-          <span class="clip-note">%(note)s</span>
-          <span class="clip-meta">%(meta)s</span>
+          <b>%(title)s</b>%(sub)s%(lead)s
+          <span class="clip-note">%(note)s</span>%(more)s
+          <span class="clip-meta">%(meta)s</span>%(buy)s
         </figcaption>
       </figure>""" % {"b": base, "file": attr(v["file"]), "poster": attr(v["poster"]),
-                      "cat": v["cat"], "title": v["title"], "note": v["note"],
-                      "meta": v.get("meta", "")}
+                      "cat": v["cat"], "title": attr(v["title"]), "note": v["note"],
+                      "sub": sub, "lead": lead, "more": more, "meta": v.get("meta", ""),
+                      "buy": buy}
     return ('<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/%s" '
             'title="%s" loading="lazy" allowfullscreen '
             'allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture"></iframe></div>'
@@ -299,8 +320,9 @@ def media(lang, c):
     # Kai JSON faile atsiranda "videos" sąrašas, vietoj tuščių vietų rodomi
     # tikri įrašai. Kol sąrašas tuščias arba jo nėra — rodomos vietos.
     # Įrašas su "id" — YouTube; su "file" — vaizdo failas iš assets/video/
-    # (vertikalus, su viršeliu "poster", kategorija "cat", aprašymu "note" ir
-    # data bei vieta "meta").
+    # (vertikalus, su viršeliu "poster", kategorija "cat", aprašymu "note",
+    # data bei vieta "meta"). Neprivalomi: "subtitle", "lead", o "more",
+    # "facts" ir "closing" atsiskleidžia paspaudus "moreLabel".
     videos = m.get("videos") or []
     if videos:
         slots = "\n      ".join(video_item(BASE[lang], v) for v in videos)

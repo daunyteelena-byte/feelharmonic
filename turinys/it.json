@@ -117,8 +117,32 @@
         "poster": "assets/video/poezija-kvepavimas-ninah-sol.jpg",
         "cat": "Pratiche terapeutiche di consapevolezza",
         "title": "«33 įkvėpimai»",
-        "note": "Un evento terapeutico basato sul mio libro di poesie «33 įkvėpimai»: la lettura delle poesie si fonde con una sessione meditativa di respiro consapevole. In collaborazione con Ninah Sol.",
-        "meta": "2 luglio 2026 · Centro culturale di Nida «Agila»"
+        "subtitle": "Terapia di poesia, musica e respiro consapevole",
+        "lead": "Ogni poesia comincia con un respiro.",
+        "note": "«33 įkvėpimai» è un’esperienza in cui si incontrano tre modi di tornare a sé: la parola poetica, la musica e il respiro consapevole. Alla base della serata c’è il libro della poetessa Elena Daunytė «33 įkvėpimai», composto da 33 terzine nate dal silenzio, dalle esperienze e dalle trasformazioni.",
+        "moreLabel": "Leggi di più",
+        "more": [
+          "Elena legge le sue poesie, mentre Ninah Sol guida le pratiche di respiro consapevole, invitando i partecipanti con delicatezza e in sicurezza a sentire il proprio respiro, rallentare e rilassarsi. L’intera esperienza è avvolta da una musica calma, scelta appositamente. Non servono abilità né preparazione: basta sedersi, chiudere gli occhi e lasciarsi portare dalla parola, dal suono e dal respiro. Il respiro diventa ritmo, la musica sostegno e la poesia uno specchio in cui ognuno può riconoscere qualcosa di sé.",
+          "È uno spazio per fermarsi e sentire che a volte basta un solo respiro consapevole perché la giornata prenda un altro colore."
+        ],
+        "facts": [
+          {
+            "k": "Conducono",
+            "v": "Elena Daunytė – poesia e lettura<br>Ninah Sol – respiro consapevole"
+          },
+          {
+            "k": "Per chi",
+            "v": "Per tutti coloro che cercano calma, ispirazione e un legame più profondo con sé stessi – che amiate la poesia o vogliate semplicemente riprendere fiato."
+          },
+          {
+            "k": "Cosa portare",
+            "v": "Abiti comodi e un cuore aperto."
+          }
+        ],
+        "closing": "Dopo l’evento è possibile acquistare il libro «33 įkvėpimai» direttamente dall’autrice.",
+        "meta": "2 luglio 2026 · Centro culturale di Nida «Agila»",
+        "buyLabel": "Acquista il libro",
+        "buySubject": "Libro «33 įkvėpimai»"
       }
     ],
     "slots": [

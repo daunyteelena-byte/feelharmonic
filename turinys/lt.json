@@ -117,8 +117,32 @@
         "poster": "assets/video/poezija-kvepavimas-ninah-sol.jpg",
         "cat": "Sąmoningumo terapinės praktikos",
         "title": "„33 įkvėpimai“",
-        "note": "Terapinis renginys pagal mano poezijos knygą „33 įkvėpimai“: poezijos skaitymas susijungia su meditacine sąmoningo kvėpavimo sesija. Kartu su Ninah Sol.",
-        "meta": "2026 m. liepos 2 d. · Nidos kultūros centras „Agila“"
+        "subtitle": "Poezijos, muzikos ir sąmoningo kvėpavimo terapija",
+        "lead": "Kiekvienas eilėraštis prasideda įkvėpimu.",
+        "note": "„33 įkvėpimai“ – tai patirtis, kurioje susitinka trys būdai sugrįžti į save: poezijos žodis, muzika ir sąmoningas kvėpavimas. Vakaro pagrindas – poetės Elenos Daunytės knygelė „33 įkvėpimai“, kurią sudaro 33 triposmiai, gimę iš tylos, patirčių ir virsmų.",
+        "moreLabel": "Skaityti daugiau",
+        "more": [
+          "Elena skaito savo poeziją, o sąmoningo kvėpavimo praktikas veda Ninah Sol. Ji švelniai ir saugiai kviečia dalyvius pajusti savo kvėpavimą, sulėtėti ir atsipalaiduoti. Visą patirtį gaubia rami, specialiai parinkta muzika. Nereikia nieko mokėti ar mokytis iš anksto. Užtenka atsisėsti, užsimerkti ir leisti žodžiui, garsui ir kvėpavimui nešti. Kvėpavimas tampa ritmu, muzika – atrama, o poezija – veidrodžiu, kuriame kiekvienas gali atpažinti kažką savo.",
+          "Tai erdvė sustoti ir pajusti, kad kartais vieno sąmoningo įkvėpimo pakanka, kad diena įgautų kitą spalvą."
+        ],
+        "facts": [
+          {
+            "k": "Veda",
+            "v": "Elena Daunytė – poezija ir jos skaitymas<br>Ninah Sol – sąmoningas kvėpavimas"
+          },
+          {
+            "k": "Kam skirta",
+            "v": "Visiems, kurie ieško ramybės, įkvėpimo ir gilesnio ryšio su savimi, ar mėgstate poeziją, ar tiesiog norite atsikvėpti."
+          },
+          {
+            "k": "Ką atsinešti",
+            "v": "Patogius drabužius ir atvirą širdį."
+          }
+        ],
+        "closing": "Po renginio galima įsigyti knygelę „33 įkvėpimai“ tiesiai iš autorės.",
+        "meta": "2026 m. liepos 2 d. · Nidos kultūros centras „Agila“",
+        "buyLabel": "Įsigyti knygelę",
+        "buySubject": "Knygelė „33 įkvėpimai“"
       }
     ],
     "slots": [
