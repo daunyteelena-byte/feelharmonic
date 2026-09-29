@@ -54,8 +54,9 @@ Kiekvienas puslapis turi savo `<html lang>`, `<title>`, `description`,
 versiją. Turinys tas pats — verstas, ne sutrumpintas.
 
 Sekcijų `id` (`#paslaugos`, `#programos`, …) visose kalbose **vienodi**, todėl
-CSS, JS ir vidinės nuorodos bendros. Kalbų perjungiklis rodomas antraštėje,
-mobiliajame meniu ir poraštėje; jo nuorodos absoliučios (`/`, `/en/`, `/it/`).
+CSS, JS ir vidinės nuorodos bendros. Kalbų perjungiklis rodomas tik antraštėje —
+išskleidžiamas sąrašas (`.lang-menu`, `langmenu()` faile `build.py`), matosi tik
+esama kalba; jo nuorodos absoliučios (`/`, `/en/`, `/it/`).
 
 **Pasekmė:** dukart spustelėjus `index.html` (`file://`) puslapis veikia, bet
 kalbų perjungiklis — ne, nes absoliutus `/en/` rodo į disko šaknį. Norint
@@ -104,7 +105,7 @@ Firminis ženklas — inline SVG `<symbol id="mark">` kiekvieno puslapio pradži
 (konstanta `MARK` faile `build.py`). Naudojamas per `<use href="#mark"/>` meniu,
 hero fone, skirtuke, poraštėje ir tuščiose nuotraukų vietose.
 
-Vėliau pridėti stiliai — kalbų perjungiklis (`.langs`), „NEW“ ženklelis
+Vėliau pridėti stiliai — kalbų perjungiklis (`.lang-menu`), „NEW“ ženklelis
 (`.tag-new`), studijos blokas (`.studio`) ir vaizdo įrašo rėmelis (`.video`) —
 surašyti failo gale, po komentaru su pavadinimu.
 

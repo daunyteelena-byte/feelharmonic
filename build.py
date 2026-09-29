@@ -108,16 +108,6 @@ def photo(base, src, alt, cls="shot", cap=None):
     return "\n      ".join(fig)
 
 
-def langbar(lang, cls, aria):
-    out = ['<div class="langs %s" role="group" aria-label="%s">' % (cls, attr(aria))]
-    for code in LANGS:
-        cur = ' class="is-current" aria-current="page"' if code == lang else ""
-        out.append('  <a href="%s" hreflang="%s" lang="%s" title="%s"%s>%s</a>'
-                   % (HREF[code], code, code, attr(LANG_NAME[code]), cur, LANG_SHORT[code]))
-    out.append("</div>")
-    return "\n    ".join(out)
-
-
 def langmenu(lang, aria):
     """Antrastes kalbu pasirinkimas: rodoma tik esama kalba, kitos -- paspaudus."""
     out = ['<details class="lang-menu">',
@@ -202,13 +192,11 @@ def header(lang, c):
 <nav class="mobile-nav" id="mobile-nav" aria-label="%(mobaria)s">
   <a class="btn solid" href="#kontaktai">%(cta)s</a>
   %(mob)s
-  %(langsmob)s
 </nav>
 """ % {"skip": c["skip"], "mark": MARK, "nav": nav, "mob": mob, "cta": c["navCta"],
        "navaria": attr(c["navAria"]), "mobaria": attr(c["menuAria"]),
        "menuaria": attr(c["menuBtnAria"]),
-       "langs": langmenu(lang, c["langAria"]),
-       "langsmob": langbar(lang, "in-mobile", c["langAria"])}
+       "langs": langmenu(lang, c["langAria"])}
 
 
 def hero(lang, c):
@@ -790,7 +778,6 @@ def footer(lang, c):
         </div>
         <p style="max-width:34ch;margin:0 0 18px">%(about)s</p>
         <a class="fb-round" href="%(fb)s" target="_blank" rel="noopener" aria-label="%(fbaria)s" title="Facebook">%(fbicon)s</a>
-        %(langs)s
       </div>
       <div>
         <h4>%(colpages)s</h4>
@@ -816,8 +803,7 @@ def footer(lang, c):
 """ % {"about": f["about"], "colpages": f["colPages"], "pages": pages,
        "coldetails": f["colDetails"], "details": details, "city": f["city"], "email": EMAIL,
        "year": datetime.date.today().year,
-       "fb": FACEBOOK, "fbaria": attr(f["facebookAria"]), "fbicon": FB_ICON,
-       "langs": langbar(lang, "in-footer", c["langAria"])}
+       "fb": FACEBOOK, "fbaria": attr(f["facebookAria"]), "fbicon": FB_ICON}
 
 
 def jsonld(lang, c):
