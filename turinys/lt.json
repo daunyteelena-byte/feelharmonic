@@ -144,6 +144,20 @@
         "meta": "2026 m. liepos 2 d. · Nidos kultūros centras „Agila“",
         "buyLabel": "Įsigyti knygelę",
         "buySubject": "Knygelė „33 įkvėpimai“",
+        "buyBody": [
+          "Sveiki,",
+          "norėčiau įsigyti knygelę „33 įkvėpimai“.",
+          "",
+          "Egzempliorių skaičius: ",
+          "Vardas, pavardė: ",
+          "Adresas arba paštomatas, į kurį siųsti: ",
+          "",
+          "—",
+          "Donacija",
+          "Gavėjas: {name}",
+          "Sąskaitos nr.: {iban}",
+          "Mokėjimo paskirtis: Donacija už knygelę „33 įkvėpimai“"
+        ],
         "bookLabel": "Užsakyti renginį",
         "bookOption": "Terapinis ar sąmoningumo renginys",
         "bookMessage": "Norėčiau užsakyti renginį „33 įkvėpimai“."

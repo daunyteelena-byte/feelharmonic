@@ -144,6 +144,20 @@
         "meta": "2 July 2026 · Nida Culture Centre “Agila”",
         "buyLabel": "Buy the book",
         "buySubject": "Book “33 įkvėpimai”",
+        "buyBody": [
+          "Hello,",
+          "I would like to buy the book “33 įkvėpimai”.",
+          "",
+          "Number of copies: ",
+          "Full name: ",
+          "Address or parcel locker to send to: ",
+          "",
+          "—",
+          "Donation",
+          "Recipient: {name}",
+          "Account no. (IBAN): {iban}",
+          "Payment reference: Donation for the book “33 įkvėpimai”"
+        ],
         "bookLabel": "Book the event",
         "bookOption": "Therapeutic or mindfulness event",
         "bookMessage": "I would like to book the event “33 įkvėpimai”."

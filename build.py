@@ -39,6 +39,9 @@ LANG_SHORT = {"lt": "LT", "en": "EN", "it": "IT"}
 LANG_NAME = {"lt": "Lietuvių", "en": "English", "it": "Italiano"}
 
 EMAIL = "info@feelharmonic.lt"
+# Donacijoms už knygelę — įrašoma į „Įsigyti knygelę“ laiško šabloną
+BANK_NAME = "Elena Daunytė"
+BANK_IBAN = "LT81 7300 0100 8950 9422"
 FACEBOOK = "https://www.facebook.com/profile.php?id=100090960240169"
 FB_ICON = ('<svg class="fb-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-7.5h2.6'
            'l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.8 1.4-3.8 3.9'
@@ -300,8 +303,11 @@ def video_item(base, v):
             acts.append('<a class="btn solid" href="#kontaktai" data-book-option="%s" data-book-message="%s">%s</a>'
                         % (attr(v["bookOption"]), attr(v["bookMessage"]), v["bookLabel"]))
         if v.get("buyLabel"):
-            acts.append('<a class="btn" href="mailto:%s?subject=%s">%s</a>'
-                        % (EMAIL, urllib.parse.quote(v["buySubject"]), v["buyLabel"]))
+            # laiško šablonas: egzempliorių skaičius, vardas, adresas ir donacijos rekvizitai
+            body = "\r\n".join(v.get("buyBody", [])).format(name=BANK_NAME, iban=BANK_IBAN)
+            acts.append('<a class="btn" href="mailto:%s?subject=%s&amp;body=%s">%s</a>'
+                        % (EMAIL, urllib.parse.quote(v["buySubject"]), urllib.parse.quote(body),
+                           v["buyLabel"]))
         if acts:
             buy = '\n          <div class="clip-acts">\n            %s\n          </div>' % "\n            ".join(acts)
         sub = '\n          <span class="clip-sub">%s</span>' % v["subtitle"] if v.get("subtitle") else ""
