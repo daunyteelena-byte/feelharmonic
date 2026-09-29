@@ -273,17 +273,34 @@ def services(lang, c):
        "cards": "\n\n      ".join(cards), "motto": MOTTO}
 
 
+def video_item(base, v):
+    if "file" in v:
+        return """<figure class="clip">
+        <video controls playsinline preload="none" poster="%(b)s%(poster)s" aria-label="%(title)s">
+          <source src="%(b)s%(file)s" type="video/mp4">
+        </video>
+        <figcaption>
+          <span class="clip-cat">%(cat)s</span>
+          <b>%(title)s</b>
+          <span class="clip-note">%(note)s</span>
+        </figcaption>
+      </figure>""" % {"b": base, "file": attr(v["file"]), "poster": attr(v["poster"]),
+                      "cat": v["cat"], "title": v["title"], "note": v["note"]}
+    return ('<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/%s" '
+            'title="%s" loading="lazy" allowfullscreen '
+            'allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture"></iframe></div>'
+            % (attr(v["id"]), attr(v["title"])))
+
+
 def media(lang, c):
     m = c["media"]
     # Kai JSON faile atsiranda "videos" sąrašas, vietoj tuščių vietų rodomi
-    # tikri YouTube įrašai. Kol sąrašas tuščias arba jo nėra — rodomos vietos.
+    # tikri įrašai. Kol sąrašas tuščias arba jo nėra — rodomos vietos.
+    # Įrašas su "id" — YouTube; su "file" — vaizdo failas iš assets/video/
+    # (vertikalus, su viršeliu "poster", kategorija "cat" ir aprašymu "note").
     videos = m.get("videos") or []
     if videos:
-        slots = "\n      ".join(
-            '<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/%s" '
-            'title="%s" loading="lazy" allowfullscreen '
-            'allow="accelerometer; clipboard-write; encrypted-media; picture-in-picture"></iframe></div>'
-            % (attr(v["id"]), attr(v["title"])) for v in videos)
+        slots = "\n      ".join(video_item(BASE[lang], v) for v in videos)
     else:
         slots = "\n      ".join(
             '<div class="slot-dark"><strong>%s</strong><span>%s</span></div>' % (s["t"], s["d"])

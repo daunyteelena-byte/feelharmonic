@@ -111,7 +111,15 @@
     "lede": "Which is why it is here, and not at the bottom of the page.",
     "cardLabel": "LRT Mediateka · KLIPVID 2021",
     "cardNote": "Music video in the archive of Lithuanian National Radio and Television.",
-    "videos": [],
+    "videos": [
+      {
+        "file": "assets/video/poezija-kvepavimas-ninah-sol.mp4",
+        "poster": "assets/video/poezija-kvepavimas-ninah-sol.jpg",
+        "cat": "Mindfulness and therapeutic practices",
+        "title": "Poetry and conscious breathing",
+        "note": "A therapeutic event where my poetry reading merges with a meditative conscious breathing session. In collaboration with Ninah Sol."
+      }
+    ],
     "slots": [
       { "t": "Concert excerpt", "d": "60–90 seconds from a live performance. Good sound matters more than good picture." },
       { "t": "Educational session", "d": "A short excerpt from a lesson, with parental consent." }

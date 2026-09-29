@@ -111,7 +111,15 @@
     "lede": "Per questo si trova qui e non in fondo alla pagina.",
     "cardLabel": "LRT Mediateka · KLIPVID 2021",
     "cardNote": "Videoclip nell'archivio della radiotelevisione nazionale lituana.",
-    "videos": [],
+    "videos": [
+      {
+        "file": "assets/video/poezija-kvepavimas-ninah-sol.mp4",
+        "poster": "assets/video/poezija-kvepavimas-ninah-sol.jpg",
+        "cat": "Pratiche terapeutiche di consapevolezza",
+        "title": "Poesia e respiro consapevole",
+        "note": "Un evento terapeutico in cui la lettura delle mie poesie si fonde con una sessione meditativa di respiro consapevole. In collaborazione con Ninah Sol."
+      }
+    ],
     "slots": [
       { "t": "Estratto di concerto", "d": "60–90 secondi da un'esibizione dal vivo. Conta più l'audio dell'immagine." },
       { "t": "Laboratorio didattico", "d": "Breve estratto da una lezione, con il consenso dei genitori." }
