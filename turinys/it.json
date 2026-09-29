@@ -152,7 +152,7 @@
           "Nome e cognome: ",
           "Indirizzo o armadietto postale (paštomatas) per la spedizione: ",
           "",
-          "—",
+          "─── ✦ ───",
           "Importo: quanto il libro vale per Lei",
           "Beneficiario: {name}",
           "Numero di conto (IBAN): {iban}",
