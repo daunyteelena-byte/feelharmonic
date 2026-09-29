@@ -38,6 +38,10 @@ LANG_SHORT = {"lt": "LT", "en": "EN", "it": "IT"}
 LANG_NAME = {"lt": "Lietuvių", "en": "English", "it": "Italiano"}
 
 EMAIL = "info@feelharmonic.lt"
+FACEBOOK = "https://www.facebook.com/profile.php?id=100090960240169"
+FB_ICON = ('<svg class="fb-ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-7.5h2.6'
+           'l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.8 1.4-3.8 3.9'
+           'v2.3H7.9v3h2.6V21z"/></svg>')
 
 # Šūkis, kuriuo baigiasi kiekviena skiltis. Visomis kalbomis vienodas.
 MOTTO = '<p class="motto reveal">Let it come!</p>'
@@ -709,6 +713,9 @@ def contact(lang, c):
             v = '<a href="tel:+37067004184">+370 670 04184</a>'
         elif d["type"] == "email":
             v = '<a data-email href="mailto:%s">%s</a>' % (EMAIL, EMAIL)
+        elif d["type"] == "facebook":
+            v = ('<a class="fb-link" href="%s" target="_blank" rel="noopener">%sFeelHarmonic</a>'
+                 % (FACEBOOK, FB_ICON))
         else:
             v = d["v"]
         direct.append("<dt>%s</dt>\n        <dd>%s</dd>" % (d["k"], v))
@@ -782,6 +789,7 @@ def footer(lang, c):
           <div><b>FeelHarmonic</b><span class="tg">Let it come!</span></div>
         </div>
         <p style="max-width:34ch;margin:0 0 18px">%(about)s</p>
+        <a class="fb-round" href="%(fb)s" target="_blank" rel="noopener" aria-label="%(fbaria)s" title="Facebook">%(fbicon)s</a>
         %(langs)s
       </div>
       <div>
@@ -808,6 +816,7 @@ def footer(lang, c):
 """ % {"about": f["about"], "colpages": f["colPages"], "pages": pages,
        "coldetails": f["colDetails"], "details": details, "city": f["city"], "email": EMAIL,
        "year": datetime.date.today().year,
+       "fb": FACEBOOK, "fbaria": attr(f["facebookAria"]), "fbicon": FB_ICON,
        "langs": langbar(lang, "in-footer", c["langAria"])}
 
 
@@ -823,7 +832,8 @@ def jsonld(lang, c):
                 "email": EMAIL,
                 "telephone": "+370 670 04184",
                 "worksFor": {"@type": "Organization", "name": "FeelHarmonic",
-                             "slogan": "Let it come!", "url": SITE + "/"},
+                             "slogan": "Let it come!", "url": SITE + "/",
+                             "sameAs": [FACEBOOK]},
                 "knowsLanguage": ["lt", "en", "it"],
                 "knowsAbout": c["schema"]["knowsAbout"],
             },

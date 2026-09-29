@@ -520,6 +520,7 @@
     "direct": [
       { "k": "Telefonas", "type": "tel" },
       { "k": "El. paštas", "type": "email" },
+      { "k": "Facebook", "type": "facebook" },
       { "k": "Veiklos vieta", "type": "text", "v": "Vilnius ir visa Lietuva" },
       { "k": "Kalbos", "type": "text", "v": "Lietuvių, anglų, italų" },
       { "k": "Atsakau", "type": "text", "v": "Per vieną darbo dieną" }
@@ -543,6 +544,7 @@
   },
 
   "footer": {
+    "facebookAria": "FeelHarmonic Facebook puslapis",
     "about": "Koncertai, performansai, edukacijos, terapiniai renginiai ir šventės nuo A iki Z visoje Lietuvoje.",
     "colPages": "Puslapiai",
     "pages": [

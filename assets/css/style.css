@@ -376,6 +376,8 @@ body.no-scroll{overflow:hidden}
 .direct dd{margin:0 0 22px;font-size:19px;font-family:var(--serif)}
 .direct a{text-decoration:none;border-bottom:1px solid var(--gold);color:var(--ink)}
 .direct a:hover{color:var(--gold-ink)}
+.direct .fb-link{display:inline-flex;align-items:center;gap:8px}
+.direct .fb-ico{width:20px;height:20px;fill:var(--gold-ink);flex:none}
 
 /* ---------- poraštė ---------- */
 footer{background:var(--teal-deep);color:rgba(255,255,255,.76);padding:64px 0 40px;font-size:15px}
@@ -386,6 +388,14 @@ footer a{color:rgba(255,255,255,.84);text-decoration:none}
 footer a:hover{color:var(--gold-lt)}
 footer ul{list-style:none;margin:0;padding:0}
 footer li{margin-bottom:7px}
+/* Facebook ikona poraštėje */
+footer .fb-round{
+  display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;
+  border:1px solid rgba(206,142,52,.5);border-radius:50%;margin-bottom:18px;
+  transition:border-color .2s ease,background .2s ease;
+}
+footer .fb-round .fb-ico{width:20px;height:20px;fill:var(--gold-lt)}
+footer .fb-round:hover{border-color:var(--gold);background:rgba(206,142,52,.12)}
 .fbrand{display:flex;align-items:center;gap:12px;margin-bottom:14px}
 .fbrand svg{width:34px;height:34px;flex:none}
 .fbrand b{font-family:var(--serif);font-weight:500;font-size:21px;color:#fff}

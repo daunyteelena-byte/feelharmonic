@@ -520,6 +520,7 @@
     "direct": [
       { "k": "Phone", "type": "tel" },
       { "k": "Email", "type": "email" },
+      { "k": "Facebook", "type": "facebook" },
       { "k": "Based in", "type": "text", "v": "Vilnius, working across Lithuania" },
       { "k": "Languages", "type": "text", "v": "Lithuanian, English, Italian" },
       { "k": "Reply time", "type": "text", "v": "Within one working day" }
@@ -543,6 +544,7 @@
   },
 
   "footer": {
+    "facebookAria": "FeelHarmonic on Facebook",
     "about": "Concerts, performances, education, therapeutic events and celebrations from A to Z across Lithuania.",
     "colPages": "Sections",
     "pages": [
