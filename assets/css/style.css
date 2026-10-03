@@ -376,8 +376,8 @@ main section.band-teal h2{color:var(--gold-lt)}
 @media(min-width:640px){.gallery{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:960px){.gallery{grid-template-columns:repeat(3,1fr)}}
 /* galerijos nuotrauka paspaudus — per visą ekraną */
-.gallery .shot{cursor:zoom-in}
-.gallery .shot:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.lb-zoom{cursor:zoom-in}
+.lb-zoom:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
 .lightbox{
   position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;
   background:rgba(4,22,24,.94);padding:56px 64px;opacity:0;transition:opacity .25s ease;
@@ -386,6 +386,8 @@ main section.band-teal h2{color:var(--gold-lt)}
 .lightbox figure{margin:0;max-width:100%;max-height:100%;display:flex;flex-direction:column;align-items:center;gap:14px}
 .lightbox img{max-width:100%;max-height:calc(100vh - 150px);object-fit:contain;box-shadow:0 20px 60px rgba(0,0,0,.5);border:1px solid rgba(206,142,52,.35)}
 .lightbox figcaption{font-family:var(--serif);font-style:italic;font-size:18px;color:#fff;text-align:center;max-width:60ch}
+.lightbox .lb-meta{display:block;margin-top:8px;font-family:var(--sans);font-style:normal;font-size:14px;letter-spacing:.02em;line-height:1.5;color:rgba(255,255,255,.72)}
+.lightbox.is-single .lb-prev,.lightbox.is-single .lb-next{display:none}
 .lightbox figcaption small{display:block;margin-top:4px;font-family:var(--sans);font-style:normal;font-size:12px;letter-spacing:.14em;color:var(--gold-lt)}
 .lightbox button{
   position:absolute;background:none;border:1px solid rgba(206,142,52,.5);color:var(--gold-lt);

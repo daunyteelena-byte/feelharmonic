@@ -433,7 +433,7 @@
   },
 
   "gallery": {
-    "lightbox": {"close": "Chiudi", "prev": "Foto precedente", "next": "Foto successiva"},
+    "lightbox": {"close": "Chiudi", "prev": "Foto precedente", "next": "Foto successiva", "by": "Foto:"},
     "eyebrow": "Galleria",
     "h2": "Fotografie",
     "lede": "Momenti dai concerti — da solista, con Regnum Musicale, ensemble di quattro sorelle, il duo SisDuo, il Quartetto Čiurlionis e altri: il concerto del 16 febbraio alla Filarmonica (2024), «Tėkmėje» sulla laguna di Kaunas a Rumšiškės (2024) e «Pilnaties pilnatvinė kelionė» al Centro culturale di Kernavė (2023).",
@@ -558,6 +558,40 @@
     "h2": "Parliamo del vostro evento?",
     "lede": "Scrivetemi l'occasione, il luogo e la data — rispondo entro un giorno lavorativo con una proposta concreta.",
     "btn": "Scrivi un messaggio"
+  },
+
+  "photos": {
+    "apie.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "elena.jpg": {"event": "Concerto con orchestra sinfonica", "place": "Filarmonica", "date": "2022", "by": "Inga Juodytė"},
+    "labirintas.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "paslauga-interaktyvu.jpg": {"event": "Concerto interattivo «Pilnaties pilnatvinė kelionė»", "place": "Centro culturale di Kernavė", "date": "31 dicembre 2023", "by": "Laurynas Meškutavičius"},
+    "paslauga-koncertai.jpg": {"event": "Concerto interattivo «Pilnaties pilnatvinė kelionė»", "place": "Centro culturale di Kernavė", "date": "31 dicembre 2023", "by": "Laurynas Meškutavičius"},
+    "paslauga-renginiai.jpg": {"event": "Concerto interattivo «Pilnaties pilnatvinė kelionė»", "place": "Centro culturale di Kernavė", "date": "31 dicembre 2023", "by": "Laurynas Meškutavičius"},
+    "paslauga-terapija.jpg": {"event": "Presentazione del libro di poesie «33 įkvėpimai»", "place": "", "date": "", "by": "Gintaras Jonaitis (GYWAI)"},
+    "galerija-1.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "galerija-10.jpg": {"event": "Regnum Musicale", "place": "", "date": "", "by": ""},
+    "galerija-11.jpg": {"event": "Concerto interattivo «Pilnaties pilnatvinė kelionė»", "place": "Centro culturale di Kernavė", "date": "31 dicembre 2023", "by": "Laurynas Meškutavičius"},
+    "galerija-12.jpg": {"event": "Concerto interattivo «Pilnaties pilnatvinė kelionė»", "place": "Centro culturale di Kernavė", "date": "31 dicembre 2023", "by": "Laurynas Meškutavičius"},
+    "galerija-13.jpg": {"event": "Concerto del 16 febbraio, il duo SisDuo con l’orchestra", "place": "Filarmonica", "date": "16 febbraio 2024", "by": ""},
+    "galerija-14.jpg": {"event": "Concerto del 16 febbraio, il duo SisDuo con l’orchestra", "place": "Filarmonica", "date": "16 febbraio 2024", "by": ""},
+    "galerija-15.jpg": {"event": "Concerto del 16 febbraio, il duo SisDuo con l’orchestra", "place": "Filarmonica", "date": "16 febbraio 2024", "by": ""},
+    "galerija-16.jpg": {"event": "Concerto «Tėkmėje»", "place": "Laguna di Kaunas, Rumšiškės", "date": "7 settembre 2024", "by": "Asta Sabonytė"},
+    "galerija-17.jpg": {"event": "Concerto «Tėkmėje»", "place": "Laguna di Kaunas, Rumšiškės", "date": "7 settembre 2024", "by": "Asta Sabonytė"},
+    "galerija-18.jpg": {"event": "Concerto «Tėkmėje»", "place": "Laguna di Kaunas, Rumšiškės", "date": "7 settembre 2024", "by": "Asta Sabonytė"},
+    "galerija-19.jpg": {"event": "Concerto «Tėkmėje»", "place": "Laguna di Kaunas, Rumšiškės", "date": "7 settembre 2024", "by": "Asta Sabonytė"},
+    "galerija-2.jpg": {"event": "Concerto interattivo «Pilnaties pilnatvinė kelionė»", "place": "Centro culturale di Kernavė", "date": "31 dicembre 2023", "by": "Laurynas Meškutavičius"},
+    "galerija-20.jpg": {"event": "Concerto «Tėkmėje»", "place": "Laguna di Kaunas, Rumšiškės", "date": "7 settembre 2024", "by": "Asta Sabonytė"},
+    "galerija-21.jpg": {"event": "Concerto «Tėkmėje»", "place": "Laguna di Kaunas, Rumšiškės", "date": "7 settembre 2024", "by": "Asta Sabonytė"},
+    "galerija-22.jpg": {"event": "Concerto «Tėkmėje»", "place": "Laguna di Kaunas, Rumšiškės", "date": "7 settembre 2024", "by": "Asta Sabonytė"},
+    "galerija-23.jpg": {"event": "Concerto «Tėkmėje»", "place": "Laguna di Kaunas, Rumšiškės", "date": "7 settembre 2024", "by": "Asta Sabonytė"},
+    "galerija-24.jpg": {"event": "Concerto «Tėkmėje»", "place": "Laguna di Kaunas, Rumšiškės", "date": "7 settembre 2024", "by": "Asta Sabonytė"},
+    "galerija-3.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "galerija-4.jpg": {"event": "Concerto interattivo «Pilnaties pilnatvinė kelionė»", "place": "Centro culturale di Kernavė", "date": "31 dicembre 2023", "by": "Laurynas Meškutavičius"},
+    "galerija-5.jpg": {"event": "Regnum Musicale", "place": "", "date": "", "by": ""},
+    "galerija-6.jpg": {"event": "Con il Quartetto Čiurlionis", "place": "", "date": "", "by": ""},
+    "galerija-7.jpg": {"event": "Concerto interattivo «Pilnaties pilnatvinė kelionė»", "place": "Centro culturale di Kernavė", "date": "31 dicembre 2023", "by": "Laurynas Meškutavičius"},
+    "galerija-8.jpg": {"event": "Duo con Artūras Anusauskas", "place": "", "date": "", "by": ""},
+    "galerija-9.jpg": {"event": "Concerto interattivo «Pilnaties pilnatvinė kelionė»", "place": "Centro culturale di Kernavė", "date": "31 dicembre 2023", "by": "Laurynas Meškutavičius"}
   },
 
   "contact": {

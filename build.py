@@ -109,10 +109,25 @@ def attr(text):
             .replace("<", "&lt;").replace(">", "&gt;"))
 
 
+# Nuotraukų informacija išdidinimui (turinys/*.json -> "photos"); nustatoma page()
+PHOTOS = {}
+PHOTO_BY = ""
+
+
+def lbinfo(src):
+    """data-lb atributai: paspaudus nuotrauką rodoma renginys · vieta · data · fotografas."""
+    i = PHOTOS.get(src, {})
+    parts = [i.get("event"), i.get("place"), i.get("date")]
+    if i.get("by"):
+        parts.append("%s %s" % (PHOTO_BY, i["by"]))
+    meta = " · ".join(x for x in parts if x)
+    return ' data-lb data-lb-meta="%s"' % attr(meta)
+
+
 def photo(base, src, alt, cls="shot", cap=None):
     fig = ['<figure class="%s" data-photo>' % cls,
            '  <svg class="ph-empty" viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg>',
-           '  <img src="%sassets/img/%s" alt="%s" data-optional>' % (base, src, attr(alt))]
+           '  <img src="%sassets/img/%s" alt="%s" data-optional%s>' % (base, src, attr(alt), lbinfo(src))]
     if cap:
         fig.append('  <figcaption>%s</figcaption>' % cap)
     fig.append('</figure>')
@@ -242,7 +257,7 @@ def hero(lang, c):
 
     <figure class="portrait" data-photo>
       <svg class="ph-empty" viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg>
-      <img src="%(b)sassets/img/elena.jpg" alt="%(alt)s" width="1000" height="1000" data-optional>
+      <img src="%(b)sassets/img/elena.jpg" alt="%(alt)s" width="1000" height="1000" data-optional%(lbhero)s>
       <figcaption>
         <b>Elena Daunytė</b>
         <span>%(role)s</span>
@@ -251,7 +266,7 @@ def hero(lang, c):
   </div>
 </div>
 """ % {"roles": roles, "h1": h["h1"], "kicker": h["kicker"], "sub": h["sub"], "cta1": h["ctaPrimary"], "cta2": h["ctaSecondary"],
-       "facts": facts, "b": BASE[lang], "alt": attr(h["portraitAlt"]), "role": h["portraitRole"]}
+       "facts": facts, "b": BASE[lang], "alt": attr(h["portraitAlt"]), "role": h["portraitRole"], "lbhero": lbinfo("elena.jpg")}
 
 
 def services(lang, c):
@@ -274,10 +289,10 @@ def services(lang, c):
         bn = s["banner"]
         banner = """
     <figure class="svc-banner reveal">
-      <img src="%sassets/img/%s" alt="%s" width="1600" height="686">
+      <img src="%sassets/img/%s" alt="%s" width="1600" height="686"%s>
       <figcaption>%s%s</figcaption>
     </figure>
-""" % (BASE[lang], bn["img"], attr(bn["alt"]),
+""" % (BASE[lang], bn["img"], attr(bn["alt"]), lbinfo(bn["img"]),
        ('<span class="svc-banner-tag">%s</span>' % bn["tag"]) if bn.get("tag") else "", bn["cap"])
     return """
 <!-- ---------- PASLAUGOS ---------- -->
@@ -674,7 +689,7 @@ def about(lang, c):
 
       <div class="about-photo" data-photo>
         <svg class="ph-empty" viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg>
-        <img src="%(b)sassets/img/apie.jpg" alt="%(alt)s" data-optional>
+        <img src="%(b)sassets/img/apie.jpg" alt="%(alt)s" data-optional%(lbapie)s>
       </div>
     </div>
 
@@ -682,7 +697,7 @@ def about(lang, c):
   </div>
 </section>
 """ % {"eyebrow": a["eyebrow"], "h2": a["h2"], "paras": paras, "creds": creds,
-       "last": a["closing"], "cta": a["cta"], "b": BASE[lang], "alt": attr(a["alt"]),
+       "last": a["closing"], "cta": a["cta"], "b": BASE[lang], "alt": attr(a["alt"]), "lbapie": lbinfo("apie.jpg"),
        "motto": MOTTO}
 
 
@@ -955,6 +970,9 @@ def shown(items):
 
 
 def page(lang, c):
+    global PHOTOS, PHOTO_BY
+    PHOTOS = c.get("photos", {})
+    PHOTO_BY = c["gallery"]["lightbox"]["by"]
     return "".join([
         head(lang, c), header(lang, c), hero(lang, c), services(lang, c), media(lang, c),
         who(lang, c), edu(lang, c), programs(lang, c), growth(lang, c), art_exchange(lang, c),

@@ -108,21 +108,38 @@ var CONFIG = {
     });
   });
 
-  /* ---------- galerija: paspaudus nuotrauka atsidaro per visą ekraną ---------- */
-  var gal = document.querySelector(".gallery");
-  if (gal) {
-    var shots = Array.prototype.filter.call(gal.querySelectorAll(".shot"), function (f) {
-      var im = f.querySelector("img");
-      return im && f.offsetParent !== null;
-    });
-    var lb = null, cur = 0, lastFocus = null;
+  /* ---------- nuotraukos: paspaudus atsidaro per visą ekraną su informacija ----------
+     Visos nuotraukos su data-lb. Galerijos nuotraukos vartomos rodyklėmis,
+     kitos (pirmas ekranas, kortelės, „Apie“, juosta) rodomos po vieną. */
+  var lbLabels = document.querySelector("[data-lb-close]");
+  var L = {
+    close: lbLabels ? lbLabels.dataset.lbClose : "×",
+    prev: lbLabels ? lbLabels.dataset.lbPrev : "‹",
+    next: lbLabels ? lbLabels.dataset.lbNext : "›"
+  };
+  var figOf = function (im) { return im.closest("figure, .portrait, .about-photo") || im.parentNode; };
+  var all = Array.prototype.filter.call(document.querySelectorAll("img[data-lb]"), function (im) {
+    return figOf(im).offsetParent !== null;
+  });
+  if (all.length) {
+    var lb = null, set = [], cur = 0, lastFocus = null;
+    var titleOf = function (im) {
+      var cap = figOf(im).querySelector("figcaption");
+      if (cap && figOf(im).classList.contains("shot")) return cap.textContent.trim();
+      if (cap && figOf(im).classList.contains("svc-banner")) return cap.textContent.trim();
+      return im.alt;
+    };
     var render = function () {
-      var f = shots[cur], im = f.querySelector("img"), cap = f.querySelector("figcaption");
-      var big = lb.querySelector("img");
+      var im = set[cur], big = lb.querySelector("img");
       big.src = im.currentSrc || im.src;
       big.alt = im.alt;
-      lb.querySelector("figcaption").innerHTML = (cap ? cap.textContent : "") +
-        "<small>" + (cur + 1) + " / " + shots.length + "</small>";
+      var meta = im.getAttribute("data-lb-meta") || "";
+      var count = set.length > 1 ? (cur + 1) + " / " + set.length : "";
+      var cap = lb.querySelector("figcaption");
+      cap.textContent = titleOf(im);
+      if (meta) { var m = document.createElement("span"); m.className = "lb-meta"; m.textContent = meta; cap.appendChild(m); }
+      if (count) { var s = document.createElement("small"); s.textContent = count; cap.appendChild(s); }
+      lb.classList.toggle("is-single", set.length < 2);
     };
     var close = function () {
       if (!lb) return;
@@ -132,17 +149,21 @@ var CONFIG = {
       setTimeout(function () { el.remove(); }, 250);
       if (lastFocus) lastFocus.focus();
     };
-    var go = function (d) { cur = (cur + d + shots.length) % shots.length; render(); };
-    var open = function (i) {
-      cur = i; lastFocus = document.activeElement;
+    var go = function (d) { if (set.length < 2) return; cur = (cur + d + set.length) % set.length; render(); };
+    var open = function (im) {
+      var g = im.closest(".gallery");
+      set = g ? all.filter(function (x) {
+        return x.closest(".gallery") === g && x.complete && x.naturalWidth > 0 && x.isConnected;
+      }) : [im];
+      cur = set.indexOf(im); lastFocus = document.activeElement;
       lb = document.createElement("div");
       lb.className = "lightbox";
       lb.setAttribute("role", "dialog");
       lb.setAttribute("aria-modal", "true");
       lb.innerHTML = '<figure><img alt=""><figcaption></figcaption></figure>' +
-        '<button class="lb-close" type="button" aria-label="' + gal.dataset.lbClose + '">&times;</button>' +
-        '<button class="lb-prev" type="button" aria-label="' + gal.dataset.lbPrev + '">&#8249;</button>' +
-        '<button class="lb-next" type="button" aria-label="' + gal.dataset.lbNext + '">&#8250;</button>';
+        '<button class="lb-close" type="button" aria-label="' + L.close + '">&times;</button>' +
+        '<button class="lb-prev" type="button" aria-label="' + L.prev + '">&#8249;</button>' +
+        '<button class="lb-next" type="button" aria-label="' + L.next + '">&#8250;</button>';
       document.body.appendChild(lb);
       document.body.classList.add("no-scroll");
       render();
@@ -155,12 +176,17 @@ var CONFIG = {
         else if (!e.target.closest("img")) close();
       });
     };
-    shots.forEach(function (f, i) {
+    all.forEach(function (im) {
+      var f = figOf(im);
+      // tik įsikėlusios nuotraukos (be nuotraukos lieka ženklas — jo nedidiname)
+      var ready = function () { return im.complete && im.naturalWidth > 0 && im.isConnected; };
+      var mark = function () { if (ready()) f.classList.add("lb-zoom"); };
+      mark(); im.addEventListener("load", mark);
       f.setAttribute("tabindex", "0");
-      f.setAttribute("role", "button");
-      f.addEventListener("click", function () { open(i); });
+      f.setAttribute("aria-label", im.alt);
+      f.addEventListener("click", function () { if (ready()) open(im); });
       f.addEventListener("keydown", function (e) {
-        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(i); }
+        if ((e.key === "Enter" || e.key === " ") && ready()) { e.preventDefault(); open(im); }
       });
     });
     document.addEventListener("keydown", function (e) {

@@ -28,6 +28,12 @@ matytų, kas jau parašyta ir ką galima grąžinti. Pilnas 14 skilčių išdės
 išsaugotas Git žymoje `pilnas-isdestymas-2026-10-03`. Pakeitus turinį ar
 skilčių rinkinį — atnaujinti ir `ISDESTYMAS.md`.
 
+## Nuotraukos
+
+Paspaudus bet kurią nuotrauką su `data-lb` ji atsidaro per visą ekraną su
+informacija iš `turinys/*.json` → `"photos"` (failo vardas → event, place, date,
+by). Įkėlus naują nuotrauką — pridėti jos įrašą visose trijose kalbose.
+
 ## Naršyklės podėlis
 
 CSS ir JS nuorodos turi `?v=<turinio parašas>` (`ver()` faile `build.py`).
