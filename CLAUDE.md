@@ -20,6 +20,14 @@ programavimo) — `ADMIN.md`. Neužbaigti darbai — `TODO.md`.
   `it/index.html`, `sitemap.xml`) spręsti ne ranka: paimti bet kurią versiją ir
   paleisti `python build.py`.
 
+## Kai savininkė nori papildyti puslapį
+
+**Pirmiausia parodyti jai `ISDESTYMAS.md`** — visas skiltis su turiniu, ir rodomas,
+ir paslėptas (`PASLEPTA` faile `build.py`: studija, atsiliepimai, parama), kad
+matytų, kas jau parašyta ir ką galima grąžinti. Pilnas 14 skilčių išdėstymas
+išsaugotas Git žymoje `pilnas-isdestymas-2026-10-03`. Pakeitus turinį ar
+skilčių rinkinį — atnaujinti ir `ISDESTYMAS.md`.
+
 ## Naršyklės podėlis
 
 CSS ir JS nuorodos turi `?v=<turinio parašas>` (`ver()` faile `build.py`).
