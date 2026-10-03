@@ -85,9 +85,13 @@ var CONFIG = {
       btn.textContent = open ? btn.getAttribute("data-less") : btn.getAttribute("data-more");
       if (!open) btn.closest(".clip").scrollIntoView({ block: "nearest" });
     });
-    // paspaudus ant išblukusio teksto — taip pat išskleidžiama
-    text.addEventListener("click", function () {
-      if (text.classList.contains("is-collapsed")) btn.click();
+    // paspaudus ant teksto — išskleidžiama arba suskleidžiama (bet ne žymint
+    // tekstą kopijavimui ir ne paspaudus nuorodą)
+    text.addEventListener("click", function (e) {
+      if (e.target.closest("a")) return;
+      var sel = window.getSelection && String(window.getSelection());
+      if (sel && !text.classList.contains("is-collapsed")) return;
+      btn.click();
     });
   });
 
