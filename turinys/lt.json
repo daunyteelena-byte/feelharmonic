@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "FeelHarmonic — Elena Daunytė, kūrėja, atlikėja",
-    "description": "Koncertai ir performansai, edukacijos, terapiniai bei sąmoningumo renginiai ir šventės nuo A iki Z — mokykloms, kultūros centrams, dvarams, įmonėms ir privatiems užsakovams visoje Lietuvoje.",
-    "ogDescription": "Koncertai, performansai, edukacijos, terapiniai renginiai ir šventės nuo A iki Z visoje Lietuvoje."
+    "description": "Koncertai ir performansai, edukacijos, harmonizuojantys bei sąmoningumo renginiai ir šventės nuo A iki Z — mokykloms, kultūros centrams, dvarams, įmonėms ir privatiems užsakovams visoje Lietuvoje.",
+    "ogDescription": "Koncertai, performansai, edukacijos, harmonizuojantys renginiai ir šventės nuo A iki Z visoje Lietuvoje."
   },
 
   "skip": "Pereiti prie turinio",
@@ -37,7 +37,7 @@
     "roles": "Elena Daunytė — violončelininkė · vokalistė · poetė · kūrėja",
     "h1": "Per muziką — į <em>naująjį save</em>!",
     "kicker": "Į sąmoningą pokytį muzikos bei menų akivaizdoje",
-    "sub": "Klasikinės muzikos koncertai ir alternatyvūs performansai, kultūrinės edukacijos, terapiniai bei sąmoningumo renginiai ir šventės nuo A iki Z — mokykloms, kultūros centrams, dvarams, įmonėms ir privatiems užsakovams visoje Lietuvoje.",
+    "sub": "Klasikinės muzikos koncertai ir alternatyvūs performansai, kultūrinės edukacijos, harmonizuojantys bei sąmoningumo renginiai ir šventės nuo A iki Z — mokykloms, kultūros centrams, dvarams, įmonėms ir privatiems užsakovams visoje Lietuvoje.",
     "ctaPrimary": "Užsakyti pasirodymą",
     "ctaSecondary": "Peržiūrėti programas",
     "facts": [
@@ -80,9 +80,9 @@
       },
       {
         "img": "paslauga-terapija.jpg",
-        "alt": "Terapinis muzikos užsiėmimas",
-        "h3": "Terapiniai ir sąmoningumo renginiai",
-        "p": "Muzikos, žodžio, kvapų ir šokio terapijos suaugusiems. Jogos ir meditacijų paketas, sąmoningumo praktikos, seminarai pasirinkta tema ir retreat‘ai su gyvu garsu.",
+        "alt": "Harmonizuojantis muzikos užsiėmimas",
+        "h3": "Harmonizuojantys ir sąmoningumo renginiai",
+        "p": "Muzikos, žodžio, kvapų ir šokio patirtys suaugusiems. Jogos ir meditacijų paketas, sąmoningumo praktikos, seminarai pasirinkta tema ir retreat‘ai su gyvu garsu.",
         "more": "Sudaryti paketą",
         "moreHref": "#programos"
       },
@@ -115,9 +115,9 @@
     "videos": [
       {
         "youtube": "BWi5LPweDFg",
-        "cat": "Sąmoningumo terapinės praktikos",
+        "cat": "Harmonizuojančios sąmoningumo praktikos",
         "title": "„33 įkvėpimai“",
-        "subtitle": "Poezijos, muzikos ir sąmoningo kvėpavimo terapija",
+        "subtitle": "Poezijos, muzikos ir sąmoningo kvėpavimo patirtis",
         "lead": "Kiekvienas eilėraštis prasideda įkvėpimu.",
         "note": "„33 įkvėpimai“ – tai patirtis, kurioje susitinka trys būdai sugrįžti į save: poezijos žodis, muzika ir sąmoningas kvėpavimas. Vakaro pagrindas – poetės Elenos Daunytės knygelė „33 įkvėpimai“, kurią sudaro 33 triposmiai, gimę iš tylos, patirčių ir virsmų.",
         "moreLabel": "Skaityti daugiau",
@@ -160,7 +160,7 @@
           "Mokėjimo paskirtis: Už knygą „33 įkvėpimai“"
         ],
         "bookLabel": "Užsakyti renginį",
-        "bookOption": "Terapinis ar sąmoningumo renginys",
+        "bookOption": "Harmonizuojantis ar sąmoningumo renginys",
         "bookMessage": "Norėčiau užsakyti renginį „33 įkvėpimai“."
       }
     ],
@@ -200,7 +200,7 @@
       {
         "n": "06",
         "h3": "Retreat‘ų ir gerovės programų organizatoriams",
-        "p": "Gyvas garsas jogos, meditacijų ir sąmoningumo praktikoms. Muzikos, žodžio, kvapų ir šokio terapijos sesijos suaugusiems."
+        "p": "Gyvas garsas jogos, meditacijų ir sąmoningumo praktikoms. Harmonizuojančios muzikos, žodžio, kvapų ir šokio sesijos suaugusiems."
       }
     ]
   },
@@ -334,11 +334,11 @@
         ]
       },
       {
-        "h3": "Terapinis renginys",
-        "p": "Muzikos, žodžio, kvapų ir šokio terapijos elementai vienoje sesijoje suaugusiems. Ne pramoga, o būsena: gyvas garsas, kvėpavimas, kvapai ir judesys sudėlioti taip, kad po pusantros valandos žmogus išeitų kitoks nei atėjo.",
+        "h3": "Harmonizuojantis renginys",
+        "p": "Muzikos, žodžio, kvapų ir šokio elementai vienoje harmonizuojančioje sesijoje suaugusiems. Ne pramoga, o būsena: gyvas garsas, kvėpavimas, kvapai ir judesys sudėlioti taip, kad po pusantros valandos žmogus išeitų kitoks nei atėjo.",
         "specs": [
           { "k": "Trukmė", "v": "90 min" },
-          { "k": "Sudėtis", "v": "Atlikėja ir terapeutas" },
+          { "k": "Sudėtis", "v": "Atlikėja ir praktikų vedėjas" },
           { "k": "Dalyviai", "v": "8–25" },
           { "k": "Kaina", "v": "Sutartinė" }
         ]
@@ -422,7 +422,7 @@
     "points": [
       "Kameriniai koncertai ir performansai",
       "Kūrybinės dirbtuvės ir mokymai",
-      "Jogos, meditacijų ir terapinės sesijos",
+      "Jogos, meditacijų ir harmonizuojančios sesijos",
       "Pokalbių ir garso įrašai",
       "Repeticijos ir rezidencijos"
     ],
@@ -493,8 +493,8 @@
         "a": "Taip — individualiai ir grupėse, vaikus ir suaugusiuosius. Violončelė arba kitas pasirinktas instrumentas, muzikos pažinimas, scenos jausena. Pradedantiesiems ankstesnio pasiruošimo nereikia."
       },
       {
-        "q": "Kuo terapinis renginys skiriasi nuo koncerto?",
-        "a": "Koncerte klausotės, terapinėje sesijoje dalyvaujate. Muzika, žodis, kvapai ir judesys sudėlioti ne dėl įspūdžio, o dėl būsenos, todėl grupė mažesnė (8–25 žmonės), o programa vedama kartu su terapeutu."
+        "q": "Kuo harmonizuojantis renginys skiriasi nuo koncerto?",
+        "a": "Koncerte klausotės, harmonizuojančioje sesijoje dalyvaujate. Muzika, žodis, kvapai ir judesys sudėlioti ne dėl įspūdžio, o dėl būsenos, todėl grupė mažesnė (8–25 žmonės), o programa vedama kartu su sąmoningumo praktikų vedėju."
       },
       {
         "q": "Kiek iš anksto reikia rezervuoti datą?",
@@ -560,7 +560,7 @@
       "Interaktyvus koncertas",
       "Edukacinis užsiėmimas mokykloje",
       "Kūrybinės dirbtuvės ar mokymai",
-      "Terapinis ar sąmoningumo renginys",
+      "Harmonizuojantis ar sąmoningumo renginys",
       "„Menais mainais“ ar asmeninio augimo renginys",
       "Retreat‘as",
       "Vestuvės ar šeimos šventė",
@@ -597,7 +597,7 @@
 
   "footer": {
     "facebookAria": "FeelHarmonic Facebook puslapis",
-    "about": "Koncertai, performansai, edukacijos, terapiniai renginiai ir šventės nuo A iki Z visoje Lietuvoje.",
+    "about": "Koncertai, performansai, edukacijos, harmonizuojantys renginiai ir šventės nuo A iki Z visoje Lietuvoje.",
     "colPages": "Puslapiai",
     "pages": [
       { "href": "#paslaugos", "label": "Paslaugos" },
@@ -625,7 +625,7 @@
       "Kamerinė muzika",
       "Muzikinė edukacija",
       "Renginių organizavimas",
-      "Muzikos terapija"
+      "Harmonizuojantys renginiai"
     ],
     "faq": [
       {

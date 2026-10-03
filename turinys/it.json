@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "FeelHarmonic — Elena Daunytė, creatrice e interprete",
-    "description": "Concerti e performance, laboratori ed educazione musicale, eventi terapeutici e di consapevolezza, organizzazione completa di eventi — per scuole, centri culturali, dimore storiche, aziende e privati in tutta la Lituania.",
-    "ogDescription": "Concerti, performance, educazione musicale, eventi terapeutici e organizzazione completa di eventi in tutta la Lituania."
+    "description": "Concerti e performance, laboratori ed educazione musicale, eventi armonizzanti e di consapevolezza, organizzazione completa di eventi — per scuole, centri culturali, dimore storiche, aziende e privati in tutta la Lituania.",
+    "ogDescription": "Concerti, performance, educazione musicale, eventi armonizzanti e organizzazione completa di eventi in tutta la Lituania."
   },
 
   "skip": "Vai al contenuto",
@@ -37,7 +37,7 @@
     "roles": "Elena Daunytė — violoncellista · cantante · poetessa · creatrice",
     "h1": "Attraverso la musica — verso <em>il nuovo te</em>!",
     "kicker": "Verso un cambiamento consapevole di fronte alla musica e alle arti",
-    "sub": "Concerti di musica classica e performance alternative, educazione culturale, eventi terapeutici e di consapevolezza, feste organizzate dalla A alla Z — per scuole, centri culturali, dimore storiche, aziende e privati in tutta la Lituania.",
+    "sub": "Concerti di musica classica e performance alternative, educazione culturale, eventi armonizzanti e di consapevolezza, feste organizzate dalla A alla Z — per scuole, centri culturali, dimore storiche, aziende e privati in tutta la Lituania.",
     "ctaPrimary": "Prenota un'esibizione",
     "ctaSecondary": "Vedi i programmi",
     "facts": [
@@ -80,9 +80,9 @@
       },
       {
         "img": "paslauga-terapija.jpg",
-        "alt": "Sessione terapeutica con la musica",
-        "h3": "Eventi terapeutici e di consapevolezza",
-        "p": "Terapia con la musica, la parola, i profumi e la danza per adulti. Pacchetto yoga e meditazione, pratiche di consapevolezza, seminari su un tema scelto e ritiri con suono dal vivo.",
+        "alt": "Sessione armonizzante con la musica",
+        "h3": "Eventi armonizzanti e di consapevolezza",
+        "p": "Esperienze con la musica, la parola, i profumi e la danza per adulti. Pacchetto yoga e meditazione, pratiche di consapevolezza, seminari su un tema scelto e ritiri con suono dal vivo.",
         "more": "Componi un pacchetto",
         "moreHref": "#programos"
       },
@@ -115,9 +115,9 @@
     "videos": [
       {
         "youtube": "BWi5LPweDFg",
-        "cat": "Pratiche terapeutiche di consapevolezza",
+        "cat": "Pratiche armonizzanti di consapevolezza",
         "title": "«33 įkvėpimai»",
-        "subtitle": "Terapia di poesia, musica e respiro consapevole",
+        "subtitle": "Esperienza di poesia, musica e respiro consapevole",
         "lead": "Ogni poesia comincia con un respiro.",
         "note": "«33 įkvėpimai» è un’esperienza in cui si incontrano tre modi di tornare a sé: la parola poetica, la musica e il respiro consapevole. Alla base della serata c’è il libro della poetessa Elena Daunytė «33 įkvėpimai», composto da 33 terzine nate dal silenzio, dalle esperienze e dalle trasformazioni.",
         "moreLabel": "Leggi di più",
@@ -160,7 +160,7 @@
           "Causale: Per il libro «33 įkvėpimai»"
         ],
         "bookLabel": "Prenota l’evento",
-        "bookOption": "Evento terapeutico o di consapevolezza",
+        "bookOption": "Evento armonizzante o di consapevolezza",
         "bookMessage": "Vorrei prenotare l’evento «33 įkvėpimai»."
       }
     ],
@@ -200,7 +200,7 @@
       {
         "n": "06",
         "h3": "Per organizzatori di ritiri e programmi di benessere",
-        "p": "Suono dal vivo per yoga, meditazione e pratiche di consapevolezza. Sessioni di terapia con musica, parola, profumi e danza per adulti."
+        "p": "Suono dal vivo per yoga, meditazione e pratiche di consapevolezza. Sessioni armonizzanti con musica, parola, profumi e danza per adulti."
       }
     ]
   },
@@ -334,11 +334,11 @@
         ]
       },
       {
-        "h3": "Evento terapeutico",
-        "p": "Elementi di terapia con musica, parola, profumi e danza in un'unica sessione per adulti. Non intrattenimento, ma uno stato: suono dal vivo, respiro, profumi e movimento disposti in modo che dopo novanta minuti si esca diversi da come si è entrati.",
+        "h3": "Evento armonizzante",
+        "p": "Elementi di musica, parola, profumi e danza in un'unica sessione armonizzante per adulti. Non intrattenimento, ma uno stato: suono dal vivo, respiro, profumi e movimento disposti in modo che dopo novanta minuti si esca diversi da come si è entrati.",
         "specs": [
           { "k": "Durata", "v": "90 min" },
-          { "k": "Conduzione", "v": "Musicista e terapeuta" },
+          { "k": "Conduzione", "v": "Musicista e facilitatore delle pratiche" },
           { "k": "Gruppo", "v": "8–25" },
           { "k": "Prezzo", "v": "Su richiesta" }
         ]
@@ -422,7 +422,7 @@
     "points": [
       "Concerti da camera e performance",
       "Laboratori creativi e lezioni",
-      "Sessioni di yoga, meditazione e terapia",
+      "Sessioni di yoga, meditazione e armonizzazione",
       "Registrazioni di conversazioni e di suono",
       "Prove e residenze"
     ],
@@ -493,8 +493,8 @@
         "a": "Sì — individualmente e in gruppo, a bambini e adulti. Violoncello o altro strumento a scelta, comprensione musicale, presenza scenica. Per i principianti non serve alcuna preparazione precedente."
       },
       {
-        "q": "In che cosa un evento terapeutico è diverso da un concerto?",
-        "a": "A un concerto si ascolta; in una sessione terapeutica si partecipa. Musica, parola, profumi e movimento sono disposti non per l'effetto ma per lo stato, perciò il gruppo è più piccolo (8–25 persone) e la sessione è condotta insieme a un terapeuta."
+        "q": "In che cosa un evento armonizzante è diverso da un concerto?",
+        "a": "A un concerto si ascolta; in una sessione armonizzante si partecipa. Musica, parola, profumi e movimento sono disposti non per l'effetto ma per lo stato, perciò il gruppo è più piccolo (8–25 persone) e la sessione è condotta insieme a un facilitatore di pratiche di consapevolezza."
       },
       {
         "q": "Con quanto anticipo va prenotata la data?",
@@ -560,7 +560,7 @@
       "Concerto interattivo",
       "Laboratorio didattico a scuola",
       "Laboratorio creativo o lezioni",
-      "Evento terapeutico o di consapevolezza",
+      "Evento armonizzante o di consapevolezza",
       "«Menais mainais» o evento di crescita personale",
       "Ritiro",
       "Matrimonio o festa di famiglia",
@@ -597,7 +597,7 @@
 
   "footer": {
     "facebookAria": "FeelHarmonic su Facebook",
-    "about": "Concerti, performance, educazione, eventi terapeutici e feste dalla A alla Z in tutta la Lituania.",
+    "about": "Concerti, performance, educazione, eventi armonizzanti e feste dalla A alla Z in tutta la Lituania.",
     "colPages": "Sezioni",
     "pages": [
       { "href": "#paslaugos", "label": "Servizi" },
@@ -625,7 +625,7 @@
       "Musica da camera",
       "Educazione musicale",
       "Organizzazione di eventi",
-      "Musicoterapia"
+      "Eventi armonizzanti"
     ],
     "faq": [
       {

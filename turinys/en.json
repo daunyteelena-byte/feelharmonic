@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "FeelHarmonic — Elena Daunytė, creator and performer",
-    "description": "Concerts and performance art, workshops and music education, therapeutic and mindfulness events, and full event production — for schools, cultural centres, manor houses, companies and private clients across Lithuania.",
-    "ogDescription": "Concerts, performance art, education, therapeutic events and full event production across Lithuania."
+    "description": "Concerts and performance art, workshops and music education, harmonising and mindfulness events, and full event production — for schools, cultural centres, manor houses, companies and private clients across Lithuania.",
+    "ogDescription": "Concerts, performance art, education, harmonising events and full event production across Lithuania."
   },
 
   "skip": "Skip to content",
@@ -37,7 +37,7 @@
     "roles": "Elena Daunytė — cellist · vocalist · poet · creator",
     "h1": "Through music — to <em>a new you</em>!",
     "kicker": "Towards conscious change in the presence of music and the arts",
-    "sub": "Classical music concerts and alternative performances, cultural education, therapeutic and mindfulness events, and celebrations produced from A to Z — for schools, cultural centres, manor houses, companies and private clients across Lithuania.",
+    "sub": "Classical music concerts and alternative performances, cultural education, harmonising and mindfulness events, and celebrations produced from A to Z — for schools, cultural centres, manor houses, companies and private clients across Lithuania.",
     "ctaPrimary": "Book a performance",
     "ctaSecondary": "See the programmes",
     "facts": [
@@ -80,9 +80,9 @@
       },
       {
         "img": "paslauga-terapija.jpg",
-        "alt": "Therapeutic music session",
-        "h3": "Therapeutic and mindfulness events",
-        "p": "Music, word, scent and dance therapy for adults. A yoga and meditation package, mindfulness practices, seminars on a chosen theme, and retreats with live sound.",
+        "alt": "Harmonising music session",
+        "h3": "Harmonising and mindfulness events",
+        "p": "Music, word, scent and dance experiences for adults. A yoga and meditation package, mindfulness practices, seminars on a chosen theme, and retreats with live sound.",
         "more": "Build a package",
         "moreHref": "#programos"
       },
@@ -115,9 +115,9 @@
     "videos": [
       {
         "youtube": "BWi5LPweDFg",
-        "cat": "Mindfulness and therapeutic practices",
+        "cat": "Harmonising mindfulness practices",
         "title": "“33 įkvėpimai”",
-        "subtitle": "A therapy of poetry, music and conscious breathing",
+        "subtitle": "An experience of poetry, music and conscious breathing",
         "lead": "Every poem begins with a breath in.",
         "note": "“33 įkvėpimai” is an experience where three ways of returning to yourself meet: the poetic word, music and conscious breathing. The evening is built around poet Elena Daunytė’s book “33 įkvėpimai” – 33 tercets born of silence, experience and transformation.",
         "moreLabel": "Read more",
@@ -160,7 +160,7 @@
           "Payment reference: For the book “33 įkvėpimai”"
         ],
         "bookLabel": "Book the event",
-        "bookOption": "Therapeutic or mindfulness event",
+        "bookOption": "Harmonising or mindfulness event",
         "bookMessage": "I would like to book the event “33 įkvėpimai”."
       }
     ],
@@ -200,7 +200,7 @@
       {
         "n": "06",
         "h3": "For retreat and wellbeing organisers",
-        "p": "Live sound for yoga, meditation and mindfulness practice. Music, word, scent and dance therapy sessions for adults."
+        "p": "Live sound for yoga, meditation and mindfulness practice. Harmonising music, word, scent and dance sessions for adults."
       }
     ]
   },
@@ -334,11 +334,11 @@
         ]
       },
       {
-        "h3": "Therapeutic event",
-        "p": "Elements of music, word, scent and dance therapy in one session for adults. Not entertainment but a state: live sound, breath, scent and movement arranged so that after ninety minutes a person leaves different from how they arrived.",
+        "h3": "Harmonising event",
+        "p": "Elements of music, word, scent and dance in one harmonising session for adults. Not entertainment but a state: live sound, breath, scent and movement arranged so that after ninety minutes a person leaves different from how they arrived.",
         "specs": [
           { "k": "Length", "v": "90 min" },
-          { "k": "Line-up", "v": "Performer and therapist" },
+          { "k": "Line-up", "v": "Performer and practice facilitator" },
           { "k": "Group", "v": "8–25" },
           { "k": "Price", "v": "On request" }
         ]
@@ -422,7 +422,7 @@
     "points": [
       "Chamber concerts and performances",
       "Creative workshops and lessons",
-      "Yoga, meditation and therapy sessions",
+      "Yoga, meditation and harmonising sessions",
       "Conversation and sound recordings",
       "Rehearsals and residencies"
     ],
@@ -493,8 +493,8 @@
         "a": "Yes — one-to-one and in groups, children and adults. Cello or another instrument of your choice, musical understanding, a feel for the stage. Beginners need no previous experience."
       },
       {
-        "q": "How does a therapeutic event differ from a concert?",
-        "a": "At a concert you listen; in a therapeutic session you take part. Music, word, scent and movement are arranged for a state rather than an effect, so the group is smaller (8–25 people) and the session is led together with a therapist."
+        "q": "How does a harmonising event differ from a concert?",
+        "a": "At a concert you listen; in a harmonising session you take part. Music, word, scent and movement are arranged for a state rather than an effect, so the group is smaller (8–25 people) and the session is led together with a mindfulness practice facilitator."
       },
       {
         "q": "How far in advance should a date be booked?",
@@ -560,7 +560,7 @@
       "Interactive concert",
       "Educational session at a school",
       "Creative workshop or lessons",
-      "Therapeutic or mindfulness event",
+      "Harmonising or mindfulness event",
       "“Menais mainais” or a personal growth event",
       "Retreat",
       "Wedding or family celebration",
@@ -597,7 +597,7 @@
 
   "footer": {
     "facebookAria": "FeelHarmonic on Facebook",
-    "about": "Concerts, performances, education, therapeutic events and celebrations from A to Z across Lithuania.",
+    "about": "Concerts, performances, education, harmonising events and celebrations from A to Z across Lithuania.",
     "colPages": "Sections",
     "pages": [
       { "href": "#paslaugos", "label": "Services" },
@@ -625,7 +625,7 @@
       "Chamber music",
       "Music education",
       "Event production",
-      "Music therapy"
+      "Harmonising events"
     ],
     "faq": [
       {

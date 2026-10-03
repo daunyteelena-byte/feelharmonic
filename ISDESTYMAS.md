@@ -15,7 +15,7 @@ Atnaujinta 2026-10-03.
 
 - **roles:** Elena Daunytė — violončelininkė · vokalistė · poetė · kūrėja
 - **h1:** Per muziką — į naująjį save!
-- **sub:** Klasikinės muzikos koncertai ir alternatyvūs performansai, kultūrinės edukacijos, terapiniai bei sąmoningumo renginiai ir šventės nuo A iki Z — mokykloms, kultūros centrams, dvarams, įmonėms ir privatiems užsakovams visoje Lietuvoje.
+- **sub:** Klasikinės muzikos koncertai ir alternatyvūs performansai, kultūrinės edukacijos, harmonizuojantys bei sąmoningumo renginiai ir šventės nuo A iki Z — mokykloms, kultūros centrams, dvarams, įmonėms ir privatiems užsakovams visoje Lietuvoje.
 
 ## 2. Paslaugos — `#paslaugos`
 *Būsena: rodoma*
@@ -27,7 +27,7 @@ Atnaujinta 2026-10-03.
   - **Koncertai ir performansai** — Klasikinės programos šventėms ir minėjimams. Alternatyvūs koncertai — performansai, kuriuose jungiasi muzika, poezija, šokis ir vaizdas. Trukmė, sudėtis ir repertuaras derinami iš anksto.
   - **Edukacija ir mokymai** — Edukaciniai koncertai ir kultūrinės edukacijos mokykloms — apmokamos Kultūros paso lėšomis. Kūrybinės dirbtuvės ir grojimo pasirinktu instrumentu mokymai vaikams ir suaugusiems.
   - **Renginiai nuo A iki Z** — Meninė dalis vestuvėms, jubiliejams ir įmonių šventėms arba visas renginys po raktu: programa, atlikėjai, scena, garsas, maitinimas, fotografas. Vienas kontaktas ir viena sąskaita vietoj penkių.
-  - **Terapiniai ir sąmoningumo renginiai** — Muzikos, žodžio, kvapų ir šokio terapijos suaugusiems. Jogos ir meditacijų paketas, sąmoningumo praktikos, seminarai pasirinkta tema ir retreat‘ai su gyvu garsu.
+  - **Harmonizuojantys ir sąmoningumo renginiai** — Muzikos, žodžio, kvapų ir šokio patirtys suaugusiems. Jogos ir meditacijų paketas, sąmoningumo praktikos, seminarai pasirinkta tema ir retreat‘ai su gyvu garsu.
   - **Interaktyvūs koncertai** — Renginiai, kuriuose žiūrovai ne tik klauso: dalyvauja, renkasi, kartais patys suskamba. Tinka bendruomenėms, įmonių komandoms ir šeimų šventėms.
   - **Interviu su atlikėju** — „Dive into personality“ — gyvas pokalbis su atlikėju iškart po koncerto, kol scena dar neatvėsusi. Publika priartėja prie kūrėjo, o atlikėjas įvardija, ką patyrė scenoje. Filmuojama; įrašas lieka organizatoriui. Taip pat — atlikėjų paieška jūsų šventei.
 
@@ -52,7 +52,7 @@ Atnaujinta 2026-10-03.
   - **Dvarams ir alternatyvioms erdvėms** — Akustinė programa kiemui, salei, bažnyčiai ar netipinei erdvei — be scenos ir be elektros. Galiu būti nuolatinė jūsų sezono pasiūlymo dalis.
   - **Įmonėms ir agentūroms** — Meninė vakaro dalis, įmonės šventė arba visas renginys po raktu. Agentūroms — paruošta pozicija kalėdinių pasiūlymų kataloge.
   - **Vestuvėms ir šeimos šventėms** — Ceremonijos muzika ir meninė vakaro dalis. Prireikus surandu ir kitus atlikėjus — šokėjus, vokalistus, aktorius.
-  - **Retreat‘ų ir gerovės programų organizatoriams** — Gyvas garsas jogos, meditacijų ir sąmoningumo praktikoms. Muzikos, žodžio, kvapų ir šokio terapijos sesijos suaugusiems.
+  - **Retreat‘ų ir gerovės programų organizatoriams** — Gyvas garsas jogos, meditacijų ir sąmoningumo praktikoms. Harmonizuojančios muzikos, žodžio, kvapų ir šokio sesijos suaugusiems.
 
 ## 5. Edukacijos — `#edukacijos`
 *Būsena: rodoma*
@@ -79,7 +79,7 @@ Atnaujinta 2026-10-03.
   - **Ceremonija** — Vestuvių ceremonija, minėjimas, apdovanojimų ar atidarymo muzikinė dalis. Bažnyčiose ir dvarų salėse akustika dažnai tokia, kad įgarsinimo visai neprireikia. (Trukmė: iki 40 min; Sudėtis: Solo / duetas; Sezonas: Ištisus metus; Kaina nuo: 350 €)
   - **Alternatyvus koncertas — performansas** — Menų sintezė: violončelė, poezija ar kiti tekstai, šokis ir vaizdas viename kūrinyje. Programa kuriama konkrečiai erdvei, o ne perkeliama į ją — todėl dvaro rūsys ar tuščias fabriko cechas čia yra privalumas, ne kliūtis. (Trukmė: 60–75 min; Sudėtis: 2–5 atlikėjai; Sezonas: Ištisus metus; Kaina: Sutartinė)
   - **Interaktyvus koncertas** — Programa, kurioje žiūrovai yra dalis kūrinio: renkasi, ką skambinsime toliau, atlieka paprastas garso partijas, kuria ritmą. Iš koncerto išeinama ne su įspūdžiu, o su patirtimi. (Trukmė: 50–70 min; Sudėtis: Solo / duetas / trio; Sezonas: Ištisus metus; Kaina: Sutartinė)
-  - **Terapinis renginys** — Muzikos, žodžio, kvapų ir šokio terapijos elementai vienoje sesijoje suaugusiems. Ne pramoga, o būsena: gyvas garsas, kvėpavimas, kvapai ir judesys sudėlioti taip, kad po pusantros valandos žmogus išeitų kitoks nei atėjo. (Trukmė: 90 min; Sudėtis: Atlikėja ir terapeutas; Dalyviai: 8–25; Kaina: Sutartinė)
+  - **Harmonizuojantis renginys** — Muzikos, žodžio, kvapų ir šokio elementai vienoje harmonizuojančioje sesijoje suaugusiems. Ne pramoga, o būsena: gyvas garsas, kvėpavimas, kvapai ir judesys sudėlioti taip, kad po pusantros valandos žmogus išeitų kitoks nei atėjo. (Trukmė: 90 min; Sudėtis: Atlikėja ir praktikų vedėjas; Dalyviai: 8–25; Kaina: Sutartinė)
   - **Retreat‘as ir sąmoningumo praktikos** — Jogos, meditacijų ir gyvo garso paketas savaitgaliui: rytinė praktika, seminaras pasirinkta tema, vakaro koncertas ir tylos sesija. Sudarome kartu su erdvės šeimininkais — nuo vienos dienos iki trijų. (Trukmė: 1–3 dienos; Sudėtis: Pagal programą; Dalyviai: 10–40; Kaina: Sutartinė)
   - **Interviu su atlikėju — „Dive into personality“** — Gyvas pokalbis su atlikėju — kūrėju, menininku — iškart po koncerto, prieš publiką. Tikslas — priartinti publiką prie atlikėjo. Tai abipusė refleksija: atlikėjas gali įvardyti savo techninius, interpretacinius, meninius ir scenos potyrius, o klausytojas geriau supranta, kas yra menininkas scenoje, ir labiau pažįsta atlikimo pasaulio niuansus. Po pasirodymo žmogus dar būna atviras kaip retai kada — todėl čia nuskamba dalykai, kurių nebūna įprastame interviu. Filmuojama ir įrašoma; įrašas lieka organizatoriui. (Trukmė: 30–45 min; Sudėtis: Pokalbis + įrašas; Sezonas: Ištisus metus; Kaina: Sutartinė)
   - **Renginys „po raktu“** — Visas renginys nuo A iki Z vienose rankose: programa, atlikėjai, scena, garso aparatūra, maitinimas, fotografas ir vakaro eiga. Organizatoriui lieka vienas kontaktas ir viena sąskaita vietoj penkių. (Trukmė: 2–4 val.; Sudėtis: Pagal erdvę ir progą; Sezonas: Ištisus metus; Kaina nuo: 1 500 €)
@@ -123,7 +123,7 @@ Atnaujinta 2026-10-03.
 - **points:**
   - Kameriniai koncertai ir performansai
   - Kūrybinės dirbtuvės ir mokymai
-  - Jogos, meditacijų ir terapinės sesijos
+  - Jogos, meditacijų ir harmonizuojančios sesijos
   - Pokalbių ir garso įrašai
   - Repeticijos ir rezidencijos
 - **cta:** Domina bendradarbiavimas
@@ -173,7 +173,7 @@ Atnaujinta 2026-10-03.
   - **Ar galite pasirūpinti visu renginiu, ne tik muzika?** — Taip — tai vadinu renginiu nuo A iki Z. Programa, atlikėjai, scena, garsas, maitinimas ir fotografas suderinami per mane, o jūs gaunate vieną kontaktą ir vieną sąskaitą. Jei reikia tik meninės dalies vestuvėms ar įmonės šventei — taip pat įprasta.
   - **Ieškau atlikėjų savo šventei. Ar galite padėti?** — Taip. Ryšininkavimas — atskira paslauga: pagal progą, erdvę ir biudžetą parenku muzikantus, šokėjus, vokalistus ar aktorius ir suderinu jų grafikus. Jums lieka pasirinkti iš paruoštų variantų.
   - **Ar mokote groti?** — Taip — individualiai ir grupėse, vaikus ir suaugusiuosius. Violončelė arba kitas pasirinktas instrumentas, muzikos pažinimas, scenos jausena. Pradedantiesiems ankstesnio pasiruošimo nereikia.
-  - **Kuo terapinis renginys skiriasi nuo koncerto?** — Koncerte klausotės, terapinėje sesijoje dalyvaujate. Muzika, žodis, kvapai ir judesys sudėlioti ne dėl įspūdžio, o dėl būsenos, todėl grupė mažesnė (8–25 žmonės), o programa vedama kartu su terapeutu.
+  - **Kuo harmonizuojantis renginys skiriasi nuo koncerto?** — Koncerte klausotės, harmonizuojančioje sesijoje dalyvaujate. Muzika, žodis, kvapai ir judesys sudėlioti ne dėl įspūdžio, o dėl būsenos, todėl grupė mažesnė (8–25 žmonės), o programa vedama kartu su sąmoningumo praktikų vedėju.
   - **Kiek iš anksto reikia rezervuoti datą?** — Kalėdiniam sezonui — nuo rugsėjo, nes gruodžio savaitgaliai užsipildo pirmi. Kitu metu užtenka 4–6 savaičių.
   - **Ar išrašote sąskaitą faktūrą?** — Taip. Dirbu pagal individualios veiklos pažymą (kodas DK4429441), todėl išrašau sąskaitą faktūrą ir galiu pasirašyti paslaugų sutartį — tai tinka viešojo sektoriaus įstaigų buhalterijai.
   - **Kiek kainuoja kelionė už miesto ribų?** — Iki 60 km nuo Vilniaus kelionė įskaičiuota į kainą. Toliau taikomas 0,25 €/km įkainis, kuris nurodomas pasiūlyme, o ne pridedamas vėliau.
