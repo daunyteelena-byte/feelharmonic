@@ -45,7 +45,7 @@
       "Išrašau sąskaitą faktūrą",
       "Dirbu lietuvių, anglų ir italų kalbomis"
     ],
-    "portraitAlt": "Elena Daunytė su violončele",
+    "portraitAlt": "Elena Daunytė groja violončele su simfoniniu orkestru Filharmonijoje",
     "portraitRole": "Violončelininkė, vokalistė, poetė, kūrėja"
   },
 
@@ -53,6 +53,7 @@
     "eyebrow": "Ką siūlau",
     "h2": "Įvairialypiai patyriminiai renginiai, pajuntant gyvenimo meną savyje",
     "lede": "Kiekviena programa pritaikoma erdvei, progai ir auditorijai — nuo mokyklos salės iki dvaro kiemo ar jogos studijos.",
+    "banner": { "img": "labirintas.jpg", "alt": "Elena Daunytė groja violončele ir dainuoja spalvotai apšviesto akmenų labirinto centre", "cap": "Atlieku savo kūrybą violončele ir balsu bei skaitau savo poeziją." },
     "items": [
       {
         "img": "paslauga-koncertai.jpg",
@@ -603,7 +604,7 @@
   },
 
   "footer": {
-    "photoCredit": "Nuotraukos: Laurynas Meškutavičius, Gintaras Jonaitis (GYWAI)",
+    "photoCredit": "Nuotraukos: Inga Juodytė, Laurynas Meškutavičius, Gintaras Jonaitis (GYWAI)",
     "facebookAria": "FeelHarmonic Facebook puslapis",
     "about": "Koncertai, performansai, edukacijos, harmonizuojantys renginiai ir šventės nuo A iki Z visoje Lietuvoje.",
     "colPages": "Puslapiai",

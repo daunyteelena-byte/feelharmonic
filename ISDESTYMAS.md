@@ -8,7 +8,7 @@ Skirta tam, kad, norint papildyti puslapį, būtų matyti viskas, kas jau paraš
   Grąžinti: ištrinti id iš `PASLEPTA` ir paleisti `python build.py`.
 - Šis failas — lietuviška versija; EN ir IT turinys tas pats, išverstas.
 
-Atnaujinta 2026-10-03. Nuotraukos: Laurynas Meškutavičius („Pilnaties pilnatvinė kelionė“, Kernavės kultūros centras, 2023-12-31) — pirmas ekranas, „Apie“, galerija, kortelės „Koncertai“, „Renginiai nuo A iki Z“, „Interaktyvūs koncertai“.
+Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga Juodytė). Nuotraukos: Laurynas Meškutavičius („Pilnaties pilnatvinė kelionė“, Kernavės kultūros centras, 2023-12-31) — pirmas ekranas, „Apie“, galerija, kortelės „Koncertai“, „Renginiai nuo A iki Z“, „Interaktyvūs koncertai“.
 
 ## 1. Pradžia (hero)
 *Būsena: rodoma*
@@ -30,6 +30,7 @@ Atnaujinta 2026-10-03. Nuotraukos: Laurynas Meškutavičius („Pilnaties pilnat
   - **Harmonizuojantys ir sąmoningumo renginiai** — Muzikos, žodžio, kvapų ir šokio patirtys suaugusiems. Jogos ir meditacijų paketas, sąmoningumo praktikos, seminarai pasirinkta tema ir retreat‘ai su gyvu garsu.
   - **Interaktyvūs koncertai** — Renginiai, kuriuose žiūrovai ne tik klauso: dalyvauja, renkasi, kartais patys suskamba. Tinka bendruomenėms, įmonių komandoms, šeimų šventėms, didelėms koncertų salėms ir kalėdiniam laikotarpiui.
   - **Interviu su atlikėju** — „Dive into personality“ — gyvas pokalbis su atlikėju iškart po koncerto, kol scena dar neatvėsusi. Publika priartėja prie kūrėjo, o atlikėjas įvardija, ką patyrė scenoje. Filmuojama; įrašas lieka organizatoriui. Taip pat — atlikėjų paieška jūsų šventei.
+- **banner:** labirinto nuotrauka (`labirintas.jpg`) — „Atlieku savo kūrybą violončele ir balsu bei skaitau savo poeziją.“
 
 ## 3. Įrašai — `#irasai`
 *Būsena: rodoma*

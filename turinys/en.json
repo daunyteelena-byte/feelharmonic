@@ -45,7 +45,7 @@
       "Invoices issued for institutions",
       "Working in Lithuanian, English and Italian"
     ],
-    "portraitAlt": "Elena Daunytė with her cello",
+    "portraitAlt": "Elena Daunytė playing the cello with a symphony orchestra at the Philharmonic",
     "portraitRole": "Cellist, vocalist, poet, creator"
   },
 
@@ -53,6 +53,7 @@
     "eyebrow": "What I offer",
     "h2": "Multifaceted experiential events — feeling the art of life within you",
     "lede": "Every programme is adapted to the space, the occasion and the audience — from a school hall to a manor courtyard or a yoga studio.",
+    "banner": { "img": "labirintas.jpg", "alt": "Elena Daunytė playing the cello and singing at the centre of a stone labyrinth lit in colour", "cap": "I perform my own music with cello and voice, and read my poetry." },
     "items": [
       {
         "img": "paslauga-koncertai.jpg",
@@ -603,7 +604,7 @@
   },
 
   "footer": {
-    "photoCredit": "Photos: Laurynas Meškutavičius, Gintaras Jonaitis (GYWAI)",
+    "photoCredit": "Photos: Inga Juodytė, Laurynas Meškutavičius, Gintaras Jonaitis (GYWAI)",
     "facebookAria": "FeelHarmonic on Facebook",
     "about": "Concerts, performances, education, harmonising events and celebrations from A to Z across Lithuania.",
     "colPages": "Sections",

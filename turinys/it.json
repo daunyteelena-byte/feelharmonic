@@ -45,7 +45,7 @@
       "Emetto regolare fattura",
       "Lavoro in lituano, inglese e italiano"
     ],
-    "portraitAlt": "Elena Daunytė con il violoncello",
+    "portraitAlt": "Elena Daunytė suona il violoncello con un’orchestra sinfonica alla Filarmonica",
     "portraitRole": "Violoncellista, cantante, poetessa, creatrice"
   },
 
@@ -53,6 +53,7 @@
     "eyebrow": "Che cosa offro",
     "h2": "Eventi esperienziali poliedrici, per sentire l'arte della vita dentro di te",
     "lede": "Ogni programma si adatta allo spazio, all'occasione e al pubblico — dall'aula magna di una scuola al cortile di una dimora storica o a uno studio di yoga.",
+    "banner": { "img": "labirintas.jpg", "alt": "Elena Daunytė suona il violoncello e canta al centro di un labirinto di pietre illuminato a colori", "cap": "Eseguo la mia musica con violoncello e voce e leggo le mie poesie." },
     "items": [
       {
         "img": "paslauga-koncertai.jpg",
@@ -603,7 +604,7 @@
   },
 
   "footer": {
-    "photoCredit": "Foto: Laurynas Meškutavičius, Gintaras Jonaitis (GYWAI)",
+    "photoCredit": "Foto: Inga Juodytė, Laurynas Meškutavičius, Gintaras Jonaitis (GYWAI)",
     "facebookAria": "FeelHarmonic su Facebook",
     "about": "Concerti, performance, educazione, eventi armonizzanti e feste dalla A alla Z in tutta la Lituania.",
     "colPages": "Sezioni",

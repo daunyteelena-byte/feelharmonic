@@ -268,6 +268,16 @@ def services(lang, c):
         </div>
       </article>""" % {"fig": photo(BASE[lang], it["img"], it["alt"]), "h3": it["h3"],
                        "tag": tag, "p": it["p"], "href": it["moreHref"], "more": it["more"]})
+    # plati nuotrauka-juosta po įvadu (neprivaloma: "banner" su img, alt, cap)
+    banner = ""
+    if s.get("banner"):
+        bn = s["banner"]
+        banner = """
+    <figure class="svc-banner reveal">
+      <img src="%sassets/img/%s" alt="%s" width="1600" height="686">
+      <figcaption>%s</figcaption>
+    </figure>
+""" % (BASE[lang], bn["img"], attr(bn["alt"]), bn["cap"])
     return """
 <!-- ---------- PASLAUGOS ---------- -->
 <section id="paslaugos" class="band-cream">
@@ -277,7 +287,7 @@ def services(lang, c):
       <h2>%(h2)s</h2>
       <p class="lede">%(lede)s</p>
     </div>
-
+%(banner)s
     <div class="grid3 reveal">
       %(cards)s
     </div>
@@ -286,7 +296,7 @@ def services(lang, c):
   </div>
 </section>
 """ % {"eyebrow": s["eyebrow"], "h2": s["h2"], "lede": s["lede"],
-       "cards": "\n\n      ".join(cards), "motto": MOTTO}
+       "cards": "\n\n      ".join(cards), "motto": MOTTO, "banner": banner}
 
 
 def video_item(base, v):
