@@ -91,7 +91,7 @@
         "alt": "Interaktyvus koncertas su publika",
         "h3": "Interaktyvūs koncertai",
         "tag": "NEW",
-        "p": "Renginiai, kuriuose žiūrovai ne tik klauso: dalyvauja, renkasi, kartais patys suskamba. Tinka bendruomenėms, įmonių komandoms ir šeimų šventėms.",
+        "p": "Renginiai, kuriuose žiūrovai ne tik klauso: dalyvauja, renkasi, kartais patys suskamba. Tinka bendruomenėms, įmonių komandoms, šeimų šventėms, didelėms koncertų salėms ir kalėdiniam laikotarpiui.",
         "more": "Kaip tai vyksta",
         "moreHref": "#programos"
       },
@@ -326,7 +326,7 @@
       {
         "h3": "Interaktyvus koncertas",
         "tag": "NEW",
-        "p": "Programa, kurioje žiūrovai yra dalis kūrinio: renkasi, ką skambinsime toliau, atlieka paprastas garso partijas, kuria ritmą. Iš koncerto išeinama ne su įspūdžiu, o su patirtimi.",
+        "p": "Programa, kurioje žiūrovai yra dalis kūrinio: renkasi, ką skambinsime toliau, atlieka paprastas garso partijas, kuria ritmą. Iš koncerto išeinama ne su įspūdžiu, o su patirtimi. Ypač tinka kalėdiniam laikotarpiui ir didelėms koncertų salėms.",
         "specs": [
           { "k": "Trukmė", "v": "50–70 min" },
           { "k": "Sudėtis", "v": "Solo / duetas / trio" },

@@ -91,7 +91,7 @@
         "alt": "Interactive concert with the audience",
         "h3": "Interactive concerts",
         "tag": "NEW",
-        "p": "Events where the audience does more than listen: they take part, they choose, and sometimes they sound. A good fit for communities, company teams and family celebrations.",
+        "p": "Events where the audience does more than listen: they take part, they choose, and sometimes they sound. A good fit for communities, company teams, family celebrations, large concert halls and the Christmas season.",
         "more": "How it works",
         "moreHref": "#programos"
       },
@@ -326,7 +326,7 @@
       {
         "h3": "Interactive concert",
         "tag": "NEW",
-        "p": "A programme in which the audience is part of the work: they choose what comes next, play simple sound parts, build the rhythm. People leave with an experience rather than an impression.",
+        "p": "A programme in which the audience is part of the work: they choose what comes next, play simple sound parts, build the rhythm. People leave with an experience rather than an impression. Especially suited to the Christmas season and large concert halls.",
         "specs": [
           { "k": "Length", "v": "50–70 min" },
           { "k": "Line-up", "v": "Solo / duo / trio" },

@@ -91,7 +91,7 @@
         "alt": "Concerto interattivo con il pubblico",
         "h3": "Concerti interattivi",
         "tag": "NEW",
-        "p": "Eventi in cui il pubblico non si limita ad ascoltare: partecipa, sceglie e a volte suona. Adatti a comunità, team aziendali e feste di famiglia.",
+        "p": "Eventi in cui il pubblico non si limita ad ascoltare: partecipa, sceglie e a volte suona. Adatti a comunità, team aziendali, feste di famiglia, grandi sale da concerto e al periodo natalizio.",
         "more": "Come funziona",
         "moreHref": "#programos"
       },
@@ -326,7 +326,7 @@
       {
         "h3": "Concerto interattivo",
         "tag": "NEW",
-        "p": "Un programma in cui il pubblico è parte dell'opera: sceglie che cosa suoneremo dopo, esegue semplici parti sonore, costruisce il ritmo. Dal concerto non si esce con un'impressione, ma con un'esperienza.",
+        "p": "Un programma in cui il pubblico è parte dell'opera: sceglie che cosa suoneremo dopo, esegue semplici parti sonore, costruisce il ritmo. Dal concerto non si esce con un'impressione, ma con un'esperienza. Particolarmente adatto al periodo natalizio e alle grandi sale da concerto.",
         "specs": [
           { "k": "Durata", "v": "50–70 min" },
           { "k": "Organico", "v": "Solo / duo / trio" },
