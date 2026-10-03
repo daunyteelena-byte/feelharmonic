@@ -72,7 +72,7 @@
       },
       {
         "img": "paslauga-renginiai.jpg",
-        "alt": "Event at a manor house",
+        "alt": "New Year’s Eve concert",
         "h3": "Events from A to Z",
         "p": "The artistic part of a wedding, anniversary or company celebration — or the whole event turnkey: programme, performers, stage, sound, catering, photographer. One contact and one invoice instead of five.",
         "more": "Discuss an event",
@@ -434,14 +434,14 @@
   "gallery": {
     "eyebrow": "Gallery",
     "h2": "Photographs",
-    "lede": "A client wants to see how you will look in their hall — which is why shots from a range of spaces work best.",
+    "lede": "Shots from the interactive concert “Pilnaties revizinė kelionė” at Kernavė Cultural Centre, New Year’s Eve 2023. Photos: Laurynas Meškutavičius.",
     "items": [
-      { "img": "galerija-1.jpg", "alt": "Elena Daunytė with her cello", "cap": "Portrait" },
-      { "img": "galerija-2.jpg", "alt": "Concert in a hall", "cap": "Concert in a hall" },
-      { "img": "galerija-3.jpg", "alt": "Performance at a manor house", "cap": "Manor, church" },
-      { "img": "galerija-4.jpg", "alt": "Educational session at a school", "cap": "Education at school" },
-      { "img": "galerija-5.jpg", "alt": "Outdoor performance", "cap": "Outdoor event" },
-      { "img": "galerija-6.jpg", "alt": "Detail of a cello", "cap": "Detail" }
+      { "img": "galerija-1.jpg", "alt": "Harp and cello in concert", "cap": "Harp and cello" },
+      { "img": "galerija-2.jpg", "alt": "Elena Daunytė singing on stage", "cap": "Vocals" },
+      { "img": "galerija-3.jpg", "alt": "Harpist and cellist in pink stage light", "cap": "Ensemble" },
+      { "img": "galerija-4.jpg", "alt": "Violin, harp and cello on stage", "cap": "Concert hall" },
+      { "img": "galerija-5.jpg", "alt": "A glowing orb by the festive tree", "cap": "New Year’s Eve" },
+      { "img": "galerija-6.jpg", "alt": "The performers with their instruments by the festive tree", "cap": "After the concert" }
     ]
   },
 
@@ -597,6 +597,7 @@
   },
 
   "footer": {
+    "photoCredit": "Photos: Laurynas Meškutavičius",
     "facebookAria": "FeelHarmonic on Facebook",
     "about": "Concerts, performances, education, harmonising events and celebrations from A to Z across Lithuania.",
     "colPages": "Sections",

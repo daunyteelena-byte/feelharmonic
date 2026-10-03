@@ -8,7 +8,7 @@ Skirta tam, kad, norint papildyti puslapį, būtų matyti viskas, kas jau paraš
   Grąžinti: ištrinti id iš `PASLEPTA` ir paleisti `python build.py`.
 - Šis failas — lietuviška versija; EN ir IT turinys tas pats, išverstas.
 
-Atnaujinta 2026-10-03.
+Atnaujinta 2026-10-03. Nuotraukos: Laurynas Meškutavičius („Pilnaties revizinė kelionė“, Kernavės kultūros centras, 2023-12-31) — pirmas ekranas, „Apie“, galerija, kortelės „Koncertai“, „Renginiai nuo A iki Z“, „Interaktyvūs koncertai“.
 
 ## 1. Pradžia (hero)
 *Būsena: rodoma*
@@ -130,18 +130,18 @@ Atnaujinta 2026-10-03.
 - **cta:** Domina bendradarbiavimas
 
 ## 10. Galerija — `#galerija`
-*Būsena: rodoma*
+*Būsena: rodoma (nuotraukos įkeltos 2026-10-03)*
 
 - **eyebrow:** Galerija
 - **h2:** Nuotraukos
-- **lede:** Užsakovas nori pamatyti, kaip atrodysite jo salėje — todėl geriausiai veikia kadrai iš skirtingų erdvių.
+- **lede:** Kadrai iš interaktyvaus koncerto „Pilnaties revizinė kelionė“ Kernavės kultūros centre, 2023 m. Naujųjų metų išvakarėse. Nuotraukos — Laurynas Meškutavičius.
 - **items:**
-  - ****
-  - ****
-  - ****
-  - ****
-  - ****
-  - ****
+  - **Arfa ir violončelė** — Arfa ir violončelė koncerte (`galerija-1.jpg`)
+  - **Vokalas** — Elena Daunytė dainuoja scenoje (`galerija-2.jpg`)
+  - **Ansamblis** — Arfininkė ir violončelininkė rožinėje scenos šviesoje (`galerija-3.jpg`)
+  - **Koncertas salėje** — Smuikas, arfa ir violončelė scenoje (`galerija-4.jpg`)
+  - **Naujųjų metų išvakarės** — Šviečiantis rutulys prie šventinės eglutės (`galerija-5.jpg`)
+  - **Po koncerto** — Atlikėjos su instrumentais prie šventinės eglutės (`galerija-6.jpg`)
 
 ## 11. Apie — `#apie`
 *Būsena: rodoma*

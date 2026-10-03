@@ -886,12 +886,13 @@ def footer(lang, c):
     </div>
     <div class="fbot">
       <span>&copy; <span id="year">%(year)s</span> FeelHarmonic</span>
+      <span>%(credit)s</span>
       <span>%(city)s</span>
     </div>
   </div>
 </footer>
 """ % {"about": f["about"], "colpages": f["colPages"], "pages": pages,
-       "coldetails": f["colDetails"], "details": details, "city": f["city"], "email": EMAIL,
+       "coldetails": f["colDetails"], "credit": f["photoCredit"], "details": details, "city": f["city"], "email": EMAIL,
        "year": datetime.date.today().year,
        "fb": FACEBOOK, "fbaria": attr(f["facebookAria"]), "fbicon": FB_ICON}
 
