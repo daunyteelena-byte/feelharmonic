@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "FeelHarmonic — Elena Daunytė, creatrice e interprete",
-    "description": "Concerti e performance, laboratori ed educazione musicale, eventi armonizzanti e di consapevolezza, organizzazione completa di eventi — per scuole, centri culturali, dimore storiche, aziende e privati in tutta la Lituania.",
+    "description": "Concerti e performance, laboratori ed educazione musicale, eventi armonizzanti di consapevolezza, organizzazione completa di eventi — per scuole, centri culturali, dimore storiche, aziende e privati in tutta la Lituania.",
     "ogDescription": "Concerti, performance, educazione musicale, eventi armonizzanti e organizzazione completa di eventi in tutta la Lituania."
   },
 
@@ -37,7 +37,7 @@
     "roles": "Elena Daunytė — violoncellista · cantante · poetessa · creatrice",
     "h1": "Attraverso la musica — verso <em>il nuovo te</em>!",
     "kicker": "Verso un cambiamento consapevole di fronte alla musica e alle arti",
-    "sub": "Concerti di musica classica e performance alternative, educazione culturale, eventi armonizzanti e di consapevolezza, feste organizzate dalla A alla Z — per scuole, centri culturali, dimore storiche, aziende e privati in tutta la Lituania.",
+    "sub": "Concerti di musica classica e performance alternative, educazione culturale, eventi armonizzanti di consapevolezza, feste organizzate dalla A alla Z — per scuole, centri culturali, dimore storiche, aziende e privati in tutta la Lituania.",
     "ctaPrimary": "Prenota un'esibizione",
     "ctaSecondary": "Vedi i programmi",
     "facts": [
@@ -82,7 +82,7 @@
       {
         "img": "paslauga-terapija.jpg",
         "alt": "Elena Daunytė legge dal suo libro di poesie «33 įkvėpimai»",
-        "h3": "Eventi armonizzanti e di consapevolezza",
+        "h3": "Eventi armonizzanti di consapevolezza",
         "p": "Esperienze con la musica, la parola, i profumi e la danza per adulti. Pacchetto yoga e meditazione, pratiche di consapevolezza, seminari su un tema scelto e ritiri con suono dal vivo.",
         "more": "Componi un pacchetto",
         "moreHref": "#programos"
@@ -162,7 +162,7 @@
           "Causale: Per il libro «33 įkvėpimai»"
         ],
         "bookLabel": "Prenota l’evento",
-        "bookOption": "Evento armonizzante o di consapevolezza",
+        "bookOption": "Evento armonizzante di consapevolezza",
         "bookMessage": "Vorrei prenotare l’evento «33 įkvėpimai»."
       }
     ],
@@ -572,7 +572,7 @@
       "Concerto interattivo",
       "Laboratorio didattico a scuola",
       "Laboratorio creativo o lezioni",
-      "Evento armonizzante o di consapevolezza",
+      "Evento armonizzante di consapevolezza",
       "«Menais mainais» o evento di crescita personale",
       "Ritiro",
       "Matrimonio o festa di famiglia",

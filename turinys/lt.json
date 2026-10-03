@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "FeelHarmonic — Elena Daunytė, kūrėja, atlikėja",
-    "description": "Koncertai ir performansai, edukacijos, harmonizuojantys bei sąmoningumo renginiai ir šventės nuo A iki Z — mokykloms, kultūros centrams, dvarams, įmonėms ir privatiems užsakovams visoje Lietuvoje.",
+    "description": "Koncertai ir performansai, edukacijos, harmonizuojantys sąmoningumo renginiai ir šventės nuo A iki Z — mokykloms, kultūros centrams, dvarams, įmonėms ir privatiems užsakovams visoje Lietuvoje.",
     "ogDescription": "Koncertai, performansai, edukacijos, harmonizuojantys renginiai ir šventės nuo A iki Z visoje Lietuvoje."
   },
 
@@ -37,7 +37,7 @@
     "roles": "Elena Daunytė — violončelininkė · vokalistė · poetė · kūrėja",
     "h1": "Per muziką — į <em>naująjį save</em>!",
     "kicker": "Į sąmoningą pokytį muzikos bei menų akivaizdoje",
-    "sub": "Klasikinės muzikos koncertai ir alternatyvūs performansai, kultūrinės edukacijos, harmonizuojantys bei sąmoningumo renginiai ir šventės nuo A iki Z — mokykloms, kultūros centrams, dvarams, įmonėms ir privatiems užsakovams visoje Lietuvoje.",
+    "sub": "Klasikinės muzikos koncertai ir alternatyvūs performansai, kultūrinės edukacijos, harmonizuojantys sąmoningumo renginiai ir šventės nuo A iki Z — mokykloms, kultūros centrams, dvarams, įmonėms ir privatiems užsakovams visoje Lietuvoje.",
     "ctaPrimary": "Užsakyti pasirodymą",
     "ctaSecondary": "Peržiūrėti programas",
     "facts": [
@@ -82,7 +82,7 @@
       {
         "img": "paslauga-terapija.jpg",
         "alt": "Elena Daunytė skaito poeziją iš knygos „33 įkvėpimai“",
-        "h3": "Harmonizuojantys ir sąmoningumo renginiai",
+        "h3": "Harmonizuojantys sąmoningumo renginiai",
         "p": "Muzikos, žodžio, kvapų ir šokio patirtys suaugusiems. Jogos ir meditacijų paketas, sąmoningumo praktikos, seminarai pasirinkta tema ir retreat‘ai su gyvu garsu.",
         "more": "Sudaryti paketą",
         "moreHref": "#programos"
@@ -162,7 +162,7 @@
           "Mokėjimo paskirtis: Už knygą „33 įkvėpimai“"
         ],
         "bookLabel": "Užsakyti renginį",
-        "bookOption": "Harmonizuojantis ar sąmoningumo renginys",
+        "bookOption": "Harmonizuojantis sąmoningumo renginys",
         "bookMessage": "Norėčiau užsakyti renginį „33 įkvėpimai“."
       }
     ],
@@ -572,7 +572,7 @@
       "Interaktyvus koncertas",
       "Edukacinis užsiėmimas mokykloje",
       "Kūrybinės dirbtuvės ar mokymai",
-      "Harmonizuojantis ar sąmoningumo renginys",
+      "Harmonizuojantis sąmoningumo renginys",
       "„Menais mainais“ ar asmeninio augimo renginys",
       "Retreat‘as",
       "Vestuvės ar šeimos šventė",

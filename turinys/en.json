@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "FeelHarmonic — Elena Daunytė, creator and performer",
-    "description": "Concerts and performance art, workshops and music education, harmonising and mindfulness events, and full event production — for schools, cultural centres, manor houses, companies and private clients across Lithuania.",
+    "description": "Concerts and performance art, workshops and music education, harmonising mindfulness events, and full event production — for schools, cultural centres, manor houses, companies and private clients across Lithuania.",
     "ogDescription": "Concerts, performance art, education, harmonising events and full event production across Lithuania."
   },
 
@@ -37,7 +37,7 @@
     "roles": "Elena Daunytė — cellist · vocalist · poet · creator",
     "h1": "Through music — to <em>a new you</em>!",
     "kicker": "Towards conscious change in the presence of music and the arts",
-    "sub": "Classical music concerts and alternative performances, cultural education, harmonising and mindfulness events, and celebrations produced from A to Z — for schools, cultural centres, manor houses, companies and private clients across Lithuania.",
+    "sub": "Classical music concerts and alternative performances, cultural education, harmonising mindfulness events, and celebrations produced from A to Z — for schools, cultural centres, manor houses, companies and private clients across Lithuania.",
     "ctaPrimary": "Book a performance",
     "ctaSecondary": "See the programmes",
     "facts": [
@@ -82,7 +82,7 @@
       {
         "img": "paslauga-terapija.jpg",
         "alt": "Elena Daunytė reading from her poetry book “33 įkvėpimai”",
-        "h3": "Harmonising and mindfulness events",
+        "h3": "Harmonising mindfulness events",
         "p": "Music, word, scent and dance experiences for adults. A yoga and meditation package, mindfulness practices, seminars on a chosen theme, and retreats with live sound.",
         "more": "Build a package",
         "moreHref": "#programos"
@@ -162,7 +162,7 @@
           "Payment reference: For the book “33 įkvėpimai”"
         ],
         "bookLabel": "Book the event",
-        "bookOption": "Harmonising or mindfulness event",
+        "bookOption": "Harmonising mindfulness event",
         "bookMessage": "I would like to book the event “33 įkvėpimai”."
       }
     ],
@@ -572,7 +572,7 @@
       "Interactive concert",
       "Educational session at a school",
       "Creative workshop or lessons",
-      "Harmonising or mindfulness event",
+      "Harmonising mindfulness event",
       "“Menais mainais” or a personal growth event",
       "Retreat",
       "Wedding or family celebration",

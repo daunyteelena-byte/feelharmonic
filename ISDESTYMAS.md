@@ -15,7 +15,7 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
 
 - **roles:** Elena Daunytė — violončelininkė · vokalistė · poetė · kūrėja
 - **h1:** Per muziką — į naująjį save!
-- **sub:** Klasikinės muzikos koncertai ir alternatyvūs performansai, kultūrinės edukacijos, harmonizuojantys bei sąmoningumo renginiai ir šventės nuo A iki Z — mokykloms, kultūros centrams, dvarams, įmonėms ir privatiems užsakovams visoje Lietuvoje.
+- **sub:** Klasikinės muzikos koncertai ir alternatyvūs performansai, kultūrinės edukacijos, harmonizuojantys sąmoningumo renginiai ir šventės nuo A iki Z — mokykloms, kultūros centrams, dvarams, įmonėms ir privatiems užsakovams visoje Lietuvoje.
 
 ## 2. Paslaugos — `#paslaugos`
 *Būsena: rodoma*
@@ -27,7 +27,7 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
   - **Koncertai ir performansai** — Klasikinės programos šventėms ir minėjimams. Alternatyvūs koncertai — performansai, kuriuose jungiasi muzika, poezija, šokis ir vaizdas. Trukmė, sudėtis ir repertuaras derinami iš anksto.
   - **Edukacija ir mokymai** — Edukaciniai koncertai ir kultūrinės edukacijos mokykloms — apmokamos Kultūros paso lėšomis. Kūrybinės dirbtuvės ir grojimo pasirinktu instrumentu mokymai vaikams ir suaugusiems.
   - **Renginiai nuo A iki Z** — Meninė dalis vestuvėms, jubiliejams ir įmonių šventėms arba visas renginys po raktu: programa, atlikėjai, scena, garsas, maitinimas, fotografas. Vienas kontaktas ir viena sąskaita vietoj penkių.
-  - **Harmonizuojantys ir sąmoningumo renginiai** — Muzikos, žodžio, kvapų ir šokio patirtys suaugusiems. Jogos ir meditacijų paketas, sąmoningumo praktikos, seminarai pasirinkta tema ir retreat‘ai su gyvu garsu.
+  - **Harmonizuojantys sąmoningumo renginiai** — Muzikos, žodžio, kvapų ir šokio patirtys suaugusiems. Jogos ir meditacijų paketas, sąmoningumo praktikos, seminarai pasirinkta tema ir retreat‘ai su gyvu garsu.
   - **Interaktyvūs koncertai** — Renginiai, kuriuose žiūrovai ne tik klauso: dalyvauja, renkasi, kartais patys suskamba. Tinka bendruomenėms, įmonių komandoms, šeimų šventėms, didelėms koncertų salėms ir kalėdiniam laikotarpiui.
   - **Interviu su atlikėju** — „Dive into personality“ — gyvas pokalbis su atlikėju iškart po koncerto, kol scena dar neatvėsusi. Publika priartėja prie kūrėjo, o atlikėjas įvardija, ką patyrė scenoje. Filmuojama; įrašas lieka organizatoriui. Taip pat — atlikėjų paieška jūsų šventei.
 - **banner:** labirinto nuotrauka (`labirintas.jpg`) — „Atlieku savo kūrybą violončele ir balsu bei skaitau savo poeziją — patirtis, kurioje klausytojas atranda savo unikalų kelią gyvenimo labirinte. Viskas, ko reikia, — atverti širdį kūrybai.“
