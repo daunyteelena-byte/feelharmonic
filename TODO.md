@@ -14,6 +14,8 @@ Tekstas keičiamas **`turinys/lt.json`, `turinys/en.json`, `turinys/it.json`**, 
 - [ ] **Fotografų vardai** — labirintas (`labirintas.jpg`), „Apie“ nespalvota
       (`apie.jpg`), studijiniai portretai su violončele, nauji galerijos kadrai
       (Regnum Musicale, Čiurlionio kvartetas, duetas).
+- [ ] **Galerijos išdidinimas su išsamesne informacija** — paspaudus nuotrauką rodyti
+      renginį, vietą, metus, fotografą. Reikia duomenų kiekvienai nuotraukai iš Elenos.
 - [x] **„Duetas su Anusausku“** — Artūras Anusauskas, improvizacijų didmeistris (įrašyta 2026-10-03).
 
 ## 1. Nuotraukos — svarbiausia
