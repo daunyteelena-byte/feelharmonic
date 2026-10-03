@@ -572,9 +572,9 @@
     "galerija-10.jpg": {"event": "„Regnum Musicale“", "place": "", "date": "", "by": ""},
     "galerija-11.jpg": {"event": "Interaktyvus koncertas „Pilnaties pilnatvinė kelionė“", "place": "Kernavės kultūros centras", "date": "2023 m. gruodžio 31 d.", "by": "Laurynas Meškutavičius"},
     "galerija-12.jpg": {"event": "Interaktyvus koncertas „Pilnaties pilnatvinė kelionė“", "place": "Kernavės kultūros centras", "date": "2023 m. gruodžio 31 d.", "by": "Laurynas Meškutavičius"},
-    "galerija-13.jpg": {"event": "Vasario 16-osios koncertas, duetas „SisDuo“ su orkestru", "place": "Filharmonija", "date": "2024 m. vasario 16 d.", "by": ""},
-    "galerija-14.jpg": {"event": "Vasario 16-osios koncertas, duetas „SisDuo“ su orkestru", "place": "Filharmonija", "date": "2024 m. vasario 16 d.", "by": ""},
-    "galerija-15.jpg": {"event": "Vasario 16-osios koncertas, duetas „SisDuo“ su orkestru", "place": "Filharmonija", "date": "2024 m. vasario 16 d.", "by": ""},
+    "galerija-13.jpg": {"event": "Duetas „SisDuo“: solistės Elena Daunytė (violončelė) ir Joana Daunytė (arfa), dirigentas Robertas Šervenikas, Lietuvos nacionalinis simfoninis orkestras. Vasario 16-osios koncertas — specialiai joms sukurto Jono Jurkūno kūrinio „Apie būtį“ premjera", "place": "Lietuvos nacionalinė filharmonija", "date": "2024 m. vasario 16 d.", "by": "Dmitrijus Matvejevas"},
+    "galerija-14.jpg": {"event": "Duetas „SisDuo“: solistės Elena Daunytė (violončelė) ir Joana Daunytė (arfa), dirigentas Robertas Šervenikas, Lietuvos nacionalinis simfoninis orkestras. Vasario 16-osios koncertas — specialiai joms sukurto Jono Jurkūno kūrinio „Apie būtį“ premjera", "place": "Lietuvos nacionalinė filharmonija", "date": "2024 m. vasario 16 d.", "by": "Dmitrijus Matvejevas"},
+    "galerija-15.jpg": {"event": "Duetas „SisDuo“: solistės Elena Daunytė (violončelė) ir Joana Daunytė (arfa), dirigentas Robertas Šervenikas, Lietuvos nacionalinis simfoninis orkestras. Vasario 16-osios koncertas — specialiai joms sukurto Jono Jurkūno kūrinio „Apie būtį“ premjera", "place": "Lietuvos nacionalinė filharmonija", "date": "2024 m. vasario 16 d.", "by": "Dmitrijus Matvejevas"},
     "galerija-16.jpg": {"event": "Seserų ansamblis „Regnum Musicale“ · Koncertas „Tėkmėje“", "place": "Kauno marios, Rumšiškės", "date": "2024 m. rugsėjo 7 d.", "by": "Asta Sabonytė"},
     "galerija-17.jpg": {"event": "Seserų ansamblis „Regnum Musicale“ · Koncertas „Tėkmėje“", "place": "Kauno marios, Rumšiškės", "date": "2024 m. rugsėjo 7 d.", "by": "Asta Sabonytė"},
     "galerija-18.jpg": {"event": "Seserų ansamblis „Regnum Musicale“ · Koncertas „Tėkmėje“", "place": "Kauno marios, Rumšiškės", "date": "2024 m. rugsėjo 7 d.", "by": "Asta Sabonytė"},
@@ -651,7 +651,7 @@
   },
 
   "footer": {
-    "photoCredit": "Nuotraukos: Inga Juodytė, Laurynas Meškutavičius, Gintaras Jonaitis (GYWAI), Asta Sabonytė, Saulius Jankauskas",
+    "photoCredit": "Nuotraukos: Inga Juodytė, Dmitrijus Matvejevas, Laurynas Meškutavičius, Gintaras Jonaitis (GYWAI), Asta Sabonytė, Saulius Jankauskas",
     "facebookAria": "FeelHarmonic Facebook puslapis",
     "about": "Koncertai, performansai, edukacijos, harmonizuojantys renginiai ir šventės nuo A iki Z visoje Lietuvoje.",
     "colPages": "Puslapiai",

@@ -572,9 +572,9 @@
     "galerija-10.jpg": {"event": "Regnum Musicale", "place": "", "date": "", "by": ""},
     "galerija-11.jpg": {"event": "Interactive concert “Pilnaties pilnatvinė kelionė”", "place": "Kernavė Cultural Centre", "date": "31 December 2023", "by": "Laurynas Meškutavičius"},
     "galerija-12.jpg": {"event": "Interactive concert “Pilnaties pilnatvinė kelionė”", "place": "Kernavė Cultural Centre", "date": "31 December 2023", "by": "Laurynas Meškutavičius"},
-    "galerija-13.jpg": {"event": "16 February concert, the duo SisDuo with orchestra", "place": "Philharmonic", "date": "16 February 2024", "by": ""},
-    "galerija-14.jpg": {"event": "16 February concert, the duo SisDuo with orchestra", "place": "Philharmonic", "date": "16 February 2024", "by": ""},
-    "galerija-15.jpg": {"event": "16 February concert, the duo SisDuo with orchestra", "place": "Philharmonic", "date": "16 February 2024", "by": ""},
+    "galerija-13.jpg": {"event": "The duo SisDuo: soloists Elena Daunytė (cello) and Joana Daunytė (harp), conductor Robertas Šervenikas, Lithuanian National Symphony Orchestra. 16 February concert — premiere of Jonas Jurkūnas’ “Apie būtį”, written especially for them", "place": "Lithuanian National Philharmonic", "date": "16 February 2024", "by": "Dmitrijus Matvejevas"},
+    "galerija-14.jpg": {"event": "The duo SisDuo: soloists Elena Daunytė (cello) and Joana Daunytė (harp), conductor Robertas Šervenikas, Lithuanian National Symphony Orchestra. 16 February concert — premiere of Jonas Jurkūnas’ “Apie būtį”, written especially for them", "place": "Lithuanian National Philharmonic", "date": "16 February 2024", "by": "Dmitrijus Matvejevas"},
+    "galerija-15.jpg": {"event": "The duo SisDuo: soloists Elena Daunytė (cello) and Joana Daunytė (harp), conductor Robertas Šervenikas, Lithuanian National Symphony Orchestra. 16 February concert — premiere of Jonas Jurkūnas’ “Apie būtį”, written especially for them", "place": "Lithuanian National Philharmonic", "date": "16 February 2024", "by": "Dmitrijus Matvejevas"},
     "galerija-16.jpg": {"event": "Regnum Musicale, an ensemble of sisters · Concert “Tėkmėje”", "place": "Kaunas Lagoon, Rumšiškės", "date": "7 September 2024", "by": "Asta Sabonytė"},
     "galerija-17.jpg": {"event": "Regnum Musicale, an ensemble of sisters · Concert “Tėkmėje”", "place": "Kaunas Lagoon, Rumšiškės", "date": "7 September 2024", "by": "Asta Sabonytė"},
     "galerija-18.jpg": {"event": "Regnum Musicale, an ensemble of sisters · Concert “Tėkmėje”", "place": "Kaunas Lagoon, Rumšiškės", "date": "7 September 2024", "by": "Asta Sabonytė"},
@@ -651,7 +651,7 @@
   },
 
   "footer": {
-    "photoCredit": "Photos: Inga Juodytė, Laurynas Meškutavičius, Gintaras Jonaitis (GYWAI), Asta Sabonytė, Saulius Jankauskas",
+    "photoCredit": "Photos: Inga Juodytė, Dmitrijus Matvejevas, Laurynas Meškutavičius, Gintaras Jonaitis (GYWAI), Asta Sabonytė, Saulius Jankauskas",
     "facebookAria": "FeelHarmonic on Facebook",
     "about": "Concerts, performances, education, harmonising events and celebrations from A to Z across Lithuania.",
     "colPages": "Sections",

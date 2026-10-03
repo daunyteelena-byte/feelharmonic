@@ -572,9 +572,9 @@
     "galerija-10.jpg": {"event": "Regnum Musicale", "place": "", "date": "", "by": ""},
     "galerija-11.jpg": {"event": "Concerto interattivo «Pilnaties pilnatvinė kelionė»", "place": "Centro culturale di Kernavė", "date": "31 dicembre 2023", "by": "Laurynas Meškutavičius"},
     "galerija-12.jpg": {"event": "Concerto interattivo «Pilnaties pilnatvinė kelionė»", "place": "Centro culturale di Kernavė", "date": "31 dicembre 2023", "by": "Laurynas Meškutavičius"},
-    "galerija-13.jpg": {"event": "Concerto del 16 febbraio, il duo SisDuo con l’orchestra", "place": "Filarmonica", "date": "16 febbraio 2024", "by": ""},
-    "galerija-14.jpg": {"event": "Concerto del 16 febbraio, il duo SisDuo con l’orchestra", "place": "Filarmonica", "date": "16 febbraio 2024", "by": ""},
-    "galerija-15.jpg": {"event": "Concerto del 16 febbraio, il duo SisDuo con l’orchestra", "place": "Filarmonica", "date": "16 febbraio 2024", "by": ""},
+    "galerija-13.jpg": {"event": "Il duo SisDuo: soliste Elena Daunytė (violoncello) e Joana Daunytė (arpa), direttore Robertas Šervenikas, Orchestra sinfonica nazionale lituana. Concerto del 16 febbraio — prima esecuzione di «Apie būtį» di Jonas Jurkūnas, scritto appositamente per loro", "place": "Filarmonica nazionale lituana", "date": "16 febbraio 2024", "by": "Dmitrijus Matvejevas"},
+    "galerija-14.jpg": {"event": "Il duo SisDuo: soliste Elena Daunytė (violoncello) e Joana Daunytė (arpa), direttore Robertas Šervenikas, Orchestra sinfonica nazionale lituana. Concerto del 16 febbraio — prima esecuzione di «Apie būtį» di Jonas Jurkūnas, scritto appositamente per loro", "place": "Filarmonica nazionale lituana", "date": "16 febbraio 2024", "by": "Dmitrijus Matvejevas"},
+    "galerija-15.jpg": {"event": "Il duo SisDuo: soliste Elena Daunytė (violoncello) e Joana Daunytė (arpa), direttore Robertas Šervenikas, Orchestra sinfonica nazionale lituana. Concerto del 16 febbraio — prima esecuzione di «Apie būtį» di Jonas Jurkūnas, scritto appositamente per loro", "place": "Filarmonica nazionale lituana", "date": "16 febbraio 2024", "by": "Dmitrijus Matvejevas"},
     "galerija-16.jpg": {"event": "Regnum Musicale, ensemble di sorelle · Concerto «Tėkmėje»", "place": "Laguna di Kaunas, Rumšiškės", "date": "7 settembre 2024", "by": "Asta Sabonytė"},
     "galerija-17.jpg": {"event": "Regnum Musicale, ensemble di sorelle · Concerto «Tėkmėje»", "place": "Laguna di Kaunas, Rumšiškės", "date": "7 settembre 2024", "by": "Asta Sabonytė"},
     "galerija-18.jpg": {"event": "Regnum Musicale, ensemble di sorelle · Concerto «Tėkmėje»", "place": "Laguna di Kaunas, Rumšiškės", "date": "7 settembre 2024", "by": "Asta Sabonytė"},
@@ -651,7 +651,7 @@
   },
 
   "footer": {
-    "photoCredit": "Foto: Inga Juodytė, Laurynas Meškutavičius, Gintaras Jonaitis (GYWAI), Asta Sabonytė, Saulius Jankauskas",
+    "photoCredit": "Foto: Inga Juodytė, Dmitrijus Matvejevas, Laurynas Meškutavičius, Gintaras Jonaitis (GYWAI), Asta Sabonytė, Saulius Jankauskas",
     "facebookAria": "FeelHarmonic su Facebook",
     "about": "Concerti, performance, educazione, eventi armonizzanti e feste dalla A alla Z in tutta la Lituania.",
     "colPages": "Sezioni",
