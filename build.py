@@ -176,8 +176,8 @@ def head(lang, c):
 
 
 def header(lang, c):
-    nav = "\n      ".join('<a href="%s">%s</a>' % (i["href"], i["label"]) for i in c["nav"])
-    mob = "\n  ".join('<a href="%s">%s</a>' % (i["href"], i["label"]) for i in c["mobileNav"])
+    nav = "\n      ".join('<a href="%s">%s</a>' % (i["href"], i["label"]) for i in shown(c["nav"]))
+    mob = "\n  ".join('<a href="%s">%s</a>' % (i["href"], i["label"]) for i in shown(c["mobileNav"]))
     return """<a class="skip" href="#turinys">%(skip)s</a>
 
 <!-- ženklo šablonas -->
@@ -839,8 +839,17 @@ def contact(lang, c):
 
 def footer(lang, c):
     f = c["footer"]
-    pages = "\n          ".join('<li><a href="%s">%s</a></li>' % (i["href"], i["label"])
-                                for i in f["pages"])
+    items = shown(f["pages"])
+    # Parama — paslėpta kaip skiltis, bet jei Patreon nuoroda jau yra, poraštėje
+    # rodoma kaip nuoroda tiesiai į Patreon
+    url = c["patreon"].get("url")
+    if "parama" in PASLEPTA and url:
+        items = [dict(i, href=url) if i["href"] == "#parama" else i for i in f["pages"]
+                 if i["href"].lstrip("#") not in PASLEPTA - {"parama"}]
+    pages = "\n          ".join(
+        '<li><a href="%s"%s>%s</a></li>'
+        % (i["href"], "" if i["href"].startswith("#") else ' target="_blank" rel="noopener"', i["label"])
+        for i in items)
     details = "\n          ".join("<li>%s</li>" % x for x in f["details"])
     return """
 <!-- ---------- PORAŠTĖ ---------- -->
@@ -914,12 +923,30 @@ def jsonld(lang, c):
             % json.dumps(data, ensure_ascii=False, indent=2))
 
 
+# Laikinai paslėptos skiltys (pagal jų id). Kad grąžintumėte — ištrinkite id iš
+# sąrašo ir paleiskite build.py; tekstai turinys/*.json lieka nepaliesti.
+#   studija      — kol studija tik „Rengiama“
+#   atsiliepimai — kol nėra tikrų atsiliepimų (dabar ten pastabos savininkei)
+#   parama       — kol nėra Patreon puslapio; kai "patreon.url" užpildytas,
+#                  poraštėje atsiranda nuoroda tiesiai į Patreon
+PASLEPTA = {"studija", "atsiliepimai", "parama"}
+
+
+def shown(items):
+    """Meniu ir poraštės nuorodos be paslėptų skilčių."""
+    return [i for i in items if i["href"].lstrip("#") not in PASLEPTA]
+
+
 def page(lang, c):
     return "".join([
         head(lang, c), header(lang, c), hero(lang, c), services(lang, c), media(lang, c),
         who(lang, c), edu(lang, c), programs(lang, c), growth(lang, c), art_exchange(lang, c),
-        studio(lang, c), gallery(lang, c), about(lang, c), quotes(lang, c), faq(lang, c),
-        patreon(lang, c), cta(lang, c), contact(lang, c),
+        "" if "studija" in PASLEPTA else studio(lang, c),
+        gallery(lang, c), about(lang, c),
+        "" if "atsiliepimai" in PASLEPTA else quotes(lang, c),
+        faq(lang, c),
+        "" if "parama" in PASLEPTA else patreon(lang, c),
+        cta(lang, c), contact(lang, c),
         footer(lang, c), jsonld(lang, c),
         '\n<script src="%sassets/js/main.js?v=%s"></script>\n</body>\n</html>\n' % (BASE[lang], ver("assets/js/main.js")),
     ])
