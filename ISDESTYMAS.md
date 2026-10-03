@@ -22,7 +22,7 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
 
 - **eyebrow:** Ką siūlau
 - **h2:** Įvairialypiai patyriminiai renginiai, pajuntant gyvenimo meną savyje
-- **lede:** Kiekviena programa pritaikoma erdvei, progai ir auditorijai — nuo mokyklos salės iki dvaro kiemo ar jogos studijos.
+- **lede:** Kiekviena programa pritaikoma erdvei, progai ir auditorijai — nuo mokyklos salės iki dvaro kiemo ar jogos studijos. Visa tai — harmonijoje su gamta.
 - **items:**
   - **Koncertai ir performansai** — Klasikinės programos šventėms ir minėjimams. Alternatyvūs koncertai — performansai, kuriuose jungiasi muzika, poezija, šokis ir vaizdas. Trukmė, sudėtis ir repertuaras derinami iš anksto.
   - **Edukacija ir mokymai** — Edukaciniai koncertai ir kultūrinės edukacijos mokykloms — apmokamos Kultūros paso lėšomis. Kūrybinės dirbtuvės ir grojimo pasirinktu instrumentu mokymai vaikams ir suaugusiems.
