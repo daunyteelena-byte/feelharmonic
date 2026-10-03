@@ -144,7 +144,7 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
   - **„Regnum Musicale“** — Šeimyninis ansamblis „Regnum Musicale“ scenoje (`galerija-5.jpg`)
   - **Su Čiurlionio kvartetu** — Elena Daunytė su Čiurlionio kvartetu (`galerija-6.jpg`)
   - **Ansamblis** — Arfininkė ir violončelininkė rožinėje scenos šviesoje (`galerija-7.jpg`)
-  - **Duetas su Anusausku** — Elena Daunytė duete su Anusausku (`galerija-8.jpg`)
+  - **Duetas su improvizacijų didmeistriu Artūru Anusausku. Muzika, gimstanti čia ir dabar** — Elena Daunytė duete su improvizacijų didmeistriu Artūru Anusausku (`galerija-8.jpg`)
   - **Koncertas salėje** — Smuikas, arfa ir violončelė scenoje (`galerija-9.jpg`)
   - **„Regnum Musicale“ po koncerto** — „Regnum Musicale“ su gėlėmis po koncerto (`galerija-10.jpg`)
   - **Naujųjų metų išvakarės** — Šviečiantis rutulys prie šventinės eglutės (`galerija-11.jpg`)

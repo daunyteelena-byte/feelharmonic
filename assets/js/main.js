@@ -104,6 +104,77 @@ var CONFIG = {
     });
   });
 
+  /* ---------- galerija: paspaudus nuotrauka atsidaro per visą ekraną ---------- */
+  var gal = document.querySelector(".gallery");
+  if (gal) {
+    var shots = Array.prototype.filter.call(gal.querySelectorAll(".shot"), function (f) {
+      var im = f.querySelector("img");
+      return im && f.offsetParent !== null;
+    });
+    var lb = null, cur = 0, lastFocus = null;
+    var render = function () {
+      var f = shots[cur], im = f.querySelector("img"), cap = f.querySelector("figcaption");
+      var big = lb.querySelector("img");
+      big.src = im.currentSrc || im.src;
+      big.alt = im.alt;
+      lb.querySelector("figcaption").innerHTML = (cap ? cap.textContent : "") +
+        "<small>" + (cur + 1) + " / " + shots.length + "</small>";
+    };
+    var close = function () {
+      if (!lb) return;
+      lb.classList.remove("is-open");
+      document.body.classList.remove("no-scroll");
+      var el = lb; lb = null;
+      setTimeout(function () { el.remove(); }, 250);
+      if (lastFocus) lastFocus.focus();
+    };
+    var go = function (d) { cur = (cur + d + shots.length) % shots.length; render(); };
+    var open = function (i) {
+      cur = i; lastFocus = document.activeElement;
+      lb = document.createElement("div");
+      lb.className = "lightbox";
+      lb.setAttribute("role", "dialog");
+      lb.setAttribute("aria-modal", "true");
+      lb.innerHTML = '<figure><img alt=""><figcaption></figcaption></figure>' +
+        '<button class="lb-close" type="button" aria-label="' + gal.dataset.lbClose + '">&times;</button>' +
+        '<button class="lb-prev" type="button" aria-label="' + gal.dataset.lbPrev + '">&#8249;</button>' +
+        '<button class="lb-next" type="button" aria-label="' + gal.dataset.lbNext + '">&#8250;</button>';
+      document.body.appendChild(lb);
+      document.body.classList.add("no-scroll");
+      render();
+      requestAnimationFrame(function () { lb.classList.add("is-open"); });
+      lb.querySelector(".lb-close").focus();
+      lb.addEventListener("click", function (e) {
+        if (e.target.closest(".lb-close")) close();
+        else if (e.target.closest(".lb-prev")) go(-1);
+        else if (e.target.closest(".lb-next")) go(1);
+        else if (!e.target.closest("img")) close();
+      });
+    };
+    shots.forEach(function (f, i) {
+      f.setAttribute("tabindex", "0");
+      f.setAttribute("role", "button");
+      f.addEventListener("click", function () { open(i); });
+      f.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" || e.key === " ") { e.preventDefault(); open(i); }
+      });
+    });
+    document.addEventListener("keydown", function (e) {
+      if (!lb) return;
+      if (e.key === "Escape") close();
+      else if (e.key === "ArrowLeft") go(-1);
+      else if (e.key === "ArrowRight") go(1);
+    });
+    // braukimas telefone
+    var sx = null;
+    document.addEventListener("touchstart", function (e) { if (lb) sx = e.touches[0].clientX; }, { passive: true });
+    document.addEventListener("touchend", function (e) {
+      if (!lb || sx === null) return;
+      var dx = e.changedTouches[0].clientX - sx; sx = null;
+      if (Math.abs(dx) > 50) go(dx < 0 ? 1 : -1);
+    });
+  }
+
   /* ---------- navigacijos būsena slenkant ---------- */
   var nav = document.getElementById("nav");
   if (nav) {

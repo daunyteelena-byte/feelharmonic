@@ -275,9 +275,10 @@ def services(lang, c):
         banner = """
     <figure class="svc-banner reveal">
       <img src="%sassets/img/%s" alt="%s" width="1600" height="686">
-      <figcaption>%s</figcaption>
+      <figcaption>%s%s</figcaption>
     </figure>
-""" % (BASE[lang], bn["img"], attr(bn["alt"]), bn["cap"])
+""" % (BASE[lang], bn["img"], attr(bn["alt"]),
+       ('<span class="svc-banner-tag">%s</span>' % bn["tag"]) if bn.get("tag") else "", bn["cap"])
     return """
 <!-- ---------- PASLAUGOS ---------- -->
 <section id="paslaugos" class="band-cream">
@@ -639,14 +640,14 @@ def gallery(lang, c):
       <p class="lede">%(lede)s</p>
     </div>
 
-    <div class="gallery reveal">
+    <div class="gallery reveal" data-lb-close="%(lbclose)s" data-lb-prev="%(lbprev)s" data-lb-next="%(lbnext)s">
       %(figs)s
     </div>
 
     %(motto)s
   </div>
 </section>
-""" % {"eyebrow": g["eyebrow"], "h2": g["h2"], "lede": g["lede"], "figs": figs, "motto": MOTTO}
+""" % {"eyebrow": g["eyebrow"], "h2": g["h2"], "lede": g["lede"], "figs": figs, "motto": MOTTO, "lbclose": attr(g["lightbox"]["close"]), "lbprev": attr(g["lightbox"]["prev"]), "lbnext": attr(g["lightbox"]["next"])}
 
 
 def about(lang, c):

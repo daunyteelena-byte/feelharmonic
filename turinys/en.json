@@ -433,6 +433,7 @@
   },
 
   "gallery": {
+    "lightbox": {"close": "Close", "prev": "Previous photo", "next": "Next photo"},
     "eyebrow": "Gallery",
     "h2": "Photographs",
     "lede": "Moments from concerts — solo, with the family ensemble Regnum Musicale, the Čiurlionis Quartet and others. Some shots are from the interactive concert “Pilnaties pilnatvinė kelionė” at Kernavė Cultural Centre, New Year’s Eve 2023 (photos: Laurynas Meškutavičius).",
@@ -444,7 +445,7 @@
       { "img": "galerija-5.jpg", "alt": "The family ensemble Regnum Musicale on stage", "cap": "Regnum Musicale" },
       { "img": "galerija-6.jpg", "alt": "Elena Daunytė with the Čiurlionis Quartet", "cap": "With the Čiurlionis Quartet" },
       { "img": "galerija-7.jpg", "alt": "Harpist and cellist in pink stage light", "cap": "Ensemble" },
-      { "img": "galerija-8.jpg", "alt": "Elena Daunytė in a duo with Anusauskas", "cap": "Duo with Anusauskas" },
+      { "img": "galerija-8.jpg", "alt": "Elena Daunytė in a duo with improvisation grandmaster Artūras Anusauskas", "cap": "Duo with improvisation grandmaster Artūras Anusauskas. Music born here and now" },
       { "img": "galerija-9.jpg", "alt": "Violin, harp and cello on stage", "cap": "Concert hall" },
       { "img": "galerija-10.jpg", "alt": "Regnum Musicale with flowers after a concert", "cap": "Regnum Musicale after the concert" },
       { "img": "galerija-11.jpg", "alt": "A glowing orb by the festive tree", "cap": "New Year’s Eve" },

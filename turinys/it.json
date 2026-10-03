@@ -433,6 +433,7 @@
   },
 
   "gallery": {
+    "lightbox": {"close": "Chiudi", "prev": "Foto precedente", "next": "Foto successiva"},
     "eyebrow": "Galleria",
     "h2": "Fotografie",
     "lede": "Momenti dai concerti — da solista, con l’ensemble familiare Regnum Musicale, il Quartetto Čiurlionis e altri. Alcuni scatti vengono dal concerto interattivo «Pilnaties pilnatvinė kelionė» al Centro culturale di Kernavė, vigilia di Capodanno 2023 (foto: Laurynas Meškutavičius).",
@@ -444,7 +445,7 @@
       { "img": "galerija-5.jpg", "alt": "L’ensemble familiare Regnum Musicale sul palco", "cap": "Regnum Musicale" },
       { "img": "galerija-6.jpg", "alt": "Elena Daunytė con il Quartetto Čiurlionis", "cap": "Con il Quartetto Čiurlionis" },
       { "img": "galerija-7.jpg", "alt": "Arpista e violoncellista nella luce rosa del palco", "cap": "Ensemble" },
-      { "img": "galerija-8.jpg", "alt": "Elena Daunytė in duo con Anusauskas", "cap": "Duo con Anusauskas" },
+      { "img": "galerija-8.jpg", "alt": "Elena Daunytė in duo con il maestro dell’improvvisazione Artūras Anusauskas", "cap": "Duo con il maestro dell’improvvisazione Artūras Anusauskas. Musica che nasce qui e ora" },
       { "img": "galerija-9.jpg", "alt": "Violino, arpa e violoncello sul palco", "cap": "Concerto in sala" },
       { "img": "galerija-10.jpg", "alt": "Regnum Musicale con i fiori dopo un concerto", "cap": "Regnum Musicale dopo il concerto" },
       { "img": "galerija-11.jpg", "alt": "Una sfera luminosa accanto all’albero addobbato", "cap": "Vigilia di Capodanno" },

@@ -239,6 +239,7 @@ main section.band-teal h2{color:var(--gold-lt)}
 /* plati nuotrauka „Ką siūlau“ skilties pradžioje */
 .svc-banner{margin:0 0 34px;position:relative;overflow:hidden;border-top:2px solid var(--gold);background:var(--teal-deep)}
 .svc-banner img{display:block;width:100%;aspect-ratio:21/9;object-fit:cover}
+.svc-banner-tag{display:block;margin-bottom:6px;font-family:var(--sans);font-style:normal;font-size:12px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-lt)}
 .svc-banner figcaption{
   position:absolute;left:0;right:0;bottom:0;padding:44px 26px 18px;
   background:linear-gradient(transparent,rgba(7,43,47,.88));
@@ -372,6 +373,29 @@ main section.band-teal h2{color:var(--gold-lt)}
 .gallery{display:grid;gap:22px;grid-template-columns:1fr}
 @media(min-width:640px){.gallery{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:960px){.gallery{grid-template-columns:repeat(3,1fr)}}
+/* galerijos nuotrauka paspaudus — per visą ekraną */
+.gallery .shot{cursor:zoom-in}
+.gallery .shot:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.lightbox{
+  position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;
+  background:rgba(4,22,24,.94);padding:56px 64px;opacity:0;transition:opacity .25s ease;
+}
+.lightbox.is-open{opacity:1}
+.lightbox figure{margin:0;max-width:100%;max-height:100%;display:flex;flex-direction:column;align-items:center;gap:14px}
+.lightbox img{max-width:100%;max-height:calc(100vh - 150px);object-fit:contain;box-shadow:0 20px 60px rgba(0,0,0,.5);border:1px solid rgba(206,142,52,.35)}
+.lightbox figcaption{font-family:var(--serif);font-style:italic;font-size:18px;color:#fff;text-align:center;max-width:60ch}
+.lightbox figcaption small{display:block;margin-top:4px;font-family:var(--sans);font-style:normal;font-size:12px;letter-spacing:.14em;color:var(--gold-lt)}
+.lightbox button{
+  position:absolute;background:none;border:1px solid rgba(206,142,52,.5);color:var(--gold-lt);
+  width:46px;height:46px;border-radius:50%;font-size:22px;line-height:1;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;transition:background .2s ease;
+}
+.lightbox button:hover{background:rgba(206,142,52,.18)}
+.lightbox .lb-close{top:16px;right:16px}
+.lightbox .lb-prev{left:16px;top:50%;transform:translateY(-50%)}
+.lightbox .lb-next{right:16px;top:50%;transform:translateY(-50%)}
+@media(max-width:620px){.lightbox{padding:64px 12px 80px}.lightbox .lb-prev,.lightbox .lb-next{top:auto;bottom:16px;transform:none}.lightbox .lb-prev{left:calc(50% - 56px)}.lightbox .lb-next{right:calc(50% - 56px)}}
+
 /* koncertų nuotraukos horizontalios — rodomos 3:2, kad neapkarpytų atlikėjų */
 .gallery .shot{aspect-ratio:3/2}
 .shot{position:relative;margin:0;overflow:hidden;background:var(--teal-deep);aspect-ratio:4/5}
