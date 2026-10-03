@@ -30,7 +30,7 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
   - **Harmonizuojantys ir sąmoningumo renginiai** — Muzikos, žodžio, kvapų ir šokio patirtys suaugusiems. Jogos ir meditacijų paketas, sąmoningumo praktikos, seminarai pasirinkta tema ir retreat‘ai su gyvu garsu.
   - **Interaktyvūs koncertai** — Renginiai, kuriuose žiūrovai ne tik klauso: dalyvauja, renkasi, kartais patys suskamba. Tinka bendruomenėms, įmonių komandoms, šeimų šventėms, didelėms koncertų salėms ir kalėdiniam laikotarpiui.
   - **Interviu su atlikėju** — „Dive into personality“ — gyvas pokalbis su atlikėju iškart po koncerto, kol scena dar neatvėsusi. Publika priartėja prie kūrėjo, o atlikėjas įvardija, ką patyrė scenoje. Filmuojama; įrašas lieka organizatoriui. Taip pat — atlikėjų paieška jūsų šventei.
-- **banner:** labirinto nuotrauka (`labirintas.jpg`) — „Atlieku savo kūrybą violončele ir balsu bei skaitau savo poeziją — patirtis, kurioje klausytojas atranda savo kelią atverdamas širdį kūrybai.“
+- **banner:** labirinto nuotrauka (`labirintas.jpg`) — „Atlieku savo kūrybą violončele ir balsu bei skaitau savo poeziją — patirtis, kurioje klausytojas atranda savo unikalų kelią gyvenimo labirinte. Viskas, ko reikia, — atverti širdį kūrybai.“
 
 ## 3. Įrašai — `#irasai`
 *Būsena: rodoma*
