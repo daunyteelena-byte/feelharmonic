@@ -131,11 +131,11 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
 - **cta:** Domina bendradarbiavimas
 
 ## 10. Galerija — `#galerija`
-*Būsena: rodoma (15 nuotraukų)*
+*Būsena: rodoma (21 nuotraukų)*
 
 - **eyebrow:** Galerija
 - **h2:** Nuotraukos
-- **lede:** Akimirkos iš koncertų — solo, su keturių seserų ansambliu „Regnum Musicale“, duetu „SisDuo“ (Vasario 16-osios koncertas Filharmonijoje, 2024), Čiurlionio kvartetu ir kitais. Dalis kadrų — iš interaktyvaus koncerto „Pilnaties pilnatvinė kelionė“ Kernavės kultūros centre, 2023 m. Naujųjų metų išvakarėse (nuotr. Laurynas Meškutavičius).
+- **lede:** Akimirkos iš koncertų — solo, su keturių seserų ansambliu „Regnum Musicale“, duetu „SisDuo“, Čiurlionio kvartetu ir kitais: Vasario 16-osios koncertas Filharmonijoje (2024), „Tėkmėje“ ant Kauno marių Rumšiškėse (2024), „Pilnaties pilnatvinė kelionė“ Kernavės kultūros centre (2023).
 - **items:**
   - **Violončelė** — Elena Daunytė groja violončele (`galerija-1.jpg`)
   - **Arfa ir violončelė** — Arfa ir violončelė koncerte (`galerija-2.jpg`)
@@ -152,6 +152,12 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
   - **„SisDuo“ su orkestru** — Duetas „SisDuo“ — violončelė ir arfa — su orkestru Filharmonijoje (`galerija-13.jpg`)
   - **Vasario 16-osios koncertas** — Violončelė ir arfa groja su simfoniniu orkestru (`galerija-14.jpg`)
   - **Po koncerto Filharmonijoje** — „SisDuo“ atlikėjos apsikabinusios po koncerto Filharmonijos salėje (`galerija-15.jpg`)
+  - **„Tėkmėje“ — saulėlydis ant marių** — Jachtos ir valtys saulėlydyje prie koncerto ant Kauno marių (`galerija-16.jpg`)
+  - **Klausytojai prie vandens** — Vaizdas iš viršaus: koncertas „Tėkmėje“ ant Kauno marių kranto (`galerija-17.jpg`)
+  - **Scena ant vandens** — Plaukiojanti scena ant vandens su atspindžiais (`galerija-18.jpg`)
+  - **„Regnum Musicale“ ant vandens** — Ansamblis „Regnum Musicale“ scenoje ant Kauno marių (`galerija-19.jpg`)
+  - **Naktis ant marių** — Šviesų spinduliai virš scenos ant vandens naktį (`galerija-20.jpg`)
+  - **Šviesos skulptūra ant vandens** — Auksinė geometrinė skulptūra ant vandens (`galerija-21.jpg`)
 
 ## 11. Apie — `#apie`
 *Būsena: rodoma*

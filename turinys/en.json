@@ -436,7 +436,7 @@
     "lightbox": {"close": "Close", "prev": "Previous photo", "next": "Next photo"},
     "eyebrow": "Gallery",
     "h2": "Photographs",
-    "lede": "Moments from concerts — solo, with Regnum Musicale, an ensemble of four sisters, the duo SisDuo (16 February concert at the Philharmonic, 2024), the Čiurlionis Quartet and others. Some shots are from the interactive concert “Pilnaties pilnatvinė kelionė” at Kernavė Cultural Centre, New Year’s Eve 2023 (photos: Laurynas Meškutavičius).",
+    "lede": "Moments from concerts — solo, with Regnum Musicale, an ensemble of four sisters, the duo SisDuo, the Čiurlionis Quartet and others: the 16 February concert at the Philharmonic (2024), “Tėkmėje” on the Kaunas Lagoon in Rumšiškės (2024) and “Pilnaties pilnatvinė kelionė” at Kernavė Cultural Centre (2023).",
     "items": [
       { "img": "galerija-1.jpg", "alt": "Elena Daunytė playing the cello", "cap": "Cello" },
       { "img": "galerija-2.jpg", "alt": "Harp and cello in concert", "cap": "Harp and cello" },
@@ -452,7 +452,13 @@
       { "img": "galerija-12.jpg", "alt": "The performers with their instruments by the festive tree", "cap": "After the concert" },
       { "img": "galerija-13.jpg", "alt": "The duo SisDuo — cello and harp — with the orchestra at the Philharmonic", "cap": "SisDuo with the orchestra" },
       { "img": "galerija-14.jpg", "alt": "Cello and harp playing with a symphony orchestra", "cap": "16 February concert" },
-      { "img": "galerija-15.jpg", "alt": "The SisDuo performers embracing after the concert in the Philharmonic hall", "cap": "After the concert at the Philharmonic" }
+      { "img": "galerija-15.jpg", "alt": "The SisDuo performers embracing after the concert in the Philharmonic hall", "cap": "After the concert at the Philharmonic" },
+      { "img": "galerija-16.jpg", "alt": "Yachts and boats at sunset by the concert on the Kaunas Lagoon", "cap": "“Tėkmėje” — sunset on the lagoon" },
+      { "img": "galerija-17.jpg", "alt": "Aerial view of the concert “Tėkmėje” on the shore of the Kaunas Lagoon", "cap": "Listeners by the water" },
+      { "img": "galerija-18.jpg", "alt": "A floating stage on the water with reflections", "cap": "A stage on the water" },
+      { "img": "galerija-19.jpg", "alt": "Regnum Musicale performing on the stage on the Kaunas Lagoon", "cap": "Regnum Musicale on the water" },
+      { "img": "galerija-20.jpg", "alt": "Beams of light above the stage on the water at night", "cap": "Night on the lagoon" },
+      { "img": "galerija-21.jpg", "alt": "A golden geometric sculpture on the water", "cap": "A light sculpture on the water" }
     ]
   },
 
@@ -608,7 +614,7 @@
   },
 
   "footer": {
-    "photoCredit": "Photos: Inga Juodytė, Laurynas Meškutavičius, Gintaras Jonaitis (GYWAI)",
+    "photoCredit": "Photos: Inga Juodytė, Laurynas Meškutavičius, Gintaras Jonaitis (GYWAI), Asta Sabonytė, Saulius Jankauskas",
     "facebookAria": "FeelHarmonic on Facebook",
     "about": "Concerts, performances, education, harmonising events and celebrations from A to Z across Lithuania.",
     "colPages": "Sections",

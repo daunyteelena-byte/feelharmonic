@@ -436,7 +436,7 @@
     "lightbox": {"close": "Uždaryti", "prev": "Ankstesnė nuotrauka", "next": "Kita nuotrauka"},
     "eyebrow": "Galerija",
     "h2": "Nuotraukos",
-    "lede": "Akimirkos iš koncertų — solo, su keturių seserų ansambliu „Regnum Musicale“, duetu „SisDuo“ (Vasario 16-osios koncertas Filharmonijoje, 2024), Čiurlionio kvartetu ir kitais. Dalis kadrų — iš interaktyvaus koncerto „Pilnaties pilnatvinė kelionė“ Kernavės kultūros centre, 2023 m. Naujųjų metų išvakarėse (nuotr. Laurynas Meškutavičius).",
+    "lede": "Akimirkos iš koncertų — solo, su keturių seserų ansambliu „Regnum Musicale“, duetu „SisDuo“, Čiurlionio kvartetu ir kitais: Vasario 16-osios koncertas Filharmonijoje (2024), „Tėkmėje“ ant Kauno marių Rumšiškėse (2024), „Pilnaties pilnatvinė kelionė“ Kernavės kultūros centre (2023).",
     "items": [
       { "img": "galerija-1.jpg", "alt": "Elena Daunytė groja violončele", "cap": "Violončelė" },
       { "img": "galerija-2.jpg", "alt": "Arfa ir violončelė koncerte", "cap": "Arfa ir violončelė" },
@@ -452,7 +452,13 @@
       { "img": "galerija-12.jpg", "alt": "Atlikėjos su instrumentais prie šventinės eglutės", "cap": "Po koncerto" },
       { "img": "galerija-13.jpg", "alt": "Duetas „SisDuo“ — violončelė ir arfa — su orkestru Filharmonijoje", "cap": "„SisDuo“ su orkestru" },
       { "img": "galerija-14.jpg", "alt": "Violončelė ir arfa groja su simfoniniu orkestru", "cap": "Vasario 16-osios koncertas" },
-      { "img": "galerija-15.jpg", "alt": "„SisDuo“ atlikėjos apsikabinusios po koncerto Filharmonijos salėje", "cap": "Po koncerto Filharmonijoje" }
+      { "img": "galerija-15.jpg", "alt": "„SisDuo“ atlikėjos apsikabinusios po koncerto Filharmonijos salėje", "cap": "Po koncerto Filharmonijoje" },
+      { "img": "galerija-16.jpg", "alt": "Jachtos ir valtys saulėlydyje prie koncerto ant Kauno marių", "cap": "„Tėkmėje“ — saulėlydis ant marių" },
+      { "img": "galerija-17.jpg", "alt": "Vaizdas iš viršaus: koncertas „Tėkmėje“ ant Kauno marių kranto", "cap": "Klausytojai prie vandens" },
+      { "img": "galerija-18.jpg", "alt": "Plaukiojanti scena ant vandens su atspindžiais", "cap": "Scena ant vandens" },
+      { "img": "galerija-19.jpg", "alt": "Ansamblis „Regnum Musicale“ scenoje ant Kauno marių", "cap": "„Regnum Musicale“ ant vandens" },
+      { "img": "galerija-20.jpg", "alt": "Šviesų spinduliai virš scenos ant vandens naktį", "cap": "Naktis ant marių" },
+      { "img": "galerija-21.jpg", "alt": "Auksinė geometrinė skulptūra ant vandens", "cap": "Šviesos skulptūra ant vandens" }
     ]
   },
 
@@ -608,7 +614,7 @@
   },
 
   "footer": {
-    "photoCredit": "Nuotraukos: Inga Juodytė, Laurynas Meškutavičius, Gintaras Jonaitis (GYWAI)",
+    "photoCredit": "Nuotraukos: Inga Juodytė, Laurynas Meškutavičius, Gintaras Jonaitis (GYWAI), Asta Sabonytė, Saulius Jankauskas",
     "facebookAria": "FeelHarmonic Facebook puslapis",
     "about": "Koncertai, performansai, edukacijos, harmonizuojantys renginiai ir šventės nuo A iki Z visoje Lietuvoje.",
     "colPages": "Puslapiai",
