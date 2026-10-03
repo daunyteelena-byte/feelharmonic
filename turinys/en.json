@@ -436,13 +436,13 @@
     "lightbox": {"close": "Close", "prev": "Previous photo", "next": "Next photo"},
     "eyebrow": "Gallery",
     "h2": "Photographs",
-    "lede": "Moments from concerts — solo, with the family ensemble Regnum Musicale, the duo SisDuo (16 February concert at the Philharmonic, 2024), the Čiurlionis Quartet and others. Some shots are from the interactive concert “Pilnaties pilnatvinė kelionė” at Kernavė Cultural Centre, New Year’s Eve 2023 (photos: Laurynas Meškutavičius).",
+    "lede": "Moments from concerts — solo, with Regnum Musicale, an ensemble of four sisters, the duo SisDuo (16 February concert at the Philharmonic, 2024), the Čiurlionis Quartet and others. Some shots are from the interactive concert “Pilnaties pilnatvinė kelionė” at Kernavė Cultural Centre, New Year’s Eve 2023 (photos: Laurynas Meškutavičius).",
     "items": [
       { "img": "galerija-1.jpg", "alt": "Elena Daunytė playing the cello", "cap": "Cello" },
       { "img": "galerija-2.jpg", "alt": "Harp and cello in concert", "cap": "Harp and cello" },
       { "img": "galerija-3.jpg", "alt": "Elena Daunytė with her cello before a concert", "cap": "Before the concert" },
       { "img": "galerija-4.jpg", "alt": "Elena Daunytė singing on stage", "cap": "Vocals" },
-      { "img": "galerija-5.jpg", "alt": "The family ensemble Regnum Musicale on stage", "cap": "Regnum Musicale" },
+      { "img": "galerija-5.jpg", "alt": "Regnum Musicale, an ensemble of four sisters, on stage", "cap": "Regnum Musicale" },
       { "img": "galerija-6.jpg", "alt": "Elena Daunytė with the Čiurlionis Quartet", "cap": "With the Čiurlionis Quartet" },
       { "img": "galerija-7.jpg", "alt": "Harpist and cellist in pink stage light", "cap": "Ensemble" },
       { "img": "galerija-8.jpg", "alt": "Elena Daunytė in a duo with improvisation grandmaster Artūras Anusauskas", "cap": "Duo with improvisation grandmaster Artūras Anusauskas. Music born here and now" },
@@ -460,7 +460,7 @@
     "eyebrow": "About",
     "h2": "Music put together as carefully as it is felt",
     "paras": [
-      "Elena Daunytė is a creator and performer, a prizewinner at international competitions and a member of the family ensemble Regnum Musicale. Her instrument is the cello: she graduated from the M. K. Čiurlionis School of Arts and studied at the Royal Northern College of Music in Manchester and at the Lithuanian Academy of Music and Theatre, in the class of Prof. Rimantas Armonas.",
+      "Elena Daunytė is a creator and performer, a prizewinner at international competitions and a member of Regnum Musicale, an ensemble of four sisters. Her instrument is the cello: she graduated from the M. K. Čiurlionis School of Arts and studied at the Royal Northern College of Music in Manchester and at the Lithuanian Academy of Music and Theatre, in the class of Prof. Rimantas Armonas.",
       "She has played with orchestras in Lithuania and abroad and taken masterclasses with Giovanni Sollima, David Geringas and Frans Helmerson. She has received letters of thanks from Presidents of the Republic of Lithuania Valdas Adamkus and Dalia Grybauskaitė. The music video “Ryto ugnis” was shown in the LRT archive as part of the KLIPVID 2021 competition."
     ],
     "creds": [

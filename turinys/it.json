@@ -436,13 +436,13 @@
     "lightbox": {"close": "Chiudi", "prev": "Foto precedente", "next": "Foto successiva"},
     "eyebrow": "Galleria",
     "h2": "Fotografie",
-    "lede": "Momenti dai concerti — da solista, con l’ensemble familiare Regnum Musicale, il duo SisDuo (concerto del 16 febbraio alla Filarmonica, 2024), il Quartetto Čiurlionis e altri. Alcuni scatti vengono dal concerto interattivo «Pilnaties pilnatvinė kelionė» al Centro culturale di Kernavė, vigilia di Capodanno 2023 (foto: Laurynas Meškutavičius).",
+    "lede": "Momenti dai concerti — da solista, con Regnum Musicale, ensemble di quattro sorelle, il duo SisDuo (concerto del 16 febbraio alla Filarmonica, 2024), il Quartetto Čiurlionis e altri. Alcuni scatti vengono dal concerto interattivo «Pilnaties pilnatvinė kelionė» al Centro culturale di Kernavė, vigilia di Capodanno 2023 (foto: Laurynas Meškutavičius).",
     "items": [
       { "img": "galerija-1.jpg", "alt": "Elena Daunytė suona il violoncello", "cap": "Violoncello" },
       { "img": "galerija-2.jpg", "alt": "Arpa e violoncello in concerto", "cap": "Arpa e violoncello" },
       { "img": "galerija-3.jpg", "alt": "Elena Daunytė con il violoncello prima di un concerto", "cap": "Prima del concerto" },
       { "img": "galerija-4.jpg", "alt": "Elena Daunytė canta sul palco", "cap": "Voce" },
-      { "img": "galerija-5.jpg", "alt": "L’ensemble familiare Regnum Musicale sul palco", "cap": "Regnum Musicale" },
+      { "img": "galerija-5.jpg", "alt": "Regnum Musicale, ensemble di quattro sorelle, sul palco", "cap": "Regnum Musicale" },
       { "img": "galerija-6.jpg", "alt": "Elena Daunytė con il Quartetto Čiurlionis", "cap": "Con il Quartetto Čiurlionis" },
       { "img": "galerija-7.jpg", "alt": "Arpista e violoncellista nella luce rosa del palco", "cap": "Ensemble" },
       { "img": "galerija-8.jpg", "alt": "Elena Daunytė in duo con il maestro dell’improvvisazione Artūras Anusauskas", "cap": "Duo con il maestro dell’improvvisazione Artūras Anusauskas. Musica che nasce qui e ora" },
@@ -460,7 +460,7 @@
     "eyebrow": "Chi sono",
     "h2": "Musica costruita con la stessa cura con cui è sentita",
     "paras": [
-      "Elena Daunytė è creatrice e interprete, vincitrice di concorsi internazionali e membro dell'ensemble familiare Regnum Musicale. Il suo strumento è il violoncello: si è diplomata alla Scuola d'arte M. K. Čiurlionis e ha studiato al Royal Northern College of Music di Manchester e all'Accademia lituana di musica e teatro, nella classe del prof. Rimantas Armonas.",
+      "Elena Daunytė è creatrice e interprete, vincitrice di concorsi internazionali e membro di Regnum Musicale, ensemble di quattro sorelle. Il suo strumento è il violoncello: si è diplomata alla Scuola d'arte M. K. Čiurlionis e ha studiato al Royal Northern College of Music di Manchester e all'Accademia lituana di musica e teatro, nella classe del prof. Rimantas Armonas.",
       "Ha suonato con orchestre lituane e straniere e si è perfezionata in masterclass con Giovanni Sollima, David Geringas e Frans Helmerson. Ha ricevuto attestati di ringraziamento dai Presidenti della Repubblica di Lituania Valdas Adamkus e Dalia Grybauskaitė. Il videoclip «Ryto ugnis» è stato trasmesso nell'archivio LRT nell'ambito del concorso KLIPVID 2021."
     ],
     "creds": [

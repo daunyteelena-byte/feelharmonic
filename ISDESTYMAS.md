@@ -135,13 +135,13 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
 
 - **eyebrow:** Galerija
 - **h2:** Nuotraukos
-- **lede:** Akimirkos iš koncertų — solo, su šeimyniniu ansambliu „Regnum Musicale“, duetu „SisDuo“ (Vasario 16-osios koncertas Filharmonijoje, 2024), Čiurlionio kvartetu ir kitais. Dalis kadrų — iš interaktyvaus koncerto „Pilnaties pilnatvinė kelionė“ Kernavės kultūros centre, 2023 m. Naujųjų metų išvakarėse (nuotr. Laurynas Meškutavičius).
+- **lede:** Akimirkos iš koncertų — solo, su keturių seserų ansambliu „Regnum Musicale“, duetu „SisDuo“ (Vasario 16-osios koncertas Filharmonijoje, 2024), Čiurlionio kvartetu ir kitais. Dalis kadrų — iš interaktyvaus koncerto „Pilnaties pilnatvinė kelionė“ Kernavės kultūros centre, 2023 m. Naujųjų metų išvakarėse (nuotr. Laurynas Meškutavičius).
 - **items:**
   - **Violončelė** — Elena Daunytė groja violončele (`galerija-1.jpg`)
   - **Arfa ir violončelė** — Arfa ir violončelė koncerte (`galerija-2.jpg`)
   - **Prieš koncertą** — Elena Daunytė su violončele prieš koncertą (`galerija-3.jpg`)
   - **Vokalas** — Elena Daunytė dainuoja scenoje (`galerija-4.jpg`)
-  - **„Regnum Musicale“** — Šeimyninis ansamblis „Regnum Musicale“ scenoje (`galerija-5.jpg`)
+  - **„Regnum Musicale“** — Keturių seserų ansamblis „Regnum Musicale“ scenoje (`galerija-5.jpg`)
   - **Su Čiurlionio kvartetu** — Elena Daunytė su Čiurlionio kvartetu (`galerija-6.jpg`)
   - **Ansamblis** — Arfininkė ir violončelininkė rožinėje scenos šviesoje (`galerija-7.jpg`)
   - **Duetas su improvizacijų didmeistriu Artūru Anusausku. Muzika, gimstanti čia ir dabar** — Elena Daunytė duete su improvizacijų didmeistriu Artūru Anusausku (`galerija-8.jpg`)
@@ -159,7 +159,7 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
 - **eyebrow:** Apie
 - **h2:** Muzika, sudėliota taip pat kruopščiai, kaip pajausta
 - **paras:**
-  - Elena Daunytė — kūrėja, atlikėja, tarptautinių konkursų laureatė ir šeimyninio ansamblio „Regnum Musicale“ narė. Mano instrumentas — violončelė: baigiau M. K. Čiurlionio menų mokyklą, studijavau Karališkajame Šiaurės muzikos koledže Mančesteryje ir Lietuvos muzikos ir teatro akademijoje, prof. Rimanto Armono klasėje.
+  - Elena Daunytė — kūrėja, atlikėja, tarptautinių konkursų laureatė ir keturių seserų ansamblio „Regnum Musicale“ narė. Mano instrumentas — violončelė: baigiau M. K. Čiurlionio menų mokyklą, studijavau Karališkajame Šiaurės muzikos koledže Mančesteryje ir Lietuvos muzikos ir teatro akademijoje, prof. Rimanto Armono klasėje.
   - Grojau su Lietuvos ir užsienio orkestrais, tobulinausi meistriškumo kursuose pas Giovanni Sollimą, Davidą Geringą ir Fransą Helmersoną. Esu gavusi Lietuvos Respublikos Prezidentų Valdo Adamkaus ir Dalios Grybauskaitės padėkas. Vaizdo klipas „Ryto ugnis“ rodytas LRT Mediatekoje, KLIPVID 2021 konkurse.
 - **closing:** Renginių organizatoriams reikia ne tik muzikos, bet ir žmogaus, kuris pats susitvarko su garsu, grafiku ir dokumentais. Todėl kiekviena programa čia turi aiškią trukmę, sudėtį ir kainą — o ne „susitarsime vietoje“.
 - **cta:** Susisiekti
