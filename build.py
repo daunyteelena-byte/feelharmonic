@@ -340,11 +340,12 @@ def video_item(base, v):
           <b>%(title)s</b>%(sub)s%(lead)s
           <div class="clip-text">
             <p class="clip-note">%(note)s</p>%(more)s
-          </div>%(toggle)s
+          </div>%(toggle)s%(callout)s
           <span class="clip-meta">%(meta)s</span>%(buy)s
         </figcaption>
       </figure>""" % {"player": player, "cat": v["cat"], "title": attr(v["title"]), "note": v["note"],
                       "sub": sub, "lead": lead, "more": more, "toggle": toggle,
+                      "callout": ('\n          <p class="clip-callout">%s</p>' % v["callout"]) if v.get("callout") else "",
                       "meta": v.get("meta", ""),
                       "buy": buy}
     return ('<div class="video"><iframe src="https://www.youtube-nocookie.com/embed/%s" '

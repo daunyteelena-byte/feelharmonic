@@ -42,6 +42,7 @@ Atnaujinta 2026-10-03.
 - **slots:**
   - **Koncerto ištrauka** — 60–90 sek. iš gyvo pasirodymo. Geras garsas svarbiau už vaizdą.
   - **Edukacinis užsiėmimas** — Trumpa ištrauka iš pamokos, gavus tėvų sutikimus.
+- **„33 įkvėpimai“ išskirtas sakinys:** Atverk širdį laiko, kvėpavimo, muzikos ir žodžio tėkmei!
 
 ## 4. Kam skirta — `#kam`
 *Būsena: rodoma*
