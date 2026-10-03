@@ -54,7 +54,7 @@ visose trijose kalbose (`programs` ir `edu` blokai):
 
 - [ ] **Alternatyvus koncertas — performansas** (2–5 atlikėjai)
 - [ ] **Interaktyvus koncertas**
-- [ ] **Terapinis renginys** (90 min, 8–25 dalyviai) — kartu nuspręsti,
+- [ ] **Harmonizuojantis renginys** (buvęs „Terapinis“) (90 min, 8–25 dalyviai) — kartu nuspręsti,
       kas yra terapeutas ir kaip dalijamas honoraras
 - [ ] **Retreat‘as** (1–3 dienos) — greičiausiai lieka sutartinė, nes labai skiriasi
 - [ ] **„Dive into personality“** — atskirai ar kaip priedas prie koncerto
@@ -88,7 +88,7 @@ Padaryta 2026-09-07:
 - [x] **Domenas** — `www.feelharmonic.lt`; šakninis persiunčia į www. Paštas
       `elena.daunyte@feelharmonic.lt` įrašytas puslapyje, poraštėje ir vizitinėje
 - [x] **Segmentai** — pridėti dvarai/erdvės ir įmonės/agentūros
-- [ ] **Enforce HTTPS** — GitHub → Settings → Pages, pažymėti kai išduos sertifikatą
+- [x] **Enforce HTTPS** — įjungta (patikrinta 2026-10-03)
 
 Padaryta 2026-09-09:
 
