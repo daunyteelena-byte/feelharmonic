@@ -466,12 +466,21 @@
   },
 
   "about": {
-    "eyebrow": "Chi sono",
+    "eyebrow": "La fondatrice",
     "h2": "Musica costruita con la stessa cura con cui è sentita",
     "paras": [
-      "Elena Daunytė è creatrice e interprete, vincitrice di concorsi internazionali e membro di Regnum Musicale, ensemble di quattro sorelle. Il suo strumento è il violoncello: si è diplomata alla Scuola d'arte M. K. Čiurlionis e ha studiato al Royal Northern College of Music di Manchester e all'Accademia lituana di musica e teatro, nella classe del prof. Rimantas Armonas.",
-      "Ha suonato con orchestre lituane e straniere e si è perfezionata in masterclass con Giovanni Sollima, David Geringas e Frans Helmerson. Ha ricevuto attestati di ringraziamento dai Presidenti della Repubblica di Lituania Valdas Adamkus e Dalia Grybauskaitė. Il videoclip «Ryto ugnis» è stato trasmesso nell'archivio LRT nell'ambito del concorso KLIPVID 2021."
+      "Elena Daunytė è la fondatrice di FeelHarmonic — violoncellista, cantante, poetessa e creatrice. Vincitrice di numerosi concorsi internazionali e del Grand Prix, dal 2021 è violoncellista del Quartetto Čiurlionis della Filarmonica nazionale lituana e membro di Regnum Musicale, ensemble di quattro sorelle. Dal 2023 insegna all’Accademia lituana di musica e teatro, nelle classi di quartetto d’archi e musica da camera."
     ],
+    "more": [
+      "Si è diplomata alla Scuola d’arte M. K. Čiurlionis, ha studiato al Royal Northern College of Music di Manchester e all’Accademia lituana di musica e teatro nella classe del prof. Rimantas Armonas, e si è perfezionata in masterclass con Giovanni Sollima, David Geringas e Frans Helmerson. Come solista e musicista da camera si è esibita in concorsi, festival e masterclass la cui geografia spazia da Lettonia, Germania, Svizzera, Croazia, Russia, Austria, Paesi Bassi, Italia, Spagna, Ungheria e Regno Unito fino a Hong Kong, Shanghai e Stati Uniti.",
+      "Come solista ha suonato con l'Orchestra da Camera Lituana, l'Orchestra Sinfonica Nazionale Lituana, l'Orchestra Sinfonica di Stato Lituana, le orchestre di Riga, Kaunas e dell'Accademia di Musica e Teatro della Lituania, nonché con le orchestre del Royal College of Music e di Halifax, sotto la direzione di Andrzej Kosendiak, Jonathan Berman, Modestas Pitrėnas, Sergei Krylov, Saulius Sondeckis, Vilmantas Kaliūnas, Martynas Staškus, Nicholas Simpson e Clark Rundell.",
+      "È regolarmente invitata a eseguire parti soliste di violoncello ai festival „Vilnius“ e „Gaida“ insieme all'Orchestra da Camera Lituana e all'Orchestra Sinfonica Nazionale Lituana, e il suo percorso artistico è stato sostenuto dalla Fondazione S. Karosas, dal Fondo di Sostegno ai Musicisti, da Rotary International e dai club Rotary di Perkūnas e Vilnius, in collaborazione con il Consiglio Lituano per la Cultura. Ha ricevuto lettere di ringraziamento dai Presidenti della Lituania Valdas Adamkus e Dalia Grybauskaitė.",
+      "Da alcuni anni Elena studia anche canto con il professor Vladimir Prudnikov e inserisce brani vocali nei suoi programmi di concerto. Sperimenta l'unione di violoncello e voce, alla ricerca di nuove armonie e possibilità per la sintesi dei due strumenti. Tra le sue composizioni per voce e violoncello: «Laisvės glėby» e «Ryto ugnis» (LRT Mediateka, KLIPVID 2021).",
+      "Nel 2026 la casa editrice Slinktys ha pubblicato il suo libro di poesie «33 įkvėpimai» — 33 terzine nate dal silenzio, dalle esperienze e dalle trasformazioni."
+    ],
+    "quote": "«Ciò che conta di più è la crescita — e la gioia più profonda che nasce dal processo stesso del migliorarsi.»",
+    "moreLabel": "Leggi di più",
+    "lessLabel": "Leggi meno",
     "creds": [
       "Scuola d'arte M. K. Čiurlionis",
       "Royal Northern College of Music",
@@ -567,7 +576,7 @@
     "paslauga-interaktyvu.jpg": {"event": "Concerto interattivo «Pilnaties pilnatvinė kelionė»", "place": "Centro culturale di Kernavė", "date": "31 dicembre 2023", "by": "Laurynas Meškutavičius"},
     "paslauga-koncertai.jpg": {"event": "Concerto interattivo «Pilnaties pilnatvinė kelionė»", "place": "Centro culturale di Kernavė", "date": "31 dicembre 2023", "by": "Laurynas Meškutavičius"},
     "paslauga-renginiai.jpg": {"event": "Concerto interattivo «Pilnaties pilnatvinė kelionė»", "place": "Centro culturale di Kernavė", "date": "31 dicembre 2023", "by": "Laurynas Meškutavičius"},
-    "paslauga-terapija.jpg": {"event": "Presentazione del libro di poesie «33 įkvėpimai»", "place": "", "date": "", "by": "Gintaras Jonaitis (GYWAI)"},
+    "paslauga-terapija.jpg": {"event": "Presentazione del libro di poesie «33 įkvėpimai»", "place": "Green Hall 2", "date": "8 marzo 2026", "by": "Gintaras Jonaitis (GYWAI)"},
     "galerija-1.jpg": {"event": "", "place": "", "date": "", "by": ""},
     "galerija-10.jpg": {"event": "Regnum Musicale", "place": "", "date": "", "by": ""},
     "galerija-11.jpg": {"event": "Concerto interattivo «Pilnaties pilnatvinė kelionė»", "place": "Centro culturale di Kernavė", "date": "31 dicembre 2023", "by": "Laurynas Meškutavičius"},

@@ -670,6 +670,13 @@ def gallery(lang, c):
 def about(lang, c):
     a = c["about"]
     paras = "\n        ".join("<p>%s</p>" % x for x in a["paras"])
+    # likusi biografija — išblunkanti, išskleidžiama (kaip „33 įkvėpimai“)
+    more = ""
+    if a.get("more"):
+        more = ('<div class="clip-text bio-more">\n          %s\n          <blockquote class="bio-quote">%s</blockquote>\n        </div>\n'
+                '        <button class="clip-toggle" type="button" aria-expanded="false" hidden data-more="%s" data-less="%s">%s</button>'
+                % ("\n          ".join("<p>%s</p>" % x for x in a["more"]), a.get("quote", ""),
+                   attr(a["moreLabel"]), attr(a["lessLabel"]), a["moreLabel"]))
     creds = "\n          ".join("<li>%s</li>" % x for x in a["creds"])
     return """
 <!-- ---------- APIE ---------- -->
@@ -680,6 +687,7 @@ def about(lang, c):
         <p class="eyebrow">%(eyebrow)s</p>
         <h2>%(h2)s</h2>
         %(paras)s
+        %(more)s
 
         <ul class="creds">
           %(creds)s
@@ -698,7 +706,7 @@ def about(lang, c):
     %(motto)s
   </div>
 </section>
-""" % {"eyebrow": a["eyebrow"], "h2": a["h2"], "paras": paras, "creds": creds,
+""" % {"eyebrow": a["eyebrow"], "h2": a["h2"], "paras": paras, "more": more, "creds": creds,
        "last": a["closing"], "cta": a["cta"], "b": BASE[lang], "alt": attr(a["alt"]), "lbapie": lbinfo("apie.jpg"),
        "motto": MOTTO}
 

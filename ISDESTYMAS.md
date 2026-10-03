@@ -162,16 +162,22 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
   - **Balsas ir arfa** — Elena Daunytė dainuoja prie arfos scenoje ant vandens (`galerija-23.jpg`)
   - **Ritmas ir balsas** — Elena Daunytė su būgneliu koncerte „Tėkmėje“ (`galerija-24.jpg`)
 
-## 11. Apie — `#apie`
-*Būsena: rodoma*
+## 11. Apie įkūrėją — `#apie`
+*Būsena: rodoma (biografija papildyta iš elenadaunyte.com 2026-10-03)*
 
-- **eyebrow:** Apie
+- **eyebrow:** Apie įkūrėją
 - **h2:** Muzika, sudėliota taip pat kruopščiai, kaip pajausta
-- **paras:**
-  - Elena Daunytė — kūrėja, atlikėja, tarptautinių konkursų laureatė ir keturių seserų ansamblio „Regnum Musicale“ narė. Mano instrumentas — violončelė: baigiau M. K. Čiurlionio menų mokyklą, studijavau Karališkajame Šiaurės muzikos koledže Mančesteryje ir Lietuvos muzikos ir teatro akademijoje, prof. Rimanto Armono klasėje.
-  - Grojau su Lietuvos ir užsienio orkestrais, tobulinausi meistriškumo kursuose pas Giovanni Sollimą, Davidą Geringą ir Fransą Helmersoną. Esu gavusi Lietuvos Respublikos Prezidentų Valdo Adamkaus ir Dalios Grybauskaitės padėkas. Vaizdo klipas „Ryto ugnis“ rodytas LRT Mediatekoje, KLIPVID 2021 konkurse.
+- **paras (matoma):**
+  - Elena Daunytė — FeelHarmonic įkūrėja, violončelininkė, vokalistė, poetė ir kūrėja. Daugelio tarptautinių konkursų laureatė bei Grand Prix laimėtoja, nuo 2021 m. — Lietuvos nacionalinės filharmonijos Čiurlionio kvarteto violončelininkė, keturių seserų ansamblio „Regnum Musicale“ narė. Nuo 2023 m. dėsto Lietuvos muzikos ir teatro akademijoje — styginių kvarteto ir kamerinio ansamblio klasėse.
+- **more (išskleidžiama):**
+  - Baigė M. K. Čiurlionio menų mokyklą, studijavo Karališkajame Šiaurės muzikos koledže Mančesteryje ir Lietuvos muzikos ir teatro akademijoje, prof. Rimanto Armono klasėje, tobulinosi meistriškumo kursuose pas Giovanni Sollimą, Davidą Geringą ir Fransą Helmersoną. Kaip solistė ir kamerinės muzikos atlikėja yra pasirodžiusi konkursuose, festivaliuose ir meistriškumo kursuose, kurių geografija driekiasi nuo Latvijos, Vokietijos, Šveicarijos, Kroatijos, Rusijos, Austrijos, Olandijos, Italijos, Ispanijos, Vengrijos ir Didžiosios Britanijos iki Honkongo, Šanchajaus bei JAV.
+  - Kaip solistė ji yra grojusi su Lietuvos kameriniu, Lietuvos nacionaliniu, Lietuvos valstybiniu, Rygos, Kauno, Lietuvos muzikos ir teatro akademijos bei Karališkojo muzikos koledžo ir Halifakso simfoniniais orkestrais, diriguojant maestro Andrzej Kosendiakui, Jonathanui Bermanui, Modestui Pitrėnui, Sergejui Krylovui, Sauliui Sondeckiui, Vilmantui Kaliūnui, Martynui Staškui, Nicholasui Simpsonui ir Clarkui Rundellui.
+  - Ji reguliariai kviečiama atlikti solines violončelės partijas „Vilniaus“ bei „Gaidos“ festivaliuose kartu su Lietuvos kameriniu ir Lietuvos nacionaliniu simfoniniu orkestrais, o savo meno kelyje sulaukė S. Karoso fondo, Muzikų rėmimo fondo, „Rotary International“, Perkūno bei Vilniaus Rotary klubų paramos ir bendradarbiauja su Lietuvos kultūros taryba. Yra gavusi Lietuvos Respublikos Prezidentų Valdo Adamkaus ir Dalios Grybauskaitės padėkas.
+  - Jau keletą metų Elena taip pat semiasi vokalo pagrindų pas profesorių Vladimirą Prudnikovą ir į savo koncertų programas įtraukia balsui skirtus opusus. Ji eksperimentuoja jungdama violončelės ir vokalo muziką, ieškodama naujų dermių bei galimybių šių dviejų instrumentų sintezei. Jos pačios kūriniai balsui ir violončelei — „Laisvės glėby“ ir „Ryto ugnis“ (LRT Mediateka, KLIPVID 2021).
+  - 2026 m. leidykla „Slinktys“ išleido jos poezijos knygą „33 įkvėpimai“ — 33 triposmius, gimusius iš tylos, patirčių ir virsmų.
+- **quote:** „Svarbiausia — augimas ir maksimalus džiaugsmas iš paties tobulėjimo proceso.“
+- **creds:** M. K. Čiurlionio menų mokykla · Royal Northern College of Music · LMTA · prof. R. Armono klasė · „Regnum Musicale“
 - **closing:** Renginių organizatoriams reikia ne tik muzikos, bet ir žmogaus, kuris pats susitvarko su garsu, grafiku ir dokumentais. Todėl kiekviena programa čia turi aiškią trukmę, sudėtį ir kainą — o ne „susitarsime vietoje“.
-- **cta:** Susisiekti
 
 ## 12. Atsiliepimai — `#atsiliepimai`
 *Būsena: paslėpta — nėra tikrų atsiliepimų (skiltyje buvo pastabos savininkei)*

@@ -83,7 +83,8 @@ var CONFIG = {
       var open = text.classList.toggle("is-collapsed") === false;
       btn.setAttribute("aria-expanded", open ? "true" : "false");
       btn.textContent = open ? btn.getAttribute("data-less") : btn.getAttribute("data-more");
-      if (!open) btn.closest(".clip").scrollIntoView({ block: "nearest" });
+      var box = btn.closest(".clip") || text;
+      if (!open) box.scrollIntoView({ block: "nearest" });
     });
     // paspaudus ant teksto — išskleidžiama arba suskleidžiama (bet ne žymint
     // tekstą kopijavimui ir ne paspaudus nuorodą)
