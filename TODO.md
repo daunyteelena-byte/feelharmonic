@@ -19,7 +19,7 @@ Tekstas keičiamas **`turinys/lt.json`, `turinys/en.json`, `turinys/it.json`**, 
 - [ ] **Trūksta informacijos nuotraukoms** (`"photos"` blokas): `apie.jpg`, `labirintas.jpg`,
       `galerija-1.jpg`, `galerija-3.jpg` — viskas; `galerija-5/6/8/10.jpg` — vieta, metai,
       fotografas; `galerija-13…15.jpg` (SisDuo) — fotografas; `paslauga-terapija.jpg` —
-      vieta ir data; `elena.jpg` — patikslinti renginį ir metus (2022 iš EXIF).
+      vieta ir data.
 - [x] **„Duetas su Anusausku“** — Artūras Anusauskas, improvizacijų didmeistris (įrašyta 2026-10-03).
 
 ## 1. Nuotraukos — svarbiausia

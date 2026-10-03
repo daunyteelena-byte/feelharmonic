@@ -45,7 +45,7 @@
       "Invoices issued for institutions",
       "Working in Lithuanian, English and Italian"
     ],
-    "portraitAlt": "Elena Daunytė playing the cello with a symphony orchestra at the Philharmonic",
+    "portraitAlt": "Elena Daunytė playing the cello with the Lithuanian Chamber Orchestra at the Lithuanian National Philharmonic",
     "portraitRole": "Cellist, vocalist, poet, creator"
   },
 
@@ -562,7 +562,7 @@
 
   "photos": {
     "apie.jpg": {"event": "", "place": "", "date": "", "by": ""},
-    "elena.jpg": {"event": "Concert with a symphony orchestra", "place": "Philharmonic", "date": "2022", "by": "Inga Juodytė"},
+    "elena.jpg": {"event": "Soloist Elena Daunytė, conductor Andrzej Kosendiak (Poland), Lithuanian Chamber Orchestra", "place": "Lithuanian National Philharmonic", "date": "7 May 2022", "by": "Inga Juodytė"},
     "labirintas.jpg": {"event": "", "place": "", "date": "", "by": ""},
     "paslauga-interaktyvu.jpg": {"event": "Interactive concert “Pilnaties pilnatvinė kelionė”", "place": "Kernavė Cultural Centre", "date": "31 December 2023", "by": "Laurynas Meškutavičius"},
     "paslauga-koncertai.jpg": {"event": "Interactive concert “Pilnaties pilnatvinė kelionė”", "place": "Kernavė Cultural Centre", "date": "31 December 2023", "by": "Laurynas Meškutavičius"},

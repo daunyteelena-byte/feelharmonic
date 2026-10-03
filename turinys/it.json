@@ -45,7 +45,7 @@
       "Emetto regolare fattura",
       "Lavoro in lituano, inglese e italiano"
     ],
-    "portraitAlt": "Elena Daunytė suona il violoncello con un’orchestra sinfonica alla Filarmonica",
+    "portraitAlt": "Elena Daunytė suona il violoncello con l’Orchestra da camera lituana alla Filarmonica nazionale lituana",
     "portraitRole": "Violoncellista, cantante, poetessa, creatrice"
   },
 
@@ -562,7 +562,7 @@
 
   "photos": {
     "apie.jpg": {"event": "", "place": "", "date": "", "by": ""},
-    "elena.jpg": {"event": "Concerto con orchestra sinfonica", "place": "Filarmonica", "date": "2022", "by": "Inga Juodytė"},
+    "elena.jpg": {"event": "Solista Elena Daunytė, direttore Andrzej Kosendiak (Polonia), Orchestra da camera lituana", "place": "Filarmonica nazionale lituana", "date": "7 maggio 2022", "by": "Inga Juodytė"},
     "labirintas.jpg": {"event": "", "place": "", "date": "", "by": ""},
     "paslauga-interaktyvu.jpg": {"event": "Concerto interattivo «Pilnaties pilnatvinė kelionė»", "place": "Centro culturale di Kernavė", "date": "31 dicembre 2023", "by": "Laurynas Meškutavičius"},
     "paslauga-koncertai.jpg": {"event": "Concerto interattivo «Pilnaties pilnatvinė kelionė»", "place": "Centro culturale di Kernavė", "date": "31 dicembre 2023", "by": "Laurynas Meškutavičius"},

@@ -115,11 +115,13 @@ PHOTO_BY = ""
 
 
 def lbinfo(src):
-    """data-lb atributai: paspaudus nuotrauką rodoma renginys · vieta · data · fotografas."""
+    """data-lb atributai: paspaudus nuotrauką rodoma renginys · vieta · fotografas · data."""
     i = PHOTOS.get(src, {})
-    parts = [i.get("event"), i.get("place"), i.get("date")]
+    # data — eilutės gale
+    parts = [i.get("event"), i.get("place")]
     if i.get("by"):
         parts.append("%s %s" % (PHOTO_BY, i["by"]))
+    parts.append(i.get("date"))
     meta = " · ".join(x for x in parts if x)
     return ' data-lb data-lb-meta="%s"' % attr(meta)
 
