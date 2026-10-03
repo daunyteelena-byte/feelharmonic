@@ -436,7 +436,7 @@
     "lightbox": {"close": "Uždaryti", "prev": "Ankstesnė nuotrauka", "next": "Kita nuotrauka"},
     "eyebrow": "Galerija",
     "h2": "Nuotraukos",
-    "lede": "Akimirkos iš koncertų — solo, su šeimyniniu ansambliu „Regnum Musicale“, Čiurlionio kvartetu ir kitais. Dalis kadrų — iš interaktyvaus koncerto „Pilnaties pilnatvinė kelionė“ Kernavės kultūros centre, 2023 m. Naujųjų metų išvakarėse (nuotr. Laurynas Meškutavičius).",
+    "lede": "Akimirkos iš koncertų — solo, su šeimyniniu ansambliu „Regnum Musicale“, duetu „SisDuo“ (Vasario 16-osios koncertas Filharmonijoje, 2024), Čiurlionio kvartetu ir kitais. Dalis kadrų — iš interaktyvaus koncerto „Pilnaties pilnatvinė kelionė“ Kernavės kultūros centre, 2023 m. Naujųjų metų išvakarėse (nuotr. Laurynas Meškutavičius).",
     "items": [
       { "img": "galerija-1.jpg", "alt": "Elena Daunytė groja violončele", "cap": "Violončelė" },
       { "img": "galerija-2.jpg", "alt": "Arfa ir violončelė koncerte", "cap": "Arfa ir violončelė" },
@@ -449,7 +449,10 @@
       { "img": "galerija-9.jpg", "alt": "Smuikas, arfa ir violončelė scenoje", "cap": "Koncertas salėje" },
       { "img": "galerija-10.jpg", "alt": "„Regnum Musicale“ su gėlėmis po koncerto", "cap": "„Regnum Musicale“ po koncerto" },
       { "img": "galerija-11.jpg", "alt": "Šviečiantis rutulys prie šventinės eglutės", "cap": "Naujųjų metų išvakarės" },
-      { "img": "galerija-12.jpg", "alt": "Atlikėjos su instrumentais prie šventinės eglutės", "cap": "Po koncerto" }
+      { "img": "galerija-12.jpg", "alt": "Atlikėjos su instrumentais prie šventinės eglutės", "cap": "Po koncerto" },
+      { "img": "galerija-13.jpg", "alt": "Duetas „SisDuo“ — violončelė ir arfa — su orkestru Filharmonijoje", "cap": "„SisDuo“ su orkestru" },
+      { "img": "galerija-14.jpg", "alt": "Violončelė ir arfa groja su simfoniniu orkestru", "cap": "Vasario 16-osios koncertas" },
+      { "img": "galerija-15.jpg", "alt": "„SisDuo“ atlikėjos apsikabinusios po koncerto Filharmonijos salėje", "cap": "Po koncerto Filharmonijoje" }
     ]
   },
 

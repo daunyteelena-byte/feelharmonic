@@ -436,7 +436,7 @@
     "lightbox": {"close": "Chiudi", "prev": "Foto precedente", "next": "Foto successiva"},
     "eyebrow": "Galleria",
     "h2": "Fotografie",
-    "lede": "Momenti dai concerti — da solista, con l’ensemble familiare Regnum Musicale, il Quartetto Čiurlionis e altri. Alcuni scatti vengono dal concerto interattivo «Pilnaties pilnatvinė kelionė» al Centro culturale di Kernavė, vigilia di Capodanno 2023 (foto: Laurynas Meškutavičius).",
+    "lede": "Momenti dai concerti — da solista, con l’ensemble familiare Regnum Musicale, il duo SisDuo (concerto del 16 febbraio alla Filarmonica, 2024), il Quartetto Čiurlionis e altri. Alcuni scatti vengono dal concerto interattivo «Pilnaties pilnatvinė kelionė» al Centro culturale di Kernavė, vigilia di Capodanno 2023 (foto: Laurynas Meškutavičius).",
     "items": [
       { "img": "galerija-1.jpg", "alt": "Elena Daunytė suona il violoncello", "cap": "Violoncello" },
       { "img": "galerija-2.jpg", "alt": "Arpa e violoncello in concerto", "cap": "Arpa e violoncello" },
@@ -449,7 +449,10 @@
       { "img": "galerija-9.jpg", "alt": "Violino, arpa e violoncello sul palco", "cap": "Concerto in sala" },
       { "img": "galerija-10.jpg", "alt": "Regnum Musicale con i fiori dopo un concerto", "cap": "Regnum Musicale dopo il concerto" },
       { "img": "galerija-11.jpg", "alt": "Una sfera luminosa accanto all’albero addobbato", "cap": "Vigilia di Capodanno" },
-      { "img": "galerija-12.jpg", "alt": "Le musiciste con i loro strumenti accanto all’albero addobbato", "cap": "Dopo il concerto" }
+      { "img": "galerija-12.jpg", "alt": "Le musiciste con i loro strumenti accanto all’albero addobbato", "cap": "Dopo il concerto" },
+      { "img": "galerija-13.jpg", "alt": "Il duo SisDuo — violoncello e arpa — con l’orchestra alla Filarmonica", "cap": "SisDuo con l’orchestra" },
+      { "img": "galerija-14.jpg", "alt": "Violoncello e arpa suonano con un’orchestra sinfonica", "cap": "Concerto del 16 febbraio" },
+      { "img": "galerija-15.jpg", "alt": "Le musiciste di SisDuo si abbracciano dopo il concerto nella sala della Filarmonica", "cap": "Dopo il concerto alla Filarmonica" }
     ]
   },
 

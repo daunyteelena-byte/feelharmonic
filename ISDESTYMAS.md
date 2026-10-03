@@ -131,11 +131,11 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
 - **cta:** Domina bendradarbiavimas
 
 ## 10. Galerija — `#galerija`
-*Būsena: rodoma (12 nuotraukų, atnaujinta 2026-10-03)*
+*Būsena: rodoma (15 nuotraukų)*
 
 - **eyebrow:** Galerija
 - **h2:** Nuotraukos
-- **lede:** Akimirkos iš koncertų — solo, su šeimyniniu ansambliu „Regnum Musicale“, Čiurlionio kvartetu ir kitais. Dalis kadrų — iš interaktyvaus koncerto „Pilnaties pilnatvinė kelionė“ Kernavės kultūros centre, 2023 m. Naujųjų metų išvakarėse (nuotr. Laurynas Meškutavičius).
+- **lede:** Akimirkos iš koncertų — solo, su šeimyniniu ansambliu „Regnum Musicale“, duetu „SisDuo“ (Vasario 16-osios koncertas Filharmonijoje, 2024), Čiurlionio kvartetu ir kitais. Dalis kadrų — iš interaktyvaus koncerto „Pilnaties pilnatvinė kelionė“ Kernavės kultūros centre, 2023 m. Naujųjų metų išvakarėse (nuotr. Laurynas Meškutavičius).
 - **items:**
   - **Violončelė** — Elena Daunytė groja violončele (`galerija-1.jpg`)
   - **Arfa ir violončelė** — Arfa ir violončelė koncerte (`galerija-2.jpg`)
@@ -149,6 +149,9 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
   - **„Regnum Musicale“ po koncerto** — „Regnum Musicale“ su gėlėmis po koncerto (`galerija-10.jpg`)
   - **Naujųjų metų išvakarės** — Šviečiantis rutulys prie šventinės eglutės (`galerija-11.jpg`)
   - **Po koncerto** — Atlikėjos su instrumentais prie šventinės eglutės (`galerija-12.jpg`)
+  - **„SisDuo“ su orkestru** — Duetas „SisDuo“ — violončelė ir arfa — su orkestru Filharmonijoje (`galerija-13.jpg`)
+  - **Vasario 16-osios koncertas** — Violončelė ir arfa groja su simfoniniu orkestru (`galerija-14.jpg`)
+  - **Po koncerto Filharmonijoje** — „SisDuo“ atlikėjos apsikabinusios po koncerto Filharmonijos salėje (`galerija-15.jpg`)
 
 ## 11. Apie — `#apie`
 *Būsena: rodoma*
