@@ -489,7 +489,7 @@
     ],
     "closing": "Renginių organizatoriams reikia ne tik muzikos, bet ir žmogaus, kuris pats susitvarko su garsu, grafiku ir dokumentais. Todėl kiekviena programa čia turi aiškią trukmę, sudėtį ir kainą — o ne „susitarsime vietoje“.",
     "cta": "Susisiekti",
-    "alt": "Elena Daunytė koncerte"
+    "alt": "Elena Daunytė groja violončele Bažnytinio paveldo muziejuje"
   },
 
   "quotes": {
@@ -570,7 +570,7 @@
   },
 
   "photos": {
-    "apie.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "apie.jpg": {"event": "Pasaulinės trombozės dienos renginys", "place": "Bažnytinio paveldo muziejus", "date": "2025 m. spalio 8 d.", "by": ""},
     "elena.jpg": {"event": "Solistė Elena Daunytė, dirigentas Andrzej Kosendiak (Lenkija), Lietuvos kamerinis orkestras", "place": "Lietuvos nacionalinė filharmonija", "date": "2022 m. gegužės 7 d.", "by": "Inga Juodytė"},
     "labirintas.jpg": {"event": "Elenos kūrybos performansas — violončelės, vokalo ir poezijos sinergija", "place": "", "date": "2024 m. liepos 2 d.", "by": ""},
     "paslauga-interaktyvu.jpg": {"event": "Interaktyvus koncertas „Pilnaties pilnatvinė kelionė“", "place": "Kernavės kultūros centras", "date": "2023 m. gruodžio 31 d.", "by": "Laurynas Meškutavičius"},
