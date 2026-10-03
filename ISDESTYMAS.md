@@ -130,18 +130,24 @@ Atnaujinta 2026-10-03. Nuotraukos: Laurynas Meškutavičius („Pilnaties pilnat
 - **cta:** Domina bendradarbiavimas
 
 ## 10. Galerija — `#galerija`
-*Būsena: rodoma (nuotraukos įkeltos 2026-10-03)*
+*Būsena: rodoma (12 nuotraukų, atnaujinta 2026-10-03)*
 
 - **eyebrow:** Galerija
 - **h2:** Nuotraukos
-- **lede:** Kadrai iš interaktyvaus koncerto „Pilnaties pilnatvinė kelionė“ Kernavės kultūros centre, 2023 m. Naujųjų metų išvakarėse. Nuotraukos — Laurynas Meškutavičius.
+- **lede:** Akimirkos iš koncertų — solo, su šeimyniniu ansambliu „Regnum Musicale“, Čiurlionio kvartetu ir kitais. Dalis kadrų — iš interaktyvaus koncerto „Pilnaties pilnatvinė kelionė“ Kernavės kultūros centre, 2023 m. Naujųjų metų išvakarėse (nuotr. Laurynas Meškutavičius).
 - **items:**
-  - **Arfa ir violončelė** — Arfa ir violončelė koncerte (`galerija-1.jpg`)
-  - **Vokalas** — Elena Daunytė dainuoja scenoje (`galerija-2.jpg`)
-  - **Ansamblis** — Arfininkė ir violončelininkė rožinėje scenos šviesoje (`galerija-3.jpg`)
-  - **Koncertas salėje** — Smuikas, arfa ir violončelė scenoje (`galerija-4.jpg`)
-  - **Naujųjų metų išvakarės** — Šviečiantis rutulys prie šventinės eglutės (`galerija-5.jpg`)
-  - **Po koncerto** — Atlikėjos su instrumentais prie šventinės eglutės (`galerija-6.jpg`)
+  - **Violončelė** — Elena Daunytė groja violončele (`galerija-1.jpg`)
+  - **Arfa ir violončelė** — Arfa ir violončelė koncerte (`galerija-2.jpg`)
+  - **Prieš koncertą** — Elena Daunytė su violončele prieš koncertą (`galerija-3.jpg`)
+  - **Vokalas** — Elena Daunytė dainuoja scenoje (`galerija-4.jpg`)
+  - **„Regnum Musicale“** — Šeimyninis ansamblis „Regnum Musicale“ scenoje (`galerija-5.jpg`)
+  - **Su Čiurlionio kvartetu** — Elena Daunytė su Čiurlionio kvartetu (`galerija-6.jpg`)
+  - **Ansamblis** — Arfininkė ir violončelininkė rožinėje scenos šviesoje (`galerija-7.jpg`)
+  - **Duetas su Anusausku** — Elena Daunytė duete su Anusausku (`galerija-8.jpg`)
+  - **Koncertas salėje** — Smuikas, arfa ir violončelė scenoje (`galerija-9.jpg`)
+  - **„Regnum Musicale“ po koncerto** — „Regnum Musicale“ su gėlėmis po koncerto (`galerija-10.jpg`)
+  - **Naujųjų metų išvakarės** — Šviečiantis rutulys prie šventinės eglutės (`galerija-11.jpg`)
+  - **Po koncerto** — Atlikėjos su instrumentais prie šventinės eglutės (`galerija-12.jpg`)
 
 ## 11. Apie — `#apie`
 *Būsena: rodoma*

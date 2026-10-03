@@ -434,14 +434,20 @@
   "gallery": {
     "eyebrow": "Gallery",
     "h2": "Photographs",
-    "lede": "Shots from the interactive concert “Pilnaties pilnatvinė kelionė” at Kernavė Cultural Centre, New Year’s Eve 2023. Photos: Laurynas Meškutavičius.",
+    "lede": "Moments from concerts — solo, with the family ensemble Regnum Musicale, the Čiurlionis Quartet and others. Some shots are from the interactive concert “Pilnaties pilnatvinė kelionė” at Kernavė Cultural Centre, New Year’s Eve 2023 (photos: Laurynas Meškutavičius).",
     "items": [
-      { "img": "galerija-1.jpg", "alt": "Harp and cello in concert", "cap": "Harp and cello" },
-      { "img": "galerija-2.jpg", "alt": "Elena Daunytė singing on stage", "cap": "Vocals" },
-      { "img": "galerija-3.jpg", "alt": "Harpist and cellist in pink stage light", "cap": "Ensemble" },
-      { "img": "galerija-4.jpg", "alt": "Violin, harp and cello on stage", "cap": "Concert hall" },
-      { "img": "galerija-5.jpg", "alt": "A glowing orb by the festive tree", "cap": "New Year’s Eve" },
-      { "img": "galerija-6.jpg", "alt": "The performers with their instruments by the festive tree", "cap": "After the concert" }
+      { "img": "galerija-1.jpg", "alt": "Elena Daunytė playing the cello", "cap": "Cello" },
+      { "img": "galerija-2.jpg", "alt": "Harp and cello in concert", "cap": "Harp and cello" },
+      { "img": "galerija-3.jpg", "alt": "Elena Daunytė with her cello before a concert", "cap": "Before the concert" },
+      { "img": "galerija-4.jpg", "alt": "Elena Daunytė singing on stage", "cap": "Vocals" },
+      { "img": "galerija-5.jpg", "alt": "The family ensemble Regnum Musicale on stage", "cap": "Regnum Musicale" },
+      { "img": "galerija-6.jpg", "alt": "Elena Daunytė with the Čiurlionis Quartet", "cap": "With the Čiurlionis Quartet" },
+      { "img": "galerija-7.jpg", "alt": "Harpist and cellist in pink stage light", "cap": "Ensemble" },
+      { "img": "galerija-8.jpg", "alt": "Elena Daunytė in a duo with Anusauskas", "cap": "Duo with Anusauskas" },
+      { "img": "galerija-9.jpg", "alt": "Violin, harp and cello on stage", "cap": "Concert hall" },
+      { "img": "galerija-10.jpg", "alt": "Regnum Musicale with flowers after a concert", "cap": "Regnum Musicale after the concert" },
+      { "img": "galerija-11.jpg", "alt": "A glowing orb by the festive tree", "cap": "New Year’s Eve" },
+      { "img": "galerija-12.jpg", "alt": "The performers with their instruments by the festive tree", "cap": "After the concert" }
     ]
   },
 
