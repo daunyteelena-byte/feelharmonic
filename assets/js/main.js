@@ -141,7 +141,16 @@ var CONFIG = {
       if (meta) { var m = document.createElement("span"); m.className = "lb-meta"; m.textContent = meta; cap.appendChild(m); }
       if (count) { var s = document.createElement("small"); s.textContent = count; cap.appendChild(s); }
       lb.classList.toggle("is-single", set.length < 2);
+      fit();
     };
+    // nuotrauka mažinama tiek, kad visas aprašymas tilptų ekrane
+    var fit = function () {
+      if (!lb) return;
+      var big = lb.querySelector("img"), cap = lb.querySelector("figcaption");
+      var pad = window.innerWidth <= 620 ? 160 : 120;
+      big.style.maxHeight = Math.max(160, window.innerHeight - cap.offsetHeight - pad) + "px";
+    };
+    window.addEventListener("resize", fit);
     var close = function () {
       if (!lb) return;
       lb.classList.remove("is-open");
