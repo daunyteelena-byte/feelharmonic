@@ -13,6 +13,7 @@ Atnaujinta 2026-10-03.
 ## 1. Pradžia (hero)
 *Būsena: rodoma*
 
+- **roles:** Elena Daunytė — violončelininkė · vokalistė · poetė · kūrėja
 - **h1:** Per muziką — į naująjį save!
 - **sub:** Klasikinės muzikos koncertai ir alternatyvūs performansai, kultūrinės edukacijos, terapiniai bei sąmoningumo renginiai ir šventės nuo A iki Z — mokykloms, kultūros centrams, dvarams, įmonėms ir privatiems užsakovams visoje Lietuvoje.
 

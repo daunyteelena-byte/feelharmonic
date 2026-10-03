@@ -34,6 +34,7 @@
   ],
 
   "hero": {
+    "roles": "Elena Daunytė — cellist · vocalist · poet · creator",
     "h1": "Through music — to <em>a new you</em>!",
     "kicker": "Towards conscious change in the presence of music and the arts",
     "sub": "Classical music concerts and alternative performances, cultural education, therapeutic and mindfulness events, and celebrations produced from A to Z — for schools, cultural centres, manor houses, companies and private clients across Lithuania.",
@@ -45,7 +46,7 @@
       "Working in Lithuanian, English and Italian"
     ],
     "portraitAlt": "Elena Daunytė with her cello",
-    "portraitRole": "Artist, performer"
+    "portraitRole": "Cellist, vocalist, poet, creator"
   },
 
   "services": {

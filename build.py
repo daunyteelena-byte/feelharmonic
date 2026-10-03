@@ -213,6 +213,11 @@ def header(lang, c):
 def hero(lang, c):
     h = c["hero"]
     facts = "\n        ".join("<span>%s</span>" % f for f in h["facts"])
+    # „Vardas — vaidmuo · vaidmuo“: vardas atskiroje eilutėje, o taškas
+    # lieka prie ankstesnio žodžio, kad eilutė neprasidėtų „·“
+    name, roles = h["roles"].split(" — ", 1)
+    roles = ('<span class="tl-name">%s</span><span class="tl-roles">%s</span>'
+             % (name, roles.replace(" · ", "&nbsp;· ")))
     return """
 <main id="top">
 <span id="turinys"></span>
@@ -222,7 +227,7 @@ def hero(lang, c):
   <svg class="halo" aria-hidden="true"><use href="#mark"/></svg>
   <div class="in">
     <div>
-      <p class="tagline">Let it come!</p>
+      <p class="tagline">%(roles)s</p>
       <h1>%(h1)s</h1>
       <p class="kicker">%(kicker)s</p>
       <p class="sub">%(sub)s</p>
@@ -245,7 +250,7 @@ def hero(lang, c):
     </figure>
   </div>
 </div>
-""" % {"h1": h["h1"], "kicker": h["kicker"], "sub": h["sub"], "cta1": h["ctaPrimary"], "cta2": h["ctaSecondary"],
+""" % {"roles": roles, "h1": h["h1"], "kicker": h["kicker"], "sub": h["sub"], "cta1": h["ctaPrimary"], "cta2": h["ctaSecondary"],
        "facts": facts, "b": BASE[lang], "alt": attr(h["portraitAlt"]), "role": h["portraitRole"]}
 
 
