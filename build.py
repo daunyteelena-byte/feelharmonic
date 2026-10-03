@@ -416,7 +416,6 @@ def who(lang, c):
 <!-- ---------- KAM SKIRTA ---------- -->
 <section id="kam">
   <div class="in">
-    <div class="div reveal"><span></span><svg aria-hidden="true"><use href="#mark"/></svg><span></span></div>
     <div class="who-grid reveal">
       %s
     </div>
