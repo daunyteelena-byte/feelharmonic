@@ -152,12 +152,12 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
   - **„SisDuo“ su orkestru** — Duetas „SisDuo“ — violončelė ir arfa — su orkestru Filharmonijoje (`galerija-13.jpg`)
   - **Vasario 16-osios koncertas** — Violončelė ir arfa groja su simfoniniu orkestru (`galerija-14.jpg`)
   - **Po koncerto Filharmonijoje** — „SisDuo“ atlikėjos apsikabinusios po koncerto Filharmonijos salėje (`galerija-15.jpg`)
-  - **„Tėkmėje“ — saulėlydis ant marių** — Jachtos ir valtys saulėlydyje prie koncerto ant Kauno marių (`galerija-16.jpg`)
-  - **Klausytojai prie vandens** — Vaizdas iš viršaus: koncertas „Tėkmėje“ ant Kauno marių kranto (`galerija-17.jpg`)
+  - **„Tėkmėje“ — koncertas ant marių** — „Regnum Musicale“ koncerte „Tėkmėje“ ant Kauno marių (`galerija-16.jpg`)
+  - **Publika prie scenos** — Klausytojai prie vandens žiūri koncertą plaukiojančioje scenoje (`galerija-17.jpg`)
   - **Scena ant vandens** — Plaukiojanti scena ant vandens su atspindžiais (`galerija-18.jpg`)
   - **„Regnum Musicale“ ant vandens** — Ansamblis „Regnum Musicale“ scenoje ant Kauno marių (`galerija-19.jpg`)
-  - **Naktis ant marių** — Šviesų spinduliai virš scenos ant vandens naktį (`galerija-20.jpg`)
-  - **Šviesos skulptūra ant vandens** — Auksinė geometrinė skulptūra ant vandens (`galerija-21.jpg`)
+  - **Smuikas ir arfa** — Smuikas ir arfa koncerte „Tėkmėje“ (`galerija-20.jpg`)
+  - **Šviesų spinduliuose** — Ansamblis scenoje šviesų spinduliuose (`galerija-21.jpg`)
 
 ## 11. Apie — `#apie`
 *Būsena: rodoma*
