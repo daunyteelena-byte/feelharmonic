@@ -318,8 +318,9 @@ main section.band-teal h2{color:var(--gold-lt)}
   -webkit-mask-image:linear-gradient(#000 35%,transparent);mask-image:linear-gradient(#000 35%,transparent);
 }
 .clip-toggle{
-  justify-self:start;display:inline-flex;align-items:center;gap:8px;padding:4px 0;
-  background:none;border:0;cursor:pointer;font-family:var(--sans);
+  justify-self:start;display:inline-flex;align-items:center;gap:10px;padding:9px 18px;
+  background:none;border:1px solid rgba(226,169,79,.55);border-radius:999px;cursor:pointer;font-family:var(--sans);
+  transition:background .2s ease,border-color .2s ease;
   font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-lt);
 }
 /* rodyklė: žemyn — išskleisti, aukštyn — suskleisti */
@@ -330,6 +331,7 @@ main section.band-teal h2{color:var(--gold-lt)}
 }
 .clip-toggle[aria-expanded="true"]::after{transform:translateY(2px) rotate(-135deg)}
 .clip-toggle[hidden]{display:none}
+.clip-toggle:hover{background:rgba(226,169,79,.14);border-color:var(--gold-lt)}
 .clip-acts{display:flex;flex-wrap:wrap;gap:12px;margin-top:8px}
 @media(max-width:520px){.clip-acts .btn{width:100%}}
 .clip-meta:empty{display:none}
