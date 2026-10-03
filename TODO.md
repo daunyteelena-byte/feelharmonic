@@ -11,13 +11,11 @@ Tekstas keičiamas **`turinys/lt.json`, `turinys/en.json`, `turinys/it.json`**, 
 - [ ] **Pirmojo FeelHarmonic renginio (2023) nuotraukos iš Facebook** — puslapyje
       28 nuotraukos, viešai matomos tik 9 mažos. Elena atsisiųs pilno dydžio
       (⋯ → Download) į `FeelHarmonic/Mano Foto`; paklausti renginio pavadinimo ir vietos.
-- [ ] **Fotografų vardai** — labirintas (`labirintas.jpg`), „Apie“ nespalvota
-      (`apie.jpg`), studijiniai portretai su violončele, nauji galerijos kadrai
+- [ ] **Fotografų vardai** — labirintas (`labirintas.jpg`), studijiniai portretai su violončele, nauji galerijos kadrai
       (Regnum Musicale, Čiurlionio kvartetas, duetas).
 - [x] **Nuotraukų išdidinimas su informacija** — padaryta 2026-10-03 visoms puslapio
       nuotraukoms; duomenys `turinys/*.json` → `"photos"` (event, place, date, by).
-- [ ] **Trūksta informacijos nuotraukoms** (`"photos"` blokas): `apie.jpg` — fotografas;
-      `galerija-1.jpg`, `galerija-3.jpg` — viskas; `labirintas.jpg` — vieta, fotografas; `galerija-5/6/8/10.jpg` — vieta, metai,
+- [ ] **Trūksta informacijos nuotraukoms** (`"photos"` blokas): `galerija-1.jpg`, `galerija-3.jpg` — viskas; `labirintas.jpg` — vieta, fotografas; `galerija-5/6/8/10.jpg` — vieta, metai,
       fotografas;
 - [x] **„Duetas su Anusausku“** — Artūras Anusauskas, improvizacijų didmeistris (įrašyta 2026-10-03).
 

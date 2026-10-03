@@ -570,7 +570,7 @@
   },
 
   "photos": {
-    "apie.jpg": {"event": "Evento della Giornata mondiale della trombosi", "place": "Museo del patrimonio ecclesiastico", "date": "8 ottobre 2025", "by": ""},
+    "apie.jpg": {"event": "Evento della Giornata mondiale della trombosi", "place": "Museo del patrimonio ecclesiastico", "date": "8 ottobre 2025", "by": "Tomas Lebedevas"},
     "elena.jpg": {"event": "Solista Elena Daunytė, direttore Andrzej Kosendiak (Polonia), Orchestra da camera lituana", "place": "Filarmonica nazionale lituana", "date": "7 maggio 2022", "by": "Inga Juodytė"},
     "labirintas.jpg": {"event": "Performance creativa di Elena — sinergia di violoncello, voce e poesia", "place": "", "date": "2 luglio 2024", "by": ""},
     "paslauga-interaktyvu.jpg": {"event": "Concerto interattivo «Pilnaties pilnatvinė kelionė»", "place": "Centro culturale di Kernavė", "date": "31 dicembre 2023", "by": "Laurynas Meškutavičius"},
@@ -660,7 +660,7 @@
   },
 
   "footer": {
-    "photoCredit": "Foto: Inga Juodytė, Dmitrijus Matvejevas, Laurynas Meškutavičius, Gintaras Jonaitis (GYWAI), Asta Sabonytė, Saulius Jankauskas",
+    "photoCredit": "Foto: Inga Juodytė, Dmitrijus Matvejevas, Laurynas Meškutavičius, Gintaras Jonaitis (GYWAI), Asta Sabonytė, Saulius Jankauskas, Tomas Lebedevas",
     "facebookAria": "FeelHarmonic su Facebook",
     "about": "Concerti, performance, educazione, eventi armonizzanti e feste dalla A alla Z in tutta la Lituania.",
     "colPages": "Sezioni",
