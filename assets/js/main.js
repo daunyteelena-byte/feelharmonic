@@ -85,6 +85,10 @@ var CONFIG = {
       btn.textContent = open ? btn.getAttribute("data-less") : btn.getAttribute("data-more");
       if (!open) btn.closest(".clip").scrollIntoView({ block: "nearest" });
     });
+    // paspaudus ant išblukusio teksto — taip pat išskleidžiama
+    text.addEventListener("click", function () {
+      if (text.classList.contains("is-collapsed")) btn.click();
+    });
   });
 
   /* ---------- „Užsakyti renginį“: kontaktų formoje parenka temą ir žinutę ---------- */
