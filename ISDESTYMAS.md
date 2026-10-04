@@ -165,7 +165,7 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
   - **Solistė su orkestru** — Elena Daunytė — violončelės solistė su orkestru salėje su sietynu (`galerija-26.jpg`)
   - **Koncertas prie kolonų** — Koncertas lauke prie rūmų kolonų (`galerija-27.jpg`)
   - **Mėlynoje šviesoje** — Elena Daunytė groja violončele mėlynoje scenos šviesoje (`galerija-28.jpg`)
-  - **Daina** — Elena Daunytė dainuoja žalia suknele (`galerija-29.jpg`)
+  - **Daina** — Elena Daunytė dainuoja Kultūros ministerijoje (`galerija-29.jpg`)
   - **Violončelė ir arfa** — Elena Daunytė groja violončele šalia arfos (`galerija-30.jpg`)
 
 ## 11. Apie kūrėją ir įkūrėją — `#apie`

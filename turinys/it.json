@@ -466,7 +466,7 @@
       { "img": "galerija-26.jpg", "alt": "Elena Daunytė solista di violoncello con l’orchestra in una sala con lampadario", "cap": "Solista con l’orchestra" },
       { "img": "galerija-27.jpg", "alt": "Concerto all’aperto tra le colonne di una dimora storica", "cap": "Concerto tra le colonne" },
       { "img": "galerija-28.jpg", "alt": "Elena Daunytė suona il violoncello nella luce blu del palco", "cap": "Nella luce blu" },
-      { "img": "galerija-29.jpg", "alt": "Elena Daunytė canta in abito verde", "cap": "Canto", "pos": "50% 18%" },
+      { "img": "galerija-29.jpg", "alt": "Elena Daunytė canta al Ministero della Cultura", "cap": "Canto", "pos": "50% 18%" },
       { "img": "galerija-30.jpg", "alt": "Elena Daunytė suona il violoncello accanto all’arpa", "cap": "Violoncello e arpa", "pos": "50% 30%" }
     ]
   },
@@ -582,7 +582,7 @@
     "galerija-26.jpg": {"event": "", "place": "", "date": "", "by": ""},
     "galerija-27.jpg": {"event": "", "place": "", "date": "", "by": ""},
     "galerija-28.jpg": {"event": "", "place": "", "date": "", "by": ""},
-    "galerija-29.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "galerija-29.jpg": {"event": "", "place": "Ministero della Cultura della Repubblica di Lituania", "date": "", "by": ""},
     "galerija-30.jpg": {"event": "", "place": "", "date": "", "by": ""},
     "apie.jpg": {"event": "Evento della Giornata mondiale della trombosi", "place": "Museo del patrimonio ecclesiastico", "date": "8 ottobre 2025", "by": "Tomas Lebedevas"},
     "elena.jpg": {"event": "Solista Elena Daunytė, direttore Andrzej Kosendiak (Polonia), Orchestra da camera lituana", "place": "Filarmonica nazionale lituana", "date": "7 maggio 2022", "by": "Inga Juodytė"},

@@ -466,7 +466,7 @@
       { "img": "galerija-26.jpg", "alt": "Elena Daunytė — violončelės solistė su orkestru salėje su sietynu", "cap": "Solistė su orkestru" },
       { "img": "galerija-27.jpg", "alt": "Koncertas lauke prie rūmų kolonų", "cap": "Koncertas prie kolonų" },
       { "img": "galerija-28.jpg", "alt": "Elena Daunytė groja violončele mėlynoje scenos šviesoje", "cap": "Mėlynoje šviesoje" },
-      { "img": "galerija-29.jpg", "alt": "Elena Daunytė dainuoja žalia suknele", "cap": "Daina", "pos": "50% 18%" },
+      { "img": "galerija-29.jpg", "alt": "Elena Daunytė dainuoja Kultūros ministerijoje", "cap": "Daina", "pos": "50% 18%" },
       { "img": "galerija-30.jpg", "alt": "Elena Daunytė groja violončele šalia arfos", "cap": "Violončelė ir arfa", "pos": "50% 30%" }
     ]
   },
@@ -582,7 +582,7 @@
     "galerija-26.jpg": {"event": "", "place": "", "date": "", "by": ""},
     "galerija-27.jpg": {"event": "", "place": "", "date": "", "by": ""},
     "galerija-28.jpg": {"event": "", "place": "", "date": "", "by": ""},
-    "galerija-29.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "galerija-29.jpg": {"event": "", "place": "Lietuvos Respublikos kultūros ministerija", "date": "", "by": ""},
     "galerija-30.jpg": {"event": "", "place": "", "date": "", "by": ""},
     "apie.jpg": {"event": "Pasaulinės trombozės dienos renginys", "place": "Bažnytinio paveldo muziejus", "date": "2025 m. spalio 8 d.", "by": "Tomas Lebedevas"},
     "elena.jpg": {"event": "Solistė Elena Daunytė, dirigentas Andrzej Kosendiak (Lenkija), Lietuvos kamerinis orkestras", "place": "Lietuvos nacionalinė filharmonija", "date": "2022 m. gegužės 7 d.", "by": "Inga Juodytė"},
