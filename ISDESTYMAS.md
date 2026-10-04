@@ -135,7 +135,7 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
 
 - **eyebrow:** Galerija
 - **h2:** Nuotraukos
-- **lede:** Akimirkos iš koncertų — solo, su keturių seserų ansambliu „Regnum Musicale“, duetu „SisDuo“, Čiurlionio kvartetu ir kitais: Vasario 16-osios koncertas Filharmonijoje (2024), „Tėkmėje“ ant Kauno marių Rumšiškėse (2024), „Pilnaties pilnatvinė kelionė“ Kernavės kultūros centre (2023).
+- **lede:** Akimirkos iš koncertų — solo, su keturių seserų ansambliu „Regnum Musicale“, duetu „SisDuo“, Čiurlionio kvartetu ir kitais: Vasario 16-osios koncertas Filharmonijoje (2024), koncertas-performansas „Amazoniškai“ Vilniaus rotušėje (2024), „Tėkmėje“ ant Kauno marių Rumšiškėse (2024), „Pilnaties pilnatvinė kelionė“ Kernavės kultūros centre (2023).
 - **items:**
   - **Violončelė** — Elena Daunytė groja violončele (`galerija-1.jpg`)
   - **Šviesų spinduliuose** — Ansamblis scenoje šviesų spinduliuose (`galerija-21.jpg`)
