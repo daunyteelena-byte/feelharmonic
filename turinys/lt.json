@@ -434,6 +434,8 @@
 
   "gallery": {
     "lightbox": {"close": "Uždaryti", "prev": "Ankstesnė nuotrauka", "next": "Kita nuotrauka", "by": "Nuotr."},
+    "moreLabel": "Rodyti visas nuotraukas",
+    "lessLabel": "Rodyti mažiau",
     "eyebrow": "Galerija",
     "h2": "Nuotraukos",
     "lede": "Akimirkos iš koncertų — solo, su keturių seserų ansambliu „Regnum Musicale“, duetu „SisDuo“, Čiurlionio kvartetu ir kitais: Vasario 16-osios koncertas Filharmonijoje (2024), „Tėkmėje“ ant Kauno marių Rumšiškėse (2024), „Pilnaties pilnatvinė kelionė“ Kernavės kultūros centre (2023).",

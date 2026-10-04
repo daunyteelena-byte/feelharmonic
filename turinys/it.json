@@ -434,6 +434,8 @@
 
   "gallery": {
     "lightbox": {"close": "Chiudi", "prev": "Foto precedente", "next": "Foto successiva", "by": "Foto:"},
+    "moreLabel": "Mostra tutte le foto",
+    "lessLabel": "Mostra meno",
     "eyebrow": "Galleria",
     "h2": "Fotografie",
     "lede": "Momenti dai concerti — da solista, con Regnum Musicale, ensemble di quattro sorelle, il duo SisDuo, il Quartetto Čiurlionis e altri: il concerto del 16 febbraio alla Filarmonica (2024), «Tėkmėje» sulla laguna di Kaunas a Rumšiškės (2024) e «Pilnaties pilnatvinė kelionė» al Centro culturale di Kernavė (2023).",

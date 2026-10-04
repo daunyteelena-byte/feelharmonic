@@ -384,6 +384,27 @@ main section.band-teal h2{color:var(--gold-lt)}
 .gallery{display:grid;gap:22px;grid-template-columns:1fr}
 @media(min-width:640px){.gallery{grid-template-columns:repeat(2,1fr)}}
 @media(min-width:960px){.gallery{grid-template-columns:repeat(3,1fr)}}
+/* galerija suskleista: telefone matosi 4, kompiuteryje 9 nuotraukos */
+.gallery.is-collapsed > .shot:nth-of-type(n+5){display:none}
+@media(min-width:960px){
+  .gallery.is-collapsed > .shot:nth-of-type(n+5){display:block}
+  .gallery.is-collapsed > .shot:nth-of-type(n+10){display:none}
+}
+@media(min-width:640px) and (max-width:959px){
+  .gallery.is-collapsed > .shot:nth-of-type(n+5){display:block}
+  .gallery.is-collapsed > .shot:nth-of-type(n+7){display:none}
+}
+.gal-toggle{
+  display:flex;align-items:center;gap:10px;margin:26px auto 0;padding:11px 22px;
+  background:none;border:1px solid var(--gold-deep);border-radius:999px;cursor:pointer;
+  font-family:var(--sans);font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-ink);
+  transition:background .2s ease;
+}
+.gal-toggle:hover{background:rgba(206,142,52,.12)}
+.gal-toggle[hidden]{display:none}
+.gal-toggle::after{content:"";width:7px;height:7px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:translateY(-2px) rotate(45deg);transition:transform .2s ease}
+.gal-toggle[aria-expanded="true"]::after{transform:translateY(2px) rotate(-135deg)}
+
 /* galerijos nuotrauka paspaudus — per visą ekraną */
 .lb-zoom{cursor:zoom-in}
 .lb-zoom:focus-visible{outline:2px solid var(--gold);outline-offset:3px}

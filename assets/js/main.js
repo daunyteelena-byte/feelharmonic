@@ -109,6 +109,20 @@ var CONFIG = {
     });
   });
 
+  /* ---------- galerija: rodomos kelios nuotraukos, kitos — paspaudus ---------- */
+  Array.prototype.forEach.call(document.querySelectorAll(".gal-toggle"), function (btn) {
+    var gal = btn.previousElementSibling;
+    if (!gal || !gal.classList.contains("gallery")) return;
+    gal.classList.add("is-collapsed");
+    btn.hidden = false;
+    btn.addEventListener("click", function () {
+      var open = gal.classList.toggle("is-collapsed") === false;
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+      btn.textContent = open ? btn.getAttribute("data-less") : btn.getAttribute("data-more");
+      if (!open) gal.scrollIntoView({ block: "start" });
+    });
+  });
+
   /* ---------- nuotraukos: paspaudus atsidaro per visą ekraną su informacija ----------
      Visos nuotraukos su data-lb. Galerijos nuotraukos vartomos rodyklėmis,
      kitos (pirmas ekranas, kortelės, „Apie“, juosta) rodomos po vieną. */
@@ -120,7 +134,8 @@ var CONFIG = {
   };
   var figOf = function (im) { return im.closest("figure, .portrait, .about-photo") || im.parentNode; };
   var all = Array.prototype.filter.call(document.querySelectorAll("img[data-lb]"), function (im) {
-    return figOf(im).offsetParent !== null;
+    // galerijos nuotraukos įtraukiamos ir tada, kai galerija suskleista
+    return figOf(im).offsetParent !== null || im.closest(".gallery");
   });
   if (all.length) {
     var lb = null, set = [], cur = 0, lastFocus = null;

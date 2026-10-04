@@ -662,11 +662,12 @@ def gallery(lang, c):
     <div class="gallery reveal" data-lb-close="%(lbclose)s" data-lb-prev="%(lbprev)s" data-lb-next="%(lbnext)s">
       %(figs)s
     </div>
+    <button class="gal-toggle" type="button" aria-expanded="false" hidden data-more="%(galmore)s" data-less="%(galless)s">%(galmore)s</button>
 
     %(motto)s
   </div>
 </section>
-""" % {"eyebrow": g["eyebrow"], "h2": g["h2"], "lede": g["lede"], "figs": figs, "motto": MOTTO, "lbclose": attr(g["lightbox"]["close"]), "lbprev": attr(g["lightbox"]["prev"]), "lbnext": attr(g["lightbox"]["next"])}
+""" % {"eyebrow": g["eyebrow"], "h2": g["h2"], "lede": g["lede"], "figs": figs, "motto": MOTTO, "galmore": attr("%s (%d)" % (g["moreLabel"], len(g["items"]))), "galless": attr(g["lessLabel"]), "lbclose": attr(g["lightbox"]["close"]), "lbprev": attr(g["lightbox"]["prev"]), "lbnext": attr(g["lightbox"]["next"])}
 
 
 def about(lang, c):

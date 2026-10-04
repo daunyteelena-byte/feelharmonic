@@ -434,6 +434,8 @@
 
   "gallery": {
     "lightbox": {"close": "Close", "prev": "Previous photo", "next": "Next photo", "by": "Photo:"},
+    "moreLabel": "Show all photos",
+    "lessLabel": "Show fewer",
     "eyebrow": "Gallery",
     "h2": "Photographs",
     "lede": "Moments from concerts — solo, with Regnum Musicale, an ensemble of four sisters, the duo SisDuo, the Čiurlionis Quartet and others: the 16 February concert at the Philharmonic (2024), “Tėkmėje” on the Kaunas Lagoon in Rumšiškės (2024) and “Pilnaties pilnatvinė kelionė” at Kernavė Cultural Centre (2023).",
