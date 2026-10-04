@@ -131,15 +131,21 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
 - **cta:** Domina bendradarbiavimas
 
 ## 10. Galerija — `#galerija`
-*Būsena: rodoma (31 nuotraukų)*
+*Būsena: rodoma (31 nuotraukų; suskleista — telefone matosi 4, kompiuteryje 9)*
 
 - **eyebrow:** Galerija
 - **h2:** Nuotraukos
 - **lede:** Akimirkos iš koncertų — solo, su keturių seserų ansambliu „Regnum Musicale“, duetu „SisDuo“, Čiurlionio kvartetu ir kitais: Vasario 16-osios koncertas Filharmonijoje (2024), „Tėkmėje“ ant Kauno marių Rumšiškėse (2024), „Pilnaties pilnatvinė kelionė“ Kernavės kultūros centre (2023).
 - **items:**
-  - **Išvien su publika** — Elena Daunytė groja violončele tarp klausytojų (`galerija-25.jpg`)
-  - **„Amazoniškai“ — violončelė ir būgnas** — Elena Daunytė groja violončele tarp klausytojų, šalia — būgnininkė koncerte „Amazoniškai“ (`galerija-31.jpg`)
   - **Violončelė** — Elena Daunytė groja violončele (`galerija-1.jpg`)
+  - **Šviesų spinduliuose** — Ansamblis scenoje šviesų spinduliuose (`galerija-21.jpg`)
+  - **Išvien su publika** — Elena Daunytė groja violončele tarp klausytojų (`galerija-25.jpg`)
+  - **„SisDuo“ su orkestru** — Duetas „SisDuo“ — violončelė ir arfa — su orkestru Filharmonijoje (`galerija-13.jpg`)
+  - **Dainuoju „Tėkmėje“** — Elena Daunytė dainuoja koncerte „Tėkmėje“ ant Kauno marių (`galerija-22.jpg`)
+  - **„Regnum Musicale“ ant vandens** — Ansamblis „Regnum Musicale“ scenoje ant Kauno marių (`galerija-19.jpg`)
+  - **Naujųjų metų išvakarės** — Šviečiantis rutulys prie šventinės eglutės (`galerija-11.jpg`)
+  - **Mėlynoje šviesoje** — Elena Daunytė groja violončele mėlynoje scenos šviesoje (`galerija-28.jpg`)
+  - **„Amazoniškai“ — violončelė ir būgnas** — Elena Daunytė groja violončele tarp klausytojų, šalia — būgnininkė koncerte „Amazoniškai“ (`galerija-31.jpg`)
   - **Arfa ir violončelė** — Arfa ir violončelė koncerte (`galerija-2.jpg`)
   - **Prieš koncertą** — Elena Daunytė su violončele prieš koncertą (`galerija-3.jpg`)
   - **Vokalas** — Elena Daunytė dainuoja scenoje (`galerija-4.jpg`)
@@ -149,23 +155,17 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
   - **Duetas su improvizacijų didmeistriu Artūru Anusausku. Muzika, gimstanti čia ir dabar** — Elena Daunytė duete su improvizacijų didmeistriu Artūru Anusausku (`galerija-8.jpg`)
   - **Koncertas salėje** — Smuikas, arfa ir violončelė scenoje (`galerija-9.jpg`)
   - **„Regnum Musicale“ po koncerto** — „Regnum Musicale“ su gėlėmis po koncerto (`galerija-10.jpg`)
-  - **Naujųjų metų išvakarės** — Šviečiantis rutulys prie šventinės eglutės (`galerija-11.jpg`)
   - **Po koncerto** — Atlikėjos su instrumentais prie šventinės eglutės (`galerija-12.jpg`)
-  - **„SisDuo“ su orkestru** — Duetas „SisDuo“ — violončelė ir arfa — su orkestru Filharmonijoje (`galerija-13.jpg`)
   - **Vasario 16-osios koncertas** — Violončelė ir arfa groja su simfoniniu orkestru (`galerija-14.jpg`)
   - **Po koncerto Filharmonijoje** — „SisDuo“ atlikėjos apsikabinusios po koncerto Filharmonijos salėje (`galerija-15.jpg`)
   - **„Tėkmėje“ — koncertas ant marių** — „Regnum Musicale“ koncerte „Tėkmėje“ ant Kauno marių (`galerija-16.jpg`)
   - **Publika prie scenos** — Klausytojai prie vandens žiūri koncertą plaukiojančioje scenoje (`galerija-17.jpg`)
   - **Scena ant vandens** — Plaukiojanti scena ant vandens su atspindžiais (`galerija-18.jpg`)
-  - **„Regnum Musicale“ ant vandens** — Ansamblis „Regnum Musicale“ scenoje ant Kauno marių (`galerija-19.jpg`)
   - **Smuikas ir arfa** — Smuikas ir arfa koncerte „Tėkmėje“ (`galerija-20.jpg`)
-  - **Šviesų spinduliuose** — Ansamblis scenoje šviesų spinduliuose (`galerija-21.jpg`)
-  - **Dainuoju „Tėkmėje“** — Elena Daunytė dainuoja koncerte „Tėkmėje“ ant Kauno marių (`galerija-22.jpg`)
   - **Balsas ir arfa** — Elena Daunytė dainuoja prie arfos scenoje ant vandens (`galerija-23.jpg`)
   - **Ritmas ir balsas** — Elena Daunytė su būgneliu koncerte „Tėkmėje“ (`galerija-24.jpg`)
   - **Solistė su orkestru** — Elena Daunytė — violončelės solistė su orkestru salėje su sietynu (`galerija-26.jpg`)
   - **Koncertas prie kolonų** — Koncertas lauke prie rūmų kolonų (`galerija-27.jpg`)
-  - **Mėlynoje šviesoje** — Elena Daunytė groja violončele mėlynoje scenos šviesoje (`galerija-28.jpg`)
   - **Daina** — Elena Daunytė dainuoja Kultūros ministerijoje (`galerija-29.jpg`)
   - **Violončelė ir arfa** — Elena Daunytė groja violončele šalia arfos (`galerija-30.jpg`)
 
