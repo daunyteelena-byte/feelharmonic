@@ -131,7 +131,7 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
 - **cta:** Domina bendradarbiavimas
 
 ## 10. Galerija — `#galerija`
-*Būsena: rodoma (31 nuotraukų; suskleista — telefone matosi 4, kompiuteryje 9)*
+*Būsena: rodoma (33 nuotraukų; suskleista — telefone matosi 4, kompiuteryje 9)*
 
 - **eyebrow:** Galerija
 - **h2:** Nuotraukos
@@ -142,10 +142,11 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
   - **Išvien su publika** — Elena Daunytė groja violončele tarp klausytojų (`galerija-25.jpg`)
   - **„SisDuo“ su orkestru** — Duetas „SisDuo“ — violončelė ir arfa — su orkestru Filharmonijoje (`galerija-13.jpg`)
   - **Dainuoju „Tėkmėje“** — Elena Daunytė dainuoja koncerte „Tėkmėje“ ant Kauno marių (`galerija-22.jpg`)
-  - **„Regnum Musicale“ ant vandens** — Ansamblis „Regnum Musicale“ scenoje ant Kauno marių (`galerija-19.jpg`)
+  - **Šviesų šou ant marių** — Šviesų spinduliai virš scenos ant Kauno marių, publika prie vandens (`galerija-32.jpg`)
   - **Naujųjų metų išvakarės** — Šviečiantis rutulys prie šventinės eglutės (`galerija-11.jpg`)
   - **Mėlynoje šviesoje** — Elena Daunytė groja violončele mėlynoje scenos šviesoje (`galerija-28.jpg`)
   - **„Amazoniškai“ — violončelė ir būgnas** — Elena Daunytė groja violončele tarp klausytojų, šalia — būgnininkė koncerte „Amazoniškai“ (`galerija-31.jpg`)
+  - **„Regnum Musicale“ ant vandens** — Ansamblis „Regnum Musicale“ scenoje ant Kauno marių (`galerija-19.jpg`)
   - **Arfa ir violončelė** — Arfa ir violončelė koncerte (`galerija-2.jpg`)
   - **Prieš koncertą** — Elena Daunytė su violončele prieš koncertą (`galerija-3.jpg`)
   - **Vokalas** — Elena Daunytė dainuoja scenoje (`galerija-4.jpg`)
@@ -161,7 +162,8 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
   - **„Tėkmėje“ — koncertas ant marių** — „Regnum Musicale“ koncerte „Tėkmėje“ ant Kauno marių (`galerija-16.jpg`)
   - **Publika prie scenos** — Klausytojai prie vandens žiūri koncertą plaukiojančioje scenoje (`galerija-17.jpg`)
   - **Scena ant vandens** — Plaukiojanti scena ant vandens su atspindžiais (`galerija-18.jpg`)
-  - **Smuikas ir arfa** — Smuikas ir arfa koncerte „Tėkmėje“ (`galerija-20.jpg`)
+  - **Naktis ant vandens** — Scena ant vandens su šviesų spinduliais ir atspindžiais (`galerija-33.jpg`)
+  - **Sutemus ant marių** — Scena ant vandens tarp lelijų, sutemus (`galerija-34.jpg`)
   - **Balsas ir arfa** — Elena Daunytė dainuoja prie arfos scenoje ant vandens (`galerija-23.jpg`)
   - **Ritmas ir balsas** — Elena Daunytė su būgneliu koncerte „Tėkmėje“ (`galerija-24.jpg`)
   - **Solistė su orkestru** — Elena Daunytė — violončelės solistė su orkestru salėje su sietynu (`galerija-26.jpg`)
