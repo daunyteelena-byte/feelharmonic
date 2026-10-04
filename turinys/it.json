@@ -438,6 +438,7 @@
     "h2": "Fotografie",
     "lede": "Momenti dai concerti — da solista, con Regnum Musicale, ensemble di quattro sorelle, il duo SisDuo, il Quartetto Čiurlionis e altri: il concerto del 16 febbraio alla Filarmonica (2024), «Tėkmėje» sulla laguna di Kaunas a Rumšiškės (2024) e «Pilnaties pilnatvinė kelionė» al Centro culturale di Kernavė (2023).",
     "items": [
+      { "img": "galerija-25.jpg", "alt": "Elena Daunytė suona il violoncello tra gli ascoltatori", "cap": "Suono tra il pubblico" },
       { "img": "galerija-1.jpg", "alt": "Elena Daunytė suona il violoncello", "cap": "Violoncello" },
       { "img": "galerija-2.jpg", "alt": "Arpa e violoncello in concerto", "cap": "Arpa e violoncello" },
       { "img": "galerija-3.jpg", "alt": "Elena Daunytė con il violoncello prima di un concerto", "cap": "Prima del concerto" },
@@ -461,7 +462,12 @@
       { "img": "galerija-21.jpg", "alt": "L’ensemble sul palco tra i fasci di luce", "cap": "Tra i fasci di luce" },
       { "img": "galerija-22.jpg", "alt": "Elena Daunytė canta al concerto «Tėkmėje» sulla laguna di Kaunas", "cap": "Canto in «Tėkmėje»" },
       { "img": "galerija-23.jpg", "alt": "Elena Daunytė canta accanto all’arpa sul palco sull’acqua", "cap": "Voce e arpa" },
-      { "img": "galerija-24.jpg", "alt": "Elena Daunytė con il tamburo a cornice al concerto «Tėkmėje»", "cap": "Ritmo e voce" }
+      { "img": "galerija-24.jpg", "alt": "Elena Daunytė con il tamburo a cornice al concerto «Tėkmėje»", "cap": "Ritmo e voce" },
+      { "img": "galerija-26.jpg", "alt": "Elena Daunytė solista di violoncello con l’orchestra in una sala con lampadario", "cap": "Solista con l’orchestra" },
+      { "img": "galerija-27.jpg", "alt": "Concerto all’aperto tra le colonne di una dimora storica", "cap": "Concerto tra le colonne" },
+      { "img": "galerija-28.jpg", "alt": "Elena Daunytė suona il violoncello nella luce blu del palco", "cap": "Nella luce blu" },
+      { "img": "galerija-29.jpg", "alt": "Elena Daunytė canta in abito verde", "cap": "Canto", "pos": "50% 18%" },
+      { "img": "galerija-30.jpg", "alt": "Elena Daunytė suona il violoncello accanto all’arpa", "cap": "Violoncello e arpa", "pos": "50% 30%" }
     ]
   },
 
@@ -489,6 +495,7 @@
     ],
     "closing": "Chi organizza eventi non ha bisogno solo di musica, ma di una persona che si occupi da sé dell'audio, del calendario e dei documenti. Per questo ogni programma qui ha una durata, un organico e un prezzo definiti — e non un «ci accordiamo sul posto».",
     "cta": "Contattami",
+    "figure": {"img": "apie-prezidente.jpg", "alt": "La Presidente della Lituania Dalia Grybauskaitė consegna un ringraziamento a Elena Daunytė", "cap": "Ringraziamento della Presidente Dalia Grybauskaitė"},
     "alt": "Elena Daunytė suona il violoncello al Museo del patrimonio ecclesiastico"
   },
 
@@ -570,6 +577,13 @@
   },
 
   "photos": {
+    "galerija-25.jpg": {"event": "", "place": "", "date": "26 maggio 2024", "by": "Laurynas Meškutavičius"},
+    "apie-prezidente.jpg": {"event": "Ringraziamento della Presidente della Lituania Dalia Grybauskaitė", "place": "", "date": "", "by": ""},
+    "galerija-26.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "galerija-27.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "galerija-28.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "galerija-29.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "galerija-30.jpg": {"event": "", "place": "", "date": "", "by": ""},
     "apie.jpg": {"event": "Evento della Giornata mondiale della trombosi", "place": "Museo del patrimonio ecclesiastico", "date": "8 ottobre 2025", "by": "Tomas Lebedevas"},
     "elena.jpg": {"event": "Solista Elena Daunytė, direttore Andrzej Kosendiak (Polonia), Orchestra da camera lituana", "place": "Filarmonica nazionale lituana", "date": "7 maggio 2022", "by": "Inga Juodytė"},
     "labirintas.jpg": {"event": "Performance creativa di Elena — sinergia di violoncello, voce e poesia", "place": "", "date": "2 luglio 2024", "by": ""},

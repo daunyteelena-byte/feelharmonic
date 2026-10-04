@@ -131,12 +131,13 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
 - **cta:** Domina bendradarbiavimas
 
 ## 10. Galerija — `#galerija`
-*Būsena: rodoma (24 nuotraukų)*
+*Būsena: rodoma (30 nuotraukų)*
 
 - **eyebrow:** Galerija
 - **h2:** Nuotraukos
 - **lede:** Akimirkos iš koncertų — solo, su keturių seserų ansambliu „Regnum Musicale“, duetu „SisDuo“, Čiurlionio kvartetu ir kitais: Vasario 16-osios koncertas Filharmonijoje (2024), „Tėkmėje“ ant Kauno marių Rumšiškėse (2024), „Pilnaties pilnatvinė kelionė“ Kernavės kultūros centre (2023).
 - **items:**
+  - **Groju tarp publikos** — Elena Daunytė groja violončele tarp klausytojų (`galerija-25.jpg`)
   - **Violončelė** — Elena Daunytė groja violončele (`galerija-1.jpg`)
   - **Arfa ir violončelė** — Arfa ir violončelė koncerte (`galerija-2.jpg`)
   - **Prieš koncertą** — Elena Daunytė su violončele prieš koncertą (`galerija-3.jpg`)
@@ -161,6 +162,11 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
   - **Dainuoju „Tėkmėje“** — Elena Daunytė dainuoja koncerte „Tėkmėje“ ant Kauno marių (`galerija-22.jpg`)
   - **Balsas ir arfa** — Elena Daunytė dainuoja prie arfos scenoje ant vandens (`galerija-23.jpg`)
   - **Ritmas ir balsas** — Elena Daunytė su būgneliu koncerte „Tėkmėje“ (`galerija-24.jpg`)
+  - **Solistė su orkestru** — Elena Daunytė — violončelės solistė su orkestru salėje su sietynu (`galerija-26.jpg`)
+  - **Koncertas prie kolonų** — Koncertas lauke prie rūmų kolonų (`galerija-27.jpg`)
+  - **Mėlynoje šviesoje** — Elena Daunytė groja violončele mėlynoje scenos šviesoje (`galerija-28.jpg`)
+  - **Daina** — Elena Daunytė dainuoja žalia suknele (`galerija-29.jpg`)
+  - **Violončelė ir arfa** — Elena Daunytė groja violončele šalia arfos (`galerija-30.jpg`)
 
 ## 11. Apie kūrėją ir įkūrėją — `#apie`
 *Būsena: rodoma (biografija papildyta iš elenadaunyte.com 2026-10-03)*
@@ -175,6 +181,7 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
   - Ji reguliariai kviečiama atlikti solines violončelės partijas „Vilniaus“ bei „Gaidos“ festivaliuose kartu su Lietuvos kameriniu ir Lietuvos nacionaliniu simfoniniu orkestrais, o savo meno kelyje sulaukė S. Karoso fondo, Muzikų rėmimo fondo, „Rotary International“, Perkūno bei Vilniaus Rotary klubų paramos ir bendradarbiauja su Lietuvos kultūros taryba. Yra gavusi Lietuvos Respublikos Prezidentų Valdo Adamkaus ir Dalios Grybauskaitės padėkas.
   - Jau keletą metų Elena taip pat semiasi vokalo pagrindų pas profesorių Vladimirą Prudnikovą ir į savo koncertų programas įtraukia balsui skirtus opusus. Ji eksperimentuoja jungdama violončelės ir vokalo muziką, ieškodama naujų dermių bei galimybių šių dviejų instrumentų sintezei. Jos pačios kūriniai balsui ir violončelei — „Laisvės glėby“ ir „Ryto ugnis“ (LRT Mediateka, KLIPVID 2021).
   - 2026 m. leidykla „Slinktys“ išleido jos poezijos knygą „33 įkvėpimai“ — 33 triposmius, gimusius iš tylos, patirčių ir virsmų.
+- **figure (biografijoje, po padėkų pastraipa):** Prezidentės Dalios Grybauskaitės padėka (`apie-prezidente.jpg`)
 - **quote:** „Svarbiausia — augimas ir maksimalus džiaugsmas iš paties tobulėjimo proceso.“
 - **creds:** M. K. Čiurlionio menų mokykla · Royal Northern College of Music · LMTA · prof. R. Armono klasė · „Regnum Musicale“
 - **closing:** Renginių organizatoriams reikia ne tik muzikos, bet ir žmogaus, kuris pats susitvarko su garsu, grafiku ir dokumentais. Todėl kiekviena programa čia turi aiškią trukmę, sudėtį ir kainą — o ne „susitarsime vietoje“.

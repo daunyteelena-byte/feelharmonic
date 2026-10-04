@@ -126,10 +126,12 @@ def lbinfo(src):
     return ' data-lb data-lb-meta="%s"' % attr(meta)
 
 
-def photo(base, src, alt, cls="shot", cap=None):
+def photo(base, src, alt, cls="shot", cap=None, pos=None):
+    # pos — neprivaloma object-position vertikalioms nuotraukoms (pvz. "50% 20%")
+    style = ' style="object-position:%s"' % attr(pos) if pos else ""
     fig = ['<figure class="%s" data-photo>' % cls,
            '  <svg class="ph-empty" viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg>',
-           '  <img src="%sassets/img/%s" alt="%s" data-optional%s>' % (base, src, attr(alt), lbinfo(src))]
+           '  <img src="%sassets/img/%s" alt="%s"%s data-optional%s>' % (base, src, attr(alt), style, lbinfo(src))]
     if cap:
         fig.append('  <figcaption>%s</figcaption>' % cap)
     fig.append('</figure>')
@@ -646,7 +648,7 @@ def studio(lang, c):
 
 def gallery(lang, c):
     g = c["gallery"]
-    figs = "\n      ".join(photo(BASE[lang], i["img"], i["alt"], cap=i["cap"]) for i in g["items"])
+    figs = "\n      ".join(photo(BASE[lang], i["img"], i["alt"], cap=i["cap"], pos=i.get("pos")) for i in g["items"])
     return """
 <!-- ---------- GALERIJA ---------- -->
 <section id="galerija" class="band-cream">
@@ -673,9 +675,16 @@ def about(lang, c):
     # likusi biografija — išblunkanti, išskleidžiama (kaip „33 įkvėpimai“)
     more = ""
     if a.get("more"):
+        # nuotrauka (pvz. Prezidentės padėka) — po pastraipos, kurioje minimos padėkos
+        ps = ["<p>%s</p>" % x for x in a["more"]]
+        f = a.get("figure")
+        if f:
+            at = next((n for n, x in enumerate(a["more"]) if "Grybausk" in x), len(ps) - 1)
+            ps.insert(at + 1, photo(BASE[lang], f["img"], f["alt"], cls="shot bio-photo", cap=f["cap"]))
+        bio = "\n          ".join(ps)
         more = ('<div class="clip-text bio-more">\n          %s\n          <blockquote class="bio-quote">%s</blockquote>\n        </div>\n'
                 '        <button class="clip-toggle" type="button" aria-expanded="false" hidden data-more="%s" data-less="%s">%s</button>'
-                % ("\n          ".join("<p>%s</p>" % x for x in a["more"]), a.get("quote", ""),
+                % (bio, a.get("quote", ""),
                    attr(a["moreLabel"]), attr(a["lessLabel"]), a["moreLabel"]))
     creds = "\n          ".join("<li>%s</li>" % x for x in a["creds"])
     return """
