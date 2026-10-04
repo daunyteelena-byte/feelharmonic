@@ -53,6 +53,8 @@
     "eyebrow": "What I offer",
     "h2": "Multifaceted experiential events — feeling the art of life within you",
     "lede": "Every programme is adapted to the space, the occasion and the audience — from a school hall to a manor courtyard or a yoga studio. Or perhaps simply in the embrace of nature?",
+    "moreLabel": "Show all services",
+    "lessLabel": "Show fewer",
     "banner": { "img": "labirintas.jpg", "alt": "Elena Daunytė playing the cello and singing at the centre of a stone labyrinth lit in colour", "cap": "I perform my own music with cello and voice, and read my poetry — an experience in which listeners find their own unique path through the labyrinth of life. All it takes is opening your heart to creativity." },
     "items": [
       {
@@ -285,6 +287,8 @@
     "eyebrow": "Repertoire",
     "h2": "Ready-made programmes",
     "lede": "These can be booked straight away — each has a length, a line-up and a technical rider. The price depends on the line-up and the distance.",
+    "moreLabel": "Show all programmes",
+    "lessLabel": "Show fewer",
     "items": [
       {
         "h3": "Christmas evening",

@@ -113,12 +113,30 @@ var CONFIG = {
   Array.prototype.forEach.call(document.querySelectorAll(".more-toggle"), function (btn) {
     var box = btn.previousElementSibling;
     if (!box || !box.hasAttribute("data-show")) return;
-    var n = parseInt(box.getAttribute("data-show"), 10) || 0;
-    var items = Array.prototype.slice.call(box.children, n);
-    if (!items.length) return;
-    items.forEach(function (el) { el.classList.add("is-extra"); });
+    // telefone (iki 620 px) galima rodyti mažiau: data-show-mobile
+    var mq = window.matchMedia("(max-width: 620px)");
+    var mark = function () {
+      var n = parseInt(box.getAttribute(mq.matches && box.hasAttribute("data-show-mobile")
+        ? "data-show-mobile" : "data-show"), 10) || 0;
+      // data-peek: kitas po matomų elementas tik prasideda ir išblunka
+      var pk = box.getAttribute("data-peek");
+      var peek = pk === "all" || (pk === "mobile" && mq.matches);
+      Array.prototype.forEach.call(box.children, function (el, i) {
+        el.classList.toggle("is-peek", peek && i === n);
+        el.classList.toggle("is-extra", i >= n + (peek ? 1 : 0));
+      });
+      btn.hidden = box.children.length <= n;
+    };
+    // paspaudus ant išblukusio elemento — išskleidžiama
+    box.addEventListener("click", function (e) {
+      var el = e.target.closest(".is-peek");
+      if (el && box.classList.contains("is-collapsed") && el.parentNode === box) {
+        e.preventDefault(); e.stopPropagation(); btn.click();
+      }
+    }, true);
+    mark();
+    if (mq.addEventListener) mq.addEventListener("change", mark);
     box.classList.add("is-collapsed");
-    btn.hidden = false;
     btn.addEventListener("click", function () {
       var open = box.classList.toggle("is-collapsed") === false;
       btn.setAttribute("aria-expanded", open ? "true" : "false");

@@ -308,15 +308,17 @@ def services(lang, c):
       <p class="lede">%(lede)s</p>
     </div>
 %(banner)s
-    <div class="grid3 reveal">
+    <div class="grid3 reveal" data-show="3" data-show-mobile="1" data-peek="mobile">
       %(cards)s
     </div>
+    <button class="more-toggle" type="button" aria-expanded="false" hidden data-more="%(more)s" data-less="%(less)s">%(more)s</button>
 
     %(motto)s
   </div>
 </section>
 """ % {"eyebrow": s["eyebrow"], "h2": s["h2"], "lede": s["lede"],
-       "cards": "\n\n      ".join(cards), "motto": MOTTO, "banner": banner}
+       "cards": "\n\n      ".join(cards), "motto": MOTTO, "banner": banner,
+       "more": attr("%s (%d)" % (s["moreLabel"], len(s["items"]))), "less": attr(s["lessLabel"])}
 
 
 def video_item(base, v):
@@ -481,7 +483,7 @@ def edu(lang, c):
       <p class="lede">%(lede)s</p>
     </div>
 
-    <div class="edu reveal" data-show="2">
+    <div class="edu reveal" data-show="2" data-show-mobile="1" data-peek="mobile">
       %(arts)s
     </div>
     <button class="more-toggle" type="button" aria-expanded="false" hidden data-more="%(more)s" data-less="%(less)s">%(more)s</button>
@@ -522,9 +524,10 @@ def programs(lang, c):
       <p class="lede">%(lede)s</p>
     </div>
 
-    <div class="programs reveal">
+    <div class="programs reveal" data-show="3" data-show-mobile="1" data-peek="all">
       %(arts)s
     </div>
+    <button class="more-toggle" type="button" aria-expanded="false" hidden data-more="%(more)s" data-less="%(less)s">%(more)s</button>
 
     <p class="after-note reveal">%(note)s</p>
 
@@ -532,7 +535,8 @@ def programs(lang, c):
   </div>
 </section>
 """ % {"eyebrow": p["eyebrow"], "h2": p["h2"], "lede": p["lede"],
-       "arts": "\n\n      ".join(arts), "note": p["note"], "motto": MOTTO}
+       "arts": "\n\n      ".join(arts), "note": p["note"], "motto": MOTTO,
+       "more": attr("%s (%d)" % (p["moreLabel"], len(p["items"]))), "less": attr(p["lessLabel"])}
 
 
 def growth(lang, c):

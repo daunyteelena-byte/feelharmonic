@@ -53,6 +53,8 @@
     "eyebrow": "Ką siūlau",
     "h2": "Įvairialypiai patyriminiai renginiai, pajuntant gyvenimo meną savyje",
     "lede": "Kiekviena programa pritaikoma erdvei, progai ir auditorijai — nuo mokyklos salės iki dvaro kiemo ar jogos studijos. O gal tiesiog gamtos glėbyje?",
+    "moreLabel": "Rodyti visas paslaugas",
+    "lessLabel": "Rodyti mažiau",
     "banner": { "img": "labirintas.jpg", "alt": "Elena Daunytė groja violončele ir dainuoja spalvotai apšviesto akmenų labirinto centre", "cap": "Atlieku savo kūrybą violončele ir balsu bei skaitau savo poeziją — patirtis, kurioje klausytojas atranda savo unikalų kelią gyvenimo labirinte. Viskas, ko reikia, — atverti širdį kūrybai." },
     "items": [
       {
@@ -285,6 +287,8 @@
     "eyebrow": "Repertuaras",
     "h2": "Paruoštos programos",
     "lede": "Šias galima užsakyti iškart — jos turi trukmę, sudėtį ir techninius reikalavimus. Kaina priklauso nuo sudėties ir atstumo.",
+    "moreLabel": "Rodyti visas programas",
+    "lessLabel": "Rodyti mažiau",
     "items": [
       {
         "h3": "Kalėdų vakaras",

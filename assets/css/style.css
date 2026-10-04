@@ -404,6 +404,11 @@ main section.band-teal h2{color:var(--gold-lt)}
 .gal-toggle[hidden],.more-toggle[hidden]{display:none}
 /* suskleistas sąrašas (data-show): rodomi tik pirmi N elementų */
 .is-collapsed > .is-extra{display:none}
+.is-collapsed > .is-peek{
+  max-height:180px;overflow:hidden;cursor:pointer;
+  -webkit-mask-image:linear-gradient(#000 15%,transparent);mask-image:linear-gradient(#000 15%,transparent);
+}
+.is-collapsed > .is-peek *{pointer-events:none}
 .gal-toggle::after,.more-toggle::after{content:"";width:7px;height:7px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:translateY(-2px) rotate(45deg);transition:transform .2s ease}
 .gal-toggle[aria-expanded="true"]::after,.more-toggle[aria-expanded="true"]::after{transform:translateY(2px) rotate(-135deg)}
 

@@ -53,6 +53,8 @@
     "eyebrow": "Che cosa offro",
     "h2": "Eventi esperienziali poliedrici, per sentire l'arte della vita dentro di te",
     "lede": "Ogni programma si adatta allo spazio, all'occasione e al pubblico — dall'aula magna di una scuola al cortile di una dimora storica o a uno studio di yoga. O forse semplicemente nell’abbraccio della natura?",
+    "moreLabel": "Mostra tutti i servizi",
+    "lessLabel": "Mostra meno",
     "banner": { "img": "labirintas.jpg", "alt": "Elena Daunytė suona il violoncello e canta al centro di un labirinto di pietre illuminato a colori", "cap": "Eseguo la mia musica con violoncello e voce e leggo le mie poesie — un’esperienza in cui chi ascolta trova il proprio cammino unico nel labirinto della vita. Basta aprire il cuore alla creatività." },
     "items": [
       {
@@ -285,6 +287,8 @@
     "eyebrow": "Repertorio",
     "h2": "Programmi pronti",
     "lede": "Questi si possono prenotare subito: hanno una durata, un organico e una scheda tecnica definiti. Il prezzo dipende dall'organico e dalla distanza.",
+    "moreLabel": "Mostra tutti i programmi",
+    "lessLabel": "Mostra meno",
     "items": [
       {
         "h3": "Serata di Natale",
