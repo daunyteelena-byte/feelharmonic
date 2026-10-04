@@ -394,16 +394,18 @@ main section.band-teal h2{color:var(--gold-lt)}
   .gallery.is-collapsed > .shot:nth-of-type(n+5){display:block}
   .gallery.is-collapsed > .shot:nth-of-type(n+7){display:none}
 }
-.gal-toggle{
+.gal-toggle,.more-toggle{
   display:flex;align-items:center;gap:10px;margin:26px auto 0;padding:11px 22px;
   background:none;border:1px solid var(--gold-deep);border-radius:999px;cursor:pointer;
   font-family:var(--sans);font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-ink);
   transition:background .2s ease;
 }
-.gal-toggle:hover{background:rgba(206,142,52,.12)}
-.gal-toggle[hidden]{display:none}
-.gal-toggle::after{content:"";width:7px;height:7px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:translateY(-2px) rotate(45deg);transition:transform .2s ease}
-.gal-toggle[aria-expanded="true"]::after{transform:translateY(2px) rotate(-135deg)}
+.gal-toggle:hover,.more-toggle:hover{background:rgba(206,142,52,.12)}
+.gal-toggle[hidden],.more-toggle[hidden]{display:none}
+/* suskleistas sąrašas (data-show): rodomi tik pirmi N elementų */
+.is-collapsed > .is-extra{display:none}
+.gal-toggle::after,.more-toggle::after{content:"";width:7px;height:7px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:translateY(-2px) rotate(45deg);transition:transform .2s ease}
+.gal-toggle[aria-expanded="true"]::after,.more-toggle[aria-expanded="true"]::after{transform:translateY(2px) rotate(-135deg)}
 
 /* galerijos nuotrauka paspaudus — per visą ekraną */
 .lb-zoom{cursor:zoom-in}

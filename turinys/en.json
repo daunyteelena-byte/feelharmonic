@@ -211,6 +211,8 @@
     "eyebrow": "Education",
     "h2": "Sessions, workshops and lessons",
     "lede": "Education for children and adults. The first two sessions are delivered to schools through the Culture Passport scheme; the rest are booked directly.",
+    "moreLabel": "All educational programmes",
+    "lessLabel": "Show fewer",
     "items": [
       {
         "h3": "What does an emotion sound like?",

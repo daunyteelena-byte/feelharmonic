@@ -211,6 +211,8 @@
     "eyebrow": "Edukacija",
     "h2": "Užsiėmimai, dirbtuvės ir mokymai",
     "lede": "Edukacijos vaikams ir suaugusiems. Pirmi du užsiėmimai teikiami Kultūros paso tvarka mokykloms, kiti — užsakomi tiesiogiai.",
+    "moreLabel": "Visos edukacijos",
+    "lessLabel": "Rodyti mažiau",
     "items": [
       {
         "h3": "Kaip skamba emocija?",

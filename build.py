@@ -481,9 +481,10 @@ def edu(lang, c):
       <p class="lede">%(lede)s</p>
     </div>
 
-    <div class="edu reveal">
+    <div class="edu reveal" data-show="2">
       %(arts)s
     </div>
+    <button class="more-toggle" type="button" aria-expanded="false" hidden data-more="%(more)s" data-less="%(less)s">%(more)s</button>
 
     %(notes)s
 
@@ -491,7 +492,7 @@ def edu(lang, c):
   </div>
 </section>
 """ % {"eyebrow": e["eyebrow"], "h2": e["h2"], "lede": e["lede"],
-       "arts": "\n\n      ".join(arts), "notes": notes, "motto": MOTTO}
+       "arts": "\n\n      ".join(arts), "more": attr("%s (%d)" % (e["moreLabel"], len(e["items"]))), "less": attr(e["lessLabel"]), "notes": notes, "motto": MOTTO}
 
 
 def programs(lang, c):

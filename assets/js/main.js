@@ -109,6 +109,24 @@ var CONFIG = {
     });
   });
 
+  /* ---------- ilgi sąrašai (data-show="N"): rodomi pirmi N, kiti — paspaudus ---------- */
+  Array.prototype.forEach.call(document.querySelectorAll(".more-toggle"), function (btn) {
+    var box = btn.previousElementSibling;
+    if (!box || !box.hasAttribute("data-show")) return;
+    var n = parseInt(box.getAttribute("data-show"), 10) || 0;
+    var items = Array.prototype.slice.call(box.children, n);
+    if (!items.length) return;
+    items.forEach(function (el) { el.classList.add("is-extra"); });
+    box.classList.add("is-collapsed");
+    btn.hidden = false;
+    btn.addEventListener("click", function () {
+      var open = box.classList.toggle("is-collapsed") === false;
+      btn.setAttribute("aria-expanded", open ? "true" : "false");
+      btn.textContent = open ? btn.getAttribute("data-less") : btn.getAttribute("data-more");
+      if (!open) box.scrollIntoView({ block: "start" });
+    });
+  });
+
   /* ---------- galerija: rodomos kelios nuotraukos, kitos — paspaudus ---------- */
   Array.prototype.forEach.call(document.querySelectorAll(".gal-toggle"), function (btn) {
     var gal = btn.previousElementSibling;
