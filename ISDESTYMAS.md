@@ -131,13 +131,14 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
 - **cta:** Domina bendradarbiavimas
 
 ## 10. Galerija — `#galerija`
-*Būsena: rodoma (30 nuotraukų)*
+*Būsena: rodoma (31 nuotraukų)*
 
 - **eyebrow:** Galerija
 - **h2:** Nuotraukos
 - **lede:** Akimirkos iš koncertų — solo, su keturių seserų ansambliu „Regnum Musicale“, duetu „SisDuo“, Čiurlionio kvartetu ir kitais: Vasario 16-osios koncertas Filharmonijoje (2024), „Tėkmėje“ ant Kauno marių Rumšiškėse (2024), „Pilnaties pilnatvinė kelionė“ Kernavės kultūros centre (2023).
 - **items:**
   - **Išvien su publika** — Elena Daunytė groja violončele tarp klausytojų (`galerija-25.jpg`)
+  - **„Amazoniškai“ — violončelė ir būgnas** — Elena Daunytė groja violončele tarp klausytojų, šalia — būgnininkė koncerte „Amazoniškai“ (`galerija-31.jpg`)
   - **Violončelė** — Elena Daunytė groja violončele (`galerija-1.jpg`)
   - **Arfa ir violončelė** — Arfa ir violončelė koncerte (`galerija-2.jpg`)
   - **Prieš koncertą** — Elena Daunytė su violončele prieš koncertą (`galerija-3.jpg`)

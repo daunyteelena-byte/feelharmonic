@@ -439,6 +439,7 @@
     "lede": "Moments from concerts — solo, with Regnum Musicale, an ensemble of four sisters, the duo SisDuo, the Čiurlionis Quartet and others: the 16 February concert at the Philharmonic (2024), “Tėkmėje” on the Kaunas Lagoon in Rumšiškės (2024) and “Pilnaties pilnatvinė kelionė” at Kernavė Cultural Centre (2023).",
     "items": [
       { "img": "galerija-25.jpg", "alt": "Elena Daunytė playing the cello among the listeners", "cap": "Together with the audience" },
+      { "img": "galerija-31.jpg", "alt": "Elena Daunytė playing the cello among the listeners, with a drummer at the concert “Amazoniškai”", "cap": "“Amazoniškai” — cello and drum" },
       { "img": "galerija-1.jpg", "alt": "Elena Daunytė playing the cello", "cap": "Cello" },
       { "img": "galerija-2.jpg", "alt": "Harp and cello in concert", "cap": "Harp and cello" },
       { "img": "galerija-3.jpg", "alt": "Elena Daunytė with her cello before a concert", "cap": "Before the concert" },
@@ -577,7 +578,8 @@
   },
 
   "photos": {
-    "galerija-25.jpg": {"event": "", "place": "", "date": "26 May 2024", "by": "Laurynas Meškutavičius"},
+    "galerija-25.jpg": {"event": "Concert “Amazoniškai”", "place": "", "date": "26 May 2024", "by": "Laurynas Meškutavičius"},
+    "galerija-31.jpg": {"event": "Concert “Amazoniškai”", "place": "", "date": "26 May 2024", "by": "Laurynas Meškutavičius"},
     "apie-prezidente.jpg": {"event": "President’s letter of thanks for active artistic work in Lithuania and abroad", "place": "Presidential Palace of Lithuania", "date": "7 March 2017", "by": "Robertas Dačkus"},
     "galerija-26.jpg": {"event": "", "place": "", "date": "", "by": ""},
     "galerija-27.jpg": {"event": "", "place": "", "date": "", "by": ""},
