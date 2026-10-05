@@ -599,8 +599,11 @@ def art_exchange(lang, c):
 
     <div class="two exchange reveal">
       <div>
+        <div class="fold ex-fold">
         %(paras)s
         <p class="accent">%(accent)s</p>
+        </div>
+        <button class="clip-toggle" type="button" aria-expanded="false" hidden data-more="%(more)s" data-less="%(less)s">%(more)s</button>
         <a class="btn dark" href="#kontaktai">%(cta)s</a>
       </div>
 
@@ -624,7 +627,8 @@ def art_exchange(lang, c):
 </section>
 """ % {"eyebrow": a["eyebrow"], "h2": a["h2"], "tag": tag, "lede": a["lede"],
        "paras": paras, "accent": a["accent"], "cta": a["cta"], "url": attr(iv["url"]),
-       "ivlabel": iv["label"], "ivtitle": iv["title"], "ivnote": iv["note"], "motto": MOTTO}
+       "ivlabel": iv["label"], "ivtitle": iv["title"], "ivnote": iv["note"], "motto": MOTTO,
+       "more": attr(a["moreLabel"]), "less": attr(a["lessLabel"])}
 
 
 def studio(lang, c):
