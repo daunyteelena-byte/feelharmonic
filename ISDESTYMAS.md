@@ -111,7 +111,7 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
 - **tag:** NEW
 - **lede:** Menai — kaip įrankis tobulinti elgseną, formuoti teigiamus įpročius ir turtinti vaizduotę, kurios dėka galime kurti gražesnį, tvaresnį, darnesnį ir harmoningesnį santykį su savimi bei su aplinkiniu pasauliu.
 - **paras:**
-  - Renginys, kuriame asmenybės persipina per įvairius menus — muziką, žodį, judesį ir vaizdą, — skatinant dalyvių kūrybinę saviraišką.
+  - Tai talentų mainai — renginys, kuriame asmenybės persipina per įvairius menus — muziką, žodį, judesį ir vaizdą, — skatinant dalyvių kūrybinę saviraišką. Juk visi esame užkoduoti menininkai!
   - „Menais mainais“ tikslas — priartinti dalyvį prie jo vidinio menininko, nes „mes visi esame užkoduoti menininkai, tik ne visi tai žinom…“. Būtent interaktyvus dalyvavimas muzikos ir kitų menų renginiuose žmogui gali padėti atrasti savo meniškąjį potencialą.
 - **accent:** Krypti į tiesos kryptį!
 - **cta:** Domina renginys
