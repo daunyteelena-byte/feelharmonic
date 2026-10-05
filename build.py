@@ -941,12 +941,12 @@ def footer(lang, c):
     </div>
     <div class="fbot">
       <span class="fcopy">&copy; <span id="year">%(year)s</span> FeelHarmonic<br>%(city)s</span>
-      <span>%(credit)s</span>
+      <details class="fcredit"><summary>%(creditlabel)s</summary><span>%(credit)s</span></details>
     </div>
   </div>
 </footer>
 """ % {"about": f["about"], "colpages": f["colPages"], "pages": pages,
-       "coldetails": f["colDetails"], "pemail": PERSONAL_EMAIL, "credit": f["photoCredit"], "details": details, "city": f["city"], "email": EMAIL,
+       "coldetails": f["colDetails"], "pemail": PERSONAL_EMAIL, "credit": f["photoCredit"].split(": ", 1)[-1], "creditlabel": f["photoCreditLabel"], "details": details, "city": f["city"], "email": EMAIL,
        "year": datetime.date.today().year,
        "fb": FACEBOOK, "fbaria": attr(f["facebookAria"]), "fbicon": FB_ICON}
 
