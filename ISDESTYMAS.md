@@ -171,10 +171,10 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
   - **Daina** — Elena Daunytė dainuoja Kultūros ministerijoje (`galerija-29.jpg`)
   - **Violončelė ir arfa** — Elena Daunytė groja violončele šalia arfos (`galerija-30.jpg`)
 
-## 11. Apie kūrėją ir įkūrėją — `#apie`
+## 11. Apie įkūrėją ir kūrėją — `#apie`
 *Būsena: rodoma (biografija papildyta iš elenadaunyte.com 2026-10-03)*
 
-- **eyebrow:** Apie kūrėją ir įkūrėją
+- **eyebrow:** Apie įkūrėją ir kūrėją
 - **h2:** Muzika, sudėliota taip pat kruopščiai, kaip pajausta
 - **paras (matoma):**
   - Elena Daunytė — FeelHarmonic įkūrėja, violončelininkė, vokalistė, poetė ir kūrėja. Daugelio tarptautinių konkursų laureatė bei Grand Prix laimėtoja, nuo 2021 m. — Lietuvos nacionalinės filharmonijos Čiurlionio kvarteto violončelininkė, keturių seserų ansamblio „Regnum Musicale“ narė. Nuo 2023 m. dėsto Lietuvos muzikos ir teatro akademijoje — styginių kvarteto ir kamerinio ansamblio klasėse.
