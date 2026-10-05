@@ -710,10 +710,6 @@ def about(lang, c):
         %(paras)s
         %(more)s
 
-        <ul class="creds">
-          %(creds)s
-        </ul>
-
         <p>%(last)s</p>
         <a class="btn dark" href="#kontaktai">%(cta)s</a>
       </div>
