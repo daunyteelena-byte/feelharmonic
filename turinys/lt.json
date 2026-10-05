@@ -674,7 +674,6 @@
       { "k": "El. paštas", "type": "email" },
       { "k": "Facebook", "type": "facebook" },
       { "k": "Veiklos vieta", "type": "text", "v": "Vilnius ir visa Lietuva" },
-      { "k": "Kalbos", "type": "text", "v": "Lietuvių, anglų, italų" },
       { "k": "Atsakau", "type": "text", "v": "Per vieną darbo dieną" }
     ]
   },

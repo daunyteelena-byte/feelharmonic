@@ -674,7 +674,6 @@
       { "k": "Email", "type": "email" },
       { "k": "Facebook", "type": "facebook" },
       { "k": "Sede", "type": "text", "v": "Vilnius, in tutta la Lituania" },
-      { "k": "Lingue", "type": "text", "v": "Lituano, inglese, italiano" },
       { "k": "Risposta", "type": "text", "v": "Entro un giorno lavorativo" }
     ]
   },
