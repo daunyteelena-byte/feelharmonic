@@ -694,7 +694,7 @@ def about(lang, c):
             at = next((n for n, x in enumerate(a["more"]) if "Grybausk" in x), len(ps) - 1)
             ps.insert(at + 1, photo(BASE[lang], f["img"], f["alt"], cls="shot bio-photo", cap=f["cap"]))
         bio = "\n          ".join(ps)
-        more = ('<div class="clip-text bio-more">\n          %s\n          <blockquote class="bio-quote">%s</blockquote>\n        </div>\n'
+        more = ('<div class="clip-text bio-more">\n          %s\n          <blockquote class="bio-quote">%s<cite>Elena Daunytė</cite></blockquote>\n        </div>\n'
                 '        <button class="clip-toggle" type="button" aria-expanded="false" hidden data-more="%s" data-less="%s">%s</button>'
                 % (bio, a.get("quote", ""),
                    attr(a["moreLabel"]), attr(a["lessLabel"]), a["moreLabel"]))
