@@ -46,6 +46,8 @@ LANG_SHORT = {"lt": "LT", "en": "EN", "it": "IT"}
 LANG_NAME = {"lt": "Lietuvių", "en": "English", "it": "Italiano"}
 
 EMAIL = "info@feelharmonic.lt"
+# įkūrėjos asmeninis adresas — poraštės rekvizituose
+PERSONAL_EMAIL = "elena.daunyte@feelharmonic.lt"
 # Mokėjimo už knygelę rekvizitai — įrašomi į „Įsigyti knygelę“ laiško šabloną
 BANK_NAME = "Elena Daunytė"
 BANK_IBAN = "LT81 7300 0100 8950 9422"
@@ -933,7 +935,7 @@ def footer(lang, c):
         <h4>%(coldetails)s</h4>
         <ul>
           %(details)s
-          <li><a data-email href="mailto:%(email)s">%(email)s</a></li>
+          <li><a href="mailto:%(pemail)s">%(pemail)s</a></li>
           <li><a href="tel:+37067004184">+370 670 04184</a></li>
         </ul>
       </div>
@@ -946,7 +948,7 @@ def footer(lang, c):
   </div>
 </footer>
 """ % {"about": f["about"], "colpages": f["colPages"], "pages": pages,
-       "coldetails": f["colDetails"], "credit": f["photoCredit"], "details": details, "city": f["city"], "email": EMAIL,
+       "coldetails": f["colDetails"], "pemail": PERSONAL_EMAIL, "credit": f["photoCredit"], "details": details, "city": f["city"], "email": EMAIL,
        "year": datetime.date.today().year,
        "fb": FACEBOOK, "fbaria": attr(f["facebookAria"]), "fbicon": FB_ICON}
 
