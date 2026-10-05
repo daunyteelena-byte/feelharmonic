@@ -175,6 +175,8 @@
   },
 
   "who": {
+    "moreLabel": "Mostra tutti",
+    "lessLabel": "Mostra meno",
     "items": [
       {
         "n": "01",
@@ -389,6 +391,8 @@
     "eyebrow": "Vivere la trasformazione attraverso la musica",
     "h2": "L'essere umano — uno strumento che crea la propria vita",
     "lede": "In senso letterale e figurato.",
+    "moreLabel": "Leggi di più",
+    "lessLabel": "Leggi meno",
     "paras": [
       "Ognuno di noi porta dentro di sé uno strumento — il corpo, il respiro, la voce, la memoria. Lo suonano il tempo, le esperienze, le persone care, perfino il silenzio tra di esse. La domanda è una sola: lasciamo che sia qualcun altro a toccare le corde, o prendiamo in mano l'arte di creare il nostro suono?",
       "In questo spazio la musica e l'arte non sono intrattenimento, ma un modo per tornare a sé — per sentire come suona il proprio tono interiore, quando vibra libero e quando è teso. Come lo strumento musicale chiede un corpo rilassato e, insieme, un'attenzione consapevole a ogni suono, così anche la vita invita ad ascoltare, finché non diventa un'opera nostra."

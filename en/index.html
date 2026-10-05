@@ -28,7 +28,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap">
-<link rel="stylesheet" href="../assets/css/style.css?v=fd4ada35">
+<link rel="stylesheet" href="../assets/css/style.css?v=7cdb3bed">
 </head>
 <body>
 <a class="skip" href="#turinys">Skip to content</a>
@@ -306,7 +306,7 @@
 <!-- ---------- KAM SKIRTA ---------- -->
 <section id="kam">
   <div class="in">
-    <div class="who-grid reveal">
+    <div class="who-grid reveal" data-show="3" data-show-mobile="2" data-peek="mobile">
       <div class="who">
         <span class="n">01</span>
         <h3>For schools</h3>
@@ -338,6 +338,7 @@
         <p>Live sound for yoga, meditation and mindfulness practice. Harmonising music, word, scent and dance sessions for adults.</p>
       </div>
     </div>
+    <button class="more-toggle" type="button" aria-expanded="false" hidden data-more="Show all (6)" data-less="Show fewer">Show all (6)</button>
 
     <p class="motto reveal">Let it come!</p>
   </div>
@@ -571,6 +572,7 @@
       <p class="lede">Both literally and figuratively.</p>
     </div>
 
+    <div class="fold">
     <div class="manifest reveal">
       <p>Each of us carries an instrument within — the body, the breath, the voice, memory. It is played by time, by experience, by the people close to us, even by the silence between them. The only question is this: do we let someone else touch the strings, or do we take up the craft of creating our own sound?</p>
       <p>In this space music and art become not entertainment but a way back to yourself — to hear how your inner tone sounds, when it vibrates freely and when it is tense. Just as a musical instrument asks for a relaxed body and, at the same time, conscious attention to every sound, life too invites us to listen closely until it becomes a work of our own.</p>
@@ -606,6 +608,8 @@
     </ol>
 
     <p class="manifest-close reveal">Here, through sound, rhythm and silence, we invite you to pause and feel: what is playing through you today — and what would you like to play yourself?</p>
+    </div>
+    <button class="clip-toggle" type="button" aria-expanded="false" hidden data-more="Read more" data-less="Read less">Read more</button>
 
     <p class="motto reveal">Let it come!</p>
   </div>
@@ -1135,6 +1139,6 @@
 }
 </script>
 
-<script src="../assets/js/main.js?v=dce28cc4"></script>
+<script src="../assets/js/main.js?v=53986d24"></script>
 </body>
 </html>

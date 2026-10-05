@@ -449,14 +449,16 @@ def who(lang, c):
 <!-- ---------- KAM SKIRTA ---------- -->
 <section id="kam">
   <div class="in">
-    <div class="who-grid reveal">
+    <div class="who-grid reveal" data-show="3" data-show-mobile="2" data-peek="mobile">
       %s
     </div>
+    <button class="more-toggle" type="button" aria-expanded="false" hidden data-more="%s" data-less="%s">%s</button>
 
     %s
   </div>
 </section>
-""" % (items, MOTTO)
+""" % (items, attr("%s (%d)" % (c["who"]["moreLabel"], len(c["who"]["items"]))), attr(c["who"]["lessLabel"]),
+       "%s (%d)" % (c["who"]["moreLabel"], len(c["who"]["items"])), MOTTO)
 
 
 def edu(lang, c):
@@ -558,6 +560,7 @@ def growth(lang, c):
       <p class="lede">%(lede)s</p>
     </div>
 
+    <div class="fold">
     <div class="manifest reveal">
       %(paras)s
     </div>
@@ -568,12 +571,15 @@ def growth(lang, c):
     </ol>
 
     <p class="manifest-close reveal">%(closing)s</p>
+    </div>
+    <button class="clip-toggle" type="button" aria-expanded="false" hidden data-more="%(more)s" data-less="%(less)s">%(more)s</button>
 
     %(motto)s
   </div>
 </section>
 """ % {"eyebrow": g["eyebrow"], "h2": g["h2"], "lede": g["lede"], "paras": paras,
-       "intro": g["pathIntro"], "steps": steps, "closing": g["closing"], "motto": MOTTO}
+       "intro": g["pathIntro"], "steps": steps, "closing": g["closing"], "motto": MOTTO,
+       "more": attr(g["moreLabel"]), "less": attr(g["lessLabel"])}
 
 
 def art_exchange(lang, c):

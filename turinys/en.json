@@ -175,6 +175,8 @@
   },
 
   "who": {
+    "moreLabel": "Show all",
+    "lessLabel": "Show fewer",
     "items": [
       {
         "n": "01",
@@ -389,6 +391,8 @@
     "eyebrow": "Experiencing transformation through music",
     "h2": "The human being — an instrument that creates its own life",
     "lede": "Both literally and figuratively.",
+    "moreLabel": "Read more",
+    "lessLabel": "Read less",
     "paras": [
       "Each of us carries an instrument within — the body, the breath, the voice, memory. It is played by time, by experience, by the people close to us, even by the silence between them. The only question is this: do we let someone else touch the strings, or do we take up the craft of creating our own sound?",
       "In this space music and art become not entertainment but a way back to yourself — to hear how your inner tone sounds, when it vibrates freely and when it is tense. Just as a musical instrument asks for a relaxed body and, at the same time, conscious attention to every sound, life too invites us to listen closely until it becomes a work of our own."

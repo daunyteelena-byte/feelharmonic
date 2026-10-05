@@ -76,7 +76,7 @@ var CONFIG = {
   /* ---------- vaizdo įrašo aprašymas: išblunkantis, „Skaityti daugiau“ ---------- */
   Array.prototype.forEach.call(document.querySelectorAll(".clip-toggle"), function (btn) {
     var text = btn.previousElementSibling;
-    if (!text || !text.classList.contains("clip-text")) return;
+    if (!text || !(text.classList.contains("clip-text") || text.classList.contains("fold"))) return;
     text.classList.add("is-collapsed");
     btn.hidden = false;
     btn.addEventListener("click", function () {

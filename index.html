@@ -28,7 +28,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap">
-<link rel="stylesheet" href="assets/css/style.css?v=fd4ada35">
+<link rel="stylesheet" href="assets/css/style.css?v=7cdb3bed">
 </head>
 <body>
 <a class="skip" href="#turinys">Pereiti prie turinio</a>
@@ -306,7 +306,7 @@
 <!-- ---------- KAM SKIRTA ---------- -->
 <section id="kam">
   <div class="in">
-    <div class="who-grid reveal">
+    <div class="who-grid reveal" data-show="3" data-show-mobile="2" data-peek="mobile">
       <div class="who">
         <span class="n">01</span>
         <h3>Mokykloms</h3>
@@ -338,6 +338,7 @@
         <p>Gyvas garsas jogos, meditacijų ir sąmoningumo praktikoms. Harmonizuojančios muzikos, žodžio, kvapų ir šokio sesijos suaugusiems.</p>
       </div>
     </div>
+    <button class="more-toggle" type="button" aria-expanded="false" hidden data-more="Rodyti visus (6)" data-less="Rodyti mažiau">Rodyti visus (6)</button>
 
     <p class="motto reveal">Let it come!</p>
   </div>
@@ -571,6 +572,7 @@
       <p class="lede">Ir tiesiogine, ir perkeltine prasme.</p>
     </div>
 
+    <div class="fold">
     <div class="manifest reveal">
       <p>Kiekvienas iš mūsų nešiojame savyje instrumentą — kūną, kvėpavimą, balsą, atmintį. Juo groja laikas, patirtys, artimieji, netgi tyla tarp jų. Klausimas tik toks: ar leidžiame, kad kas nors kitas liestų stygas, ar patys imamės meistrystės savo garsui kurti?</p>
       <p>Muzika ir menas šioje erdvėje tampa ne pramoga, o būdu grįžti pas save — išgirsti, kaip skamba tavo vidinis tonas, kada jis suvirpa laisvai, o kada — įtemptas. Kaip muzikos instrumentas reikalauja kūno atsipalaidavimo, tačiau tuo pačiu sąmoningo dėmesio kiekvienam garsui, taip ir gyvenimas kviečia įsiklausyti, kol virsta savu kūriniu.</p>
@@ -606,6 +608,8 @@
     </ol>
 
     <p class="manifest-close reveal">Čia, per garsą, ritmą ir tylą, kviečiame sustoti ir pajusti: kas šiandien groja tavimi — ir ką pats norėtum sugroti.</p>
+    </div>
+    <button class="clip-toggle" type="button" aria-expanded="false" hidden data-more="Skaityti daugiau" data-less="Skaityti mažiau">Skaityti daugiau</button>
 
     <p class="motto reveal">Let it come!</p>
   </div>
@@ -1135,6 +1139,6 @@
 }
 </script>
 
-<script src="assets/js/main.js?v=dce28cc4"></script>
+<script src="assets/js/main.js?v=53986d24"></script>
 </body>
 </html>
