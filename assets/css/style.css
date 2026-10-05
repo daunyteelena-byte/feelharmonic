@@ -537,6 +537,7 @@ main section.band-teal h2{color:var(--gold-lt)}
 
 /* šokant iš meniu „Kontaktai“ — kad nepasislėptų po antrašte */
 #tiesiogiai{scroll-margin-top:90px}
+.direct-wrap .eyebrow{margin-bottom:22px}
 .direct dt{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
 .direct dd{margin:0 0 22px;font-size:19px;font-family:var(--serif)}
 .direct a{text-decoration:none;border-bottom:1px solid var(--gold);color:var(--ink)}

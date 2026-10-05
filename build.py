@@ -857,7 +857,6 @@ def contact(lang, c):
 <section id="kontaktai">
   <div class="in">
     <div class="head reveal">
-      <p class="eyebrow">%(eyebrow)s</p>
       <h2>%(h2)s</h2>
     </div>
 
@@ -888,9 +887,12 @@ def contact(lang, c):
         <p class="form-msg" id="form-msg" role="status" aria-live="polite"></p>
       </form>
 
-      <dl class="direct" id="tiesiogiai">
+      <div class="direct-wrap" id="tiesiogiai">
+        <p class="eyebrow">%(eyebrow)s</p>
+        <dl class="direct">
         %(direct)s
-      </dl>
+        </dl>
+      </div>
     </div>
 
     %(motto)s
