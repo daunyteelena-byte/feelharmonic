@@ -572,12 +572,19 @@ footer .fb-round:hover{border-color:var(--gold);background:rgba(206,142,52,.12)}
 }
 /* nuotraukų autoriai — suskleisti po mygtuku */
 .fcredit{max-width:62ch;text-align:right}
-.fcredit summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:8px;color:rgba(255,255,255,.76)}
+.fcredit summary{
+  list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:8px;padding:7px 16px;
+  border:1px solid rgba(206,142,52,.55);border-radius:999px;color:var(--gold-lt);
+  font-size:12px;letter-spacing:.12em;text-transform:uppercase;transition:background .2s ease;
+}
+.fcredit summary i{font-style:normal}
+.fcredit .when-open,.fcredit[open] .when-closed{display:none}
+.fcredit[open] .when-open{display:inline}
 .fcredit summary::-webkit-details-marker{display:none}
 .fcredit summary::after{content:"";width:6px;height:6px;border-right:1.3px solid currentColor;border-bottom:1.3px solid currentColor;transform:translateY(-2px) rotate(45deg);transition:transform .2s ease}
 .fcredit[open] summary::after{transform:translateY(1px) rotate(-135deg)}
-.fcredit summary:hover{color:var(--gold-lt)}
-.fcredit span{display:block;margin-top:8px;line-height:1.6}
+.fcredit summary:hover{background:rgba(206,142,52,.14)}
+.fcredit span{display:block;margin-top:10px;line-height:1.6}
 @media(max-width:620px){.fcredit{text-align:left}}
 
 /* ---------- animacijos ---------- */
