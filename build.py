@@ -928,7 +928,6 @@ def footer(lang, c):
           <svg aria-hidden="true"><use href="#mark-sm"/></svg>
           <div><b>FeelHarmonic</b><span class="tg">Let it come!</span></div>
         </div>
-        <p style="max-width:34ch;margin:0 0 18px">%(about)s</p>
         <a class="fb-round" href="%(fb)s" target="_blank" rel="noopener" aria-label="%(fbaria)s" title="Facebook">%(fbicon)s</a>
       </div>
       <div>
@@ -941,9 +940,8 @@ def footer(lang, c):
       </div>
     </div>
     <div class="fbot">
-      <span>&copy; <span id="year">%(year)s</span> FeelHarmonic</span>
+      <span class="fcopy">&copy; <span id="year">%(year)s</span> FeelHarmonic<br>%(city)s</span>
       <span>%(credit)s</span>
-      <span>%(city)s</span>
     </div>
   </div>
 </footer>

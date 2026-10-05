@@ -561,7 +561,7 @@ footer .fb-round{
 }
 footer .fb-round .fb-ico{width:20px;height:20px;fill:var(--gold-lt)}
 footer .fb-round:hover{border-color:var(--gold);background:rgba(206,142,52,.12)}
-.fbrand{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.fbrand{display:flex;align-items:center;gap:12px;margin-bottom:20px}
 .fbrand svg{width:34px;height:34px;flex:none}
 .fbrand b{font-family:var(--serif);font-weight:500;font-size:21px;color:#fff}
 .fbrand .tg{font-size:10.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold-lt);display:block}
