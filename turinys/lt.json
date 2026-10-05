@@ -527,6 +527,8 @@
   "faq": {
     "eyebrow": "Praktiniai klausimai",
     "h2": "Dažniausiai klausiama",
+    "moreLabel": "Rodyti visus klausimus",
+    "lessLabel": "Rodyti mažiau",
     "items": [
       {
         "q": "Ar atvykstate su savo garso aparatūra?",

@@ -767,14 +767,16 @@ def faq(lang, c):
       <p class="eyebrow">%(eyebrow)s</p>
       <h2>%(h2)s</h2>
     </div>
-    <div class="faq reveal">
+    <div class="faq reveal" data-show="4" data-show-mobile="3" data-peek="all">
       %(items)s
     </div>
+    <button class="more-toggle" type="button" aria-expanded="false" hidden data-more="%(more)s" data-less="%(less)s">%(more)s</button>
 
     %(motto)s
   </div>
 </section>
-""" % {"eyebrow": f["eyebrow"], "h2": f["h2"], "items": items, "motto": MOTTO}
+""" % {"eyebrow": f["eyebrow"], "h2": f["h2"], "items": items, "motto": MOTTO,
+       "more": attr("%s (%d)" % (f["moreLabel"], len(f["items"]))), "less": attr(f["lessLabel"])}
 
 
 def patreon(lang, c):

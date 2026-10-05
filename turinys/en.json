@@ -527,6 +527,8 @@
   "faq": {
     "eyebrow": "Practical questions",
     "h2": "Frequently asked",
+    "moreLabel": "Show all questions",
+    "lessLabel": "Show fewer",
     "items": [
       {
         "q": "Do you bring your own sound equipment?",

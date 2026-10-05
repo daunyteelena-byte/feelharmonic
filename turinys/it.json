@@ -527,6 +527,8 @@
   "faq": {
     "eyebrow": "Domande pratiche",
     "h2": "Domande frequenti",
+    "moreLabel": "Mostra tutte le domande",
+    "lessLabel": "Mostra meno",
     "items": [
       {
         "q": "Portate il vostro impianto audio?",
