@@ -222,10 +222,11 @@ def header(lang, c):
 <nav class="mobile-nav" id="mobile-nav" aria-label="%(mobaria)s">
   <a class="btn solid" href="#kontaktai">%(cta)s</a>
   %(mob)s
+  <button class="menu-close" type="button">%(menuclose)s</button>
 </nav>
 """ % {"skip": c["skip"], "mark": MARK, "nav": nav, "mob": mob, "cta": c["navCta"],
        "navaria": attr(c["navAria"]), "mobaria": attr(c["menuAria"]),
-       "menuaria": attr(c["menuBtnAria"]),
+       "menuaria": attr(c["menuBtnAria"]), "menuclose": c["menuClose"],
        "langs": langmenu(lang, c["langAria"])}
 
 
@@ -885,7 +886,7 @@ def contact(lang, c):
         <p class="form-msg" id="form-msg" role="status" aria-live="polite"></p>
       </form>
 
-      <dl class="direct">
+      <dl class="direct" id="tiesiogiai">
         %(direct)s
       </dl>
     </div>
@@ -927,12 +928,6 @@ def footer(lang, c):
         </div>
         <p style="max-width:34ch;margin:0 0 18px">%(about)s</p>
         <a class="fb-round" href="%(fb)s" target="_blank" rel="noopener" aria-label="%(fbaria)s" title="Facebook">%(fbicon)s</a>
-      </div>
-      <div>
-        <h4>%(colpages)s</h4>
-        <ul>
-          %(pages)s
-        </ul>
       </div>
       <div>
         <h4>%(coldetails)s</h4>

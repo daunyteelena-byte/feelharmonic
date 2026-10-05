@@ -9,6 +9,7 @@
   "navAria": "Main navigation",
   "menuAria": "Mobile menu",
   "menuBtnAria": "Menu",
+  "menuClose": "Close menu",
   "langAria": "Language",
   "navCta": "Get in touch",
 
@@ -30,7 +31,8 @@
     { "href": "#galerija", "label": "Gallery" },
     { "href": "#apie", "label": "About" },
     { "href": "#duk", "label": "FAQ" },
-    { "href": "#parama", "label": "Support" }
+    { "href": "#parama", "label": "Support" },
+    { "href": "#tiesiogiai", "label": "Contacts" }
   ],
 
   "hero": {

@@ -9,6 +9,7 @@
   "navAria": "Navigazione principale",
   "menuAria": "Menu mobile",
   "menuBtnAria": "Menu",
+  "menuClose": "Chiudi il menu",
   "langAria": "Lingua",
   "navCta": "Contattami",
 
@@ -30,7 +31,8 @@
     { "href": "#galerija", "label": "Galleria" },
     { "href": "#apie", "label": "Chi sono" },
     { "href": "#duk", "label": "FAQ" },
-    { "href": "#parama", "label": "Sostegno" }
+    { "href": "#parama", "label": "Sostegno" },
+    { "href": "#tiesiogiai", "label": "Contatti" }
   ],
 
   "hero": {

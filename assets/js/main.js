@@ -46,9 +46,24 @@ var CONFIG = {
       document.body.classList.toggle("no-scroll", open);
     });
 
+    // meniu nuoroda: uždaryti meniu ir tik tada nuslinkti (kol meniu atidarytas,
+    // puslapis užrakintas, todėl naršyklė pati ne visada nuslenka)
     Array.prototype.forEach.call(mobileNav.querySelectorAll("a"), function (a) {
-      a.addEventListener("click", closeMenu);
+      a.addEventListener("click", function (e) {
+        var href = a.getAttribute("href") || "";
+        var target = href.charAt(0) === "#" && document.getElementById(href.slice(1));
+        closeMenu();
+        if (target) {
+          e.preventDefault();
+          setTimeout(function () {
+            target.scrollIntoView({ block: "start" });
+            if (history.replaceState) history.replaceState(null, "", href);
+          }, 30);
+        }
+      });
     });
+    var menuClose = mobileNav.querySelector(".menu-close");
+    if (menuClose) menuClose.addEventListener("click", function () { closeMenu(); burger.focus(); });
 
     document.addEventListener("keydown", function (e) {
       if (e.key === "Escape") closeMenu();

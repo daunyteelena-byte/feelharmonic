@@ -165,6 +165,14 @@ nav.main .btn:hover{border-bottom-color:var(--gold)}
   transform:rotate(-45deg);
 }
 /* „Susisiekti“ — meniu viršuje, kad matytųsi ir mažame ekrane */
+/* meniu apačioje — „Suskleisti“ */
+.menu-close{
+  display:flex;align-items:center;justify-content:center;gap:10px;margin:24px auto 0;padding:11px 24px;
+  background:none;border:1px solid rgba(206,142,52,.55);border-radius:999px;cursor:pointer;
+  font-family:var(--sans);font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-lt);
+}
+.menu-close::after{content:"";width:7px;height:7px;border-left:1.5px solid currentColor;border-top:1.5px solid currentColor;transform:translateY(2px) rotate(45deg)}
+.menu-close:hover{background:rgba(206,142,52,.14)}
 .mobile-nav .btn{margin-bottom:12px;justify-content:center}
 .mobile-nav .btn::after{content:none}
 body.no-scroll{overflow:hidden}
@@ -527,6 +535,8 @@ main section.band-teal h2{color:var(--gold-lt)}
 .form-msg[data-state="ok"]{color:var(--ok)}
 .form-msg[data-state="err"]{color:var(--err)}
 
+/* šokant iš meniu „Kontaktai“ — kad nepasislėptų po antrašte */
+#tiesiogiai{scroll-margin-top:90px}
 .direct dt{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
 .direct dd{margin:0 0 22px;font-size:19px;font-family:var(--serif)}
 .direct a{text-decoration:none;border-bottom:1px solid var(--gold);color:var(--ink)}
@@ -537,7 +547,7 @@ main section.band-teal h2{color:var(--gold-lt)}
 /* ---------- poraštė ---------- */
 footer{background:var(--teal-deep);color:rgba(255,255,255,.76);padding:64px 0 40px;font-size:15px}
 footer .cols{display:grid;grid-template-columns:1fr;gap:34px;margin-bottom:44px}
-@media(min-width:820px){footer .cols{grid-template-columns:1.4fr 1fr 1fr;gap:40px}}
+@media(min-width:820px){footer .cols{grid-template-columns:1.4fr 1fr;gap:40px}}
 footer h4{font-family:var(--sans);font-weight:400;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-lt);margin:0 0 14px}
 footer a{color:rgba(255,255,255,.84);text-decoration:none}
 footer a:hover{color:var(--gold-lt)}

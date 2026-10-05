@@ -9,6 +9,7 @@
   "navAria": "Pagrindinė navigacija",
   "menuAria": "Meniu telefone",
   "menuBtnAria": "Meniu",
+  "menuClose": "Suskleisti",
   "langAria": "Kalba",
   "navCta": "Susisiekti",
 
@@ -30,7 +31,8 @@
     { "href": "#galerija", "label": "Galerija" },
     { "href": "#apie", "label": "Apie" },
     { "href": "#duk", "label": "DUK" },
-    { "href": "#parama", "label": "Parama" }
+    { "href": "#parama", "label": "Parama" },
+    { "href": "#tiesiogiai", "label": "Kontaktai" }
   ],
 
   "hero": {
