@@ -82,12 +82,12 @@ main > section.band-teal::before{background:var(--teal);color:var(--gold-lt);bor
 
 /* ---------- ženklas ---------- */
 .mark .beam polygon{fill:var(--gold)}
-.mark .tri{fill:none;stroke:var(--gold);stroke-width:1.65;stroke-linejoin:miter}
+.mark .tri{fill:none;stroke:var(--gold);stroke-width:1.27;stroke-linejoin:miter}
 .mark .dot{fill:var(--gold)}
 
 /* mazas variantas antrastei ir poretei: storesni bruksniai, maziau detaliu */
 .mark-sm .ray{stroke:var(--gold);stroke-width:2.2;stroke-linecap:round}
-.mark-sm .tri{fill:none;stroke:var(--gold);stroke-width:2.6}
+.mark-sm .tri{fill:none;stroke:var(--gold);stroke-width:2.3}
 .mark-sm .dot{fill:var(--gold)}
 
 /* ---------- mygtukai ---------- */
@@ -119,7 +119,7 @@ header{
 }
 header .in{display:flex;align-items:center;gap:20px;height:70px}
 .brand{display:flex;align-items:center;gap:11px;text-decoration:none;margin-right:auto}
-.brand svg{width:30px;height:30px;flex:none}
+.brand svg{width:36px;height:36px;flex:none;margin:-3px 0}
 /* užrašas kaip originaliame logotipe: Lora, platūs tarpai */
 .brand b{font-family:"Lora",Georgia,serif;font-weight:400;font-size:19px;color:#fff;letter-spacing:.11em}
 
@@ -564,7 +564,7 @@ footer .fb-round{
 footer .fb-round .fb-ico{width:20px;height:20px;fill:var(--gold-lt)}
 footer .fb-round:hover{border-color:var(--gold);background:rgba(206,142,52,.12)}
 .fbrand{display:flex;align-items:center;gap:12px;margin-bottom:20px}
-.fbrand svg{width:34px;height:34px;flex:none}
+.fbrand svg{width:40px;height:40px;flex:none}
 .fbrand b{font-family:"Lora",Georgia,serif;font-weight:400;font-size:19px;color:#fff;letter-spacing:.11em}
 .fbrand .tg{font-family:"Montserrat",var(--sans);font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:var(--gold-lt);display:block}
 .fbot{
