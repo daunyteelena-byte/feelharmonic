@@ -675,7 +675,6 @@
       { "k": "Phone", "type": "tel" },
       { "k": "Email", "type": "email" },
       { "k": "Facebook", "type": "facebook" },
-      { "k": "Based in", "type": "text", "v": "Vilnius, working across Lithuania" },
       { "k": "Reply time", "type": "text", "v": "Within one working day" }
     ]
   },

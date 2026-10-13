@@ -675,8 +675,7 @@
       { "k": "Telefonas", "type": "tel" },
       { "k": "El. paštas", "type": "email" },
       { "k": "Facebook", "type": "facebook" },
-      { "k": "Veiklos vieta", "type": "text", "v": "Vilnius ir visa Lietuva" },
-      { "k": "Atsakau", "type": "text", "v": "Per vieną darbo dieną" }
+      { "k": "Atsakome", "type": "text", "v": "Per vieną darbo dieną" }
     ]
   },
 
