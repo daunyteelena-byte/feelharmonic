@@ -62,44 +62,43 @@ MOTTO = '<p class="motto reveal">Let it come!</p>'
 MARK = """<svg width="0" height="0" style="position:absolute" aria-hidden="true">
 <symbol id="mark" viewBox="0 0 100 100">
     <g class="mark">
-      <g class="beam">
-        <polygon points="50.95,45.80 50.00,0.00 49.05,45.80"/>
-        <polygon points="49.05,54.20 50.00,100.00 50.95,54.20"/>
-        <polygon points="54.20,50.95 91.00,50.00 54.20,49.05"/>
-        <polygon points="45.80,49.05 9.00,50.00 45.80,50.95"/>
-        <polygon points="53.64,47.70 81.82,18.18 52.30,46.36"/>
-        <polygon points="52.30,53.64 81.82,81.82 53.64,52.30"/>
-        <polygon points="46.36,52.30 18.18,81.82 47.70,53.64"/>
-        <polygon points="47.70,46.36 18.18,18.18 46.36,47.70"/>
-        <polygon points="52.48,46.48 63.78,16.74 50.73,45.76"/>
-        <polygon points="50.73,54.24 63.78,83.26 52.48,53.52"/>
-        <polygon points="47.52,53.52 36.22,83.26 49.27,54.24"/>
-        <polygon points="49.27,45.76 36.22,16.74 47.52,46.48"/>
-        <polygon points="54.24,49.27 85.11,35.46 53.52,47.52"/>
-        <polygon points="53.52,52.48 85.11,64.54 54.24,50.73"/>
-        <polygon points="45.76,50.73 14.89,64.54 46.48,52.48"/>
-        <polygon points="46.48,47.52 14.89,35.46 45.76,49.27"/>
-      </g>
-      <path class="tri" d="M50 22 L76 74 L24 74 Z"/>
-      <circle class="dot" cx="50" cy="50" r="6.6"/>
-      <circle class="dot" cx="34" cy="20" r="3.0"/>
-      <circle class="dot" cx="58" cy="17" r="1.0"/>
-      <circle class="dot" cx="20" cy="33" r="1.8"/>
-      <circle class="dot" cx="74" cy="35" r="1.3"/>
-      <circle class="dot" cx="76" cy="63" r="2.2"/>
-      <circle class="dot" cx="53" cy="79" r="2.6"/>
+<g class="beam"><polygon points="50.00,50.62 69.59,50.47 89.18,50.00 69.59,49.53 50.00,49.38"/>
+<polygon points="50.17,50.60 72.75,44.17 95.25,37.45 72.50,43.28 49.83,49.40"/>
+<polygon points="50.44,50.43 64.06,36.35 77.46,22.06 63.40,35.70 49.56,49.57"/>
+<polygon points="50.55,50.29 61.62,29.14 72.41,7.85 60.80,28.71 49.45,49.71"/>
+<polygon points="50.62,50.00 50.47,30.28 50.00,10.56 49.53,30.28 49.38,50.00"/>
+<polygon points="50.44,49.56 36.02,35.36 21.38,21.38 35.36,36.02 49.56,50.44"/>
+<polygon points="50.33,49.47 26.65,34.98 2.81,20.74 26.16,35.77 49.67,50.53"/>
+<polygon points="50.18,49.41 30.35,43.70 10.44,38.28 30.09,44.59 49.82,50.59"/>
+<polygon points="50.00,49.38 29.76,49.53 9.52,50.00 29.76,50.47 50.00,50.62"/>
+<polygon points="49.86,49.40 32.07,53.66 14.35,58.23 32.28,54.57 50.14,50.60"/>
+<polygon points="49.56,49.56 35.54,63.80 21.75,78.25 36.20,64.46 50.44,50.44"/>
+<polygon points="49.45,49.71 41.37,65.25 33.56,80.93 42.19,65.68 50.55,50.29"/>
+<polygon points="49.38,50.00 49.53,68.94 50.00,87.88 50.47,68.94 50.62,50.00"/>
+<polygon points="49.56,50.44 63.34,64.00 77.34,77.34 64.00,63.34 50.44,49.56"/>
+<polygon points="49.69,50.53 73.46,64.36 97.39,77.92 73.93,63.56 50.31,49.47"/></g>
+<path class="tri" d="M50.03 26.91 L70.76 62.97 L29.24 62.97 Z"/>
+<circle class="dot" cx="50" cy="50" r="5.45"/>
+<circle class="dot" cx="38.35" cy="21.23" r="3.40"/>
+<circle class="dot" cx="57.16" cy="76.31" r="3.04"/>
+<circle class="dot" cx="83.50" cy="62.12" r="2.13"/>
+<circle class="dot" cx="12.59" cy="39.28" r="1.69"/>
+<circle class="dot" cx="80.51" cy="40.61" r="1.25"/>
+<circle class="dot" cx="57.14" cy="24.34" r="0.67"/>
     </g>
   </symbol>
 <symbol id="mark-sm" viewBox="0 0 100 100">
     <g class="mark-sm">
       <g class="ray">
-        <line x1="50" y1="8"  x2="50" y2="92"/>
-        <line x1="16" y1="50" x2="84" y2="50"/>
-        <line x1="26" y1="26" x2="74" y2="74"/>
-        <line x1="74" y1="26" x2="26" y2="74"/>
+        <line x1="78.21" y1="50.00" x2="20.86" y2="50.00"/>
+        <line x1="50.00" y1="21.60" x2="50.00" y2="77.27"/>
+        <line x1="16.02" y1="28.93" x2="83.66" y2="70.87"/>
+        <line x1="66.14" y1="19.65" x2="38.16" y2="72.27"/>
       </g>
-      <path class="tri" d="M50 26 L74 72 L26 72 Z"/>
-      <circle class="dot" cx="50" cy="50" r="6.4"/>
+      <path class="tri" d="M50.03 26.91 L70.76 62.97 L29.24 62.97 Z"/>
+      <circle class="dot" cx="50" cy="50" r="6.2"/>
+      <circle class="dot" cx="38.35" cy="21.23" r="3.6"/>
+      <circle class="dot" cx="57.16" cy="76.31" r="3.2"/>
     </g>
   </symbol>
 </svg>"""
@@ -187,7 +186,7 @@ def head(lang, c):
 <link rel="apple-touch-icon" href="%(b)sapple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;1,400&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;1,400&family=Lora:wght@400&family=Montserrat:wght@400&family=Playfair+Display:ital,wght@0,500;0,700;1,500&display=swap">
 <link rel="stylesheet" href="%(b)sassets/css/style.css?v=%(cssv)s">
 </head>
 <body>
