@@ -82,8 +82,8 @@ MARK = """<svg width="0" height="0" style="position:absolute" aria-hidden="true"
 <circle class="dot" cx="38.35" cy="21.23" r="3.40"/>
 <circle class="dot" cx="57.16" cy="76.31" r="3.04"/>
 <circle class="dot" cx="83.50" cy="62.12" r="2.13"/>
-<circle class="dot" cx="12.59" cy="39.28" r="1.69"/>
-<circle class="dot" cx="80.51" cy="40.61" r="1.25"/>
+<circle class="dot" cx="11.84" cy="41.81" r="1.69"/>
+<circle class="dot" cx="80.07" cy="39.02" r="1.25"/>
 <circle class="dot" cx="57.14" cy="24.34" r="0.67"/>
     </g>
   </symbol>
