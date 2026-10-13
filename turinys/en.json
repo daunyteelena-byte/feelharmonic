@@ -52,7 +52,7 @@
   },
 
   "services": {
-    "eyebrow": "What I offer",
+    "eyebrow": "What we offer",
     "h2": "Multifaceted experiential events — feeling the art of life within you",
     "lede": "Every programme is adapted to the space, the occasion and the audience — from a school hall to a manor courtyard or a yoga studio. Or perhaps simply in the embrace of nature?",
     "moreLabel": "Show all services",
@@ -193,7 +193,7 @@
       {
         "n": "03",
         "h3": "For manor houses and unconventional venues",
-        "p": "An acoustic programme for a courtyard, a hall, a church or an unusual space — no stage and no power needed. I can be a standing part of your seasonal offer."
+        "p": "An acoustic programme for a courtyard, a hall, a church or an unusual space — no stage and no power needed. We can become a standing part of your seasonal offer."
       },
       {
         "n": "04",
@@ -203,7 +203,7 @@
       {
         "n": "05",
         "h3": "For weddings and family celebrations",
-        "p": "Ceremony music and the artistic part of the evening. If needed, I also find the other performers — dancers, vocalists, actors."
+        "p": "Ceremony music and the artistic part of the evening. If needed, we also find the other performers — dancers, vocalists, actors."
       },
       {
         "n": "06",
@@ -283,7 +283,7 @@
     ],
     "notes": [
       "The first two sessions will be bookable with Culture Passport funding from January 2027, once the application is approved. Until then — by direct agreement with the school: one day, three sessions for different classes, €420.",
-      "The price of introductory sessions, workshops and lessons depends on the number of participants, the length and the venue — I send a concrete figure with the quote within one working day."
+      "The price of introductory sessions, workshops and lessons depends on the number of participants, the length and the venue — we send a concrete figure with the quote within one working day."
     ]
   },
 
@@ -386,7 +386,7 @@
         ]
       }
     ],
-    "note": "Prices exclude travel beyond a 60 km radius of Vilnius — past that a rate of €0.25/km applies and is written into the quote. Programmes marked “On request” are priced by line-up, length and venue — I send the exact figure within one working day. Individually arranged pieces and December weekends are priced separately; you see the exact sum in the quote before signing."
+    "note": "Prices exclude travel beyond a 60 km radius of Vilnius — past that a rate of €0.25/km applies and is written into the quote. Programmes marked “On request” are priced by line-up, length and venue — we send the exact figure within one working day. Individually arranged pieces and December weekends are priced separately; you see the exact sum in the quote before signing."
   },
 
   "growth": {
@@ -536,15 +536,15 @@
     "items": [
       {
         "q": "Do you bring your own sound equipment?",
-        "a": "Yes. I have a portable sound system that covers a hall of up to <span class=\"fill\">number</span> people and small outdoor events. In acoustic spaces the cello often sounds best with no amplification at all."
+        "a": "Yes. We have a portable sound system that covers a hall of up to <span class=\"fill\">number</span> people and small outdoor events. In acoustic spaces the cello often sounds best with no amplification at all."
       },
       {
         "q": "Can you take care of the whole event, not just the music?",
-        "a": "Yes — I call this an event from A to Z. Programme, performers, stage, sound, catering and photographer are arranged through me, and you get one contact and one invoice. If you only need the artistic part of a wedding or a company celebration, that is just as usual."
+        "a": "Yes — we call this an event from A to Z. Programme, performers, stage, sound, catering and photographer are arranged through us, and you get one contact and one invoice. If you only need the artistic part of a wedding or a company celebration, that is just as usual."
       },
       {
         "q": "I am looking for performers for my celebration. Can you help?",
-        "a": "Yes. Booking and liaison is a separate service: I select musicians, dancers, vocalists or actors to suit the occasion, the space and the budget, and coordinate their schedules. All you do is choose from the options prepared for you."
+        "a": "Yes. Booking and liaison is a separate service: we select musicians, dancers, vocalists or actors to suit the occasion, the space and the budget, and coordinate their schedules. All you do is choose from the options prepared for you."
       },
       {
         "q": "Do you teach?",
@@ -560,7 +560,7 @@
       },
       {
         "q": "Do you issue invoices?",
-        "a": "Yes. I work under an individual activity certificate (code DK4429441), so I issue invoices and can sign a service contract — which suits the accounting departments of public-sector institutions."
+        "a": "Yes. We work under an individual activity certificate (code DK4429441), so we issue invoices and can sign a service contract — which suits the accounting departments of public-sector institutions."
       },
       {
         "q": "What does travel outside the city cost?",
@@ -593,7 +593,7 @@
 
   "cta": {
     "h2": "Shall we talk about your event?",
-    "lede": "Write and tell me the occasion, the place and the date — I reply within one working day with a concrete proposal.",
+    "lede": "Write and tell us the occasion, the place and the date — we reply within one working day with a concrete proposal.",
     "btn": "Send a message"
   },
 
@@ -680,9 +680,9 @@
   },
 
   "js": {
-    "msg-invalid": "Please fill in your name and email — without them I cannot reply.",
+    "msg-invalid": "Please fill in your name and email — without them we cannot reply.",
     "msg-sending": "Sending…",
-    "msg-ok": "Thank you — your enquiry has arrived. I will reply within one working day.",
+    "msg-ok": "Thank you — your enquiry has arrived. We will reply within one working day.",
     "msg-fail": "Sending failed. Please write directly to",
     "msg-mailto": "Your email programme has been opened. If nothing happened, write to",
     "mail-subject": "Enquiry about",
@@ -733,7 +733,7 @@
     "faq": [
       {
         "q": "Do you bring your own sound equipment?",
-        "a": "Yes. I have a portable sound system for small halls and outdoor events. In acoustic spaces the cello often sounds best with no amplification at all."
+        "a": "Yes. We have a portable sound system for small halls and outdoor events. In acoustic spaces the cello often sounds best with no amplification at all."
       },
       {
         "q": "Can you take care of the whole event, not just the music?",
@@ -749,7 +749,7 @@
       },
       {
         "q": "Do you issue invoices?",
-        "a": "Yes. I work under an individual activity certificate, so I issue invoices and can sign a service contract."
+        "a": "Yes. We work under an individual activity certificate, so we issue invoices and can sign a service contract."
       }
     ]
   }

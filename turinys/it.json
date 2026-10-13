@@ -44,15 +44,15 @@
     "ctaSecondary": "Vedi i programmi",
     "facts": [
       "Le date si prenotano con 2–6 mesi di anticipo",
-      "Emetto regolare fattura",
-      "Lavoro in lituano, inglese e italiano"
+      "Emettiamo regolare fattura",
+      "Lavoriamo in lituano, inglese e italiano"
     ],
     "portraitAlt": "Elena Daunytė suona il violoncello con l’Orchestra da camera lituana alla Filarmonica nazionale lituana",
     "portraitRole": "Violoncellista, cantante, poetessa, creatrice"
   },
 
   "services": {
-    "eyebrow": "Che cosa offro",
+    "eyebrow": "Che cosa offriamo",
     "h2": "Eventi esperienziali poliedrici, per sentire l'arte della vita dentro di te",
     "lede": "Ogni programma si adatta allo spazio, all'occasione e al pubblico — dall'aula magna di una scuola al cortile di una dimora storica o a uno studio di yoga. O forse semplicemente nell’abbraccio della natura?",
     "moreLabel": "Mostra tutti i servizi",
@@ -193,7 +193,7 @@
       {
         "n": "03",
         "h3": "Per dimore storiche e spazi non convenzionali",
-        "p": "Programma acustico per cortile, sala, chiesa o spazio insolito — senza palco e senza corrente. Posso diventare una voce fissa della vostra proposta stagionale."
+        "p": "Programma acustico per cortile, sala, chiesa o spazio insolito — senza palco e senza corrente. Possiamo diventare una voce fissa della vostra proposta stagionale."
       },
       {
         "n": "04",
@@ -203,7 +203,7 @@
       {
         "n": "05",
         "h3": "Per matrimoni e feste di famiglia",
-        "p": "Musica per la cerimonia e parte artistica della serata. Se serve, trovo anche gli altri artisti — ballerini, cantanti, attori."
+        "p": "Musica per la cerimonia e parte artistica della serata. Se serve, troviamo anche gli altri artisti — ballerini, cantanti, attori."
       },
       {
         "n": "06",
@@ -283,7 +283,7 @@
     ],
     "notes": [
       "I primi due laboratori saranno prenotabili con i fondi del Culture Passport da gennaio 2027, una volta approvata la candidatura. Fino ad allora — per accordo diretto con la scuola: una giornata, tre laboratori per classi diverse, 420 €.",
-      "Il prezzo degli incontri introduttivi, dei workshop e delle lezioni dipende dal numero di partecipanti, dalla durata e dalla sede — invio una cifra precisa con il preventivo entro un giorno lavorativo."
+      "Il prezzo degli incontri introduttivi, dei workshop e delle lezioni dipende dal numero di partecipanti, dalla durata e dalla sede — inviamo una cifra precisa con il preventivo entro un giorno lavorativo."
     ]
   },
 
@@ -386,7 +386,7 @@
         ]
       }
     ],
-    "note": "I prezzi non comprendono il viaggio oltre un raggio di 60 km da Vilnius: oltre tale distanza si applica una tariffa di 0,25 €/km, indicata nel preventivo. I programmi contrassegnati «Su richiesta» vengono quotati in base a organico, durata e spazio — invio la cifra esatta entro un giorno lavorativo. Gli arrangiamenti su misura e i fine settimana di dicembre si quotano a parte; l'importo preciso è indicato nel preventivo prima della firma."
+    "note": "I prezzi non comprendono il viaggio oltre un raggio di 60 km da Vilnius: oltre tale distanza si applica una tariffa di 0,25 €/km, indicata nel preventivo. I programmi contrassegnati «Su richiesta» vengono quotati in base a organico, durata e spazio — inviamo la cifra esatta entro un giorno lavorativo. Gli arrangiamenti su misura e i fine settimana di dicembre si quotano a parte; l'importo preciso è indicato nel preventivo prima della firma."
   },
 
   "growth": {
@@ -536,15 +536,15 @@
     "items": [
       {
         "q": "Portate il vostro impianto audio?",
-        "a": "Sì. Dispongo di un impianto portatile sufficiente per una sala fino a <span class=\"fill\">indicare il numero</span> persone e per piccoli eventi all'aperto. Negli spazi acustici il violoncello suona spesso al meglio senza alcuna amplificazione."
+        "a": "Sì. Disponiamo di un impianto portatile sufficiente per una sala fino a <span class=\"fill\">indicare il numero</span> persone e per piccoli eventi all'aperto. Negli spazi acustici il violoncello suona spesso al meglio senza alcuna amplificazione."
       },
       {
         "q": "Potete occuparvi dell'intero evento, non solo della musica?",
-        "a": "Sì — lo chiamo evento dalla A alla Z. Programma, artisti, palco, audio, catering e fotografo si coordinano tramite me, e voi avete un solo referente e una sola fattura. Se invece serve solo la parte artistica di un matrimonio o di una festa aziendale, è altrettanto normale."
+        "a": "Sì — lo chiamiamo evento dalla A alla Z. Programma, artisti, palco, audio, catering e fotografo si coordinano tramite noi, e voi avete un solo referente e una sola fattura. Se invece serve solo la parte artistica di un matrimonio o di una festa aziendale, è altrettanto normale."
       },
       {
         "q": "Cerco artisti per la mia festa. Potete aiutarmi?",
-        "a": "Sì. La ricerca e la scritturazione di artisti è un servizio a sé: in base all'occasione, allo spazio e al budget seleziono musicisti, ballerini, cantanti o attori e coordino i loro calendari. A voi resta solo scegliere tra le opzioni preparate."
+        "a": "Sì. La ricerca e la scritturazione di artisti è un servizio a sé: in base all'occasione, allo spazio e al budget selezioniamo musicisti, ballerini, cantanti o attori e coordiniamo i loro calendari. A voi resta solo scegliere tra le opzioni preparate."
       },
       {
         "q": "Insegnate a suonare?",
@@ -560,7 +560,7 @@
       },
       {
         "q": "Emettete fattura?",
-        "a": "Sì. Lavoro con certificato di attività individuale (codice DK4429441), quindi emetto fattura e posso firmare un contratto di servizi — cosa che va bene alle amministrazioni degli enti pubblici."
+        "a": "Sì. Lavoriamo con certificato di attività individuale (codice DK4429441), quindi emettiamo fattura e possiamo firmare un contratto di servizi — cosa che va bene alle amministrazioni degli enti pubblici."
       },
       {
         "q": "Quanto costa la trasferta fuori città?",
@@ -593,7 +593,7 @@
 
   "cta": {
     "h2": "Parliamo del vostro evento?",
-    "lede": "Scrivetemi l'occasione, il luogo e la data — rispondo entro un giorno lavorativo con una proposta concreta.",
+    "lede": "Scriveteci l'occasione, il luogo e la data — rispondiamo entro un giorno lavorativo con una proposta concreta.",
     "btn": "Scrivi un messaggio"
   },
 
@@ -680,9 +680,9 @@
   },
 
   "js": {
-    "msg-invalid": "Inserite nome ed email — senza di essi non potrò rispondere.",
+    "msg-invalid": "Inserite nome ed email — senza di essi non potremo rispondere.",
     "msg-sending": "Invio in corso…",
-    "msg-ok": "Grazie — la richiesta è arrivata. Rispondo entro un giorno lavorativo.",
+    "msg-ok": "Grazie — la richiesta è arrivata. Risponderemo entro un giorno lavorativo.",
     "msg-fail": "Invio non riuscito. Scrivete direttamente a",
     "msg-mailto": "Si è aperto il vostro programma di posta. Se non è successo nulla, scrivete a",
     "mail-subject": "Richiesta per",
@@ -733,7 +733,7 @@
     "faq": [
       {
         "q": "Portate il vostro impianto audio?",
-        "a": "Sì. Dispongo di un impianto portatile per sale piccole ed eventi all'aperto. Negli spazi acustici il violoncello suona spesso al meglio senza alcuna amplificazione."
+        "a": "Sì. Disponiamo di un impianto portatile per sale piccole ed eventi all'aperto. Negli spazi acustici il violoncello suona spesso al meglio senza alcuna amplificazione."
       },
       {
         "q": "Potete occuparvi dell'intero evento, non solo della musica?",
@@ -749,7 +749,7 @@
       },
       {
         "q": "Emettete fattura?",
-        "a": "Sì. Lavoro con certificato di attività individuale, quindi emetto fattura e posso firmare un contratto di servizi."
+        "a": "Sì. Lavoriamo con certificato di attività individuale, quindi emettiamo fattura e possiamo firmare un contratto di servizi."
       }
     ]
   }

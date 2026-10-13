@@ -44,15 +44,15 @@
     "ctaSecondary": "Peržiūrėti programas",
     "facts": [
       "Datos rezervuojamos 2–6 mėn. į priekį",
-      "Išrašau sąskaitą faktūrą",
-      "Dirbu lietuvių, anglų ir italų kalbomis"
+      "Išrašome sąskaitą faktūrą",
+      "Dirbame lietuvių, anglų ir italų kalbomis"
     ],
     "portraitAlt": "Elena Daunytė groja violončele su Lietuvos kameriniu orkestru Lietuvos nacionalinėje filharmonijoje",
     "portraitRole": "Violončelininkė, vokalistė, poetė, kūrėja"
   },
 
   "services": {
-    "eyebrow": "Ką siūlau",
+    "eyebrow": "Ką siūlome",
     "h2": "Įvairialypiai patyriminiai renginiai, pajuntant gyvenimo meną savyje",
     "lede": "Kiekviena programa pritaikoma erdvei, progai ir auditorijai — nuo mokyklos salės iki dvaro kiemo ar jogos studijos. O gal tiesiog gamtos glėbyje?",
     "moreLabel": "Rodyti visas paslaugas",
@@ -193,7 +193,7 @@
       {
         "n": "03",
         "h3": "Dvarams ir alternatyvioms erdvėms",
-        "p": "Akustinė programa kiemui, salei, bažnyčiai ar netipinei erdvei — be scenos ir be elektros. Galiu būti nuolatinė jūsų sezono pasiūlymo dalis."
+        "p": "Akustinė programa kiemui, salei, bažnyčiai ar netipinei erdvei — be scenos ir be elektros. Galime tapti nuolatine jūsų sezono pasiūlymo dalimi."
       },
       {
         "n": "04",
@@ -203,7 +203,7 @@
       {
         "n": "05",
         "h3": "Vestuvėms ir šeimos šventėms",
-        "p": "Ceremonijos muzika ir meninė vakaro dalis. Prireikus surandu ir kitus atlikėjus — šokėjus, vokalistus, aktorius."
+        "p": "Ceremonijos muzika ir meninė vakaro dalis. Prireikus surandame ir kitus atlikėjus — šokėjus, vokalistus, aktorius."
       },
       {
         "n": "06",
@@ -283,7 +283,7 @@
     ],
     "notes": [
       "Kultūros paso lėšomis pirmuosius du užsiėmimus bus galima užsakyti nuo 2027 m. sausio, atrinkus paraišką. Iki tol — pagal tiesioginę sutartį su mokykla: viena diena, trys užsiėmimai skirtingoms klasėms, 420 €.",
-      "Pažintinių edukacijų, dirbtuvių ir mokymų kaina priklauso nuo dalyvių skaičiaus, trukmės ir vietos — konkretų skaičių atsiunčiu pasiūlyme per vieną darbo dieną."
+      "Pažintinių edukacijų, dirbtuvių ir mokymų kaina priklauso nuo dalyvių skaičiaus, trukmės ir vietos — konkretų skaičių atsiunčiame pasiūlyme per vieną darbo dieną."
     ]
   },
 
@@ -386,7 +386,7 @@
         ]
       }
     ],
-    "note": "Kainos nurodytos be kelionės už 60 km nuo Vilniaus spindulio — toliau taikomas 0,25 €/km įkainis, kuris įrašomas į pasiūlymą. Programos, pažymėtos „Sutartinė“, kainuojamos pagal sudėtį, trukmę ir erdvę — konkrečią sumą atsiunčiu per vieną darbo dieną. Individualiai aranžuotas kūrinys ir gruodžio savaitgaliai kainuojami atskirai; tikslią sumą matote pasiūlyme prieš pasirašant."
+    "note": "Kainos nurodytos be kelionės už 60 km nuo Vilniaus spindulio — toliau taikomas 0,25 €/km įkainis, kuris įrašomas į pasiūlymą. Programos, pažymėtos „Sutartinė“, kainuojamos pagal sudėtį, trukmę ir erdvę — konkrečią sumą atsiunčiame per vieną darbo dieną. Individualiai aranžuotas kūrinys ir gruodžio savaitgaliai kainuojami atskirai; tikslią sumą matote pasiūlyme prieš pasirašant."
   },
 
   "growth": {
@@ -536,15 +536,15 @@
     "items": [
       {
         "q": "Ar atvykstate su savo garso aparatūra?",
-        "a": "Taip. Turiu nešiojamą garso sistemą, kurios pakanka iki <span class=\"fill\">nurodyti skaičių</span> žmonių salei ir nedideliems lauko renginiams. Akustinėse erdvėse violončelė dažnai skamba geriausiai visai be įgarsinimo."
+        "a": "Taip. Turime nešiojamą garso sistemą, kurios pakanka iki <span class=\"fill\">nurodyti skaičių</span> žmonių salei ir nedideliems lauko renginiams. Akustinėse erdvėse violončelė dažnai skamba geriausiai visai be įgarsinimo."
       },
       {
         "q": "Ar galite pasirūpinti visu renginiu, ne tik muzika?",
-        "a": "Taip — tai vadinu renginiu nuo A iki Z. Programa, atlikėjai, scena, garsas, maitinimas ir fotografas suderinami per mane, o jūs gaunate vieną kontaktą ir vieną sąskaitą. Jei reikia tik meninės dalies vestuvėms ar įmonės šventei — taip pat įprasta."
+        "a": "Taip — tai vadiname renginiu nuo A iki Z. Programa, atlikėjai, scena, garsas, maitinimas ir fotografas suderinami per mus, o jūs gaunate vieną kontaktą ir vieną sąskaitą. Jei reikia tik meninės dalies vestuvėms ar įmonės šventei — taip pat įprasta."
       },
       {
         "q": "Ieškau atlikėjų savo šventei. Ar galite padėti?",
-        "a": "Taip. Ryšininkavimas — atskira paslauga: pagal progą, erdvę ir biudžetą parenku muzikantus, šokėjus, vokalistus ar aktorius ir suderinu jų grafikus. Jums lieka pasirinkti iš paruoštų variantų."
+        "a": "Taip. Ryšininkavimas — atskira paslauga: pagal progą, erdvę ir biudžetą parenkame muzikantus, šokėjus, vokalistus ar aktorius ir suderiname jų grafikus. Jums lieka pasirinkti iš paruoštų variantų."
       },
       {
         "q": "Ar mokote groti?",
@@ -560,7 +560,7 @@
       },
       {
         "q": "Ar išrašote sąskaitą faktūrą?",
-        "a": "Taip. Dirbu pagal individualios veiklos pažymą (kodas DK4429441), todėl išrašau sąskaitą faktūrą ir galiu pasirašyti paslaugų sutartį — tai tinka viešojo sektoriaus įstaigų buhalterijai."
+        "a": "Taip. Dirbame pagal individualios veiklos pažymą (kodas DK4429441), todėl išrašome sąskaitą faktūrą ir galime pasirašyti paslaugų sutartį — tai tinka viešojo sektoriaus įstaigų buhalterijai."
       },
       {
         "q": "Kiek kainuoja kelionė už miesto ribų?",
@@ -572,7 +572,7 @@
       },
       {
         "q": "Kokiomis kalbomis vedate renginius?",
-        "a": "Lietuvių, anglų ir italų. Užsienio svečiams skirtus koncertus, edukacijas ir pokalbius galiu vesti angliškai arba itališkai be vertėjo."
+        "a": "Lietuvių, anglų ir italų. Užsienio svečiams skirtus koncertus, edukacijas ir pokalbius galime vesti angliškai arba itališkai be vertėjo."
       },
       {
         "q": "Kas nutinka, jei renginys atšaukiamas?",
@@ -593,7 +593,7 @@
 
   "cta": {
     "h2": "Kalbame apie jūsų renginį?",
-    "lede": "Parašykite, kokia proga, kur ir kada — atsakysiu per vieną darbo dieną su konkrečiu pasiūlymu.",
+    "lede": "Parašykite, kokia proga, kur ir kada — atsakysime per vieną darbo dieną su konkrečiu pasiūlymu.",
     "btn": "Parašyti žinutę"
   },
 
@@ -680,9 +680,9 @@
   },
 
   "js": {
-    "msg-invalid": "Užpildykite vardą ir el. paštą — be jų negalėsiu atsakyti.",
+    "msg-invalid": "Užpildykite vardą ir el. paštą — be jų negalėsime atsakyti.",
     "msg-sending": "Siunčiama…",
-    "msg-ok": "Ačiū — užklausa gauta. Atsakysiu per vieną darbo dieną.",
+    "msg-ok": "Ačiū — užklausa gauta. Atsakysime per vieną darbo dieną.",
     "msg-fail": "Nepavyko išsiųsti. Parašykite tiesiai adresu",
     "msg-mailto": "Atidaryta jūsų el. pašto programa. Jei nieko neįvyko, rašykite adresu",
     "mail-subject": "Užklausa dėl",
@@ -733,7 +733,7 @@
     "faq": [
       {
         "q": "Ar atvykstate su savo garso aparatūra?",
-        "a": "Taip. Turiu nešiojamą garso sistemą nedidelėms salėms ir lauko renginiams. Akustinėse erdvėse violončelė dažnai skamba geriausiai visai be įgarsinimo."
+        "a": "Taip. Turime nešiojamą garso sistemą nedidelėms salėms ir lauko renginiams. Akustinėse erdvėse violončelė dažnai skamba geriausiai visai be įgarsinimo."
       },
       {
         "q": "Ar galite pasirūpinti visu renginiu, ne tik muzika?",
@@ -749,7 +749,7 @@
       },
       {
         "q": "Ar išrašote sąskaitą faktūrą?",
-        "a": "Taip. Dirbu pagal individualios veiklos pažymą, todėl išrašau sąskaitą faktūrą ir galiu pasirašyti paslaugų sutartį."
+        "a": "Taip. Dirbame pagal individualios veiklos pažymą, todėl išrašome sąskaitą faktūrą ir galime pasirašyti paslaugų sutartį."
       }
     ]
   }

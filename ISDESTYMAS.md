@@ -51,9 +51,9 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
 - **items:**
   - **Mokykloms** — Edukacijos, atitinkančios Kultūros paso kriterijus. Telpa į vieną pamoką, erdvės pakanka klasės.
   - **Kultūros centrams ir koncertų salėms** — Sezoninės, kalėdinės ir alternatyvios programos su aiškia kaina, technine specifikacija ir sutartu grafiku.
-  - **Dvarams ir alternatyvioms erdvėms** — Akustinė programa kiemui, salei, bažnyčiai ar netipinei erdvei — be scenos ir be elektros. Galiu būti nuolatinė jūsų sezono pasiūlymo dalis.
+  - **Dvarams ir alternatyvioms erdvėms** — Akustinė programa kiemui, salei, bažnyčiai ar netipinei erdvei — be scenos ir be elektros. Galime tapti nuolatine jūsų sezono pasiūlymo dalimi.
   - **Įmonėms ir agentūroms** — Meninė vakaro dalis, įmonės šventė arba visas renginys po raktu. Agentūroms — paruošta pozicija kalėdinių pasiūlymų kataloge.
-  - **Vestuvėms ir šeimos šventėms** — Ceremonijos muzika ir meninė vakaro dalis. Prireikus surandu ir kitus atlikėjus — šokėjus, vokalistus, aktorius.
+  - **Vestuvėms ir šeimos šventėms** — Ceremonijos muzika ir meninė vakaro dalis. Prireikus surandame ir kitus atlikėjus — šokėjus, vokalistus, aktorius.
   - **Retreat‘ų ir gerovės programų organizatoriams** — Gyvas garsas jogos, meditacijų ir sąmoningumo praktikoms. Harmonizuojančios muzikos, žodžio, kvapų ir šokio sesijos suaugusiems.
 
 ## 5. Edukacijos — `#edukacijos`
@@ -205,16 +205,16 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
 - **eyebrow:** Praktiniai klausimai
 - **h2:** Dažniausiai klausiama
 - **items:**
-  - **Ar atvykstate su savo garso aparatūra?** — Taip. Turiu nešiojamą garso sistemą, kurios pakanka iki nurodyti skaičių žmonių salei ir nedideliems lauko renginiams. Akustinėse erdvėse violončelė dažnai skamba geriausiai visai be įgarsinimo.
-  - **Ar galite pasirūpinti visu renginiu, ne tik muzika?** — Taip — tai vadinu renginiu nuo A iki Z. Programa, atlikėjai, scena, garsas, maitinimas ir fotografas suderinami per mane, o jūs gaunate vieną kontaktą ir vieną sąskaitą. Jei reikia tik meninės dalies vestuvėms ar įmonės šventei — taip pat įprasta.
-  - **Ieškau atlikėjų savo šventei. Ar galite padėti?** — Taip. Ryšininkavimas — atskira paslauga: pagal progą, erdvę ir biudžetą parenku muzikantus, šokėjus, vokalistus ar aktorius ir suderinu jų grafikus. Jums lieka pasirinkti iš paruoštų variantų.
+  - **Ar atvykstate su savo garso aparatūra?** — Taip. Turime nešiojamą garso sistemą, kurios pakanka iki nurodyti skaičių žmonių salei ir nedideliems lauko renginiams. Akustinėse erdvėse violončelė dažnai skamba geriausiai visai be įgarsinimo.
+  - **Ar galite pasirūpinti visu renginiu, ne tik muzika?** — Taip — tai vadiname renginiu nuo A iki Z. Programa, atlikėjai, scena, garsas, maitinimas ir fotografas suderinami per mus, o jūs gaunate vieną kontaktą ir vieną sąskaitą. Jei reikia tik meninės dalies vestuvėms ar įmonės šventei — taip pat įprasta.
+  - **Ieškau atlikėjų savo šventei. Ar galite padėti?** — Taip. Ryšininkavimas — atskira paslauga: pagal progą, erdvę ir biudžetą parenkame muzikantus, šokėjus, vokalistus ar aktorius ir suderiname jų grafikus. Jums lieka pasirinkti iš paruoštų variantų.
   - **Ar mokote groti?** — Taip — individualiai ir grupėse, vaikus ir suaugusiuosius. Violončelė arba kitas pasirinktas instrumentas, muzikos pažinimas, scenos jausena. Pradedantiesiems ankstesnio pasiruošimo nereikia.
   - **Kuo harmonizuojantis renginys skiriasi nuo koncerto?** — Koncerte klausotės, harmonizuojančioje sesijoje dalyvaujate. Muzika, žodis, kvapai ir judesys sudėlioti ne dėl įspūdžio, o dėl būsenos, todėl grupė mažesnė (8–25 žmonės), o programa vedama kartu su sąmoningumo praktikų vedėju.
   - **Kiek iš anksto reikia rezervuoti datą?** — Kalėdiniam sezonui — nuo rugsėjo, nes gruodžio savaitgaliai užsipildo pirmi. Kitu metu užtenka 4–6 savaičių.
-  - **Ar išrašote sąskaitą faktūrą?** — Taip. Dirbu pagal individualios veiklos pažymą (kodas DK4429441), todėl išrašau sąskaitą faktūrą ir galiu pasirašyti paslaugų sutartį — tai tinka viešojo sektoriaus įstaigų buhalterijai.
+  - **Ar išrašote sąskaitą faktūrą?** — Taip. Dirbame pagal individualios veiklos pažymą (kodas DK4429441), todėl išrašome sąskaitą faktūrą ir galime pasirašyti paslaugų sutartį — tai tinka viešojo sektoriaus įstaigų buhalterijai.
   - **Kiek kainuoja kelionė už miesto ribų?** — Iki 60 km nuo Vilniaus kelionė įskaičiuota į kainą. Toliau taikomas 0,25 €/km įkainis, kuris nurodomas pasiūlyme, o ne pridedamas vėliau.
   - **Ar programą galima pritaikyti prie mūsų progos?** — Taip, ir tai įprasta. Repertuaras, trukmė ir kalbėjimo dalis derinami prieš renginį. Jei turite konkretų kūrinį, pasakykite iš anksto — paruošimui reikia laiko.
-  - **Kokiomis kalbomis vedate renginius?** — Lietuvių, anglų ir italų. Užsienio svečiams skirtus koncertus, edukacijas ir pokalbius galiu vesti angliškai arba itališkai be vertėjo.
+  - **Kokiomis kalbomis vedate renginius?** — Lietuvių, anglų ir italų. Užsienio svečiams skirtus koncertus, edukacijas ir pokalbius galime vesti angliškai arba itališkai be vertėjo.
   - **Kas nutinka, jei renginys atšaukiamas?** — Atšaukus likus daugiau nei 14 dienų iki renginio, avansas grąžinamas arba perkeliamas kitai datai. Vėlesnio atšaukimo sąlygos aprašomos sutartyje.
 
 ## 14. Parama (Patreon) — `#parama`
@@ -229,7 +229,7 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
 *Būsena: rodoma*
 
 - **h2:** Kalbame apie jūsų renginį?
-- **lede:** Parašykite, kokia proga, kur ir kada — atsakysiu per vieną darbo dieną su konkrečiu pasiūlymu.
+- **lede:** Parašykite, kokia proga, kur ir kada — atsakysime per vieną darbo dieną su konkrečiu pasiūlymu.
 - **btn:** Parašyti žinutę
 
 ## 16. Kontaktai — `#kontaktai`
