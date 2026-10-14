@@ -44,7 +44,7 @@
     "ctaSecondary": "Peržiūrėti programas",
     "facts": [
       "Datos rezervuojamos 2–6 mėn. į priekį",
-      "Išrašome sąskaitą faktūrą",
+      "Išrašome sąskaitą",
       "Dirbame lietuvių, anglų ir italų kalbomis"
     ],
     "portraitAlt": "Elena Daunytė groja violončele su Lietuvos kameriniu orkestru Lietuvos nacionalinėje filharmonijoje",
@@ -559,8 +559,8 @@
         "a": "Kalėdiniam sezonui — nuo rugsėjo, nes gruodžio savaitgaliai užsipildo pirmi. Kitu metu užtenka 4–6 savaičių."
       },
       {
-        "q": "Ar išrašote sąskaitą faktūrą?",
-        "a": "Taip. Dirbame pagal individualios veiklos pažymą (kodas DK4429441), todėl išrašome sąskaitą faktūrą ir galime pasirašyti paslaugų sutartį — tai tinka viešojo sektoriaus įstaigų buhalterijai."
+        "q": "Ar išrašote sąskaitą?",
+        "a": "Taip. Veikiame kaip viešoji įstaiga VšĮ „FeelHarmonic“, todėl išrašome sąskaitą ir pasirašome paslaugų sutartį — tai tinka viešojo sektoriaus įstaigų buhalterijai. VšĮ nėra PVM mokėtoja."
       },
       {
         "q": "Kiek kainuoja kelionė už miesto ribų?",
@@ -716,7 +716,9 @@
     "colDetails": "Rekvizitai",
     "details": [
       "Įkūrėja Elena Daunytė",
-      "Individualios veiklos kodas DK4429441"
+      "VšĮ „FeelHarmonic“",
+      "Įmonės kodas 308167659",
+      "Ne PVM mokėtoja"
     ],
     "city": "Vilnius, Lietuva"
   },
@@ -748,8 +750,8 @@
         "a": "Kalėdiniam sezonui — nuo rugsėjo. Kitu metu užtenka 4–6 savaičių."
       },
       {
-        "q": "Ar išrašote sąskaitą faktūrą?",
-        "a": "Taip. Dirbame pagal individualios veiklos pažymą, todėl išrašome sąskaitą faktūrą ir galime pasirašyti paslaugų sutartį."
+        "q": "Ar išrašote sąskaitą?",
+        "a": "Taip. Veikiame kaip viešoji įstaiga VšĮ „FeelHarmonic“, todėl išrašome sąskaitą ir pasirašome paslaugų sutartį."
       }
     ]
   }

@@ -560,7 +560,7 @@
       },
       {
         "q": "Emettete fattura?",
-        "a": "Sì. Lavoriamo con certificato di attività individuale (codice DK4429441), quindi emettiamo fattura e possiamo firmare un contratto di servizi — cosa che va bene alle amministrazioni degli enti pubblici."
+        "a": "Sì. Operiamo come ente senza scopo di lucro, VšĮ “FeelHarmonic”, quindi emettiamo fattura e firmiamo un contratto di servizi — cosa che va bene alle amministrazioni degli enti pubblici. Non siamo soggetti IVA."
       },
       {
         "q": "Quanto costa la trasferta fuori città?",
@@ -716,7 +716,9 @@
     "colDetails": "Dati",
     "details": [
       "Fondatrice Elena Daunytė",
-      "Codice di attività individuale DK4429441"
+      "VšĮ “FeelHarmonic” (ente senza scopo di lucro)",
+      "Codice societario 308167659",
+      "Non soggetta a IVA"
     ],
     "city": "Vilnius, Lituania"
   },
@@ -749,7 +751,7 @@
       },
       {
         "q": "Emettete fattura?",
-        "a": "Sì. Lavoriamo con certificato di attività individuale, quindi emettiamo fattura e possiamo firmare un contratto di servizi."
+        "a": "Sì. Operiamo come ente senza scopo di lucro, VšĮ “FeelHarmonic”, quindi emettiamo fattura e firmiamo un contratto di servizi."
       }
     ]
   }

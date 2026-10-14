@@ -964,6 +964,7 @@ def jsonld(lang, c):
                 "email": EMAIL,
                 "telephone": "+370 670 04184",
                 "worksFor": {"@type": "Organization", "name": "FeelHarmonic",
+                             "legalName": "VšĮ „FeelHarmonic“",
                              "slogan": "Let it come!", "url": SITE + "/",
                              "sameAs": [FACEBOOK]},
                 "knowsLanguage": ["lt", "en", "it"],

@@ -560,7 +560,7 @@
       },
       {
         "q": "Do you issue invoices?",
-        "a": "Yes. We work under an individual activity certificate (code DK4429441), so we issue invoices and can sign a service contract — which suits the accounting departments of public-sector institutions."
+        "a": "Yes. We operate as a public institution, VšĮ “FeelHarmonic”, so we issue invoices and sign service contracts — which suits the accounting departments of public-sector institutions. We are not VAT-registered."
       },
       {
         "q": "What does travel outside the city cost?",
@@ -716,7 +716,9 @@
     "colDetails": "Details",
     "details": [
       "Founder Elena Daunytė",
-      "Individual activity code DK4429441"
+      "VšĮ “FeelHarmonic” (public institution)",
+      "Company code 308167659",
+      "Not VAT-registered"
     ],
     "city": "Vilnius, Lithuania"
   },
@@ -749,7 +751,7 @@
       },
       {
         "q": "Do you issue invoices?",
-        "a": "Yes. We work under an individual activity certificate, so we issue invoices and can sign a service contract."
+        "a": "Yes. We operate as a public institution, VšĮ “FeelHarmonic”, so we issue invoices and sign service contracts."
       }
     ]
   }
