@@ -90,15 +90,21 @@ MARK = """<svg width="0" height="0" style="position:absolute" aria-hidden="true"
 <symbol id="mark-sm" viewBox="0 0 100 100">
     <g class="mark-sm">
       <g class="ray">
-        <line x1="80.48" y1="50.00" x2="18.51" y2="50.00"/>
-        <line x1="50.00" y1="11.64" x2="50.00" y2="88.36"/>
-        <line x1="13.28" y1="27.24" x2="86.37" y2="72.55"/>
-        <line x1="67.44" y1="17.20" x2="37.21" y2="74.06"/>
+        <polygon points="50.00,51.45 83.87,50.00 50.00,48.55"/>
+        <polygon points="51.03,51.02 73.74,25.84 48.97,48.98"/>
+        <polygon points="51.45,50.00 50.00,7.38 48.55,50.00"/>
+        <polygon points="51.03,48.97 25.26,25.26 48.97,51.03"/>
+        <polygon points="50.76,48.77 9.21,24.71 49.24,51.23"/>
+        <polygon points="50.00,48.55 15.01,50.00 50.00,51.45"/>
+        <polygon points="48.97,48.97 25.58,74.42 51.03,51.03"/>
+        <polygon points="48.55,50.00 50.00,92.62 51.45,50.00"/>
+        <polygon points="48.97,51.03 73.63,73.63 51.03,48.97"/>
+        <polygon points="49.26,51.25 90.97,74.13 50.74,48.75"/>
       </g>
       <path class="tri" d="M50.02 30.04 L67.94 61.21 L32.06 61.21 Z"/>
-      <circle class="dot" cx="50" cy="50" r="5.4"/>
-      <circle class="dot" cx="39.93" cy="25.13" r="3.1"/>
-      <circle class="dot" cx="56.19" cy="72.74" r="2.8"/>
+      <circle class="dot" cx="50" cy="50" r="5.6"/>
+      <circle class="dot" cx="39.93" cy="25.13" r="3.4"/>
+      <circle class="dot" cx="56.19" cy="72.74" r="3.1"/>
     </g>
   </symbol>
 </svg>"""

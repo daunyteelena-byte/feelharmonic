@@ -86,8 +86,8 @@ main > section.band-teal::before{background:var(--teal);color:var(--gold-lt);bor
 .mark .dot{fill:var(--gold)}
 
 /* mazas variantas antrastei ir poretei: storesni bruksniai, maziau detaliu */
-.mark-sm .ray{stroke:var(--gold);stroke-width:2.2;stroke-linecap:round}
-.mark-sm .tri{fill:none;stroke:var(--gold);stroke-width:2.3}
+.mark-sm .ray polygon{fill:var(--gold)}
+.mark-sm .tri{fill:none;stroke:var(--gold);stroke-width:3.1}
 .mark-sm .dot{fill:var(--gold)}
 
 /* ---------- mygtukai ---------- */
