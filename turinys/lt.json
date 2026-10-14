@@ -560,7 +560,7 @@
       },
       {
         "q": "Ar išrašote sąskaitą?",
-        "a": "Taip. Veikiame kaip viešoji įstaiga VšĮ „FeelHarmonic“, todėl išrašome sąskaitą ir pasirašome paslaugų sutartį — tai tinka viešojo sektoriaus įstaigų buhalterijai. VšĮ nėra PVM mokėtoja."
+        "a": "Taip. Veikiame kaip viešoji įstaiga VšĮ „FeelHarmonic“, todėl išrašome sąskaitą ir pasirašome paslaugų sutartį — tai tinka viešojo sektoriaus įstaigų buhalterijai."
       },
       {
         "q": "Kiek kainuoja kelionė už miesto ribų?",
@@ -717,8 +717,7 @@
     "details": [
       "Įkūrėja Elena Daunytė",
       "VšĮ „FeelHarmonic“",
-      "Įmonės kodas 308167659",
-      "Ne PVM mokėtoja"
+      "Įmonės kodas 308167659"
     ],
     "city": "Vilnius, Lietuva"
   },

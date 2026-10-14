@@ -560,7 +560,7 @@
       },
       {
         "q": "Do you issue invoices?",
-        "a": "Yes. We operate as a public institution, VšĮ “FeelHarmonic”, so we issue invoices and sign service contracts — which suits the accounting departments of public-sector institutions. We are not VAT-registered."
+        "a": "Yes. We operate as a public institution, VšĮ “FeelHarmonic”, so we issue invoices and sign service contracts — which suits the accounting departments of public-sector institutions."
       },
       {
         "q": "What does travel outside the city cost?",
@@ -717,8 +717,7 @@
     "details": [
       "Founder Elena Daunytė",
       "VšĮ “FeelHarmonic” (public institution)",
-      "Company code 308167659",
-      "Not VAT-registered"
+      "Company code 308167659"
     ],
     "city": "Vilnius, Lithuania"
   },

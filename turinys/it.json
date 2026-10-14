@@ -560,7 +560,7 @@
       },
       {
         "q": "Emettete fattura?",
-        "a": "Sì. Operiamo come ente senza scopo di lucro, VšĮ “FeelHarmonic”, quindi emettiamo fattura e firmiamo un contratto di servizi — cosa che va bene alle amministrazioni degli enti pubblici. Non siamo soggetti IVA."
+        "a": "Sì. Operiamo come ente senza scopo di lucro, VšĮ “FeelHarmonic”, quindi emettiamo fattura e firmiamo un contratto di servizi — cosa che va bene alle amministrazioni degli enti pubblici."
       },
       {
         "q": "Quanto costa la trasferta fuori città?",
@@ -717,8 +717,7 @@
     "details": [
       "Fondatrice Elena Daunytė",
       "VšĮ “FeelHarmonic” (ente senza scopo di lucro)",
-      "Codice societario 308167659",
-      "Non soggetta a IVA"
+      "Codice societario 308167659"
     ],
     "city": "Vilnius, Lituania"
   },
