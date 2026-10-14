@@ -146,15 +146,16 @@ def photo(base, src, alt, cls="shot", cap=None, pos=None):
 
 
 def langmenu(lang, aria):
-    """Antrastes kalbu pasirinkimas: rodoma tik esama kalba, kitos -- paspaudus."""
+    """Antrastes kalbu pasirinkimas: mygtuke rodoma kalba, i kuria galima pereiti
+    (lietuviskame ir italiskame puslapyje -- EN, angliskame -- LT); paspaudus -- kitos kalbos."""
+    target = "lt" if lang == "en" else "en"
     out = ['<details class="lang-menu">',
            '  <summary aria-label="%s: %s">%s<svg viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4"/></svg></summary>'
-           % (attr(aria), attr(LANG_NAME[lang]), LANG_SHORT[lang]),
+           % (attr(aria), attr(LANG_NAME[lang]), LANG_SHORT[target]),
            '  <div class="lang-list" role="group" aria-label="%s">' % attr(aria)]
-    for code in LANGS:
-        cur = ' class="is-current" aria-current="page"' if code == lang else ""
-        out.append('    <a href="%s" hreflang="%s" lang="%s"%s><b>%s</b>%s</a>'
-                   % (HREF[code], code, code, cur, LANG_SHORT[code], LANG_NAME[code]))
+    for code in [target] + [c for c in LANGS if c not in (lang, target)]:
+        out.append('    <a href="%s" hreflang="%s" lang="%s"><b>%s</b>%s</a>'
+                   % (HREF[code], code, code, LANG_SHORT[code], LANG_NAME[code]))
     out.append("  </div>")
     out.append("</details>")
     return "\n    ".join(out)
