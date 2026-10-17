@@ -19,6 +19,37 @@ var CONFIG = {
 
   var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  /* Jost šrifto „ū/Ū“ brūkšnelis pasislinkęs — kaip vizitinėse:
+     paliekama paprasta Jost „u“, o brūkšnelis nupiešiamas virš jos (.u-mac). */
+  (function fixMacron() {
+    var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, {
+      acceptNode: function (n) {
+        if (!/[\u016A\u016B]/.test(n.nodeValue)) return NodeFilter.FILTER_REJECT;
+        var p = n.parentElement;
+        if (!p || /^(SCRIPT|STYLE|TEXTAREA|TITLE)$/.test(p.tagName)) return NodeFilter.FILTER_REJECT;
+        return /^"?Jost/.test(getComputedStyle(p).fontFamily) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
+      }
+    });
+    var nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    nodes.forEach(function (n) {
+      var upper = getComputedStyle(n.parentElement).textTransform === "uppercase";
+      var frag = document.createDocumentFragment();
+      n.nodeValue.split(/([\u016A\u016B])/).forEach(function (part) {
+        if (part === "\u016A" || part === "\u016B") {
+          var big = part === "\u016A" || upper;
+          var span = document.createElement("span");
+          span.className = "u-mac" + (big ? " up" : "");
+          span.textContent = part === "\u016A" ? "U" : "u";
+          frag.appendChild(span);
+        } else if (part) {
+          frag.appendChild(document.createTextNode(part));
+        }
+      });
+      n.parentNode.replaceChild(frag, n);
+    });
+  })();
+
   /* ---------- metai poraštėje ---------- */
   var yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = new Date().getFullYear();

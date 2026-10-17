@@ -765,3 +765,8 @@ footer .fb-round:hover{border-color:var(--gold);background:rgba(206,142,52,.12)}
 .patreon h2{font-size:clamp(28px,3.6vw,38px);line-height:1.16;margin-bottom:14px}
 .patreon-box .slot{min-height:170px}
 .patreon-box .btn{width:100%}
+
+/* Jost šrifto „ū/Ū“ brūkšnelis pasislinkęs — piešiamas virš paprastos „u“ (žr. main.js) */
+.u-mac{position:relative}
+.u-mac::after{content:"";position:absolute;left:.11em;width:.29em;top:.47em;height:.05em;background:currentColor;pointer-events:none}
+.u-mac.up::after{left:.135em;width:.34em;top:.24em}
