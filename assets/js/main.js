@@ -34,7 +34,8 @@ var CONFIG = {
     while (walker.nextNode()) nodes.push(walker.currentNode);
     nodes.forEach(function (n) {
       var upper = getComputedStyle(n.parentElement).textTransform === "uppercase";
-      var frag = document.createDocumentFragment();
+      // viena apgaubianti <span>: flex mygtukuose (tarpas tarp elementų) žodis nesuskyla
+      var frag = document.createElement("span");
       n.nodeValue.split(/([\u016A\u016B])/).forEach(function (part) {
         if (part === "\u016A" || part === "\u016B") {
           var big = part === "\u016A" || upper;
