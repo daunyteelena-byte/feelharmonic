@@ -448,7 +448,7 @@
     "alt": "Open studio space"
   },
 
-  "events": {"upEyebrow": "Upcoming events", "upH2": "Join us live", "pastEyebrow": "Past events", "pastH2": "Where we have performed", "pastLede": "Concerts, launches and performances — newest first.", "moreLabel": "Show all events", "lessLabel": "Show less", "video": "Watch the recording", "link": "Registration", "ask": "Ask about the event", "at": "", "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "dateFmt": "{d} {m} {y}"},
+  "events": {"upEyebrow": "Upcoming events", "upH2": "Join us live", "pastEyebrow": "Past events", "pastH2": "Where we have performed", "pastLede": "Concerts, launches and performances — newest first.", "moreLabel": "Show all events", "lessLabel": "Show less", "video": "Watch the recording", "link": "Register", "ask": "Ask about the event", "at": "", "months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"], "dateFmt": "{d} {m} {y}"},
 
   "gallery": {
     "lightbox": {"close": "Close", "prev": "Previous photo", "next": "Next photo", "by": "Photo:"},
