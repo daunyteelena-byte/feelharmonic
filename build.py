@@ -744,9 +744,11 @@ def upcoming(lang, c):
     <div class="ev-list reveal">
       %(cards)s
     </div>
+
+    %(motto)s
   </div>
 </section>
-""" % {"eyebrow": e["upEyebrow"], "h2": e["upH2"], "cards": "\n      ".join(cards)}
+""" % {"eyebrow": e["upEyebrow"], "h2": e["upH2"], "cards": "\n      ".join(cards), "motto": MOTTO}
 
 
 def past_events(lang, c):
@@ -782,9 +784,11 @@ def past_events(lang, c):
       %(cards)s
     </div>
     <button class="more-toggle" type="button" aria-expanded="false" hidden data-more="%(more)s" data-less="%(less)s">%(more)s</button>
+
+    %(motto)s
   </div>
 </section>
-""" % {"eyebrow": e["pastEyebrow"], "h2": e["pastH2"], "lede": e["pastLede"],
+""" % {"motto": MOTTO, "eyebrow": e["pastEyebrow"], "h2": e["pastH2"], "lede": e["pastLede"],
        "cards": "\n\n      ".join(cards),
        "more": attr("%s (%d)" % (e["moreLabel"], len(past))), "less": attr(e["lessLabel"])}
 
