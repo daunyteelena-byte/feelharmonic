@@ -18,6 +18,9 @@ on:
       - "assets/js/**"
       - ".github/workflows/build.yml"
   workflow_dispatch:
+  # kasnakt (~01:10 Vilniaus laiku): praėję renginiai persikelia į „Įvykę renginiai“
+  schedule:
+    - cron: "10 22 * * *"
 
 permissions:
   contents: write

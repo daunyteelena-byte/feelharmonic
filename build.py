@@ -670,6 +670,117 @@ def studio(lang, c):
        "cta": s["cta"], "b": BASE[lang], "alt": attr(s["alt"]), "motto": MOTTO}
 
 
+# ---------- RENGINIAI: turinys/renginiai.json ----------
+# Būsimi rodomi „Artėjantys renginiai“ juostoje po pirmu ekranu; praėję (data
+# ankstesnė nei šiandien Vilniuje) automatiškai persikelia į „Įvykę renginiai“.
+# GitHub kasnakt perkuria puslapius (build.yml, schedule), tad perkėlimas vyksta pats.
+def events_today():
+    try:
+        from zoneinfo import ZoneInfo
+        return datetime.datetime.now(ZoneInfo("Europe/Vilnius")).date()
+    except Exception:
+        return datetime.date.today()
+
+
+def load_events():
+    f = CONTENT / "renginiai.json"
+    if not f.exists():
+        return [], []
+    items = json.loads(f.read_text(encoding="utf-8")).get("items", [])
+    today = events_today()
+    up = sorted((i for i in items if datetime.date.fromisoformat(i["date"]) >= today), key=lambda i: i["date"])
+    past = sorted((i for i in items if datetime.date.fromisoformat(i["date"]) < today), key=lambda i: i["date"], reverse=True)
+    return up, past
+
+
+def ev_date(e, i):
+    d = datetime.date.fromisoformat(i["date"])
+    txt = e["dateFmt"].format(y=d.year, m=e["months"][d.month - 1], d=d.day)
+    if i.get("time"):
+        txt += ", %s%s" % (e.get("at", ""), i["time"])
+    return txt
+
+
+def upcoming(lang, c):
+    up, _ = load_events()
+    if not up:
+        return ""
+    e = c["events"]
+    cards = []
+    for i in up:
+        d = datetime.date.fromisoformat(i["date"])
+        if i.get("link"):
+            act = '<a class="btn solid" href="%s" target="_blank" rel="noopener">%s</a>' % (attr(i["link"]), e["link"])
+        else:
+            act = '<a class="btn" href="#kontaktai">%s</a>' % e["ask"]
+        place = i["place"][lang]
+        cards.append("""<article class="ev-up">
+        <div class="ev-day"><b>%(day)s</b><span>%(mon)s</span></div>
+        <div class="ev-tx">
+          <h3>%(title)s</h3>
+          <p class="ev-meta">%(when)s%(place)s</p>
+          <p>%(desc)s</p>
+          %(act)s
+        </div>
+      </article>""" % {"day": d.day, "mon": e["months"][d.month - 1], "title": i["title"][lang],
+                       "when": ev_date(e, i), "place": (" · " + place) if place else "",
+                       "desc": i["desc"][lang], "act": act})
+    return """
+<!-- ---------- ARTĖJANTYS RENGINIAI ---------- -->
+<section id="renginiai" class="band-cream ev-band">
+  <div class="in">
+    <div class="head reveal">
+      <p class="eyebrow">%(eyebrow)s</p>
+      <h2>%(h2)s</h2>
+    </div>
+    <div class="ev-list reveal">
+      %(cards)s
+    </div>
+  </div>
+</section>
+""" % {"eyebrow": e["upEyebrow"], "h2": e["upH2"], "cards": "\n      ".join(cards)}
+
+
+def past_events(lang, c):
+    _, past = load_events()
+    if not past:
+        return ""
+    e = c["events"]
+    cards = []
+    for i in past:
+        place = i["place"][lang]
+        video = ('\n          <a class="more" href="https://www.youtube.com/watch?v=%s" target="_blank" rel="noopener">%s</a>'
+                 % (attr(i["youtube"]), e["video"])) if i.get("youtube") else ""
+        cards.append("""<article class="card ev-past">
+        %(fig)s
+        <div class="tx">
+          <p class="ev-meta">%(when)s%(place)s</p>
+          <h3>%(title)s</h3>
+          <p>%(desc)s</p>%(video)s
+        </div>
+      </article>""" % {"fig": photo(BASE[lang], i["img"], i["title"][lang]), "when": ev_date(e, i),
+                       "place": (" · " + place) if place else "", "title": i["title"][lang],
+                       "desc": i["desc"][lang], "video": video})
+    return """
+<!-- ---------- ĮVYKĘ RENGINIAI ---------- -->
+<section id="archyvas" class="band-cream">
+  <div class="in">
+    <div class="head reveal">
+      <p class="eyebrow">%(eyebrow)s</p>
+      <h2>%(h2)s</h2>
+      <p class="lede">%(lede)s</p>
+    </div>
+    <div class="grid3 reveal" data-show="3" data-show-mobile="2" data-peek="mobile">
+      %(cards)s
+    </div>
+    <button class="more-toggle" type="button" aria-expanded="false" hidden data-more="%(more)s" data-less="%(less)s">%(more)s</button>
+  </div>
+</section>
+""" % {"eyebrow": e["pastEyebrow"], "h2": e["pastH2"], "lede": e["pastLede"],
+       "cards": "\n\n      ".join(cards),
+       "more": attr("%s (%d)" % (e["moreLabel"], len(past))), "less": attr(e["lessLabel"])}
+
+
 def gallery(lang, c):
     g = c["gallery"]
     figs = "\n      ".join(photo(BASE[lang], i["img"], i["alt"], cap=i["cap"], pos=i.get("pos")) for i in g["items"])
@@ -1011,10 +1122,10 @@ def page(lang, c):
     PHOTOS = c.get("photos", {})
     PHOTO_BY = c["gallery"]["lightbox"]["by"]
     return "".join([
-        head(lang, c), header(lang, c), hero(lang, c), services(lang, c), media(lang, c),
+        head(lang, c), header(lang, c), hero(lang, c), upcoming(lang, c), services(lang, c), media(lang, c),
         who(lang, c), edu(lang, c), programs(lang, c), growth(lang, c), art_exchange(lang, c),
         "" if "studija" in PASLEPTA else studio(lang, c),
-        gallery(lang, c), about(lang, c),
+        past_events(lang, c), gallery(lang, c), about(lang, c),
         "" if "atsiliepimai" in PASLEPTA else quotes(lang, c),
         faq(lang, c),
         "" if "parama" in PASLEPTA else patreon(lang, c),
@@ -1045,15 +1156,21 @@ def sitemap():
 
 
 def main():
+    changed = False
     for lang in LANGS:
         with open(CONTENT / ("%s.json" % lang), encoding="utf-8") as fh:
             c = json.load(fh)
         out = OUT[lang]
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(page(lang, c), encoding="utf-8")
+        html = page(lang, c)
+        if not out.exists() or out.read_text(encoding="utf-8") != html:
+            changed = True
+        out.write_text(html, encoding="utf-8")
         print("parasyta  %s" % out.relative_to(ROOT))
-    (ROOT / "sitemap.xml").write_text(sitemap(), encoding="utf-8")
-    print("parasyta  sitemap.xml")
+    # lastmod atnaujinamas tik kai pasikeitė puslapiai — kasnaktinis perkūrimas be pakeitimų nekuria commito
+    if changed or not (ROOT / "sitemap.xml").exists():
+        (ROOT / "sitemap.xml").write_text(sitemap(), encoding="utf-8")
+        print("parasyta  sitemap.xml")
 
 
 if __name__ == "__main__":

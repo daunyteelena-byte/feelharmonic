@@ -1,0 +1,59 @@
+{
+  "_kaip_pildyti": "Renginiai rodomi pagal datą: būsimi — skiltyje „Artėjantys renginiai“ (po pirmu ekranu), praėję automatiškai persikelia į „Įvykę renginiai“. Laukai: date (YYYY-MM-DD), time (neprivaloma), img (nuotrauka iš assets/img), youtube (neprivaloma, vaizdo įrašo ID), link (neprivaloma, registracija/bilietai), title / place / desc — lt, en, it.",
+  "items": [
+    {
+      "date": "2026-12-05", "time": "16:00", "img": "paslauga-terapija.jpg",
+      "title": {"lt": "„33 įkvėpimai“ — poezijos ir muzikos vakaras", "en": "“33 įkvėpimai” — an evening of poetry and music", "it": "«33 įkvėpimai» — serata di poesia e musica"},
+      "place": {"lt": "Lietuvos nacionalinė Martyno Mažvydo biblioteka, Vilnius", "en": "Martynas Mažvydas National Library of Lithuania, Vilnius", "it": "Biblioteca nazionale Martynas Mažvydas, Vilnius"},
+      "desc": {"lt": "Poezijos knygelės „33 įkvėpimai“ (leidykla „Slinktys“, 2026) pristatymas — gyvas meninis susitikimas: Elena skaitys savo eiles, gros violončele, dainuos ir pasakos apie kūrybos gimimą. Trukmė — apie 60–75 min. Įėjimas nemokamas.", "en": "A presentation of the poetry book “33 įkvėpimai” (Slinktys, 2026) as a live artistic encounter: Elena reads her poems, plays the cello, sings and talks about how the poems were born. About 60–75 min. Free admission.", "it": "Presentazione del libro di poesie «33 įkvėpimai» (Slinktys, 2026) come incontro artistico dal vivo: Elena legge le sue poesie, suona il violoncello, canta e racconta come sono nati i testi. Durata: circa 60–75 min. Ingresso libero."}
+    },
+    {
+      "date": "2026-03-08", "img": "paslauga-terapija.jpg",
+      "title": {"lt": "Poezijos knygos „33 įkvėpimai“ pristatymas", "en": "Launch of the poetry book “33 įkvėpimai”", "it": "Presentazione del libro di poesie «33 įkvėpimai»"},
+      "place": {"lt": "„Green Hall 2“, baltoji salė, Vilnius", "en": "Green Hall 2, White Hall, Vilnius", "it": "Green Hall 2, Sala Bianca, Vilnius"},
+      "desc": {"lt": "Knygos pristatymas Elenos gimtadienio dieną — eilės, violončelė ir balsas.", "en": "The book launch on Elena’s birthday — poems, cello and voice.", "it": "La presentazione del libro nel giorno del compleanno di Elena — poesie, violoncello e voce."}
+    },
+    {
+      "date": "2025-10-08", "img": "apie.jpg",
+      "title": {"lt": "Pasaulinės trombozės dienos renginys", "en": "World Thrombosis Day event", "it": "Evento per la Giornata mondiale della trombosi"},
+      "place": {"lt": "Bažnytinio paveldo muziejus, Vilnius", "en": "Church Heritage Museum, Vilnius", "it": "Museo del patrimonio ecclesiastico, Vilnius"},
+      "desc": {"lt": "Violončelės muzika renginio programoje.", "en": "Cello music in the event programme.", "it": "Musica per violoncello nel programma dell’evento."}
+    },
+    {
+      "date": "2024-09-07", "img": "galerija-22.jpg",
+      "title": {"lt": "Koncertas „Tėkmėje“", "en": "Concert “Tėkmėje”", "it": "Concerto «Tėkmėje»"},
+      "place": {"lt": "Scena ant Kauno marių, Rumšiškės", "en": "Stage on the Kaunas Lagoon, Rumšiškės", "it": "Palco sulla laguna di Kaunas, Rumšiškės"},
+      "desc": {"lt": "Seserų ansamblis „Regnum Musicale“ vakaro koncerte ant vandens.", "en": "The sisters’ ensemble Regnum Musicale in an evening concert on the water.", "it": "L’ensemble di sorelle Regnum Musicale in un concerto serale sull’acqua."}
+    },
+    {
+      "date": "2024-07-02", "img": "labirintas.jpg",
+      "title": {"lt": "Elenos kūrybos performansas labirinte", "en": "Elena’s performance in the labyrinth", "it": "Performance di Elena nel labirinto"},
+      "place": {"lt": "", "en": "", "it": ""},
+      "desc": {"lt": "Violončelės, vokalo ir poezijos sinergija akmenų labirinto centre.", "en": "Cello, voice and poetry together at the centre of a stone labyrinth.", "it": "Violoncello, voce e poesia al centro di un labirinto di pietre."}
+    },
+    {
+      "date": "2024-04-07", "img": "galerija-31.jpg",
+      "title": {"lt": "Koncertas-performansas „Amazoniškai“", "en": "Concert-performance “Amazoniškai”", "it": "Concerto-performance «Amazoniškai»"},
+      "place": {"lt": "Vilniaus rotušė", "en": "Vilnius Town Hall", "it": "Municipio di Vilnius"},
+      "desc": {"lt": "Kuria sesės Joana (arfa), Kotryna Ugnė (smuikas) ir Elena (violončelė, vokalas, poezija).", "en": "Created by the sisters Joana (harp), Kotryna Ugnė (violin) and Elena (cello, voice, poetry).", "it": "Creato dalle sorelle Joana (arpa), Kotryna Ugnė (violino) ed Elena (violoncello, voce, poesia)."}
+    },
+    {
+      "date": "2024-02-16", "img": "galerija-13.jpg",
+      "title": {"lt": "Vasario 16-osios koncertas", "en": "16 February concert", "it": "Concerto del 16 febbraio"},
+      "place": {"lt": "Lietuvos nacionalinė filharmonija", "en": "Lithuanian National Philharmonic", "it": "Filarmonica nazionale lituana"},
+      "desc": {"lt": "Duetas „SisDuo“ su Lietuvos nacionaliniu simfoniniu orkestru — specialiai joms sukurto Jono Jurkūno kūrinio „Apie būtį“ premjera.", "en": "The duo SisDuo with the Lithuanian National Symphony Orchestra — premiere of Jonas Jurkūnas’ “Apie būtį”, written for them.", "it": "Il duo SisDuo con l’Orchestra sinfonica nazionale lituana — prima di «Apie būtį» di Jonas Jurkūnas, scritto per loro."}
+    },
+    {
+      "date": "2023-12-31", "img": "paslauga-interaktyvu.jpg",
+      "title": {"lt": "Interaktyvus koncertas „Pilnaties pilnatvinė kelionė“", "en": "Interactive concert “Pilnaties pilnatvinė kelionė”", "it": "Concerto interattivo «Pilnaties pilnatvinė kelionė»"},
+      "place": {"lt": "Kernavės kultūros centras", "en": "Kernavė Cultural Centre", "it": "Centro culturale di Kernavė"},
+      "desc": {"lt": "Naujametis koncertas, kuriame publika ne tik klausėsi, bet ir dalyvavo.", "en": "A New Year’s Eve concert where the audience did not just listen but took part.", "it": "Un concerto di Capodanno in cui il pubblico non solo ascoltava, ma partecipava."}
+    },
+    {
+      "date": "2022-05-07", "img": "elena.jpg",
+      "title": {"lt": "Solistė su Lietuvos kameriniu orkestru", "en": "Soloist with the Lithuanian Chamber Orchestra", "it": "Solista con l’Orchestra da camera lituana"},
+      "place": {"lt": "Lietuvos nacionalinė filharmonija", "en": "Lithuanian National Philharmonic", "it": "Filarmonica nazionale lituana"},
+      "desc": {"lt": "Dirigentas Andrzej Kosendiak (Lenkija).", "en": "Conductor Andrzej Kosendiak (Poland).", "it": "Direttore Andrzej Kosendiak (Polonia)."}
+    }
+  ]
+}

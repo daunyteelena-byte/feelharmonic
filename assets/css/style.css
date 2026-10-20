@@ -777,3 +777,26 @@ footer .fb-round:hover{border-color:var(--gold);background:rgba(206,142,52,.12)}
 .u-mac{position:relative}
 .u-mac::after{content:"";position:absolute;left:.11em;width:.29em;top:.47em;height:.05em;background:currentColor;pointer-events:none}
 .u-mac.up::after{left:.135em;width:.34em;top:.24em}
+
+/* =====================================================================
+   Renginiai: artėjantys (juosta po pirmu ekranu) ir įvykę (archyvas)
+   ===================================================================== */
+.ev-band{padding-top:56px;padding-bottom:56px}
+.ev-band .head{margin-bottom:22px}
+.ev-list{display:grid;gap:18px}
+.ev-up{display:grid;grid-template-columns:92px 1fr;gap:22px;align-items:start;background:var(--paper);border:1px solid var(--gold-line);border-left:3px solid var(--gold);padding:22px 24px}
+.ev-day{text-align:center;color:var(--teal);border-right:1px solid var(--gold-line);padding-right:18px}
+.ev-day b{display:block;font-family:var(--serif);font-weight:500;font-size:44px;line-height:1}
+.ev-day span{display:block;margin-top:6px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-ink)}
+.ev-tx h3{font-size:24px;margin-bottom:6px}
+.ev-tx p{color:var(--muted);max-width:62ch}
+.ev-tx .btn{margin-top:14px}
+.ev-meta{font-size:13px;letter-spacing:.06em;color:var(--gold-ink)!important;margin:0 0 8px}
+.ev-past .tx h3{font-size:21px}
+@media(max-width:560px){
+  .ev-up{grid-template-columns:1fr;gap:12px;padding:18px}
+  .ev-day{display:flex;align-items:baseline;gap:10px;border-right:0;border-bottom:1px solid var(--gold-line);padding:0 0 10px;text-align:left}
+  .ev-day b{font-size:34px}
+  .ev-day span{margin-top:0}
+  .ev-tx .btn{width:100%}
+}
