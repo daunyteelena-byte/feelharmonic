@@ -1113,8 +1113,19 @@ PASLEPTA = {"studija", "atsiliepimai", "parama"}
 
 
 def shown(items):
-    """Meniu ir poraštės nuorodos be paslėptų skilčių."""
-    return [i for i in items if i["href"].lstrip("#") not in PASLEPTA]
+    """Meniu ir poraštės nuorodos be paslėptų skilčių.
+    „Renginiai“ veda į artėjančius; jei jų nėra — į įvykusius; jei nėra nė vienų — nerodoma."""
+    up, past = load_events()
+    out = []
+    for i in items:
+        if i["href"].lstrip("#") in PASLEPTA:
+            continue
+        if i["href"] == "#renginiai" and not up:
+            if not past:
+                continue
+            i = dict(i, href="#archyvas")
+        out.append(i)
+    return out
 
 
 def page(lang, c):

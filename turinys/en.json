@@ -17,6 +17,7 @@
     { "href": "#paslaugos", "label": "Services" },
     { "href": "#edukacijos", "label": "Education" },
     { "href": "#programos", "label": "Programmes" },
+    { "href": "#renginiai", "label": "Events" },
     { "href": "#studija", "label": "Studio" },
     { "href": "#apie", "label": "About" }
   ],
@@ -28,6 +29,7 @@
     { "href": "#programos", "label": "Programmes" },
     { "href": "#augimas", "label": "Personal growth" },
     { "href": "#studija", "label": "Studio" },
+    { "href": "#renginiai", "label": "Events" },
     { "href": "#galerija", "label": "Gallery" },
     { "href": "#apie", "label": "About" },
     { "href": "#duk", "label": "FAQ" },
@@ -710,6 +712,7 @@
       { "href": "#programos", "label": "Programmes" },
       { "href": "#augimas", "label": "Personal growth" },
       { "href": "#studija", "label": "Studio" },
+      { "href": "#renginiai", "label": "Events" },
       { "href": "#galerija", "label": "Gallery" },
       { "href": "#apie", "label": "About" },
       { "href": "#parama", "label": "Support (Patreon)" },

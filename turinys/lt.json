@@ -17,6 +17,7 @@
     { "href": "#paslaugos", "label": "Paslaugos" },
     { "href": "#edukacijos", "label": "Edukacijos" },
     { "href": "#programos", "label": "Programos" },
+    { "href": "#renginiai", "label": "Renginiai" },
     { "href": "#studija", "label": "Studija" },
     { "href": "#apie", "label": "Apie" }
   ],
@@ -28,6 +29,7 @@
     { "href": "#programos", "label": "Programos" },
     { "href": "#augimas", "label": "Asmeninis augimas" },
     { "href": "#studija", "label": "Studija" },
+    { "href": "#renginiai", "label": "Renginiai" },
     { "href": "#galerija", "label": "Galerija" },
     { "href": "#apie", "label": "Apie" },
     { "href": "#duk", "label": "DUK" },
@@ -710,6 +712,7 @@
       { "href": "#programos", "label": "Programos" },
       { "href": "#augimas", "label": "Asmeninis augimas" },
       { "href": "#studija", "label": "Studija" },
+      { "href": "#renginiai", "label": "Renginiai" },
       { "href": "#galerija", "label": "Galerija" },
       { "href": "#apie", "label": "Apie" },
       { "href": "#parama", "label": "Parama (Patreon)" },
