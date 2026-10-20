@@ -717,6 +717,9 @@ def upcoming(lang, c):
             act = '<a class="btn solid" href="%s" target="_blank" rel="noopener">%s</a>' % (attr(i["link"]), e["link"])
         else:
             act = '<a class="btn" href="#kontaktai">%s</a>' % e["ask"]
+        if i.get("extra"):
+            act += '\n          <a class="more ev-extra" href="%s" target="_blank" rel="noopener">%s</a>' % (
+                attr(i["extra"]["url"]), i["extra"]["label"][lang])
         place = i["place"][lang]
         cards.append("""<article class="ev-up">
         <div class="ev-day"><b>%(day)s</b><span>%(mon)s</span></div>
@@ -810,6 +813,23 @@ def gallery(lang, c):
 """ % {"eyebrow": g["eyebrow"], "h2": g["h2"], "lede": g["lede"], "figs": figs, "motto": MOTTO, "galmore": attr("%s (%d)" % (g["moreLabel"], len(g["items"]))), "galless": attr(g["lessLabel"]), "lbclose": attr(g["lightbox"]["close"]), "lbprev": attr(g["lightbox"]["prev"]), "lbnext": attr(g["lightbox"]["next"])}
 
 
+def interview_card(iv):
+    """Interviu kortelė (naudojama „Menais mainais“ ir „Apie“ skiltyse)."""
+    return """<a class="media-card light" href="%(url)s" target="_blank" rel="noopener">
+        <span class="media-play" aria-hidden="true">
+          <svg viewBox="0 0 20 20" fill="currentColor"><path d="M4 11.6C4 8 6 5.6 9 4.5l.7 1.4C8 6.7 7.1 8 7 9.4h2.6V16H4v-4.4Zm7.4 0c0-3.6 2-6 5-7.1l.7 1.4c-1.7.8-2.6 2.1-2.7 3.5H17V16h-5.6v-4.4Z"/></svg>
+        </span>
+        <span class="media-body">
+          <span class="media-label">%(label)s</span>
+          <b>%(title)s</b>
+          <span class="media-note">%(note)s</span>
+        </span>
+        <span class="media-go" aria-hidden="true">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h7v7M13 3 3.5 12.5"/></svg>
+        </span>
+      </a>""" % {"url": attr(iv["url"]), "label": iv["label"], "title": iv["title"], "note": iv["note"]}
+
+
 def about(lang, c):
     a = c["about"]
     paras = "\n        ".join("<p>%s</p>" % x for x in a["paras"])
@@ -843,9 +863,12 @@ def about(lang, c):
         <a class="btn dark" href="#kontaktai">%(cta)s</a>
       </div>
 
+      <div class="about-side">
       <div class="about-photo" data-photo>
         <svg class="ph-empty" viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg>
         <img src="%(b)sassets/img/apie.jpg" alt="%(alt)s" data-optional%(lbapie)s>
+      </div>
+      %(interview)s
       </div>
     </div>
 
@@ -854,6 +877,7 @@ def about(lang, c):
 </section>
 """ % {"eyebrow": a["eyebrow"], "h2": a["h2"], "paras": paras, "more": more, "creds": creds,
        "last": a["closing"], "cta": a["cta"], "b": BASE[lang], "alt": attr(a["alt"]), "lbapie": lbinfo("apie.jpg"),
+       "interview": interview_card(c["artExchange"]["interview"]),
        "motto": MOTTO}
 
 
