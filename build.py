@@ -616,6 +616,8 @@ def art_exchange(lang, c):
         <a class="btn dark" href="#kontaktai">%(cta)s</a>
       </div>
 
+      <div class="ex-side">
+      %(photo)s
       <a class="media-card light" href="%(url)s" target="_blank" rel="noopener">
         <span class="media-play" aria-hidden="true">
           <svg viewBox="0 0 20 20" fill="currentColor"><path d="M4 11.6C4 8 6 5.6 9 4.5l.7 1.4C8 6.7 7.1 8 7 9.4h2.6V16H4v-4.4Zm7.4 0c0-3.6 2-6 5-7.1l.7 1.4c-1.7.8-2.6 2.1-2.7 3.5H17V16h-5.6v-4.4Z"/></svg>
@@ -629,12 +631,14 @@ def art_exchange(lang, c):
           <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h7v7M13 3 3.5 12.5"/></svg>
         </span>
       </a>
+      </div>
     </div>
 
     %(motto)s
   </div>
 </section>
 """ % {"eyebrow": a["eyebrow"], "h2": a["h2"], "tag": tag, "lede": a["lede"],
+       "photo": photo(BASE[lang], a["img"], a["imgAlt"], cls="shot ex-photo", pos=a.get("imgPos")) if a.get("img") else "",
        "paras": paras, "accent": a["accent"], "cta": a["cta"], "url": attr(iv["url"]),
        "ivlabel": iv["label"], "ivtitle": iv["title"], "ivnote": iv["note"], "motto": MOTTO,
        "more": attr(a["moreLabel"]), "less": attr(a["lessLabel"])}

@@ -801,3 +801,7 @@ footer .fb-round:hover{border-color:var(--gold);background:rgba(206,142,52,.12)}
   .ev-tx .btn{width:100%}
 }
 .ftour{margin:-6px 0 20px;font-size:13px;letter-spacing:.04em;color:rgba(255,255,255,.72);max-width:32ch}
+/* „Menais mainais“: nuotrauka virš interviu kortelės */
+.ex-side{display:flex;flex-direction:column;gap:18px}
+.ex-photo{aspect-ratio:4/3;border-top:2px solid var(--gold)}
+.ex-photo img{width:100%;height:100%;object-fit:cover}

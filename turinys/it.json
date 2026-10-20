@@ -413,6 +413,7 @@
   },
 
   "artExchange": {
+    "img": "galerija-40.jpg", "imgAlt": "Una danzatrice in abito rosso tra i musicisti in una sala accogliente", "imgPos": "50% 35%",
     "eyebrow": "Crescita personale",
     "h2": "«Menais mainais» — uno scambio attraverso le arti",
     "tag": "NEW",
@@ -495,8 +496,7 @@
       { "img": "galerija-35.jpg", "alt": "Concerto di tre sorelle in una sala spaziosa con un folto pubblico", "cap": "Concerto in una sala spaziosa" },
       { "img": "galerija-37.jpg", "alt": "Una violinista e un’arpa in un concerto educativo per bambini", "cap": "Concerto educativo" },
       { "img": "galerija-38.jpg", "alt": "Bambini con strumenti musicali durante un laboratorio in una sala di una dimora", "cap": "Bambini che fanno musica" },
-      { "img": "galerija-39.jpg", "alt": "Una cantante in abito rosso e un’arpista in un laboratorio per bambini", "cap": "Laboratorio per bambini" },
-      { "img": "galerija-40.jpg", "alt": "Una danzatrice in abito rosso tra i musicisti in una sala accogliente", "cap": "Musica e danza", "pos": "50% 30%" }
+      { "img": "galerija-39.jpg", "alt": "Una cantante in abito rosso e un’arpista in un laboratorio per bambini", "cap": "Laboratorio per bambini" }
     ]
   },
 

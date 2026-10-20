@@ -413,6 +413,7 @@
   },
 
   "artExchange": {
+    "img": "galerija-40.jpg", "imgAlt": "Šokėja raudona suknele tarp muzikantų jaukioje salėje", "imgPos": "50% 35%",
     "eyebrow": "Asmeninis augimas",
     "h2": "„Menais mainais“",
     "tag": "NEW",
@@ -495,8 +496,7 @@
       { "img": "galerija-35.jpg", "alt": "Trijų seserų koncertas erdvioje salėje su gausia publika", "cap": "Koncertas erdvioje salėje" },
       { "img": "galerija-37.jpg", "alt": "Smuikininkė ir arfa edukaciniame koncerte vaikams", "cap": "Edukacinis koncertas" },
       { "img": "galerija-38.jpg", "alt": "Vaikai su muzikos instrumentais per edukaciją dvaro salėje", "cap": "Vaikai muzikuoja" },
-      { "img": "galerija-39.jpg", "alt": "Dainininkė raudona suknele ir arfininkė edukacijoje vaikams", "cap": "Edukacija vaikams" },
-      { "img": "galerija-40.jpg", "alt": "Šokėja raudona suknele tarp muzikantų jaukioje salėje", "cap": "Muzika ir šokis", "pos": "50% 30%" }
+      { "img": "galerija-39.jpg", "alt": "Dainininkė raudona suknele ir arfininkė edukacijoje vaikams", "cap": "Edukacija vaikams" }
     ]
   },
 
