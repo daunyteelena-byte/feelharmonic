@@ -490,7 +490,13 @@
       { "img": "galerija-26.jpg", "alt": "Elena Daunytė solista di violoncello con l’orchestra in una sala con lampadario", "cap": "Solista con l’orchestra" },
       { "img": "galerija-27.jpg", "alt": "Concerto all’aperto tra le colonne di una dimora storica", "cap": "Concerto tra le colonne" },
       { "img": "galerija-29.jpg", "alt": "Elena Daunytė canta al Ministero della Cultura", "cap": "Canto", "pos": "50% 18%" },
-      { "img": "galerija-30.jpg", "alt": "Elena Daunytė suona il violoncello accanto all’arpa", "cap": "Violoncello e arpa", "pos": "50% 30%" }
+      { "img": "galerija-30.jpg", "alt": "Elena Daunytė suona il violoncello accanto all’arpa", "cap": "Violoncello e arpa", "pos": "50% 30%" },
+      { "img": "galerija-36.jpg", "alt": "Tre sorelle con fiori che saltano su una collina sotto nuvole di tempesta", "cap": "Il salto delle sorelle" },
+      { "img": "galerija-35.jpg", "alt": "Concerto di tre sorelle in una sala spaziosa con un folto pubblico", "cap": "Concerto in una sala spaziosa" },
+      { "img": "galerija-37.jpg", "alt": "Una violinista e un’arpa in un concerto educativo per bambini", "cap": "Concerto educativo" },
+      { "img": "galerija-38.jpg", "alt": "Bambini con strumenti musicali durante un laboratorio in una sala di una dimora", "cap": "Bambini che fanno musica" },
+      { "img": "galerija-39.jpg", "alt": "Una cantante in abito rosso e un’arpista in un laboratorio per bambini", "cap": "Laboratorio per bambini" },
+      { "img": "galerija-40.jpg", "alt": "Una danzatrice in abito rosso tra i musicisti in una sala accogliente", "cap": "Musica e danza", "pos": "50% 30%" }
     ]
   },
 
@@ -602,6 +608,14 @@
   },
 
   "photos": {
+    "galerija-35.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "galerija-36.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "galerija-37.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "galerija-38.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "galerija-39.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "galerija-40.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "paslauga-edukacijos.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "paslauga-pokalbiai.jpg": {"event": "", "place": "", "date": "", "by": ""},
     "galerija-32.jpg": {"event": "Regnum Musicale, ensemble di sorelle · Concerto «Tėkmėje»", "place": "Palco sulla laguna di Kaunas, Rumšiškės", "date": "7 settembre 2024", "by": "Asta Sabonytė"},
     "galerija-33.jpg": {"event": "Regnum Musicale, ensemble di sorelle · Concerto «Tėkmėje»", "place": "Palco sulla laguna di Kaunas, Rumšiškės", "date": "7 settembre 2024", "by": "Asta Sabonytė"},
     "galerija-34.jpg": {"event": "Regnum Musicale, ensemble di sorelle · Concerto «Tėkmėje»", "place": "Palco sulla laguna di Kaunas, Rumšiškės", "date": "7 settembre 2024", "by": "Asta Sabonytė"},

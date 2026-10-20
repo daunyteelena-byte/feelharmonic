@@ -490,7 +490,13 @@
       { "img": "galerija-26.jpg", "alt": "Elena Daunytė as cello soloist with an orchestra in a hall with a chandelier", "cap": "Soloist with orchestra" },
       { "img": "galerija-27.jpg", "alt": "An outdoor concert by the columns of a manor", "cap": "Concert by the columns" },
       { "img": "galerija-29.jpg", "alt": "Elena Daunytė singing at the Ministry of Culture", "cap": "Song", "pos": "50% 18%" },
-      { "img": "galerija-30.jpg", "alt": "Elena Daunytė playing the cello beside a harp", "cap": "Cello and harp", "pos": "50% 30%" }
+      { "img": "galerija-30.jpg", "alt": "Elena Daunytė playing the cello beside a harp", "cap": "Cello and harp", "pos": "50% 30%" },
+      { "img": "galerija-36.jpg", "alt": "Three sisters with flowers leaping on a hill under storm clouds", "cap": "The sisters’ leap" },
+      { "img": "galerija-35.jpg", "alt": "A concert by three sisters in a spacious hall with a large audience", "cap": "Concert in a spacious hall" },
+      { "img": "galerija-37.jpg", "alt": "A violinist and a harp at an educational concert for children", "cap": "Educational concert" },
+      { "img": "galerija-38.jpg", "alt": "Children with musical instruments during a workshop in a manor hall", "cap": "Children making music" },
+      { "img": "galerija-39.jpg", "alt": "A singer in a red dress and a harpist at a children’s workshop", "cap": "Workshop for children" },
+      { "img": "galerija-40.jpg", "alt": "A dancer in a red dress among musicians in a cosy room", "cap": "Music and dance", "pos": "50% 30%" }
     ]
   },
 
@@ -602,6 +608,14 @@
   },
 
   "photos": {
+    "galerija-35.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "galerija-36.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "galerija-37.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "galerija-38.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "galerija-39.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "galerija-40.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "paslauga-edukacijos.jpg": {"event": "", "place": "", "date": "", "by": ""},
+    "paslauga-pokalbiai.jpg": {"event": "", "place": "", "date": "", "by": ""},
     "galerija-32.jpg": {"event": "Regnum Musicale, an ensemble of sisters · Concert “Tėkmėje”", "place": "Stage on the Kaunas Lagoon, Rumšiškės", "date": "7 September 2024", "by": "Asta Sabonytė"},
     "galerija-33.jpg": {"event": "Regnum Musicale, an ensemble of sisters · Concert “Tėkmėje”", "place": "Stage on the Kaunas Lagoon, Rumšiškės", "date": "7 September 2024", "by": "Asta Sabonytė"},
     "galerija-34.jpg": {"event": "Regnum Musicale, an ensemble of sisters · Concert “Tėkmėje”", "place": "Stage on the Kaunas Lagoon, Rumšiškės", "date": "7 September 2024", "by": "Asta Sabonytė"},
