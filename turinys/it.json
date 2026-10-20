@@ -14,22 +14,22 @@
   "navCta": "Contattami",
 
   "nav": [
+    { "href": "#renginiai", "label": "Eventi" },
     { "href": "#paslaugos", "label": "Servizi" },
     { "href": "#edukacijos", "label": "Educazione" },
     { "href": "#programos", "label": "Programmi" },
-    { "href": "#renginiai", "label": "Eventi" },
     { "href": "#studija", "label": "Studio" },
     { "href": "#apie", "label": "Chi sono" }
   ],
 
   "mobileNav": [
+    { "href": "#renginiai", "label": "Eventi" },
     { "href": "#paslaugos", "label": "Servizi" },
     { "href": "#irasai", "label": "Registrazioni" },
     { "href": "#edukacijos", "label": "Educazione" },
     { "href": "#programos", "label": "Programmi" },
     { "href": "#augimas", "label": "Crescita personale" },
     { "href": "#studija", "label": "Studio" },
-    { "href": "#renginiai", "label": "Eventi" },
     { "href": "#galerija", "label": "Galleria" },
     { "href": "#apie", "label": "Chi sono" },
     { "href": "#duk", "label": "FAQ" },
@@ -707,12 +707,12 @@
     "about": "Concerti, performance, educazione, eventi armonizzanti e feste dalla A alla Z in tutta la Lituania.",
     "colPages": "Sezioni",
     "pages": [
+      { "href": "#renginiai", "label": "Eventi" },
       { "href": "#paslaugos", "label": "Servizi" },
       { "href": "#edukacijos", "label": "Educazione" },
       { "href": "#programos", "label": "Programmi" },
       { "href": "#augimas", "label": "Crescita personale" },
       { "href": "#studija", "label": "Studio" },
-      { "href": "#renginiai", "label": "Eventi" },
       { "href": "#galerija", "label": "Galleria" },
       { "href": "#apie", "label": "Chi sono" },
       { "href": "#parama", "label": "Sostegno (Patreon)" },

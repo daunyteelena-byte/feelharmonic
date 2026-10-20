@@ -14,22 +14,22 @@
   "navCta": "Get in touch",
 
   "nav": [
+    { "href": "#renginiai", "label": "Events" },
     { "href": "#paslaugos", "label": "Services" },
     { "href": "#edukacijos", "label": "Education" },
     { "href": "#programos", "label": "Programmes" },
-    { "href": "#renginiai", "label": "Events" },
     { "href": "#studija", "label": "Studio" },
     { "href": "#apie", "label": "About" }
   ],
 
   "mobileNav": [
+    { "href": "#renginiai", "label": "Events" },
     { "href": "#paslaugos", "label": "Services" },
     { "href": "#irasai", "label": "Recordings" },
     { "href": "#edukacijos", "label": "Education" },
     { "href": "#programos", "label": "Programmes" },
     { "href": "#augimas", "label": "Personal growth" },
     { "href": "#studija", "label": "Studio" },
-    { "href": "#renginiai", "label": "Events" },
     { "href": "#galerija", "label": "Gallery" },
     { "href": "#apie", "label": "About" },
     { "href": "#duk", "label": "FAQ" },
@@ -707,12 +707,12 @@
     "about": "Concerts, performances, education, harmonising events and celebrations from A to Z across Lithuania.",
     "colPages": "Sections",
     "pages": [
+      { "href": "#renginiai", "label": "Events" },
       { "href": "#paslaugos", "label": "Services" },
       { "href": "#edukacijos", "label": "Education" },
       { "href": "#programos", "label": "Programmes" },
       { "href": "#augimas", "label": "Personal growth" },
       { "href": "#studija", "label": "Studio" },
-      { "href": "#renginiai", "label": "Events" },
       { "href": "#galerija", "label": "Gallery" },
       { "href": "#apie", "label": "About" },
       { "href": "#parama", "label": "Support (Patreon)" },
