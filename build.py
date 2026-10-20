@@ -1047,6 +1047,7 @@ def footer(lang, c):
           <svg aria-hidden="true"><use href="#mark-sm"/></svg>
           <div><b>FeelHarmonic</b><span class="tg">Let it come!</span></div>
         </div>
+        <p class="ftour">%(tour)s</p>
         <a class="fb-round" href="%(fb)s" target="_blank" rel="noopener" aria-label="%(fbaria)s" title="Facebook">%(fbicon)s</a>
       </div>
       <div>
@@ -1067,7 +1068,7 @@ def footer(lang, c):
 """ % {"about": f["about"], "colpages": f["colPages"], "pages": pages,
        "coldetails": f["colDetails"], "pemail": PERSONAL_EMAIL, "credit": f["photoCredit"].split(": ", 1)[-1], "creditlabel": f["photoCreditLabel"], "creditclose": f["photoCreditClose"], "details": details, "city": f["city"], "email": EMAIL,
        "year": datetime.date.today().year,
-       "fb": FACEBOOK, "fbaria": attr(f["facebookAria"]), "fbicon": FB_ICON}
+       "fb": FACEBOOK, "tour": f["tour"], "fbaria": attr(f["facebookAria"]), "fbicon": FB_ICON}
 
 
 def jsonld(lang, c):

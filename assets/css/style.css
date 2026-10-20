@@ -800,3 +800,4 @@ footer .fb-round:hover{border-color:var(--gold);background:rgba(206,142,52,.12)}
   .ev-day span{margin-top:0}
   .ev-tx .btn{width:100%}
 }
+.ftour{margin:-6px 0 20px;font-size:13px;letter-spacing:.04em;color:rgba(255,255,255,.72);max-width:32ch}

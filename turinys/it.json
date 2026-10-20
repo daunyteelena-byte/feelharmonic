@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "FeelHarmonic — Elena Daunytė, creatrice e interprete",
-    "description": "Concerti e performance, laboratori ed educazione musicale, eventi armonizzanti di consapevolezza, organizzazione completa di eventi — per scuole, centri culturali, dimore storiche, aziende e privati in tutta la Lituania.",
-    "ogDescription": "Concerti, performance, educazione musicale, eventi armonizzanti e organizzazione completa di eventi in tutta la Lituania."
+    "title": "FeelHarmonic — istituzione itinerante di concerti ed eventi artistici | Elena Daunytė",
+    "description": "FeelHarmonic è un’istituzione itinerante di concerti ed eventi artistici: concerti e performance, laboratori ed educazione musicale, eventi armonizzanti di consapevolezza, organizzazione completa di eventi — arriviamo in scuole, centri culturali, dimore storiche, aziende e presso privati in tutta la Lituania.",
+    "ogDescription": "Istituzione itinerante di concerti ed eventi artistici: concerti, performance, educazione musicale, eventi armonizzanti e organizzazione completa di eventi in tutta la Lituania."
   },
 
   "skip": "Vai al contenuto",
@@ -41,7 +41,7 @@
     "roles": "Elena Daunytė — fondatrice e direttrice di FeelHarmonic",
     "h1": "Attraverso la musica — verso <em>il nuovo te</em>!",
     "kicker": "Verso un cambiamento consapevole di fronte alla musica e alle arti",
-    "sub": "Concerti di musica classica e performance alternative, educazione culturale, eventi armonizzanti di consapevolezza, feste organizzate dalla A alla Z — per scuole, centri culturali, dimore storiche, aziende e privati in tutta la Lituania.",
+    "sub": "<strong>FeelHarmonic — istituzione itinerante di concerti ed eventi artistici:</strong> arriviamo da voi con concerti di musica classica e performance alternative, educazione culturale, eventi armonizzanti di consapevolezza e feste organizzate dalla A alla Z — in scuole, centri culturali, dimore storiche, aziende e presso privati in tutta la Lituania.",
     "ctaPrimary": "Prenota un'esibizione",
     "ctaSecondary": "Vedi i programmi",
     "facts": [
@@ -700,6 +700,7 @@
   },
 
   "footer": {
+    "tour": "Istituzione itinerante di concerti ed eventi artistici · Vilnius – tutta la Lituania",
     "photoCreditLabel": "Crediti fotografici",
     "photoCreditClose": "Chiudi",
     "photoCredit": "Foto: Inga Juodytė, Dmitrijus Matvejevas, Laurynas Meškutavičius, Gintaras Jonaitis (GYWAI), Asta Sabonytė, Saulius Jankauskas, Tomas Lebedevas, Robertas Dačkus",
