@@ -721,13 +721,14 @@ def upcoming(lang, c):
         cards.append("""<article class="ev-up">
         <div class="ev-day"><b>%(day)s</b><span>%(mon)s</span></div>
         <div class="ev-tx">
-          <h3>%(title)s</h3>
+          <h3>%(title)s</h3>%(motto)s
           <p class="ev-meta">%(when)s%(place)s</p>
           <p>%(desc)s</p>
           %(act)s
         </div>
       </article>""" % {"day": d.day, "mon": e["months"][d.month - 1], "title": i["title"][lang],
                        "when": ev_date(e, i), "place": (" · " + place) if place else "",
+                       "motto": ('\n          <p class="ev-motto">%s</p>' % i["motto"]) if i.get("motto") else "",
                        "desc": i["desc"][lang], "act": act})
     return """
 <!-- ---------- ARTĖJANTYS RENGINIAI ---------- -->
