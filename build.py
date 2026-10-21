@@ -1118,7 +1118,7 @@ def jsonld(lang, c):
                 "worksFor": {"@type": "Organization", "name": "FeelHarmonic",
                              "legalName": "VšĮ „FeelHarmonic“",
                              "description": c["footer"]["tour"].split(" · ")[0],
-                             "areaServed": "LT", "taxID": "308167659",
+                             "areaServed": ["Lithuania", "Europe"], "taxID": "308167659",
                              "address": {"@type": "PostalAddress", "addressLocality": "Vilnius", "addressCountry": "LT"},
                              "slogan": "Let it come!", "url": SITE + "/",
                              "sameAs": [FACEBOOK]},

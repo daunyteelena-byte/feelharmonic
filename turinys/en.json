@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "FeelHarmonic — a touring concert and arts events organisation | Elena Daunytė",
-    "description": "FeelHarmonic is a touring concert and arts events organisation: concerts and performance art, workshops and music education, harmonising mindfulness events and full event production — we come to schools, cultural centres, manor houses, companies and private clients across Lithuania.",
-    "ogDescription": "A touring concert and arts events organisation: concerts, performance art, education, harmonising events and full event production across Lithuania."
+    "description": "FeelHarmonic is a touring concert and arts events organisation: concerts and performance art, workshops and music education, harmonising mindfulness events and full event production — we come to schools, cultural centres, manor houses, companies and private clients in Lithuania and abroad.",
+    "ogDescription": "A touring concert and arts events organisation: concerts, performance art, education, harmonising events and full event production in Lithuania and abroad."
   },
 
   "skip": "Skip to content",
@@ -41,7 +41,7 @@
     "roles": "Elena Daunytė — founder & director of FeelHarmonic",
     "h1": "Through music — to <em>a new you</em>!",
     "kicker": "Towards conscious change in the presence of music and the arts",
-    "sub": "<strong>FeelHarmonic — a touring concert and arts events organisation:</strong> we come to you with classical music concerts and alternative performances, cultural education, harmonising mindfulness events and celebrations produced from A to Z — at schools, cultural centres, manor houses, companies and private clients across Lithuania.",
+    "sub": "<strong>FeelHarmonic — a touring concert and arts events organisation:</strong> we come to you with classical music concerts and alternative performances, cultural education, harmonising mindfulness events and celebrations produced from A to Z — at schools, cultural centres, manor houses, companies and private clients in Lithuania and abroad.",
     "ctaPrimary": "Book a performance",
     "ctaSecondary": "See the programmes",
     "facts": [
@@ -717,7 +717,7 @@
   },
 
   "footer": {
-    "tour": "A touring concert and arts events organisation · Vilnius – all of Lithuania",
+    "tour": "A touring concert and arts events organisation",
     "photoCreditLabel": "Photo credits",
     "photoCreditClose": "Collapse",
     "photoCredit": "Photos: Inga Juodytė, Dmitrijus Matvejevas, Laurynas Meškutavičius, Gintaras Jonaitis (GYWAI), Asta Sabonytė, Saulius Jankauskas, Tomas Lebedevas, Robertas Dačkus",
@@ -741,7 +741,7 @@
       "Founder & Director Elena Daunytė",
       "VšĮ “FeelHarmonic” (public institution)",
       "Company code 308167659",
-      "Account LT39 7189 9000 1170 0974 (AB Artea bankas)"
+      "IBAN LT39 7189 9000 1170 0974 (AB Artea bankas)"
     ],
     "city": "Vilnius, Lithuania"
   },
