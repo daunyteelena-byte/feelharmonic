@@ -496,7 +496,9 @@
       { "img": "galerija-35.jpg", "alt": "Concerto di tre sorelle in una sala spaziosa con un folto pubblico", "cap": "Concerto in una sala spaziosa" },
       { "img": "galerija-37.jpg", "alt": "Una violinista e un’arpa in un concerto educativo per bambini", "cap": "Concerto educativo" },
       { "img": "galerija-38.jpg", "alt": "Bambini con strumenti musicali durante un laboratorio in una sala di una dimora", "cap": "Bambini che fanno musica" },
-      { "img": "galerija-39.jpg", "alt": "Una cantante in abito rosso e un’arpista in un laboratorio per bambini", "cap": "Laboratorio per bambini" }
+      { "img": "galerija-39.jpg", "alt": "Una cantante in abito rosso e un’arpista in un laboratorio per bambini", "cap": "Laboratorio per bambini" },
+      { "img": "galerija-41.jpg", "alt": "Elena Daunytė violoncello solista al Festival di Vilnius, con una violinista e la direttrice", "cap": "Festival di Vilnius" },
+      { "img": "galerija-42.jpg", "alt": "Elena Daunytė suona il violoncello — foto in bianco e nero", "cap": "Un momento in bianco e nero", "pos": "50% 30%" }
     ]
   },
 
@@ -608,6 +610,8 @@
   },
 
   "photos": {
+    "galerija-41.jpg": {"event": "Festival di Vilnius · «Angels of Sorrow»", "place": "", "date": "", "by": ""},
+    "galerija-42.jpg": {"event": "", "place": "", "date": "", "by": "Gabrielius Jauniškis"},
     "galerija-35.jpg": {"event": "", "place": "", "date": "", "by": ""},
     "galerija-36.jpg": {"event": "", "place": "", "date": "", "by": ""},
     "galerija-37.jpg": {"event": "", "place": "", "date": "", "by": ""},
