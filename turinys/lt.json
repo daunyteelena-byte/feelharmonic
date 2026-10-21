@@ -1,8 +1,8 @@
 {
   "meta": {
-    "title": "FeelHarmonic — keliaujanti koncertų ir meninių renginių įstaiga | Elena Daunytė",
-    "description": "FeelHarmonic — keliaujanti koncertų ir meninių renginių įstaiga: koncertai ir performansai, edukacijos, harmonizuojantys sąmoningumo renginiai ir šventės nuo A iki Z — atvykstame į mokyklas, kultūros centrus, dvarus, įmones ir pas privačius užsakovus Lietuvoje ir užsienyje.",
-    "ogDescription": "Keliaujanti koncertų ir meninių renginių įstaiga: koncertai, performansai, edukacijos, harmonizuojantys renginiai ir šventės nuo A iki Z Lietuvoje ir užsienyje."
+    "title": "FeelHarmonic — keliaujanti koncertų bei meninių renginių įstaiga | Elena Daunytė",
+    "description": "FeelHarmonic — keliaujanti koncertų bei meninių renginių įstaiga: koncertai ir performansai, edukacijos, harmonizuojantys sąmoningumo renginiai ir šventės nuo A iki Z — atvykstame į mokyklas, kultūros centrus, dvarus, įmones ir pas privačius užsakovus Lietuvoje ir užsienyje.",
+    "ogDescription": "Keliaujanti koncertų bei meninių renginių įstaiga: koncertai, performansai, edukacijos, harmonizuojantys renginiai ir šventės nuo A iki Z Lietuvoje ir užsienyje."
   },
 
   "skip": "Pereiti prie turinio",
@@ -41,7 +41,7 @@
     "roles": "Elena Daunytė — FeelHarmonic įkūrėja ir vadovė",
     "h1": "Per muziką — į <em>naująjį save</em>!",
     "kicker": "Į sąmoningą pokytį muzikos bei menų akivaizdoje",
-    "sub": "<strong>FeelHarmonic — keliaujanti koncertų ir meninių renginių įstaiga:</strong> atvykstame su klasikinės muzikos koncertais ir alternatyviais performansais, kultūrinėmis edukacijomis, harmonizuojančiais sąmoningumo renginiais ir šventėmis nuo A iki Z — į mokyklas, kultūros centrus, dvarus, įmones ir pas privačius užsakovus Lietuvoje ir užsienyje.",
+    "sub": "<strong>FeelHarmonic — keliaujanti koncertų bei meninių renginių įstaiga:</strong> atvykstame su klasikinės muzikos koncertais ir alternatyviais performansais, kultūrinėmis edukacijomis, harmonizuojančiais sąmoningumo renginiais ir šventėmis nuo A iki Z — į mokyklas, kultūros centrus, dvarus, įmones ir pas privačius užsakovus Lietuvoje ir užsienyje.",
     "ctaPrimary": "Užsakyti pasirodymą",
     "ctaSecondary": "Peržiūrėti programas",
     "facts": [
@@ -717,7 +717,7 @@
   },
 
   "footer": {
-    "tour": "Keliaujanti koncertų ir meninių renginių įstaiga · Lietuvoje ir užsienyje",
+    "tour": "Keliaujanti koncertų bei meninių renginių įstaiga · Lietuvoje ir užsienyje",
     "photoCreditLabel": "Nuotraukų autoriai",
     "photoCreditClose": "Suskleisti",
     "photoCredit": "Nuotraukos: Inga Juodytė, Dmitrijus Matvejevas, Laurynas Meškutavičius, Gintaras Jonaitis (GYWAI), Asta Sabonytė, Saulius Jankauskas, Tomas Lebedevas, Robertas Dačkus",
