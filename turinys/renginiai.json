@@ -52,6 +52,12 @@
       "desc": {"lt": "Naujametis koncertas, kuriame publika ne tik klausėsi, bet ir dalyvavo.", "en": "A New Year’s Eve concert where the audience did not just listen but took part.", "it": "Un concerto di Capodanno in cui il pubblico non solo ascoltava, ma partecipava."}
     },
     {
+      "date": "2023-08-29", "img": "renginys-marcinkonys-2023.jpg",
+      "title": {"lt": "Poezija, muzika ir dainos pušyne", "en": "Poetry, music and songs among the pines", "it": "Poesia, musica e canzoni tra i pini"},
+      "place": {"lt": "Marcinkonys, Dzūkijos nacionalinis parkas", "en": "Marcinkonys, Dzūkija National Park", "it": "Marcinkonys, Parco nazionale della Dzūkija"},
+      "desc": {"lt": "Elenos Daunytės poezija, muzika ir dainos – žodžio, violončelės ir pušų ošimo sintezė, dedikuota Gamtai. Mažoji kultūros sostinė Marcinkonys.", "en": "Elena Daunytė’s poetry, music and songs – a synthesis of words, cello and the rustle of pines, dedicated to Nature. Marcinkonys, Little Capital of Culture.", "it": "Poesia, musica e canzoni di Elena Daunytė – una sintesi di parola, violoncello e fruscio dei pini, dedicata alla Natura. Marcinkonys, Piccola capitale della cultura."}
+    },
+    {
       "date": "2022-05-07", "img": "elena.jpg",
       "title": {"lt": "Solistė su Lietuvos kameriniu orkestru", "en": "Soloist with the Lithuanian Chamber Orchestra", "it": "Solista con l’Orchestra da camera lituana"},
       "place": {"lt": "Lietuvos nacionalinė filharmonija", "en": "Lithuanian National Philharmonic", "it": "Filarmonica nazionale lituana"},
