@@ -449,7 +449,7 @@
     "alt": "Atvira studijos erdvė"
   },
 
-  "events": {"upEyebrow": "Artėjantys renginiai", "upH2": "Kviečiame susitikti gyvai", "pastEyebrow": "Įvykę renginiai", "pastH2": "Kur jau skambėjome", "pastLede": "Koncertai, pristatymai ir performansai — naujausi viršuje.", "moreLabel": "Rodyti visus renginius", "lessLabel": "Rodyti mažiau", "video": "Žiūrėti įrašą", "link": "Registruotis", "ask": "Klausti apie renginį", "at": "", "months": ["sausio", "vasario", "kovo", "balandžio", "gegužės", "birželio", "liepos", "rugpjūčio", "rugsėjo", "spalio", "lapkričio", "gruodžio"], "dateFmt": "{y} m. {m} {d} d."},
+  "events": {"upEyebrow": "Artėjantys renginiai", "upH2": "Kviečiame susitikti gyvai", "pastEyebrow": "Įvykę renginiai", "pastH2": "Kur jau skambėjome", "pastLede": "Koncertai, pristatymai ir performansai — naujausi viršuje.", "moreLabel": "Rodyti visus renginius", "lessLabel": "Rodyti mažiau", "video": "Žiūrėti įrašą", "link": "Registruotis", "ask": "Klausti apie renginį", "at": "", "months": ["sausio", "vasario", "kovo", "balandžio", "gegužės", "birželio", "liepos", "rugpjūčio", "rugsėjo", "spalio", "lapkričio", "gruodžio"], "morePhotos": "Daugiau nuotraukų", "dateFmt": "{y} m. {m} {d} d."},
 
   "gallery": {
     "lightbox": {"close": "Uždaryti", "prev": "Ankstesnė nuotrauka", "next": "Kita nuotrauka", "by": "Nuotr."},

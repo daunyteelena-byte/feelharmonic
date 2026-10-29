@@ -449,7 +449,7 @@
     "alt": "Spazio aperto dello studio"
   },
 
-  "events": {"upEyebrow": "Prossimi eventi", "upH2": "Vi aspettiamo dal vivo", "pastEyebrow": "Eventi passati", "pastH2": "Dove abbiamo suonato", "pastLede": "Concerti, presentazioni e performance — i più recenti in alto.", "moreLabel": "Mostra tutti gli eventi", "lessLabel": "Mostra meno", "video": "Guarda la registrazione", "link": "Iscriviti", "ask": "Chiedi informazioni", "at": "ore ", "months": ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"], "dateFmt": "{d} {m} {y}"},
+  "events": {"upEyebrow": "Prossimi eventi", "upH2": "Vi aspettiamo dal vivo", "pastEyebrow": "Eventi passati", "pastH2": "Dove abbiamo suonato", "pastLede": "Concerti, presentazioni e performance — i più recenti in alto.", "moreLabel": "Mostra tutti gli eventi", "lessLabel": "Mostra meno", "video": "Guarda la registrazione", "link": "Iscriviti", "ask": "Chiedi informazioni", "at": "ore ", "months": ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"], "morePhotos": "Altre foto", "dateFmt": "{d} {m} {y}"},
 
   "gallery": {
     "lightbox": {"close": "Chiudi", "prev": "Foto precedente", "next": "Foto successiva", "by": "Foto:"},

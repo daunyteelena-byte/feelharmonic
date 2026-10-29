@@ -793,6 +793,8 @@ footer .fb-round:hover{border-color:var(--gold);background:rgba(206,142,52,.12)}
 .ev-tx .btn{margin-top:14px}
 .ev-meta{font-size:13px;letter-spacing:.06em;color:var(--gold-ink)!important;margin:0 0 8px}
 .ev-past .tx h3{font-size:21px}
+/* renginys su daugiau nuotrauku: pabraukta nuoroda (kaip .more) po aprasymu */
+.card button.ev-more{align-self:flex-start;margin:16px 0 0;padding:0 0 2px;background:none;border-top:0;border-left:0;border-right:0;cursor:pointer;font-family:inherit;text-align:left}
 @media(max-width:560px){
   .ev-up{grid-template-columns:1fr;gap:12px;padding:18px}
   .ev-day{display:flex;align-items:baseline;gap:10px;border-right:0;border-bottom:1px solid var(--gold-line);padding:0 0 10px;text-align:left}

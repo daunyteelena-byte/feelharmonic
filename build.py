@@ -761,14 +761,23 @@ def past_events(lang, c):
         place = i["place"][lang]
         video = ('\n          <a class="more" href="https://www.youtube.com/watch?v=%s" target="_blank" rel="noopener">%s</a>'
                  % (attr(i["youtube"]), e["video"])) if i.get("youtube") else ""
+        fig = photo(BASE[lang], i["img"], i["title"][lang])
+        if i.get("photos"):
+            # daugiau renginio nuotrauku: paspaudus korteles nuotrauka ar nuoroda jas galima vartyti
+            urls = "|".join("%sassets/img/%s" % (BASE[lang], p) for p in i["photos"])
+            fig = fig.replace(" data-lb ", ' data-lb-set="%s" data-lb ' % attr(urls), 1)
+            more_btn = ('\n          <button class="more ev-more" type="button" data-lb-open>%s (%d)</button>'
+                        % (e["morePhotos"], len(i["photos"])))
+        else:
+            more_btn = ""
         cards.append("""<article class="card ev-past">
         %(fig)s
         <div class="tx">
           <p class="ev-meta">%(when)s%(place)s</p>
           <h3>%(title)s</h3>
-          <p>%(desc)s</p>%(video)s
+          <p>%(desc)s</p>%(video)s%(more)s
         </div>
-      </article>""" % {"fig": photo(BASE[lang], i["img"], i["title"][lang]), "when": ev_date(e, i),
+      </article>""" % {"fig": fig, "more": more_btn, "when": ev_date(e, i),
                        "place": (" · " + place) if place else "", "title": i["title"][lang],
                        "desc": i["desc"][lang], "video": video})
     return """

@@ -218,11 +218,12 @@ var CONFIG = {
   var figOf = function (im) { return im.closest("figure, .portrait, .about-photo") || im.parentNode; };
   var all = Array.prototype.filter.call(document.querySelectorAll("img[data-lb]"), function (im) {
     // galerijos nuotraukos įtraukiamos ir tada, kai galerija suskleista
-    return figOf(im).offsetParent !== null || im.closest(".gallery");
+    return figOf(im).offsetParent !== null || im.closest(".gallery") || im.closest("#archyvas");
   });
   if (all.length) {
     var lb = null, set = [], cur = 0, lastFocus = null;
     var titleOf = function (im) {
+      if (!im.isConnected) return im.alt; // renginio papildoma nuotrauka
       var cap = figOf(im).querySelector("figcaption");
       if (cap && figOf(im).classList.contains("shot")) return cap.textContent.trim();
       if (cap && figOf(im).classList.contains("svc-banner")) return cap.textContent.trim();
@@ -260,10 +261,21 @@ var CONFIG = {
     var go = function (d) { if (set.length < 2) return; cur = (cur + d + set.length) % set.length; render(); };
     var open = function (im) {
       var g = im.closest(".gallery");
-      set = g ? all.filter(function (x) {
-        return x.closest(".gallery") === g && x.complete && x.naturalWidth > 0 && x.isConnected;
-      }) : [im];
-      cur = set.indexOf(im); lastFocus = document.activeElement;
+      if (im.dataset.lbSet) {
+        // renginys su daugiau nuotrauku: kraunamos tik atsidarius perziura
+        set = im.dataset.lbSet.split("|").map(function (u) {
+          var x = new Image(); x.src = u; x.alt = im.alt;
+          x.setAttribute("data-lb-meta", im.getAttribute("data-lb-meta") || "");
+          x.addEventListener("load", function () { if (lb && set[cur] === x) render(); });
+          return x;
+        });
+        cur = 0; lastFocus = document.activeElement;
+      } else {
+        set = g ? all.filter(function (x) {
+          return x.closest(".gallery") === g && x.complete && x.naturalWidth > 0 && x.isConnected;
+        }) : [im];
+        cur = set.indexOf(im); lastFocus = document.activeElement;
+      }
       lb = document.createElement("div");
       lb.className = "lightbox";
       lb.setAttribute("role", "dialog");
@@ -295,6 +307,13 @@ var CONFIG = {
       f.addEventListener("click", function () { if (ready()) open(im); });
       f.addEventListener("keydown", function (e) {
         if ((e.key === "Enter" || e.key === " ") && ready()) { e.preventDefault(); open(im); }
+      });
+    });
+    // renginio kortelės mygtukas „Daugiau nuotraukų“ atveria tą pačią peržiūrą
+    Array.prototype.forEach.call(document.querySelectorAll("[data-lb-open]"), function (b) {
+      b.addEventListener("click", function () {
+        var im = b.closest(".card").querySelector("img[data-lb-set]");
+        if (im) open(im);
       });
     });
     document.addEventListener("keydown", function (e) {

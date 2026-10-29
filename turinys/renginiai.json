@@ -1,5 +1,5 @@
 {
-  "_kaip_pildyti": "Renginiai rodomi pagal datą: būsimi — skiltyje „Artėjantys renginiai“ (po pirmu ekranu), praėję automatiškai persikelia į „Įvykę renginiai“. Laukai: date (YYYY-MM-DD), time (neprivaloma), img (nuotrauka iš assets/img), youtube (neprivaloma, vaizdo įrašo ID), link (neprivaloma, registracija/bilietai), title / place / desc — lt, en, it.",
+  "_kaip_pildyti": "Renginiai rodomi pagal datą: būsimi — skiltyje „Artėjantys renginiai“ (po pirmu ekranu), praėję automatiškai persikelia į „Įvykę renginiai“. Laukai: date (YYYY-MM-DD), time (neprivaloma), img (nuotrauka iš assets/img), youtube (neprivaloma, vaizdo įrašo ID), link (neprivaloma, registracija/bilietai), photos (neprivaloma, daugiau renginio nuotraukų sąrašas iš assets/img — paspaudus kortelės nuotrauką jas galima vartyti), title / place / desc — lt, en, it.",
   "items": [
     {
       "date": "2026-12-05", "time": "16:00", "img": "paslauga-terapija.jpg", "link": "https://docs.google.com/forms/d/e/1FAIpQLSekMrQQLSZhiER8FZRTW8T10vxk3zy3NHXZMo21MDBY-iYDOQ/viewform",
@@ -53,6 +53,7 @@
     },
     {
       "date": "2023-08-29", "img": "renginys-marcinkonys-2023.jpg",
+      "photos": ["renginiai/marcinkonys-2023/01.jpg", "renginiai/marcinkonys-2023/02.jpg", "renginiai/marcinkonys-2023/03.jpg", "renginiai/marcinkonys-2023/04.jpg", "renginiai/marcinkonys-2023/05.jpg", "renginiai/marcinkonys-2023/06.jpg", "renginiai/marcinkonys-2023/07.jpg", "renginiai/marcinkonys-2023/08.jpg", "renginiai/marcinkonys-2023/09.jpg", "renginiai/marcinkonys-2023/10.jpg", "renginiai/marcinkonys-2023/11.jpg", "renginiai/marcinkonys-2023/12.jpg"],
       "title": {"lt": "Kūrybos dedikacija Gamtai", "en": "A creative dedication to Nature", "it": "Una dedica creativa alla Natura"},
       "place": {"lt": "Marcinkonys, Dzūkijos nacionalinis parkas", "en": "Marcinkonys, Dzūkija National Park", "it": "Marcinkonys, Parco nazionale della Dzūkija"},
       "desc": {"lt": "Elenos Daunytės poezija, muzika ir dainos – žodžio, violončelės ir pušų ošimo sintezė, dedikuota Gamtai. Mažoji kultūros sostinė Marcinkonys.", "en": "Elena Daunytė’s poetry, music and songs – a synthesis of words, cello and the rustle of pines, dedicated to Nature. Marcinkonys, Little Capital of Culture.", "it": "Poesia, musica e canzoni di Elena Daunytė – una sintesi di parola, violoncello e fruscio dei pini, dedicata alla Natura. Marcinkonys, Piccola capitale della cultura."}
