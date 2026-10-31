@@ -1,8 +1,8 @@
 {
-  "_kaip_pildyti": "Renginiai rodomi pagal datą: būsimi — skiltyje „Artėjantys renginiai“ (po pirmu ekranu), praėję automatiškai persikelia į „Įvykę renginiai“. Laukai: date (YYYY-MM-DD), time (neprivaloma), img (nuotrauka iš assets/img), youtube (neprivaloma, vaizdo įrašo ID), link (neprivaloma, registracija/bilietai), photos (neprivaloma, daugiau renginio nuotraukų sąrašas iš assets/img — paspaudus kortelės nuotrauką jas galima vartyti), title / place / desc — lt, en, it.",
+  "_kaip_pildyti": "Renginiai rodomi pagal datą: būsimi — skiltyje „Artėjantys renginiai“ (po pirmu ekranu), praėję automatiškai persikelia į „Įvykę renginiai“. Laukai: date (YYYY-MM-DD), time (neprivaloma), img (nuotrauka iš assets/img), youtube (neprivaloma, vaizdo įrašo ID), link (neprivaloma, registracija/bilietai), free (neprivaloma, true — nemokamas įėjimas, rodoma Google paieškai), photos (neprivaloma, daugiau renginio nuotraukų sąrašas iš assets/img — paspaudus kortelės nuotrauką jas galima vartyti), title / place / desc — lt, en, it.",
   "items": [
     {
-      "date": "2026-12-05", "time": "16:00", "img": "paslauga-terapija.jpg", "link": "https://docs.google.com/forms/d/e/1FAIpQLSekMrQQLSZhiER8FZRTW8T10vxk3zy3NHXZMo21MDBY-iYDOQ/viewform",
+      "date": "2026-12-05", "time": "16:00", "free": true, "img": "paslauga-terapija.jpg", "link": "https://docs.google.com/forms/d/e/1FAIpQLSekMrQQLSZhiER8FZRTW8T10vxk3zy3NHXZMo21MDBY-iYDOQ/viewform",
       "title": {"lt": "„33 įkvėpimai“ — poezijos ir muzikos sinergija", "en": "“33 įkvėpimai” — a synergy of poetry and music", "it": "«33 įkvėpimai» — sinergia di poesia e musica"},
       "motto": "A harmonic creation of the moment, in motion",
       "extra": {"url": "https://www.lrytas.lt/kultura/scena/2018/03/31/news/elena-daunyte-jei-buciau-turejusi-teti-nezinia-ar-muzika-ar-literatura-butu-likusi-fone--5551622", "label": {"lt": "Skaityti interviu su Elena", "en": "Read an interview with Elena (in Lithuanian)", "it": "Leggi un’intervista con Elena (in lituano)"}},

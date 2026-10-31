@@ -1120,6 +1120,46 @@ def footer(lang, c):
        "fb": FACEBOOK, "tour": f["tour"], "fbaria": attr(f["facebookAria"]), "fbicon": FB_ICON}
 
 
+def events_ld(lang):
+    """Artėjantys renginiai Google paieškai (schema.org Event): data, vieta, registracija."""
+    from zoneinfo import ZoneInfo
+    out = []
+    for i in load_events()[0]:
+        start = datetime.datetime.fromisoformat("%sT%s" % (i["date"], i.get("time", "00:00")))
+        # vieta "Pavadinimas, gatvė, miestas" -> schema.org Place
+        parts = [p.strip() for p in i["place"][lang].split(",")]
+        place = {"@type": "Place", "name": parts[0],
+                 "address": {"@type": "PostalAddress", "addressCountry": "LT"}}
+        if len(parts) > 2:
+            place["address"]["streetAddress"] = ", ".join(parts[1:-1])
+        if len(parts) > 1:
+            place["address"]["addressLocality"] = parts[-1]
+        ev = {
+            "@type": "Event",
+            "name": i["title"][lang],
+            "description": i["desc"][lang],
+            "inLanguage": lang,
+            "image": SITE + "/assets/img/" + i["img"],
+            "url": SITE + HREF[lang] + "#renginiai",
+            "eventStatus": "https://schema.org/EventScheduled",
+            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+            "location": place,
+            "performer": {"@type": "Person", "name": "Elena Daunytė"},
+            "organizer": {"@type": "Organization", "name": "FeelHarmonic", "url": SITE + "/"},
+        }
+        if i.get("time"):
+            ev["startDate"] = start.replace(tzinfo=ZoneInfo("Europe/Vilnius")).isoformat()
+        else:
+            ev["startDate"] = i["date"]
+        if i.get("link"):
+            # registracija / bilietai; "free": true -> nemokamas įėjimas
+            ev["offers"] = {"@type": "Offer", "availability": "https://schema.org/InStock", "url": i["link"]}
+            if i.get("free"):
+                ev["offers"].update(price="0", priceCurrency="EUR")
+        out.append(ev)
+    return out
+
+
 def jsonld(lang, c):
     data = {
         "@context": "https://schema.org",
@@ -1150,7 +1190,7 @@ def jsonld(lang, c):
                     for q in c["schema"]["faq"]
                 ],
             },
-        ],
+        ] + events_ld(lang),
     }
     return ('\n<script type="application/ld+json">\n%s\n</script>\n'
             % json.dumps(data, ensure_ascii=False, indent=2))
