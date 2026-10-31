@@ -23,6 +23,7 @@
     },
     {
       "date": "2024-09-07", "img": "galerija-22.jpg",
+      "photos": ["galerija-22.jpg", "galerija-32.jpg", "galerija-33.jpg", "galerija-34.jpg", "galerija-16.jpg", "galerija-17.jpg", "galerija-18.jpg", "galerija-19.jpg", "galerija-21.jpg", "galerija-23.jpg", "galerija-24.jpg", "renginiai/tekmeje-2024/01.jpg", "renginiai/tekmeje-2024/02.jpg", "renginiai/tekmeje-2024/03.jpg", "renginiai/tekmeje-2024/04.jpg", "renginiai/tekmeje-2024/05.jpg", "renginiai/tekmeje-2024/06.jpg", "renginiai/tekmeje-2024/07.jpg", "renginiai/tekmeje-2024/08.jpg", "renginiai/tekmeje-2024/09.jpg", "renginiai/tekmeje-2024/10.jpg", "renginiai/tekmeje-2024/11.jpg", "renginiai/tekmeje-2024/12.jpg"],
       "title": {"lt": "Koncertas „Tėkmėje“", "en": "Concert “Tėkmėje”", "it": "Concerto «Tėkmėje»"},
       "place": {"lt": "Scena ant Kauno marių, Rumšiškės", "en": "Stage on the Kaunas Lagoon, Rumšiškės", "it": "Palco sulla laguna di Kaunas, Rumšiškės"},
       "desc": {"lt": "Seserų ansamblis „Regnum Musicale“ vakaro koncerte ant vandens.", "en": "The sisters’ ensemble Regnum Musicale in an evening concert on the water.", "it": "L’ensemble di sorelle Regnum Musicale in un concerto serale sull’acqua."}
@@ -35,18 +36,21 @@
     },
     {
       "date": "2024-04-07", "img": "galerija-31.jpg",
+      "photos": ["galerija-31.jpg", "galerija-25.jpg", "renginiai/amazoniskai-2024/01.jpg", "renginiai/amazoniskai-2024/02.jpg", "renginiai/amazoniskai-2024/03.jpg"],
       "title": {"lt": "Koncertas-performansas „Amazoniškai“", "en": "Concert-performance “Amazoniškai”", "it": "Concerto-performance «Amazoniškai»"},
       "place": {"lt": "Vilniaus rotušė", "en": "Vilnius Town Hall", "it": "Municipio di Vilnius"},
       "desc": {"lt": "Kuria sesės Joana (arfa), Kotryna Ugnė (smuikas) ir Elena (violončelė, vokalas, poezija).", "en": "Created by the sisters Joana (harp), Kotryna Ugnė (violin) and Elena (cello, voice, poetry).", "it": "Creato dalle sorelle Joana (arpa), Kotryna Ugnė (violino) ed Elena (violoncello, voce, poesia)."}
     },
     {
       "date": "2024-02-16", "img": "galerija-13.jpg",
+      "photos": ["galerija-13.jpg", "galerija-14.jpg", "galerija-15.jpg"],
       "title": {"lt": "Vasario 16-osios koncertas", "en": "16 February concert", "it": "Concerto del 16 febbraio"},
       "place": {"lt": "Lietuvos nacionalinė filharmonija", "en": "Lithuanian National Philharmonic", "it": "Filarmonica nazionale lituana"},
       "desc": {"lt": "Duetas „SisDuo“ su Lietuvos nacionaliniu simfoniniu orkestru — specialiai joms sukurto Jono Jurkūno kūrinio „Apie būtį“ premjera.", "en": "The duo SisDuo with the Lithuanian National Symphony Orchestra — premiere of Jonas Jurkūnas’ “Apie būtį”, written for them.", "it": "Il duo SisDuo con l’Orchestra sinfonica nazionale lituana — prima di «Apie būtį» di Jonas Jurkūnas, scritto per loro."}
     },
     {
       "date": "2023-12-31", "img": "paslauga-interaktyvu.jpg",
+      "photos": ["paslauga-interaktyvu.jpg", "paslauga-koncertai.jpg", "paslauga-renginiai.jpg", "galerija-11.jpg", "galerija-12.jpg", "galerija-2.jpg", "galerija-4.jpg", "galerija-7.jpg", "galerija-9.jpg", "renginiai/kernave-2023/01.jpg", "renginiai/kernave-2023/02.jpg", "renginiai/kernave-2023/03.jpg", "renginiai/kernave-2023/04.jpg", "renginiai/kernave-2023/05.jpg", "renginiai/kernave-2023/06.jpg", "renginiai/kernave-2023/07.jpg", "renginiai/kernave-2023/08.jpg", "renginiai/kernave-2023/09.jpg", "renginiai/kernave-2023/10.jpg", "renginiai/kernave-2023/11.jpg", "renginiai/kernave-2023/12.jpg", "renginiai/kernave-2023/13.jpg"],
       "title": {"lt": "Interaktyvus koncertas „Pilnaties pilnatvinė kelionė“", "en": "Interactive concert “Pilnaties pilnatvinė kelionė”", "it": "Concerto interattivo «Pilnaties pilnatvinė kelionė»"},
       "place": {"lt": "Kernavės kultūros centras", "en": "Kernavė Cultural Centre", "it": "Centro culturale di Kernavė"},
       "desc": {"lt": "Naujametis koncertas, kuriame publika ne tik klausėsi, bet ir dalyvavo.", "en": "A New Year’s Eve concert where the audience did not just listen but took part.", "it": "Un concerto di Capodanno in cui il pubblico non solo ascoltava, ma partecipava."}
@@ -67,6 +71,7 @@
     },
     {
       "date": "2022-05-07", "img": "elena.jpg",
+      "photos": ["elena.jpg", "renginiai/filharmonija-2022/01.jpg", "renginiai/filharmonija-2022/02.jpg", "renginiai/filharmonija-2022/03.jpg", "renginiai/filharmonija-2022/04.jpg", "renginiai/filharmonija-2022/05.jpg", "renginiai/filharmonija-2022/06.jpg"],
       "title": {"lt": "Solistė su Lietuvos kameriniu orkestru", "en": "Soloist with the Lithuanian Chamber Orchestra", "it": "Solista con l’Orchestra da camera lituana"},
       "place": {"lt": "Lietuvos nacionalinė filharmonija", "en": "Lithuanian National Philharmonic", "it": "Filarmonica nazionale lituana"},
       "desc": {"lt": "Dirigentas Andrzej Kosendiak (Lenkija).", "en": "Conductor Andrzej Kosendiak (Poland).", "it": "Direttore Andrzej Kosendiak (Polonia)."}

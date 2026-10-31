@@ -263,9 +263,10 @@ var CONFIG = {
       var g = im.closest(".gallery");
       if (im.dataset.lbSet) {
         // renginys su daugiau nuotrauku: kraunamos tik atsidarius perziura
-        set = im.dataset.lbSet.split("|").map(function (u) {
+        var metas = (im.dataset.lbSetMeta || "").split("|");
+        set = im.dataset.lbSet.split("|").map(function (u, k) {
           var x = new Image(); x.src = u; x.alt = im.alt;
-          x.setAttribute("data-lb-meta", im.getAttribute("data-lb-meta") || "");
+          x.setAttribute("data-lb-meta", metas[k] || im.getAttribute("data-lb-meta") || "");
           x.addEventListener("load", function () { if (lb && set[cur] === x) render(); });
           return x;
         });

@@ -121,16 +121,20 @@ PHOTOS = {}
 PHOTO_BY = ""
 
 
-def lbinfo(src):
-    """data-lb atributai: paspaudus nuotrauką rodoma renginys · vieta · fotografas · data."""
+def lbmeta(src):
+    """Nuotraukos aprašas: renginys · vieta · fotografas · data."""
     i = PHOTOS.get(src, {})
     # data — eilutės gale
     parts = [i.get("event"), i.get("place")]
     if i.get("by"):
         parts.append("%s %s" % (PHOTO_BY, i["by"]))
     parts.append(i.get("date"))
-    meta = " · ".join(x for x in parts if x)
-    return ' data-lb data-lb-meta="%s"' % attr(meta)
+    return " · ".join(x for x in parts if x)
+
+
+def lbinfo(src):
+    """data-lb atributai: paspaudus nuotrauką rodoma jos informacija."""
+    return ' data-lb data-lb-meta="%s"' % attr(lbmeta(src))
 
 
 def photo(base, src, alt, cls="shot", cap=None, pos=None):
@@ -765,7 +769,10 @@ def past_events(lang, c):
         if i.get("photos"):
             # daugiau renginio nuotrauku: paspaudus korteles nuotrauka ar nuoroda jas galima vartyti
             urls = "|".join("%sassets/img/%s" % (BASE[lang], p) for p in i["photos"])
-            fig = fig.replace(" data-lb ", ' data-lb-set="%s" data-lb ' % attr(urls), 1)
+            # kiekvienai nuotraukai savas aprasas, jei jis yra "photos", kitaip - virselio
+            metas = "|".join(lbmeta(p if p in PHOTOS else i["img"]) for p in i["photos"])
+            fig = fig.replace(" data-lb ", ' data-lb-set="%s" data-lb-set-meta="%s" data-lb '
+                              % (attr(urls), attr(metas)), 1)
             more_btn = ('\n          <button class="more ev-more" type="button" data-lb-open>%s (%d)</button>'
                         % (e["morePhotos"], len(i["photos"])))
         else:
