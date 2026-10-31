@@ -46,7 +46,7 @@
       "photos": ["galerija-13.jpg", "galerija-14.jpg", "galerija-15.jpg"],
       "title": {"lt": "Vasario 16-osios koncertas", "en": "16 February concert", "it": "Concerto del 16 febbraio"},
       "place": {"lt": "Lietuvos nacionalinė filharmonija", "en": "Lithuanian National Philharmonic", "it": "Filarmonica nazionale lituana"},
-      "desc": {"lt": "Duetas „SisDuo“ su Lietuvos nacionaliniu simfoniniu orkestru — specialiai joms sukurto Jono Jurkūno kūrinio „Apie būtį“ premjera.", "en": "The duo SisDuo with the Lithuanian National Symphony Orchestra — premiere of Jonas Jurkūnas’ “Apie būtį”, written for them.", "it": "Il duo SisDuo con l’Orchestra sinfonica nazionale lituana — prima di «Apie būtį» di Jonas Jurkūnas, scritto per loro."}
+      "desc": {"lt": "Duetas „SisDuo“ su Lietuvos nacionaliniu simfoniniu orkestru — specialiai joms sukurto Jono Jurkūno kūrinio „Apie būtį“ premjera. Organizatorius – Lietuvos nacionalinė filharmonija.", "en": "The duo SisDuo with the Lithuanian National Symphony Orchestra — premiere of Jonas Jurkūnas’ “Apie būtį”, written for them. Organiser: Lithuanian National Philharmonic Society.", "it": "Il duo SisDuo con l’Orchestra sinfonica nazionale lituana — prima di «Apie būtį» di Jonas Jurkūnas, scritto per loro. Organizzatore: Filarmonica nazionale lituana."}
     },
     {
       "date": "2023-12-31", "img": "paslauga-interaktyvu.jpg",
@@ -54,6 +54,13 @@
       "title": {"lt": "Interaktyvus koncertas „Pilnaties pilnatvinė kelionė“", "en": "Interactive concert “Pilnaties pilnatvinė kelionė”", "it": "Concerto interattivo «Pilnaties pilnatvinė kelionė»"},
       "place": {"lt": "Kernavės kultūros centras", "en": "Kernavė Cultural Centre", "it": "Centro culturale di Kernavė"},
       "desc": {"lt": "Naujametis koncertas, kuriame publika ne tik klausėsi, bet ir dalyvavo.", "en": "A New Year’s Eve concert where the audience did not just listen but took part.", "it": "Un concerto di Capodanno in cui il pubblico non solo ascoltava, ma partecipava."}
+    },
+    {
+      "date": "2023-11-11", "img": "renginys-filharmonija-2023.jpg", "youtube": "HVEwcbf8XV4",
+      "photos": ["renginys-filharmonija-2023.jpg", "renginiai/filharmonija-2023/01.jpg", "renginiai/filharmonija-2023/02.jpg", "renginiai/filharmonija-2023/03.jpg", "renginiai/filharmonija-2023/04.jpg"],
+      "title": {"lt": "„Prancūzų muzikos šedevrai III“", "en": "“Masterpieces of French Music III”", "it": "«Capolavori della musica francese III»"},
+      "place": {"lt": "Lietuvos nacionalinė filharmonija", "en": "Lithuanian National Philharmonic", "it": "Filarmonica nazionale lituana"},
+      "desc": {"lt": "Solistė Elena Daunytė su Lietuvos nacionaliniu simfoniniu orkestru, dirigentas Jonathan Berman (Didžioji Britanija) – C. Saint-Saënso Koncertas violončelei ir orkestrui Nr. 1, a-moll, op. 33. Organizatorius – Lietuvos nacionalinė filharmonija.", "en": "Soloist Elena Daunytė with the Lithuanian National Symphony Orchestra, conductor Jonathan Berman (UK) – C. Saint-Saëns, Cello Concerto No. 1 in A minor, Op. 33. Organiser: Lithuanian National Philharmonic Society.", "it": "Solista Elena Daunytė con l’Orchestra sinfonica nazionale lituana, direttore Jonathan Berman (Regno Unito) – C. Saint-Saëns, Concerto per violoncello n. 1 in la minore, op. 33. Organizzatore: Filarmonica nazionale lituana."}
     },
     {
       "date": "2023-08-29", "img": "renginys-marcinkonys-2023.jpg",
@@ -74,7 +81,7 @@
       "photos": ["elena.jpg", "renginiai/filharmonija-2022/01.jpg", "renginiai/filharmonija-2022/02.jpg", "renginiai/filharmonija-2022/03.jpg", "renginiai/filharmonija-2022/04.jpg", "renginiai/filharmonija-2022/05.jpg", "renginiai/filharmonija-2022/06.jpg"],
       "title": {"lt": "Solistė su Lietuvos kameriniu orkestru", "en": "Soloist with the Lithuanian Chamber Orchestra", "it": "Solista con l’Orchestra da camera lituana"},
       "place": {"lt": "Lietuvos nacionalinė filharmonija", "en": "Lithuanian National Philharmonic", "it": "Filarmonica nazionale lituana"},
-      "desc": {"lt": "Dirigentas Andrzej Kosendiak (Lenkija).", "en": "Conductor Andrzej Kosendiak (Poland).", "it": "Direttore Andrzej Kosendiak (Polonia)."}
+      "desc": {"lt": "Dirigentas Andrzej Kosendiak (Lenkija). Organizatorius – Lietuvos nacionalinė filharmonija.", "en": "Conductor Andrzej Kosendiak (Poland). Organiser: Lithuanian National Philharmonic Society.", "it": "Direttore Andrzej Kosendiak (Polonia). Organizzatore: Filarmonica nazionale lituana."}
     }
   ]
 }
