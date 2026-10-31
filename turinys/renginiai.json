@@ -11,6 +11,7 @@
     },
     {
       "date": "2026-03-08", "img": "paslauga-terapija.jpg",
+      "photos": ["paslauga-terapija.jpg", "renginiai/knygos-pristatymas-2026/01.jpg", "renginiai/knygos-pristatymas-2026/02.jpg", "renginiai/knygos-pristatymas-2026/03.jpg", "renginiai/knygos-pristatymas-2026/04.jpg", "renginiai/knygos-pristatymas-2026/05.jpg", "renginiai/knygos-pristatymas-2026/06.jpg", "renginiai/knygos-pristatymas-2026/07.jpg", "renginiai/knygos-pristatymas-2026/08.jpg", "renginiai/knygos-pristatymas-2026/09.jpg", "renginiai/knygos-pristatymas-2026/10.jpg", "renginiai/knygos-pristatymas-2026/11.jpg"],
       "title": {"lt": "Poezijos knygos „33 įkvėpimai“ pristatymas", "en": "Launch of the poetry book “33 įkvėpimai”", "it": "Presentazione del libro di poesie «33 įkvėpimai»"},
       "place": {"lt": "„Green Hall 2“, baltoji salė, Vilnius", "en": "Green Hall 2, White Hall, Vilnius", "it": "Green Hall 2, Sala Bianca, Vilnius"},
       "desc": {"lt": "Knygos pristatymas Elenos gimtadienio dieną — eilės, violončelė ir balsas.", "en": "The book launch on Elena’s birthday — poems, cello and voice.", "it": "La presentazione del libro nel giorno del compleanno di Elena — poesie, violoncello e voce."}
@@ -43,7 +44,7 @@
     },
     {
       "date": "2024-02-16", "img": "galerija-13.jpg",
-      "photos": ["galerija-13.jpg", "galerija-14.jpg", "galerija-15.jpg"],
+      "photos": ["galerija-13.jpg", "galerija-14.jpg", "galerija-15.jpg", "renginiai/vasario16-2024/01.jpg", "renginiai/vasario16-2024/02.jpg", "renginiai/vasario16-2024/03.jpg", "renginiai/vasario16-2024/04.jpg", "renginiai/vasario16-2024/05.jpg", "renginiai/vasario16-2024/06.jpg", "renginiai/vasario16-2024/07.jpg", "renginiai/vasario16-2024/08.jpg", "renginiai/vasario16-2024/09.jpg", "renginiai/vasario16-2024/10.jpg"],
       "title": {"lt": "Vasario 16-osios koncertas", "en": "16 February concert", "it": "Concerto del 16 febbraio"},
       "place": {"lt": "Lietuvos nacionalinė filharmonija", "en": "Lithuanian National Philharmonic", "it": "Filarmonica nazionale lituana"},
       "desc": {"lt": "Duetas „SisDuo“ su Lietuvos nacionaliniu simfoniniu orkestru — specialiai joms sukurto Jono Jurkūno kūrinio „Apie būtį“ premjera. Organizatorius – Lietuvos nacionalinė filharmonija.", "en": "The duo SisDuo with the Lithuanian National Symphony Orchestra — premiere of Jonas Jurkūnas’ “Apie būtį”, written for them. Organiser: Lithuanian National Philharmonic Society.", "it": "Il duo SisDuo con l’Orchestra sinfonica nazionale lituana — prima di «Apie būtį» di Jonas Jurkūnas, scritto per loro. Organizzatore: Filarmonica nazionale lituana."}
