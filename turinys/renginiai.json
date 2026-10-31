@@ -77,7 +77,7 @@
       "desc": {"lt": "Pirmasis FeelHarmonic renginys: meditacinė eisena iki Katedros aikštės, pokalbis su sąmoningumo puoselėtoja Indre Asada ir sesių Joanos (arfa) bei Elenos (violončelė) Daunyčių koncertas su šokėja Aušra Krasauskaite.", "en": "The first FeelHarmonic event: a meditative walk to Cathedral Square, a talk with mindfulness teacher Indrė Asada and a concert by sisters Joana (harp) and Elena (cello) Daunytė with dancer Aušra Krasauskaitė.", "it": "Il primo evento di FeelHarmonic: una camminata meditativa fino a Piazza della Cattedrale, un dialogo con l’insegnante di consapevolezza Indrė Asada e un concerto delle sorelle Joana (arpa) ed Elena (violoncello) Daunytė con la danzatrice Aušra Krasauskaitė."}
     },
     {
-      "date": "2022-05-07", "img": "elena.jpg",
+      "date": "2022-05-07", "img": "elena.jpg", "youtube": "J5zQgMTAaGM",
       "photos": ["elena.jpg", "renginiai/filharmonija-2022/01.jpg", "renginiai/filharmonija-2022/02.jpg", "renginiai/filharmonija-2022/03.jpg", "renginiai/filharmonija-2022/04.jpg", "renginiai/filharmonija-2022/05.jpg", "renginiai/filharmonija-2022/06.jpg"],
       "title": {"lt": "Solistė su Lietuvos kameriniu orkestru", "en": "Soloist with the Lithuanian Chamber Orchestra", "it": "Solista con l’Orchestra da camera lituana"},
       "place": {"lt": "Lietuvos nacionalinė filharmonija", "en": "Lithuanian National Philharmonic", "it": "Filarmonica nazionale lituana"},
