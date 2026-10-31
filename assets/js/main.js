@@ -261,7 +261,7 @@ var CONFIG = {
     var go = function (d) { if (set.length < 2) return; cur = (cur + d + set.length) % set.length; render(); };
     var open = function (im) {
       var g = im.closest(".gallery");
-      if (im.dataset.lbSet) {
+      if (im.dataset.lbSet && !g) {
         // renginys su daugiau nuotrauku: kraunamos tik atsidarius perziura
         var metas = (im.dataset.lbSetMeta || "").split("|");
         set = im.dataset.lbSet.split("|").map(function (u, k) {
@@ -270,7 +270,7 @@ var CONFIG = {
           x.addEventListener("load", function () { if (lb && set[cur] === x) render(); });
           return x;
         });
-        cur = 0; lastFocus = document.activeElement;
+        cur = +im.dataset.lbStart || 0; lastFocus = document.activeElement;
       } else {
         set = g ? all.filter(function (x) {
           return x.closest(".gallery") === g && x.complete && x.naturalWidth > 0 && x.isConnected;
