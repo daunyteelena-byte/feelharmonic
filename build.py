@@ -132,6 +132,14 @@ def lbmeta(src):
     return " · ".join(x for x in parts if x)
 
 
+def lbset(lang, i):
+    """data-lb-set atributai renginio nuotraukų rinkiniui (turinys/renginiai.json -> "photos")."""
+    urls = "|".join("%sassets/img/%s" % (BASE[lang], p) for p in i["photos"])
+    # kiekvienai nuotraukai savas aprasas, jei jis yra "photos", kitaip - virselio
+    metas = "|".join(lbmeta(p if p in PHOTOS else i["img"]) for p in i["photos"])
+    return ' data-lb-set="%s" data-lb-set-meta="%s"' % (attr(urls), attr(metas))
+
+
 def lbinfo(src):
     """data-lb atributai: paspaudus nuotrauką rodoma jos informacija."""
     return ' data-lb data-lb-meta="%s"' % attr(lbmeta(src))
@@ -301,6 +309,10 @@ def services(lang, c):
       </article>""" % {"fig": photo(BASE[lang], it["img"], it["alt"]), "h3": it["h3"],
                        "tag": tag, "p": it["p"], "href": it["moreHref"], "more": it["more"]})
     # plati nuotrauka-juosta po įvadu (neprivaloma: "banner" su img, alt, cap)
+    def banner_lb(lang, img):
+        # jei ta pati nuotrauka yra įvykusio renginio viršelis su "photos" - paspaudus vartomas visas rinkinys
+        ev = next((i for i in load_events()[1] if i["img"] == img and i.get("photos")), None)
+        return (lbset(lang, ev) if ev else "") + lbinfo(img)
     banner = ""
     if s.get("banner"):
         bn = s["banner"]
@@ -309,7 +321,7 @@ def services(lang, c):
       <img src="%sassets/img/%s" alt="%s" width="1600" height="686"%s>
       <figcaption>%s%s</figcaption>
     </figure>
-""" % (BASE[lang], bn["img"], attr(bn["alt"]), lbinfo(bn["img"]),
+""" % (BASE[lang], bn["img"], attr(bn["alt"]), banner_lb(lang, bn["img"]),
        ('<span class="svc-banner-tag">%s</span>' % bn["tag"]) if bn.get("tag") else "", bn["cap"])
     return """
 <!-- ---------- PASLAUGOS ---------- -->
@@ -768,11 +780,7 @@ def past_events(lang, c):
         fig = photo(BASE[lang], i["img"], i["title"][lang])
         if i.get("photos"):
             # daugiau renginio nuotrauku: paspaudus korteles nuotrauka ar nuoroda jas galima vartyti
-            urls = "|".join("%sassets/img/%s" % (BASE[lang], p) for p in i["photos"])
-            # kiekvienai nuotraukai savas aprasas, jei jis yra "photos", kitaip - virselio
-            metas = "|".join(lbmeta(p if p in PHOTOS else i["img"]) for p in i["photos"])
-            fig = fig.replace(" data-lb ", ' data-lb-set="%s" data-lb-set-meta="%s" data-lb '
-                              % (attr(urls), attr(metas)), 1)
+            fig = fig.replace(" data-lb ", lbset(lang, i) + " data-lb ", 1)
             more_btn = ('\n          <button class="more ev-more" type="button" data-lb-open>%s (%d)</button>'
                         % (e["morePhotos"], len(i["photos"])))
         else:
