@@ -30,9 +30,10 @@
       "desc": {"lt": "Seserų ansamblis „Regnum Musicale“ vakaro koncerte ant vandens.", "en": "The sisters’ ensemble Regnum Musicale in an evening concert on the water.", "it": "L’ensemble di sorelle Regnum Musicale in un concerto serale sull’acqua."}
     },
     {
-      "date": "2024-07-02", "img": "labirintas.jpg",
+      "date": "2024-06-29", "img": "labirintas.jpg",
+      "photos": ["labirintas.jpg", "renginiai/labirintas-2024/01.jpg", "renginiai/labirintas-2024/02.jpg", "renginiai/labirintas-2024/03.jpg", "renginiai/labirintas-2024/04.jpg", "renginiai/labirintas-2024/05.jpg", "renginiai/labirintas-2024/06.jpg"],
       "title": {"lt": "Elenos kūrybos performansas labirinte", "en": "Elena’s performance in the labyrinth", "it": "Performance di Elena nel labirinto"},
-      "place": {"lt": "", "en": "", "it": ""},
+      "place": {"lt": "Keliautojų namai, Trakai", "en": "Keliautojų namai (Travellers’ House), Trakai", "it": "Keliautojų namai (Casa dei viaggiatori), Trakai"},
       "desc": {"lt": "Violončelės, vokalo ir poezijos sinergija akmenų labirinto centre.", "en": "Cello, voice and poetry together at the centre of a stone labyrinth.", "it": "Violoncello, voce e poesia al centro di un labirinto di pietre."}
     },
     {
