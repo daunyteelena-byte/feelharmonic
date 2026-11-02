@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "FeelHarmonic — istituzione itinerante di concerti ed eventi artistici | Elena Daunytė",
+    "title": "FeelHarmonic — istituzione itinerante di concerti ed eventi artistici",
     "description": "FeelHarmonic è un’istituzione itinerante di concerti ed eventi artistici: concerti e performance, laboratori ed educazione musicale, eventi armonizzanti di consapevolezza, organizzazione completa di eventi — arriviamo in scuole, centri culturali, dimore storiche, aziende e presso privati in Lituania e all’estero.",
     "ogDescription": "Istituzione itinerante di concerti ed eventi artistici: concerti, performance, educazione musicale, eventi armonizzanti e organizzazione completa di eventi in Lituania e all’estero."
   },
@@ -38,7 +38,7 @@
   ],
 
   "hero": {
-    "roles": "Elena Daunytė — fondatrice e direttrice di FeelHarmonic",
+    "roles": "Concerti · educazione · eventi dalla A alla Z",
     "h1": "Attraverso la musica — verso <em>il nuovo te</em>!",
     "kicker": "Verso un cambiamento consapevole di fronte alla musica e alle arti",
     "sub": "<strong>FeelHarmonic — istituzione itinerante di concerti ed eventi artistici:</strong> arriviamo da voi con concerti di musica classica e performance alternative, educazione culturale, eventi armonizzanti di consapevolezza e feste organizzate dalla A alla Z — in scuole, centri culturali, dimore storiche, aziende e presso privati in Lituania e all’estero.",
@@ -50,7 +50,9 @@
       "Lavoriamo in lituano, inglese e italiano"
     ],
     "portraitAlt": "Elena Daunytė suona il violoncello con l’Orchestra da camera lituana alla Filarmonica nazionale lituana",
-    "portraitRole": "Violoncellista, cantante, poetessa, creatrice"
+    "portraitRole": "Violoncellista, cantante, poetessa, creatrice",
+    "portraitName": "Elena Daunytė",
+    "img": "elena.jpg"
   },
 
   "services": {
@@ -59,7 +61,7 @@
     "lede": "Ogni programma si adatta allo spazio, all'occasione e al pubblico — dall'aula magna di una scuola al cortile di una dimora storica o a uno studio di yoga. O forse semplicemente nell’abbraccio della natura?",
     "moreLabel": "Mostra tutti i servizi",
     "lessLabel": "Mostra meno",
-    "banner": { "img": "labirintas.jpg", "alt": "Elena Daunytė suona il violoncello e canta al centro di un labirinto di pietre illuminato a colori", "cap": "Elena esegue la propria musica con violoncello e voce e legge le sue poesie — un’esperienza in cui chi ascolta trova il proprio cammino unico nel labirinto della vita. Basta aprire il cuore alla creatività." },
+    "banner": { "img": "labirintas.jpg", "alt": "Elena Daunytė suona il violoncello e canta al centro di un labirinto di pietre illuminato a colori", "cap": "Un concerto-performance nel labirinto: violoncello, voce e poesia — un’esperienza in cui chi ascolta trova il proprio cammino unico nel labirinto della vita. Basta aprire il cuore alla creatività." },
     "items": [
       {
         "img": "paslauga-koncertai.jpg",
@@ -463,7 +465,7 @@
       { "img": "galerija-21.jpg", "alt": "L’ensemble sul palco tra i fasci di luce", "cap": "Tra i fasci di luce" },
       { "img": "galerija-25.jpg", "alt": "Elena Daunytė suona il violoncello tra gli ascoltatori", "cap": "Insieme al pubblico" },
       { "img": "galerija-13.jpg", "alt": "Il duo SisDuo — violoncello e arpa — con l’orchestra alla Filarmonica", "cap": "SisDuo con l’orchestra" },
-      { "img": "galerija-22.jpg", "alt": "Elena Daunytė canta al concerto «Tėkmėje» sulla laguna di Kaunas", "cap": "Elena canta in «Tėkmėje»" },
+      { "img": "galerija-22.jpg", "alt": "Elena Daunytė canta al concerto «Tėkmėje» sulla laguna di Kaunas", "cap": "Una canzone in «Tėkmėje»" },
       { "img": "galerija-32.jpg", "alt": "Fasci di luce sopra il palco sulla laguna di Kaunas, pubblico sull’acqua", "cap": "Spettacolo di luci sulla laguna" },
       { "img": "galerija-11.jpg", "alt": "Una sfera luminosa accanto all’albero addobbato", "cap": "Vigilia di Capodanno" },
       { "img": "galerija-28.jpg", "alt": "Elena Daunytė suona il violoncello nella luce blu del palco", "cap": "Nella luce blu" },
@@ -636,6 +638,7 @@
     "renginiai/tekmeje-2024/06.jpg": {"event": "Regnum Musicale, ensemble di sorelle · Concerto «Tėkmėje»", "place": "Palco sulla laguna di Kaunas, Rumšiškės", "date": "7 settembre 2024", "by": "Saulius Jankauskas"},
     "renginiai/tekmeje-2024/09.jpg": {"event": "Regnum Musicale, ensemble di sorelle · Concerto «Tėkmėje»", "place": "Palco sulla laguna di Kaunas, Rumšiškės", "date": "7 settembre 2024", "by": "Saulius Jankauskas"},
     "renginys-filharmonija-2023.jpg": {"event": "«Capolavori della musica francese III» · Solista Elena Daunytė, direttore Jonathan Berman, Orchestra sinfonica nazionale lituana", "place": "Filarmonica nazionale lituana", "date": "11 novembre 2023", "by": "Dmitrijus Matvejevas"},
+    "pirmas-ekranas.jpg": {"event": "Regnum Musicale, ensemble di sorelle · Concerto «Tėkmėje»", "place": "Palco sulla laguna di Kaunas, Rumšiškės", "date": "7 settembre 2024", "by": "Asta Sabonytė"},
     "apie.jpg": {"event": "Evento della Giornata mondiale della trombosi", "place": "Museo del patrimonio ecclesiastico", "date": "8 ottobre 2025", "by": "Tomas Lebedevas"},
     "elena.jpg": {"event": "Solista Elena Daunytė, direttore Andrzej Kosendiak (Polonia), Orchestra da camera lituana", "place": "Filarmonica nazionale lituana", "date": "7 maggio 2022", "by": "Inga Juodytė"},
     "labirintas.jpg": {"event": "Performance creativa di Elena — sinergia di violoncello, voce e poesia", "place": "Keliautojų namai (Casa dei viaggiatori), Trakai", "date": "29 giugno 2024", "by": "Tomas Martūnas"},

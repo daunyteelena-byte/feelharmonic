@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "FeelHarmonic — keliaujanti koncertų bei meninių renginių įstaiga | Elena Daunytė",
+    "title": "FeelHarmonic — keliaujanti koncertų bei meninių renginių įstaiga",
     "description": "FeelHarmonic — keliaujanti koncertų bei meninių renginių įstaiga: koncertai ir performansai, edukacijos, harmonizuojantys sąmoningumo renginiai ir šventės nuo A iki Z — atvykstame į mokyklas, kultūros centrus, dvarus, įmones ir pas privačius užsakovus Lietuvoje ir užsienyje.",
     "ogDescription": "Keliaujanti koncertų bei meninių renginių įstaiga: koncertai, performansai, edukacijos, harmonizuojantys renginiai ir šventės nuo A iki Z Lietuvoje ir užsienyje."
   },
@@ -38,7 +38,7 @@
   ],
 
   "hero": {
-    "roles": "Elena Daunytė — FeelHarmonic įkūrėja ir vadovė",
+    "roles": "Koncertai · edukacijos · renginiai nuo A iki Z",
     "h1": "Per muziką — į <em>naująjį save</em>!",
     "kicker": "Į sąmoningą pokytį muzikos bei menų akivaizdoje",
     "sub": "<strong>FeelHarmonic — keliaujanti koncertų bei meninių renginių įstaiga:</strong> atvykstame su klasikinės muzikos koncertais ir alternatyviais performansais, kultūrinėmis edukacijomis, harmonizuojančiais sąmoningumo renginiais ir šventėmis nuo A iki Z — į mokyklas, kultūros centrus, dvarus, įmones ir pas privačius užsakovus Lietuvoje ir užsienyje.",
@@ -50,7 +50,9 @@
       "Dirbame lietuvių, anglų ir italų kalbomis"
     ],
     "portraitAlt": "Elena Daunytė groja violončele su Lietuvos kameriniu orkestru Lietuvos nacionalinėje filharmonijoje",
-    "portraitRole": "Violončelininkė, vokalistė, poetė, kūrėja"
+    "portraitRole": "Violončelininkė, vokalistė, poetė, kūrėja",
+    "portraitName": "Elena Daunytė",
+    "img": "elena.jpg"
   },
 
   "services": {
@@ -59,7 +61,7 @@
     "lede": "Kiekviena programa pritaikoma erdvei, progai ir auditorijai — nuo mokyklos salės iki dvaro kiemo ar jogos studijos. O gal tiesiog gamtos glėbyje?",
     "moreLabel": "Rodyti visas paslaugas",
     "lessLabel": "Rodyti mažiau",
-    "banner": { "img": "labirintas.jpg", "alt": "Elena Daunytė groja violončele ir dainuoja spalvotai apšviesto akmenų labirinto centre", "cap": "Elena atlieka savo kūrybą violončele ir balsu bei skaito savo poeziją — patirtis, kurioje klausytojas atranda savą unikalų kelią gyvenimo labirinte. Viskas, ko reikia, — atverti širdį kūrybai." },
+    "banner": { "img": "labirintas.jpg", "alt": "Elena Daunytė groja violončele ir dainuoja spalvotai apšviesto akmenų labirinto centre", "cap": "Koncertas-performansas labirinte: violončelė, balsas ir poezija — patirtis, kurioje klausytojas atranda savą unikalų kelią gyvenimo labirinte. Viskas, ko reikia, — atverti širdį kūrybai." },
     "items": [
       {
         "img": "paslauga-koncertai.jpg",
@@ -463,7 +465,7 @@
       { "img": "galerija-21.jpg", "alt": "Ansamblis scenoje šviesų spinduliuose", "cap": "Šviesų spinduliuose" },
       { "img": "galerija-25.jpg", "alt": "Elena Daunytė groja violončele tarp klausytojų", "cap": "Išvien su publika" },
       { "img": "galerija-13.jpg", "alt": "Duetas „SisDuo“ — violončelė ir arfa — su orkestru Filharmonijoje", "cap": "„SisDuo“ su orkestru" },
-      { "img": "galerija-22.jpg", "alt": "Elena Daunytė dainuoja koncerte „Tėkmėje“ ant Kauno marių", "cap": "Elena dainuoja „Tėkmėje“" },
+      { "img": "galerija-22.jpg", "alt": "Elena Daunytė dainuoja koncerte „Tėkmėje“ ant Kauno marių", "cap": "Daina „Tėkmėje“" },
       { "img": "galerija-32.jpg", "alt": "Šviesų spinduliai virš scenos ant Kauno marių, publika prie vandens", "cap": "Šviesų šou ant marių" },
       { "img": "galerija-11.jpg", "alt": "Šviečiantis rutulys prie šventinės eglutės", "cap": "Naujųjų metų išvakarės" },
       { "img": "galerija-28.jpg", "alt": "Elena Daunytė groja violončele mėlynoje scenos šviesoje", "cap": "Mėlynoje šviesoje" },
@@ -636,6 +638,7 @@
     "renginiai/tekmeje-2024/06.jpg": {"event": "Seserų ansamblis „Regnum Musicale“ · Koncertas „Tėkmėje“", "place": "Scena ant Kauno marių, Rumšiškės", "date": "2024 m. rugsėjo 7 d.", "by": "Saulius Jankauskas"},
     "renginiai/tekmeje-2024/09.jpg": {"event": "Seserų ansamblis „Regnum Musicale“ · Koncertas „Tėkmėje“", "place": "Scena ant Kauno marių, Rumšiškės", "date": "2024 m. rugsėjo 7 d.", "by": "Saulius Jankauskas"},
     "renginys-filharmonija-2023.jpg": {"event": "„Prancūzų muzikos šedevrai III“ · Solistė Elena Daunytė, dirigentas Jonathan Berman, Lietuvos nacionalinis simfoninis orkestras", "place": "Lietuvos nacionalinė filharmonija", "date": "2023 m. lapkričio 11 d.", "by": "Dmitrijus Matvejevas"},
+    "pirmas-ekranas.jpg": {"event": "Seserų ansamblis „Regnum Musicale“ · Koncertas „Tėkmėje“", "place": "Scena ant Kauno marių, Rumšiškės", "date": "2024 m. rugsėjo 7 d.", "by": "Asta Sabonytė"},
     "apie.jpg": {"event": "Pasaulinės trombozės dienos renginys", "place": "Bažnytinio paveldo muziejus", "date": "2025 m. spalio 8 d.", "by": "Tomas Lebedevas"},
     "elena.jpg": {"event": "Solistė Elena Daunytė, dirigentas Andrzej Kosendiak (Lenkija), Lietuvos kamerinis orkestras", "place": "Lietuvos nacionalinė filharmonija", "date": "2022 m. gegužės 7 d.", "by": "Inga Juodytė"},
     "labirintas.jpg": {"event": "Elenos kūrybos performansas — violončelės, vokalo ir poezijos sinergija", "place": "Keliautojų namai, Trakai", "date": "2024 m. birželio 29 d.", "by": "Tomas Martūnas"},

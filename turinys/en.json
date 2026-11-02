@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "FeelHarmonic — a touring concert and arts events organisation | Elena Daunytė",
+    "title": "FeelHarmonic — a touring concert and arts events organisation",
     "description": "FeelHarmonic is a touring concert and arts events organisation: concerts and performance art, workshops and music education, harmonising mindfulness events and full event production — we come to schools, cultural centres, manor houses, companies and private clients in Lithuania and abroad.",
     "ogDescription": "A touring concert and arts events organisation: concerts, performance art, education, harmonising events and full event production in Lithuania and abroad."
   },
@@ -38,7 +38,7 @@
   ],
 
   "hero": {
-    "roles": "Elena Daunytė — founder & director of FeelHarmonic",
+    "roles": "Concerts · education · events from A to Z",
     "h1": "Through music — to <em>a new you</em>!",
     "kicker": "Towards conscious change in the presence of music and the arts",
     "sub": "<strong>FeelHarmonic — a touring concert and arts events organisation:</strong> we come to you with classical music concerts and alternative performances, cultural education, harmonising mindfulness events and celebrations produced from A to Z — at schools, cultural centres, manor houses, companies and private clients in Lithuania and abroad.",
@@ -50,7 +50,9 @@
       "Working in Lithuanian, English and Italian"
     ],
     "portraitAlt": "Elena Daunytė playing the cello with the Lithuanian Chamber Orchestra at the Lithuanian National Philharmonic",
-    "portraitRole": "Cellist, vocalist, poet, creator"
+    "portraitRole": "Cellist, vocalist, poet, creator",
+    "portraitName": "Elena Daunytė",
+    "img": "elena.jpg"
   },
 
   "services": {
@@ -59,7 +61,7 @@
     "lede": "Every programme is adapted to the space, the occasion and the audience — from a school hall to a manor courtyard or a yoga studio. Or perhaps simply in the embrace of nature?",
     "moreLabel": "Show all services",
     "lessLabel": "Show fewer",
-    "banner": { "img": "labirintas.jpg", "alt": "Elena Daunytė playing the cello and singing at the centre of a stone labyrinth lit in colour", "cap": "Elena performs her own music with cello and voice, and reads her poetry — an experience in which listeners find their own unique path through the labyrinth of life. All it takes is opening your heart to creativity." },
+    "banner": { "img": "labirintas.jpg", "alt": "Elena Daunytė playing the cello and singing at the centre of a stone labyrinth lit in colour", "cap": "A concert-performance in the labyrinth: cello, voice and poetry — an experience in which listeners find their own unique path through the labyrinth of life. All it takes is opening your heart to creativity." },
     "items": [
       {
         "img": "paslauga-koncertai.jpg",
@@ -463,7 +465,7 @@
       { "img": "galerija-21.jpg", "alt": "The ensemble on stage in beams of light", "cap": "In beams of light" },
       { "img": "galerija-25.jpg", "alt": "Elena Daunytė playing the cello among the listeners", "cap": "Together with the audience" },
       { "img": "galerija-13.jpg", "alt": "The duo SisDuo — cello and harp — with the orchestra at the Philharmonic", "cap": "SisDuo with the orchestra" },
-      { "img": "galerija-22.jpg", "alt": "Elena Daunytė singing at the concert “Tėkmėje” on the Kaunas Lagoon", "cap": "Elena singing in “Tėkmėje”" },
+      { "img": "galerija-22.jpg", "alt": "Elena Daunytė singing at the concert “Tėkmėje” on the Kaunas Lagoon", "cap": "A song in “Tėkmėje”" },
       { "img": "galerija-32.jpg", "alt": "Beams of light above the stage on the Kaunas Lagoon, audience by the water", "cap": "Light show on the lagoon" },
       { "img": "galerija-11.jpg", "alt": "A glowing orb by the festive tree", "cap": "New Year’s Eve" },
       { "img": "galerija-28.jpg", "alt": "Elena Daunytė playing the cello in blue stage light", "cap": "In blue light" },
@@ -636,6 +638,7 @@
     "renginiai/tekmeje-2024/06.jpg": {"event": "Regnum Musicale, an ensemble of sisters · Concert “Tėkmėje”", "place": "Stage on the Kaunas Lagoon, Rumšiškės", "date": "7 September 2024", "by": "Saulius Jankauskas"},
     "renginiai/tekmeje-2024/09.jpg": {"event": "Regnum Musicale, an ensemble of sisters · Concert “Tėkmėje”", "place": "Stage on the Kaunas Lagoon, Rumšiškės", "date": "7 September 2024", "by": "Saulius Jankauskas"},
     "renginys-filharmonija-2023.jpg": {"event": "“Masterpieces of French Music III” · Soloist Elena Daunytė, conductor Jonathan Berman, Lithuanian National Symphony Orchestra", "place": "Lithuanian National Philharmonic", "date": "11 November 2023", "by": "Dmitrijus Matvejevas"},
+    "pirmas-ekranas.jpg": {"event": "Regnum Musicale, an ensemble of sisters · Concert “Tėkmėje”", "place": "Stage on the Kaunas Lagoon, Rumšiškės", "date": "7 September 2024", "by": "Asta Sabonytė"},
     "apie.jpg": {"event": "World Thrombosis Day event", "place": "Church Heritage Museum", "date": "8 October 2025", "by": "Tomas Lebedevas"},
     "elena.jpg": {"event": "Soloist Elena Daunytė, conductor Andrzej Kosendiak (Poland), Lithuanian Chamber Orchestra", "place": "Lithuanian National Philharmonic", "date": "7 May 2022", "by": "Inga Juodytė"},
     "labirintas.jpg": {"event": "Elena’s creative performance — a synergy of cello, voice and poetry", "place": "Keliautojų namai (Travellers’ House), Trakai", "date": "29 June 2024", "by": "Tomas Martūnas"},

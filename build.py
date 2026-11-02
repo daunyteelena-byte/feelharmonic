@@ -261,9 +261,15 @@ def hero(lang, c):
     facts = "\n        ".join("<span>%s</span>" % f for f in h["facts"])
     # „Vardas — vaidmuo · vaidmuo“: vardas atskiroje eilutėje, o taškas
     # lieka prie ankstesnio žodžio, kad eilutė neprasidėtų „·“
-    name, roles = h["roles"].split(" — ", 1)
-    roles = ('<span class="tl-name">%s</span><span class="tl-roles">%s</span>'
-             % (name, roles.replace(" · ", "&nbsp;· ")))
+    # be vardo (FeelHarmonic kaip platforma) — tik veiklos sritys
+    if " — " in h["roles"]:
+        name, roles = h["roles"].split(" — ", 1)
+        roles = ('<span class="tl-name">%s</span><span class="tl-roles">%s</span>'
+                 % (name, roles.replace(" · ", "&nbsp;· ")))
+    else:
+        roles = '<span class="tl-roles">%s</span>' % h["roles"].replace(" · ", "&nbsp;· ")
+    img = h.get("img", "elena.jpg")
+    pos = ' style="object-position:%s"' % attr(h["imgPos"]) if h.get("imgPos") else ""
     return """
 <main id="top">
 <span id="turinys"></span>
@@ -288,16 +294,17 @@ def hero(lang, c):
 
     <figure class="portrait" data-photo>
       <svg class="ph-empty" viewBox="0 0 100 100" aria-hidden="true"><use href="#mark"/></svg>
-      <img src="%(b)sassets/img/elena.jpg" alt="%(alt)s" width="1000" height="1000" data-optional%(lbhero)s>
+      <img src="%(b)sassets/img/%(img)s" alt="%(alt)s" width="1000" height="1000"%(pos)s data-optional%(lbhero)s>
       <figcaption>
-        <b>Elena Daunytė</b>
+        <b>%(pname)s</b>
         <span>%(role)s</span>
       </figcaption>
     </figure>
   </div>
 </div>
 """ % {"roles": roles, "h1": h["h1"], "kicker": h["kicker"], "sub": h["sub"], "cta1": h["ctaPrimary"], "cta2": h["ctaSecondary"],
-       "facts": facts, "b": BASE[lang], "alt": attr(h["portraitAlt"]), "role": h["portraitRole"], "lbhero": lbinfo("elena.jpg")}
+       "facts": facts, "b": BASE[lang], "alt": attr(h["portraitAlt"]), "role": h["portraitRole"], "lbhero": lbinfo(img),
+       "img": img, "pos": pos, "pname": h["portraitName"]}
 
 
 def services(lang, c):
