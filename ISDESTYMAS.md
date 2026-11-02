@@ -13,7 +13,7 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
 ## 1. Pradžia (hero)
 *Būsena: rodoma*
 
-- **roles (užrašas virš antraštės, nuo 2026-11-02):** Koncertai · edukacijos · meniniai ir sąmoningumo renginiai (nuotrauka `elena.jpg` su parašu „Elena Daunytė · Violončelininkė, vokalistė, poetė, kūrėja“ palikta)
+- **roles (užrašas virš antraštės, nuo 2026-11-02):** Koncertai · edukacijos · meniniai renginiai (nuotrauka `elena.jpg` su parašu „Elena Daunytė · Violončelininkė, vokalistė, poetė, kūrėja“ palikta)
 - **h1:** Per muziką — į naująjį save!
 - **sub:** Klasikinės muzikos koncertai ir alternatyvūs performansai, kultūrinės edukacijos, harmonizuojantys sąmoningumo renginiai ir šventės nuo A iki Z — mokykloms, kultūros centrams, dvarams, įmonėms ir privatiems užsakovams visoje Lietuvoje.
 
