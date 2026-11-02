@@ -504,7 +504,10 @@
   },
 
   "about": {
-    "eyebrow": "Apie įkūrėją ir kūrėją",
+    "eyebrow": "Apie FeelHarmonic",
+    "org": ["FeelHarmonic — viešoji įstaiga, kurianti ir organizuojanti koncertus, performansus, edukacijas ir harmonizuojančius renginius. Jungiame skirtingų sričių menininkus — muzikantus ir ansamblius, šokėjus, aktorius, poetus, sąmoningumo praktikų vedėjus — ir kiekvienai progai sudedame tinkamą komandą.", "Dirbame su mokyklomis, kultūros centrais, dvarais, įmonėmis ir privačiais užsakovais Lietuvoje ir užsienyje. Programą kuriame konkrečiai erdvei ir auditorijai, o organizatoriui lieka vienas kontaktas, aiški sutartis ir viena sąskaita."],
+    "founderH3": "Įkūrėja ir meno vadovė — Elena Daunytė",
+    "founderLink": "Plačiau apie Eleną — elenadaunyte.com",
     "h2": "Muzika, sudėliota taip pat kruopščiai, kaip pajausta",
     "paras": [
       "Elena Daunytė — FeelHarmonic įkūrėja ir vadovė, violončelininkė, vokalistė, poetė ir kūrėja. Daugelio tarptautinių konkursų laureatė bei Grand Prix laimėtoja, nuo 2021 m. — Lietuvos nacionalinės filharmonijos Čiurlionio kvarteto violončelininkė, keturių seserų ansamblio „Regnum Musicale“ narė. Nuo 2023 m. dėsto Lietuvos muzikos ir teatro akademijoje — styginių kvarteto ir kamerinio ansamblio klasėse."
@@ -525,7 +528,7 @@
       "LMTA · prof. R. Armono klasė",
       "„Regnum Musicale“"
     ],
-    "closing": "Renginių organizatoriams reikia ne tik muzikos, bet ir žmogaus, kuris pats susitvarko su garsu, grafiku ir dokumentais. Todėl kiekviena programa čia turi aiškią trukmę, sudėtį ir kainą — o ne „susitarsime vietoje“.",
+    "closing": "Renginių organizatoriams reikia ne tik muzikos, bet ir partnerio, kuris pats susitvarko su garsu, grafiku ir dokumentais. Todėl kiekviena programa čia turi aiškią trukmę, sudėtį ir kainą — o ne „susitarsime vietoje“.",
     "cta": "Susisiekti",
     "figure": {"img": "apie-prezidente.jpg", "alt": "Lietuvos Respublikos Prezidentė Dalia Grybauskaitė įteikia padėką Elenai Daunytei", "cap": "Prezidentės Dalios Grybauskaitės padėka"},
     "alt": "Elena Daunytė groja violončele Bažnytinio paveldo muziejuje"

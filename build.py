@@ -884,6 +884,8 @@ def about(lang, c):
                 % (bio, a.get("quote", ""),
                    attr(a["moreLabel"]), attr(a["lessLabel"]), a["moreLabel"]))
     creds = "\n          ".join("<li>%s</li>" % x for x in a["creds"])
+    # pirmiausia apie FeelHarmonic kaip įstaigą, po to — įkūrėjos kortelė
+    org = "\n        ".join("<p>%s</p>" % x for x in a["org"])
     return """
 <!-- ---------- APIE ---------- -->
 <section id="apie">
@@ -892,10 +894,13 @@ def about(lang, c):
       <div>
         <p class="eyebrow">%(eyebrow)s</p>
         <h2>%(h2)s</h2>
+        %(org)s
+        <p>%(last)s</p>
+
+        <h3 class="about-founder">%(fh)s</h3>
         %(paras)s
         %(more)s
-
-        <p>%(last)s</p>
+        <p class="about-link"><a href="https://elenadaunyte.com/" target="_blank" rel="noopener">%(flink)s</a></p>
         <a class="btn dark" href="#kontaktai">%(cta)s</a>
       </div>
 
@@ -912,7 +917,7 @@ def about(lang, c):
   </div>
 </section>
 """ % {"eyebrow": a["eyebrow"], "h2": a["h2"], "paras": paras, "more": more, "creds": creds,
-       "last": a["closing"], "cta": a["cta"], "b": BASE[lang], "alt": attr(a["alt"]), "lbapie": lbinfo("apie.jpg"),
+       "last": a["closing"], "cta": a["cta"], "org": org, "fh": a["founderH3"], "flink": a["founderLink"], "b": BASE[lang], "alt": attr(a["alt"]), "lbapie": lbinfo("apie.jpg"),
        "interview": interview_card(c["artExchange"]["interview"]),
        "motto": MOTTO}
 

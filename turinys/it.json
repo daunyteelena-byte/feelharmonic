@@ -504,7 +504,10 @@
   },
 
   "about": {
-    "eyebrow": "La fondatrice e artista",
+    "eyebrow": "Chi siamo",
+    "org": ["FeelHarmonic è un’organizzazione senza scopo di lucro che crea e produce concerti, performance, attività educative ed eventi armonizzanti. Riuniamo artisti di ambiti diversi — musicisti ed ensemble, danzatori, attori, poeti e conduttori di pratiche di consapevolezza — e per ogni occasione formiamo la squadra giusta.", "Lavoriamo con scuole, centri culturali, dimore storiche, aziende e privati in Lituania e all’estero. Ogni programma è pensato per il suo spazio e il suo pubblico, e a chi organizza restano un solo contatto, un contratto chiaro e un’unica fattura."],
+    "founderH3": "Fondatrice e direttrice artistica — Elena Daunytė",
+    "founderLink": "Di più su Elena — elenadaunyte.com",
     "h2": "Musica costruita con la stessa cura con cui è sentita",
     "paras": [
       "Elena Daunytė è la fondatrice e direttrice di FeelHarmonic — violoncellista, cantante, poetessa e creatrice. Vincitrice di numerosi concorsi internazionali e del Grand Prix, dal 2021 è violoncellista del Quartetto Čiurlionis della Filarmonica nazionale lituana e membro di Regnum Musicale, ensemble di quattro sorelle. Dal 2023 insegna all’Accademia lituana di musica e teatro, nelle classi di quartetto d’archi e musica da camera."
@@ -525,7 +528,7 @@
       "LMTA · classe del prof. R. Armonas",
       "Regnum Musicale"
     ],
-    "closing": "Chi organizza eventi non ha bisogno solo di musica, ma di una persona che si occupi da sé dell'audio, del calendario e dei documenti. Per questo ogni programma qui ha una durata, un organico e un prezzo definiti — e non un «ci accordiamo sul posto».",
+    "closing": "Chi organizza eventi non ha bisogno solo di musica, ma di un partner che si occupi da sé dell'audio, del calendario e dei documenti. Per questo ogni programma qui ha una durata, un organico e un prezzo definiti — e non un «ci accordiamo sul posto».",
     "cta": "Contattami",
     "figure": {"img": "apie-prezidente.jpg", "alt": "La Presidente della Lituania Dalia Grybauskaitė consegna un ringraziamento a Elena Daunytė", "cap": "Ringraziamento della Presidente Dalia Grybauskaitė"},
     "alt": "Elena Daunytė suona il violoncello al Museo del patrimonio ecclesiastico"

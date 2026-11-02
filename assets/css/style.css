@@ -341,6 +341,9 @@ main section.band-teal h2{color:var(--gold-lt)}
 .clip-toggle[aria-expanded="true"]::after{transform:translateY(2px) rotate(-135deg)}
 .clip-toggle[hidden]{display:none}
 /* „Apie įkūrėją“ — tas pats išskleidimas šviesiame fone */
+/* „Apie“: įstaigos tekstas, po jo — įkūrėjos kortelė */
+.about h3.about-founder{font-family:var(--serif);font-weight:500;font-size:22px;margin:38px 0 12px;padding-top:26px;border-top:1px solid rgba(206,142,52,.35)}
+.about .about-link a{color:var(--gold-ink);text-decoration:underline;text-underline-offset:3px}
 .about .clip-text{margin:0 0 6px}
 .about .clip-text p{color:var(--muted);font-size:inherit;line-height:inherit}
 .about .clip-text.is-collapsed{max-height:150px}
