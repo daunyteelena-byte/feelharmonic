@@ -786,7 +786,7 @@ def past_events(lang, c):
         place = i["place"][lang]
         video = ('\n          <a class="more" href="https://www.youtube.com/watch?v=%s" target="_blank" rel="noopener">%s</a>'
                  % (attr(i["youtube"]), e["video"])) if i.get("youtube") else ""
-        fig = photo(BASE[lang], i["img"], i["title"][lang])
+        fig = photo(BASE[lang], i["img"], i["title"][lang], pos=i.get("imgPos"))
         if i.get("photos"):
             # daugiau renginio nuotrauku: paspaudus korteles nuotrauka ar nuoroda jas galima vartyti
             more_btn = ('\n          <button class="more ev-more" type="button" data-lb-open>%s (%d)</button>'
