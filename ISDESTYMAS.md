@@ -13,7 +13,7 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
 ## 1. Pradžia (hero)
 *Būsena: rodoma*
 
-- **roles:** Elena Daunytė — violončelininkė · vokalistė · poetė · kūrėja
+- **roles (užrašas virš antraštės, nuo 2026-11-02):** Koncertai · edukacijos · meniniai ir sąmoningumo renginiai (nuotrauka `elena.jpg` su parašu „Elena Daunytė · Violončelininkė, vokalistė, poetė, kūrėja“ palikta)
 - **h1:** Per muziką — į naująjį save!
 - **sub:** Klasikinės muzikos koncertai ir alternatyvūs performansai, kultūrinės edukacijos, harmonizuojantys sąmoningumo renginiai ir šventės nuo A iki Z — mokykloms, kultūros centrams, dvarams, įmonėms ir privatiems užsakovams visoje Lietuvoje.
 
@@ -171,10 +171,10 @@ Atnaujinta 2026-10-03. Pirmo ekrano nuotrauka — Filharmonijos koncertas (Inga 
   - **Daina** — Elena Daunytė dainuoja Kultūros ministerijoje (`galerija-29.jpg`)
   - **Violončelė ir arfa** — Elena Daunytė groja violončele šalia arfos (`galerija-30.jpg`)
 
-## 11. Apie įkūrėją ir kūrėją — `#apie`
-*Būsena: rodoma (biografija papildyta iš elenadaunyte.com 2026-10-03)*
+## 11. Apie FeelHarmonic — `#apie`
+*Būsena: rodoma. Nuo 2026-11-02 pirmiausia įstaiga (`about.org`), po to poskyris „Įkūrėja ir meno vadovė — Elena Daunytė“ (`founderH3`), biografija ir nuoroda į elenadaunyte.com (`founderLink`).*
 
-- **eyebrow:** Apie įkūrėją ir kūrėją
+- **eyebrow:** Apie FeelHarmonic
 - **h2:** Muzika, sudėliota taip pat kruopščiai, kaip pajausta
 - **paras (matoma):**
   - Elena Daunytė — FeelHarmonic įkūrėja, violončelininkė, vokalistė, poetė ir kūrėja. Daugelio tarptautinių konkursų laureatė bei Grand Prix laimėtoja, nuo 2021 m. — Lietuvos nacionalinės filharmonijos Čiurlionio kvarteto violončelininkė, keturių seserų ansamblio „Regnum Musicale“ narė. Nuo 2023 m. dėsto Lietuvos muzikos ir teatro akademijoje — styginių kvarteto ir kamerinio ansamblio klasėse.
