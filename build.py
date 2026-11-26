@@ -747,8 +747,11 @@ def upcoming(lang, c):
             act += '\n          <a class="more ev-extra" href="%s" target="_blank" rel="noopener">%s</a>' % (
                 attr(i["extra"]["url"]), i["extra"]["label"][lang])
         place = i["place"][lang]
-        cards.append("""<article class="ev-up">
+        # renginio plakatas: kompiuteryje tarp datos ir teksto, telefone virš teksto; paspaudus padidėja
+        fig = photo(BASE[lang], i["img"], i["title"][lang], cls="shot ev-poster", pos=i.get("imgPos")) if i.get("img") else ""
+        cards.append("""<article class="ev-up%(hasimg)s">
         <div class="ev-day"><b>%(day)s</b><span>%(mon)s</span></div>
+        %(fig)s
         <div class="ev-tx">
           <h3>%(title)s</h3>%(motto)s
           <p class="ev-meta">%(when)s%(place)s</p>
@@ -756,6 +759,7 @@ def upcoming(lang, c):
           %(act)s
         </div>
       </article>""" % {"day": d.day, "mon": e["months"][d.month - 1], "title": i["title"][lang],
+                       "fig": fig, "hasimg": " has-img" if fig else "",
                        "when": ev_date(e, i), "place": (" · " + place) if place else "",
                        "motto": ('\n          <p class="ev-motto">%s</p>' % i["motto"]) if i.get("motto") else "",
                        "desc": i["desc"][lang], "act": act})
