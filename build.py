@@ -739,7 +739,8 @@ def upcoming(lang, c):
     for i in up:
         d = datetime.date.fromisoformat(i["date"])
         if i.get("link"):
-            act = '<a class="btn solid" href="%s" target="_blank" rel="noopener">%s</a>' % (attr(i["link"]), e["link"])
+            act = '<a class="btn solid" href="%s" target="_blank" rel="noopener">%s</a>' % (
+                attr(i["link"]), (i.get("linkLabel") or {}).get(lang) or e["link"])
         else:
             act = '<a class="btn" href="#kontaktai">%s</a>' % e["ask"]
         if i.get("extra"):
@@ -1165,7 +1166,8 @@ def events_ld(lang):
             "eventStatus": "https://schema.org/EventScheduled",
             "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
             "location": place,
-            "performer": {"@type": "Person", "name": "Elena Daunytė"},
+            "performer": ({"@type": "PerformingGroup", "name": i["performer"]} if i.get("performer")
+                          else {"@type": "Person", "name": "Elena Daunytė"}),
             "organizer": {"@type": "Organization", "name": "FeelHarmonic", "url": SITE + "/"},
         }
         if i.get("time"):
@@ -1177,6 +1179,8 @@ def events_ld(lang):
             ev["offers"] = {"@type": "Offer", "availability": "https://schema.org/InStock", "url": i["link"]}
             if i.get("free"):
                 ev["offers"].update(price="0", priceCurrency="EUR")
+            elif i.get("price") is not None:
+                ev["offers"].update(price=str(i["price"]), priceCurrency="EUR")
         out.append(ev)
     return out
 
