@@ -231,7 +231,7 @@ def header(lang, c):
 <header id="nav">
   <div class="in">
     <a class="brand" href="#top">
-      <svg><use href="#mark-sm"/></svg>
+      <svg><use href="#mark"/></svg>
       <b>FeelHarmonic</b>
     </a>
     <nav class="main" aria-label="%(navaria)s">
