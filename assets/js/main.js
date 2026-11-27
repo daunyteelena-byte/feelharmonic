@@ -264,8 +264,10 @@ var CONFIG = {
       if (im.dataset.lbSet && !g) {
         // renginys su daugiau nuotrauku: kraunamos tik atsidarius perziura
         var metas = (im.dataset.lbSetMeta || "").split("|");
+        var start = +im.dataset.lbStart || 0;
         set = im.dataset.lbSet.split("|").map(function (u, k) {
-          var x = new Image(); x.src = u; x.alt = im.alt;
+          // paspaustos nuotraukos aprašas tinka tik jai; kitoms rodoma tik jų informacija
+          var x = new Image(); x.src = u; x.alt = k === start ? im.alt : "";
           x.setAttribute("data-lb-meta", metas[k] || im.getAttribute("data-lb-meta") || "");
           x.addEventListener("load", function () { if (lb && set[cur] === x) render(); });
           return x;
