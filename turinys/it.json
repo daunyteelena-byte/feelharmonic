@@ -462,6 +462,7 @@
     "lede": "Momenti dai concerti — da solista, con Regnum Musicale, ensemble di quattro sorelle, il duo SisDuo, il Quartetto Čiurlionis e altri: il concerto del 16 febbraio alla Filarmonica (2024), il concerto-performance «Amazoniškai» al Municipio di Vilnius (2024), «Tėkmėje» sulla laguna di Kaunas a Rumšiškės (2024) e «Pilnaties pilnatvinė kelionė» al Centro culturale di Kernavė (2023).",
     "items": [
       { "img": "galerija-1.jpg", "alt": "Elena Daunytė suona il violoncello", "cap": "Violoncello" },
+      { "img": "galerija-43.jpg", "alt": "Elena Daunytė suona il violoncello solista con l’orchestra nel cortile del Palazzo dei Granduchi, sotto luci rosse", "cap": "Solista con l’orchestra al Palazzo dei Granduchi" },
       { "img": "galerija-21.jpg", "alt": "L’ensemble sul palco tra i fasci di luce", "cap": "Tra i fasci di luce" },
       { "img": "galerija-25.jpg", "alt": "Elena Daunytė suona il violoncello tra gli ascoltatori", "cap": "Insieme al pubblico" },
       { "img": "galerija-13.jpg", "alt": "Il duo SisDuo — violoncello e arpa — con l’orchestra alla Filarmonica", "cap": "SisDuo con l’orchestra" },
@@ -615,6 +616,7 @@
 
   "photos": {
     "galerija-41.jpg": {"event": "Festival di Vilnius · «Angels of Sorrow»", "place": "", "date": "2020", "by": "Dmitrijus Matvejevas"},
+    "galerija-43.jpg": {"event": "Solista con l’orchestra", "place": "Cortile del Palazzo dei Granduchi di Lituania, Vilnius", "date": "2025", "by": ""},
     "galerija-42.jpg": {"event": "", "place": "", "date": "", "by": "Gabrielius Jauniškis"},
     "galerija-35.jpg": {"event": "", "place": "", "date": "", "by": ""},
     "galerija-36.jpg": {"event": "", "place": "", "date": "", "by": ""},
